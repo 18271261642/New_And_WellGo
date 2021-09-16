@@ -1,0 +1,302 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'com.mob.sdk'
+
+android {
+    compileSdkVersion 30
+
+
+    dexOptions {
+        //如果apk打包不了请尝试关掉这个
+        preDexLibraries = false
+    }
+
+
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        buildConfigField "String", "APP_UPDATE_APPNAME", "\""+rootProject.ext.android.updateAppName+"\""
+        buildConfigField "int", "APP_ID" ,  rootProject.ext.android.appId
+        buildConfigField "String", "buglyKey" ,  "\""+rootProject.ext.otherApiKey.buglyKey+"\""
+        buildConfigField "int", "Strava_ClientID" ,  rootProject.ext.otherApiKey.Strava_ClientID
+        buildConfigField "String", "Strava_ClientSecret" ,  "\""+rootProject.ext.otherApiKey.Strava_ClientSecret+"\""
+        buildConfigField "boolean", "isGooglePlayVersion" ,   ""+rootProject.ext.android.isGooglePlayVersion+""
+
+        rootProject.ext.supports.each{
+            buildConfigField "boolean", String.valueOf(it.key) ,   ""+it.value+""
+        }
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        multiDexEnabled true
+        ndk {
+            abiFilters 'armeabi-v7a','arm64-v8a' //,'x86_64' // google play不能加x86的so, 否则误判该app不支持64位, 可能需要另外添加x86_64 反正用不到x86 去掉了
+        }
+    }
+
+
+//    signingConfigs {//签名的配置
+//        signing {
+////            storeFile file(rootProject.ext.keystore.keyStoreFile)
+////            storePassword rootProject.ext.keystore.keyStorePassword
+////            keyAlias rootProject.ext.keystore.keyAlias
+////            keyPassword rootProject.ext.keystore.keyPassword
+////            v1SigningEnabled true
+////            v2SigningEnabled true
+//        }
+//    }
+
+    buildTypes {
+
+        //正式版 (稳定版,发布到市场的版本)
+        release {
+            minifyEnabled false
+            buildConfigField "boolean", "isDev", "false" //不显示log
+
+            debuggable false
+
+            // Zipalign优化
+            zipAlignEnabled true
+
+            //混淆
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.signing
+
+        }
+        //内测版
+        debug {
+
+            debuggable true
+
+            buildConfigField "boolean", "isDev", "true"
+
+            //开发版
+            versionNameSuffix 'beta'
+//            signingConfig signingConfigs.signing
+        }
+    }
+
+
+    lintOptions {
+        disable 'MissingTranslation', 'ExtraTranslation','GoogleAppIndexingWarning'
+    }
+    sourceSets {
+        main {
+            //资源分包 如果你有新的布局包 请在以下添加你的路径
+            //注意 新建分包路径 需要再加一层layout文件夹 否则无法找到资源
+            res.srcDirs = [
+                    "src/main/res",
+                    "src/main/res/layout",
+                    "src/main/res/layout/base",
+                    "src/main/res/layout/bean",
+                    "src/main/res/layout/start",
+                    "src/main/res/layout/main",
+                    "src/main/res/layout/home",
+                    "src/main/res/layout/track",
+                    "src/main/res/layout/device",
+                    "src/main/res/layout/user",
+                    "src/main/res/layout/health",
+                    "src/main/res/layout/scan",
+                    "src/main/res/layout/friends",
+                    "src/main/res/layout/diet",
+                    "src/main/res/layout/help",
+                    "src/main/res/layout/ranking",
+                    "src/main/res/layout/wifi"
+            ]
+
+            if (rootProject.ext.android.isGooglePlayVersion) {
+                manifest.srcFile "src/main/manifest/googleplay/AndroidManifest.xml"
+            } else {
+                manifest.srcFile "src/main/manifest/default/AndroidManifest.xml"
+            }
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+MobSDK {
+    appKey "32c16df642b60"
+    appSecret "8f546591783016fd16a6fa403e8dc536"
+    ShareSDK {
+        loopShare true
+        devInfo {
+            Wechat {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+                userName "gh_afb25ac019c9"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 2
+            }
+            WechatMoments {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+            }
+
+            TencentWeibo {
+                id 2
+                sortId 2
+                appKey "801307650"
+                appSecret "ae36f4ee3946e1cbb98d6965b0b2ff5c"
+                callbackUri "http://sharesdk.cn"
+                enable true
+            }
+
+
+            QZone {
+                id 3
+                sortId 3
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+
+            QQ {
+                id 7
+                sortId 7
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+
+            Twitter {
+                id 9
+                sortId 9
+                appKey "viOnkeLpHBKs6KXV7MPpeGyzE"
+                appSecret "NJEglQUy2rqZ9Io9FcAU9p17omFqbORknUpRrCDOK46aAbIiey"
+                callbackUri "http://mob.com"
+                shareByAppClient true
+                bypassApproval true
+                enable true
+            }
+
+        }
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(path: ':MPChartLib')
+    implementation project(path: ':wifiLibrary')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+
+    //官方:V7库
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+
+    //官方:design 库(MD 新特性)
+    implementation 'com.google.android.material:material:1.4.0'
+
+    //官方:v7版网格布局
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    //官方:抽取Bitmap的明显颜色(MD 新特性)
+    implementation 'androidx.palette:palette:1.0.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //官方:圆角阴影卡片View
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //百分比布局
+    implementation 'com.zhy:percent-support-extends:1.1.1'
+
+    //ButterKnife视图注解框架 https://github.com/JakeWharton/butterknife
+//    implementation 'com.jakewharton:butterknife:8.8.1'
+//    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    //侧滑删除插件 https://github.com/baoyongzhang/SwipeMenuListView
+    implementation 'com.baoyz.swipemenulistview:library:1.3.0'
+
+    //下拉刷新 https://github.com/scwang90/SmartRefreshLayout
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    //未读消息小红点 https://github.com/qstumn/BadgeView
+    implementation 'q.rorbin:badgeview:1.1.3'
+
+    //APP项目总库 ,里面带工具类/数据库(框架)/网络(框架)
+    implementation project(':AppDataLibrary')
+
+    //蓝牙库框架
+    implementation project(':SNBLELibrary')
+
+    //蓝牙空中升级框架
+    implementation project(':BleOTASupport')
+
+    //地图库
+    implementation project(':SNMapLibrary')
+
+    //第三方登录
+    implementation project(':SNLoginLibrary')
+
+    //图片加载框架
+    implementation 'com.github.bumptech.glide:glide:4.1.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.1.1'
+
+    //基于glide的裁剪/圆形/圆角/毛玻璃等效果 库 https://github.com/wasabeef/glide-transformations
+    implementation 'jp.wasabeef:glide-transformations:3.0.1'
+
+    //调试时查看数据库 https://github.com/amitshekhariitbhu/Android-Debug-Database
+
+    //(电脑开启: adb forward tcp:8080 tcp:8080 , 手动查看手机wifi的ip,然后在电脑浏览器输入 ip:8080 访问数据库)
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.2'
+
+    //圆形头像https://github.com/hdodenhof/CircleImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    //Bugly
+    implementation 'com.tencent.bugly:crashreport:3.4.4'
+    implementation 'com.tencent.bugly:nativecrashreport:3.6.0'
+
+    //分包RemoteCameraProActivity
+    api 'androidx.multidex:multidex-instrumentation:2.0.0'
+
+    //任务调度 https://github.com/evernote/android-job / http://www.suqishuo.cn/Android-Job-from-evernote/
+
+    //    implementation 'com.evernote:android-job:1.2.5'
+
+    //https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&lang=zh_CN
+
+    //    api 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+
+    //官方：GoogleFit库
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-fitness:16.0.1'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+
+    //Strava sdk
+    implementation 'com.sweetzpot.stravazpot:lib:1.3.1'
+
+    //绕过Android P对非SDK接口的限制 http://weishu.me/2018/06/07/free-reflection-above-android-p/
+    implementation 'me.weishu:free_reflection:1.2.0'
+    //图表库
+    //    complie files('/libs/MPChartLib-release.aar')
+
+    //recyclerView item 动画https://github.com/wasabeef/recyclerview-animators
+    implementation 'jp.wasabeef:recyclerview-animators:2.3.0'
+    //谷歌CameraX https://github.com/google/cameraview
+    implementation project(':CameraLibrary')
+}

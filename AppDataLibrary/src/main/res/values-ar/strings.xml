@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">تم تسجيل الحساب بالفعل</string>
+	<string name="error_user_not_exists">الهوية ليست موجودة، يرجى مراجعة</string>
+	<string name="error_password_error">اسم المستخدم أو كلمة السر غير صحيحة</string>
+	<string name="error_phone_invalid">رقم الهاتف غير صحيح</string>
+	<string name="error_sms_too_frequently">طلب لا تتكرر كثيرا</string>
+	<string name="error_captcha_expired">التحقق من انتهاء</string>
+	<string name="error_captcha_wrong">التحقق من انتهاء</string>
+	<string name="error_captcha_failure">فشل التحقق</string>
+	<string name="error_email_registered">تم تسجيل الحساب بالفعل</string>
+	<string name="error_captcha_req_success">الطلب مكتمل</string>
+	<string name="network_err">فشل الاتصال بشبكة الانترنت، يرجى المحاولة في وقت لاحق</string>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_1">
+
+    <include
+        android:id="@+id/ilSleepDetailsTitle"
+        layout="@layout/layout_details_title"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/widget_size_40"
+        android:layout_marginBottom="@dimen/widget_size_5"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/widget_size_10">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+
+        <com.truescend.gofit.views.BarChartView
+            android:layout_marginStart="@dimen/widget_size_5"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            android:id="@+id/bcvSleepChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+    </LinearLayout>
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:columnCount="3"
+        app:rowCount="2">
+
+        <include
+            android:id="@+id/ilSleepDetailsStandardDays"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"
+            />
+
+        <include
+            android:id="@+id/ilSleepDetailsDailySteps"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"/>
+
+        <include
+            android:id="@+id/ilSleepDetailsDailyConsume"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"/>
+
+        <include
+            android:id="@+id/ilSleepDetailsTotalDistance"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"/>
+
+        <include
+            android:id="@+id/ilSleepDetailsDailyDistance"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"/>
+
+        <include
+            android:id="@+id/ilSleepDetailsTargetSteps"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            layout="@layout/item_home_status"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_40"
+        android:layout_marginTop="@dimen/widget_size_5"
+        android:background="@color/white"/>
+
+</LinearLayout>

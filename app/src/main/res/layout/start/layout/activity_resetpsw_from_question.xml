@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/widget_size_30">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="@dimen/text_size_18"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widget_size_10"
+                    android:text="@string/content_retrieve_type" />
+
+                <com.truescend.gofit.views.AppCompatMultiLineSpinner
+                    android:id="@+id/spRetrieveType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/retrieve_type"
+                    android:paddingBottom="@dimen/widget_size_10"
+                    android:paddingTop="@dimen/widget_size_10" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llTypeAuthCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widget_size_10"
+                    android:orientation="horizontal">
+
+                    <com.truescend.gofit.views.HintMultiLineEditText
+                        android:id="@+id/etAuthCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:hint="@string/content_input_verification_code"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btnObtainAuthCode"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/widget_size_40"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_button_black_bg"
+                        android:text="@string/content_obtain_verification_code"
+                        android:textColor="@color/text_option_black_bg"
+                        android:textSize="@dimen/text_size_10" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTypeQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/widget_size_10"
+                            android:text="@string/content_question1" />
+
+                        <TextView
+                            android:id="@+id/tvQuestion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/widget_size_10"
+                            android:singleLine="false" />
+
+                    </LinearLayout>
+
+
+                    <com.truescend.gofit.views.HintMultiLineEditText
+                        android:id="@+id/etAnswer1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/widget_size_10"
+                        android:hint="@string/content_answer"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/widget_size_10"
+                            android:text="@string/content_question2" />
+
+                        <TextView
+                            android:id="@+id/tvQuestion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/widget_size_10"
+                            android:singleLine="false" />
+                    </LinearLayout>
+
+                    <com.truescend.gofit.views.HintMultiLineEditText
+                        android:id="@+id/etAnswer2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/widget_size_10"
+                        android:hint="@string/content_answer"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_15" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:textSize="@dimen/text_size_18"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/widget_size_10"
+                android:text="@string/content_new_psw" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etResetFirstPasswords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:hint="@string/hint_input_new_password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etResetConfirmPasswords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:hint="@string/content_confirm_password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_20"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvResetHelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/widget_size_10"
+                    android:textSize="@dimen/text_size_15" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/tvNext"
+        style="@style/TextViewButton"
+        android:text="@string/content_resetpsw_now" />
+</LinearLayout>

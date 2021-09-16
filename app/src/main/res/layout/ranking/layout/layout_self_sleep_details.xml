@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_size_10">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_size_10"
+        android:text="@string/content_my_sleep_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <include layout="@layout/layout_sleep_details_radio_group" />
+
+    <TextView
+        android:id="@+id/tvDateRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:layout_marginBottom="@dimen/widget_size_10"
+        android:textStyle="bold"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+
+        <View
+            android:layout_width="@dimen/widget_size_15"
+            android:layout_height="@dimen/widget_size_15"
+            android:background="@color/colorSleepSober" />
+
+        <View
+            android:layout_width="@dimen/widget_size_15"
+            android:layout_height="@dimen/widget_size_15"
+            android:background="@color/colorSleepLight" />
+
+        <View
+            android:layout_width="@dimen/widget_size_15"
+            android:layout_height="@dimen/widget_size_15"
+            android:background="@color/colorSleepDeep" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/widget_size_10"
+            android:text="@string/content_today"
+            android:textSize="@dimen/text_size_10"
+            android:textColor="@color/grey" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_sleep_avg" />
+
+        <TextView
+            android:textSize="@dimen/text_size_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/widget_size_10"
+            android:text="@string/content_week_avg"
+            android:textColor="@color/grey" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <com.truescend.gofit.views.SleepPercentView
+        android:id="@+id/spvSleepDetailsChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+            

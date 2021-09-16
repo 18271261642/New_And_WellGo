@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">帳戶已注册</string>
+	<string name="error_user_not_exists">ID不存在，請檢查</string>
+	<string name="error_password_error">ID或密碼錯誤</string>
+	<string name="error_phone_invalid">電話號碼無效</string>
+	<string name="error_sms_too_frequently">請求過於頻繁</string>
+	<string name="error_captcha_expired">驗證過期</string>
+	<string name="error_captcha_wrong">驗證過期</string>
+	<string name="error_captcha_failure">驗證失敗</string>
+	<string name="error_email_registered">帳戶已注册</string>
+	<string name="error_captcha_req_success">請求完成</string>
+	<string name="network_err">Internet連接失敗，請稍後再嘗試</string>
+
+</resources>

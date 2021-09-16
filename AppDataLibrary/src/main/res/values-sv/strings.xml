@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">kontot har redan registrerats</string>
+	<string name="error_user_not_exists">jag är inte existerade, kontrollera</string>
+	<string name="error_password_error">id eller lösenord är fel</string>
+	<string name="error_phone_invalid">numret är ogiltigt.</string>
+	<string name="error_sms_too_frequently">begäran är alltför ofta</string>
+	<string name="error_captcha_expired">kontroll är löpt ut</string>
+	<string name="error_captcha_wrong">kontroll är löpt ut</string>
+	<string name="error_captcha_failure">kontroll misslyckades.</string>
+	<string name="error_email_registered">kontot har redan registrerats</string>
+	<string name="error_captcha_req_success">begäran genomfört</string>
+	<string name="network_err">internet förbindelse misslyckas, försök senare.</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/title_height"
+    android:layoutDirection = "ltr"
+    android:background="?attr/selectableItemBackgroundBorderless">
+
+    <!--别删 这是个替死鬼 用来给父布局确定大小的
+    因为下面的TextView设定的高度可能会变化
+    使用selectableItemBackgroundBorderless时
+    波纹范围会不统一 于是 它的作用就是个占位空内容的控件 只是为了欺骗上层-->
+    <View
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/transparent" />
+
+    <TextView
+        android:id="@+id/tvTitleTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="?attr/titleTextColor"
+        android:textSize="@dimen/text_size_10" />
+
+</RelativeLayout>

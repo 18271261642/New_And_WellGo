@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="error_phone_registered">The account has been registered already</string>
+    <string name="error_user_not_exists">ID is not existed,please check</string>
+    <string name="error_password_error">The ID or password is wrong</string>
+    <string name="error_phone_invalid">The phone number is invalid</string>
+    <string name="error_sms_too_frequently">The request is too frequent</string>
+    <string name="error_captcha_expired">Verification is expired</string>
+    <string name="error_captcha_wrong">Verification is expired</string>
+    <string name="error_captcha_failure">Verification failed</string>
+    <string name="error_email_registered">The account has been registered already</string>
+    <string name="error_captcha_req_success">Request completed</string>
+    <string name="network_err">The Internet connection fails, please try later</string>
+</resources>

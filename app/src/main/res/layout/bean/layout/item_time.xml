@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_size_10">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/content_time_interval"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_15"
+        android:theme="@style/BlackButtonTheme" />
+
+
+    <RadioGroup
+        android:id="@+id/rgTimeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeHalfHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/content_half_hour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:theme="@style/BlackButtonTheme" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeOneHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_one_hour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:theme="@style/BlackButtonTheme" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeTwoHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_two_hour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:theme="@style/BlackButtonTheme" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeThreeHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_three_hour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:theme="@style/BlackButtonTheme" />
+
+    </RadioGroup>
+
+</LinearLayout>

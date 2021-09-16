@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">сметката е била регистрирана вече</string>
+	<string name="error_user_not_exists">лична карта не е съществувал, моля проверете</string>
+	<string name="error_password_error">личната карта или парола е грешно</string>
+	<string name="error_phone_invalid">телефонният номер е инвалид.</string>
+	<string name="error_sms_too_frequently">искането е много чести</string>
+	<string name="error_captcha_expired">проверката е изтекъл</string>
+	<string name="error_captcha_wrong">проверката е изтекъл</string>
+	<string name="error_captcha_failure">проверката се провали</string>
+	<string name="error_email_registered">сметката е била регистрирана вече</string>
+	<string name="error_captcha_req_success">искането е завършена</string>
+	<string name="network_err">интернет връзка се провали, моля, опитайте по - късно.</string>
+
+</resources>

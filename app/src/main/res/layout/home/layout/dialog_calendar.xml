@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_radius_calendar">
+
+    <TextView
+        android:id="@+id/tvCalendarTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widget_size_20"
+        android:gravity="center"
+        android:background="@drawable/border_radius_calendar_tv"
+        android:textColor="@color/white"
+        tools:text="2017-05-12周五"
+        android:textSize="@dimen/text_size_20"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_size_5"
+        android:layout_marginBottom="@dimen/widget_size_5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCalendarDialogLeft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/icon_arrow_left"
+            android:background="?attr/selectableItemBackground"/>
+
+        <TextView
+            android:id="@+id/tvCalendarDialogTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="标题"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/ivCalendarDialogRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/icon_arrow_right"
+            android:background="?attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+    <com.truescend.gofit.views.CustomCalendar
+        android:id="@+id/cCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/widget_size_10"
+        android:layout_marginEnd="@dimen/widget_size_10"
+        android:focusable="true"
+        android:clickable="true"
+        calendar:calendarWeekSpacing="@dimen/widget_size_10"
+        calendar:calendarWeekTextColor="#000000"
+        calendar:calendarDayTextColor="#000000"
+        calendar:calendarCircleColor="#000000"
+        calendar:calendarProgressBarColor="#000000"/>
+
+</LinearLayout>

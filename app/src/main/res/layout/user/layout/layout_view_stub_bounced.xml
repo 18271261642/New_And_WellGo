@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lvSubBounced"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/widget_size_1"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:paddingTop="@dimen/widget_size_2"
+        android:paddingBottom="@dimen/widget_size_2"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:scrollbars="vertical"
+        android:scrollbarSize="@dimen/widget_size_3"
+        android:listSelector="@color/white"
+        android:divider="@color/grey">
+
+    </ListView>
+
+</LinearLayout>

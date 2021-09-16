@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <com.truescend.gofit.views.CircleProgressBar
+        android:id="@+id/cpbStepProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</com.zhy.android.percent.support.PercentRelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_white"
+        android:paddingTop="@dimen/widget_size_25"
+        android:paddingStart="@dimen/widget_size_20"
+        android:paddingEnd="@dimen/widget_size_20"
+        android:paddingBottom="@dimen/widget_size_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18"
+            android:text="@string/content_terms_title"/>
+
+        <TextView
+            android:id="@+id/tvTermsFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_10"
+            android:gravity="start"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black"
+            android:text="@string/content_terms_first"/>
+
+        <TextView
+            android:id="@+id/tvTermsSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_10"
+            android:gravity="start"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black"
+            android:text="@string/content_terms_second"/>
+
+        <TextView
+            android:id="@+id/tvTermsThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_10"
+            android:gravity="start"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black"
+            android:text="@string/content_terms_third"/>
+
+
+        <TextView
+            android:id="@+id/tvTermsMob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_10"
+            android:gravity="start"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black"
+            android:text="@string/content_terms_mob"
+
+            />
+
+        <TextView
+            android:id="@+id/tvTermsConfirm"
+            style="@style/TextViewButton"
+            android:text="@string/content_confirm"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

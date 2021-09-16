@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/ilPushCallReminder"
+                layout="@layout/item_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widget_size_1" />
+
+            <include
+                android:id="@+id/ilPushMessageReminder"
+                layout="@layout/item_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <include layout="@layout/include_shadow_top" />
+
+        <include
+            android:id="@+id/ilPushDoNotDisturb"
+            layout="@layout/item_device_common" />
+
+        <include layout="@layout/include_shadow_bottom" />
+
+        <include
+            android:id="@+id/ilPushTip"
+            layout="@layout/item_banner_button" />
+
+        <LinearLayout
+            android:id="@+id/llPushApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <include layout="@layout/include_shadow_top" />
+
+        <include
+            android:id="@+id/ilPushOtherApps"
+            layout="@layout/item_device_common" />
+
+        <include layout="@layout/include_shadow_bottom" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvOtherApps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

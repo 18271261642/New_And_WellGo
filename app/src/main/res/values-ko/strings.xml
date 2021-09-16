@@ -1,0 +1,633 @@
+<resources>
+    <string name="app_name">WellGo</string>
+
+
+    <string name="loading">로딩</string>
+
+    <string name="tab_home">매일</string>
+    <string name="tab_track">활동</string>
+    <string name="tab_device">장비</string>
+    <string name="tab_user">사용자</string>
+    <string name="course">마일리지</string>
+    <string name="target_step">목표 단계</string>
+    <string name="big_calories">큰 카드</string>
+    <string name="you_health">건강</string>
+    <string name="heart_rate">심박수</string>
+    <string name="blood_pressure">혈압</string>
+    <string name="blood_oxygen">혈액 산소</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">수면 품질</string>
+    <string name="check_self">건강</string>
+    <string name="heart_record">심장 박동수</string>
+    <string name="blood_pressure_record">혈액의 압력</string>
+    <string name="blood_oxygen_record">혈액 산소</string>
+    <string name="title_today_sleep">수면 분석</string>
+    <string name="sleep_total_time">지속</string>
+    <string name="sleep_valid_time">효율적인 시간</string>
+    <string name="sleep_quality_time">품질</string>
+    <string name="sleep_details">수면 세부 사항</string>
+
+    <string name="sleep_deep">죽어</string>
+    <string name="sleep_light">불안한</string>
+    <string name="sleep_awake">깨다</string>
+    <string name="heart_details">인사 세부 정보</string>
+    <string name="blood_pressure_details">BP 세부 정보</string>
+    <string name="blood_oxygen_details">세부 사항</string>
+    <string name="title_track_setting">환경</string>
+    <string name="item_device_remote_camera">원격 카메라</string>
+    <string name="item_device_search_band">장치 찾기</string>
+    <string name="item_device_health_reminder">건강 정보</string>
+    <string name="item_device_schedule_reminder">달력</string>
+    <string name="item_device_alarm_clock">경보</string>
+    <string name="item_device_push">공고</string>
+
+    <string name="delete">지우다</string>
+
+    <string name="content_five_clock">5 개의 알람을 설정할 수 있습니다.</string>
+    <string name="content_remind_sedentary">활동 알림</string>
+    <string name="content_reminder_drink">음료 사고</string>
+
+    <string name="day">일</string>
+    <string name="month">달</string>
+    <string name="year">년</string>
+    <string name="step">단계</string>
+    <string name="hour">시간</string>
+
+    <!--通用单位-->
+    <string name="unit_hours">h</string><!--小时-->
+    <string name="unit_min">min</string><!--分钟-->
+    <string name="unit_heart">bpm</string><!--心率单位-->
+    <string name="unit_pressure">mmHg</string><!--血压单位-->
+    <string name="unit_week">주</string>
+    <string name="unit_day">일</string>
+    <string name="unit_month">달</string>
+    <string name="unit_year">년</string>
+
+    <string name="unit_cal">kcal</string>
+    <string name="unit_km">km</string>
+    <string name="unit_km_h">km/h</string>
+    <string name="unit_mile">마일</string>
+    <string name="unit_mile_h">마일/h</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">킬로그램</string>
+    <string name="unit_pounds">파운드</string>
+    <string name="unit_version">V %1$s</string>
+    <string name="unit_cm">cm</string>
+
+    <string name="content_standard_days">목표 일</string>
+    <string name="content_avg_day_steps">평균 단계</string>
+    <string name="content_avg_month_steps">평균 단계</string>
+    <string name="content_avg_day_consume">평균 화상</string>
+    <string name="content_avg_month_consume">평균 화상</string>
+    <string name="content_total_distance">거리</string>
+    <string name="content_avg_day_distance">평균 거리</string>
+    <string name="content_avg_month_distance">평균 거리</string>
+    <string name="content_total_steps">합계</string>
+    <string name="content_greatest_good">Days> = Good</string>
+    <string name="content_total_time_sleep">효과적인 수면</string>
+    <string name="content_daily_time_sleep">평균 유효한</string>
+    <string name="content_longest_single_sleep">가장 긴 수면</string>
+    <string name="content_proportion_of_sleep">효과적인 수면</string>
+    <string name="content_quality_sleep">품질</string>
+    <string name="content_average_heart">평균</string>
+    <string name="content_highest_heart">맥스.</string>
+    <string name="content_minimum_heart">최소.</string>
+    <string name="content_heart_too_high">지나치게 높음</string>
+    <string name="content_heart_too_low">지나치게 낮은</string>
+    <string name="content_average_pressure_diastolic">평균 DBP</string>
+    <string name="content_average_pressure_systolic">평균 SBP</string>
+    <string name="content_abnormal_systolic">비정상적인 SBP</string>
+    <string name="content_abnormal_diastolic">비정상적인 DBP</string>
+    <string name="content_max_value">맥스.</string>
+    <string name="content_avg_value">평균</string>
+    <string name="content_min_value">최소.</string>
+    <string name="content_no">아니</string>
+    <string name="content_yes">예</string>
+    <string name="content_total_mileage">거리</string>
+    <string name="content_burn_calories">화상</string>
+    <string name="content_total_time_consumed">지속</string>
+    <string name="content_air_quality">대기 질</string>
+    <string name="content_completed">거리</string>
+    <string name="content_calorie_burning">화상</string>
+    <string name="content_per_hour">속도</string>
+    <string name="content_pace">속도</string>
+    <string name="content_time_consuming">지속</string>
+    <string name="content_keep_screen_light">화면 표시 등 켜기</string>
+    <string name="content_shake_band_start">실행 중 장치가 진동 함</string>
+    <string name="content_shake_band_end">작업이 끝나면 장치가 진동합니다.</string>
+    <string name="content_show_weather">날씨 표시</string>
+    <string name="content_need_open_gps">GPS 기능을 사용할 수 없으며 위치가 부정확해질 수 있으므로 휴대 전화의 GPS를 활성화하십시오.</string>
+    <string name="content_open_now">유효한</string>
+    <string name="content_leave_running">떠나다</string>
+    <string name="content_confirm">승인</string>
+    <string name="content_cancel">취소</string>
+    <string name="content_running_outside">더 정확한 위치 정보를 위해 야외 GPS 기능을 사용하십시오.</string>
+    <string name="content_current_power">  장치 배터리 :</string>
+    <string name="content_mac_address">MAC:</string>
+    <string name="content_shaking_band">기기가 진동하고 있습니다 …</string>
+    <string name="title_connected">연결됨</string>
+
+    <string name="content_scanning_start">스캔 장치</string>
+    <string name="toast_un_support_ble">장치가 Bluetooth BLE를 지원하지 않습니다.</string>
+    <string name="toast_bluetooth_is_close">블루투스를 아직 사용할 수 없습니다.</string>
+    <string name="toast_band_is_disconnect">APP가 아직 기기와 연결되어 있지 않습니다.</string>
+
+    <string name="title_today">오늘</string>
+    <string name="title_device_setting">환경</string>
+    <string name="title_about_app">단위 및 앱 설정</string>
+    <string name="title_feedback">문의하기</string>
+    <string name="title_update_band">장치 펌웨어</string>
+    <string name="title_health_reminder">건강 정보</string>
+    <string name="title_alarm">경보</string>
+    <string name="title_schedule_reminder">달력</string>
+    <string name="title_message_push">통보</string>
+
+    <string name="content_band_update">장치 펌웨어 업데이트</string>
+    <string name="content_about_app">단위 및 APP 설정</string>
+    <string name="content_feedback">연락처</string>
+    <string name="content_reset">장치 출하시 기본값</string>
+    <string name="content_clean_cache">앱 캐시 지우기</string>
+    <string name="content_unblock_device">장치 페어링 바인딩 해제</string>
+    <string name="content_heart_detection">HR 자동 감지</string>
+    <string name="content_light_screen">빛으로 회전</string>
+    <string name="content_lost_reminder">분실 방지</string>
+
+    <string name="content_ota_update">최신 정보</string>
+
+    <string name="content_app_current_version">앱 버전</string>
+    <string name="content_app_last_version">최신 APP 버전</string>
+    <string name="content_unit_distance">길이 단위</string>
+    <string name="content_unit_temperature">온도 단위</string>
+    <string name="content_unit_weight">무게 단위</string>
+    <string name="content_app_auto_update">APP 자동 업데이트</string>
+    <string name="content_app_auto_sync">데이터 자동 동기화</string>
+
+    <string name="content_sport_done">끝</string>
+    <string name="content_submit">제출</string>
+    <string name="content_feedback_content">보내 주신 의견에 감사드립니다.</string>
+    <string name="content_exit">취소</string>
+    <string name="content_call_reminder">수신 통화 푸싱</string>
+    <string name="content_message_reminder">SMS 알림</string>
+    <string name="content_do_not_disturb">무음 모드</string>
+
+    <string name="reminder_facebook">페이스 북</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">구글 플러스</string>
+
+
+
+    <string name="content_choose_repeat_cycle">반복 모드 선택</string>
+    <string name="content_repeat">반복</string>
+    <string name="content_title_exit_account">당좌 계정을 지금 종료 하시겠습니까?</string>
+    <string name="content_last_weight">체중:</string>
+    <string name="content_last_date">가중 날짜 :</string>
+    <string name="content_personal_best_record">최고의 날</string>
+    <string name="content_standard_day">최대 목표</string>
+    <string name="content_best_week">베스트 웨스턴</string>
+    <string name="content_best_month">최고 달</string>
+    <string name="content_personal_setting">환경</string>
+    <string name="content_exit_current_account">로그 아웃</string>
+    <string name="content_bmi_index">BMI :</string>
+    <string name="content_setting_nickname">이름</string>
+    <string name="content_setting_gender">성별</string>
+    <string name="content_setting_birth_year">출생</string>
+    <string name="content_setting_height">신장</string>
+    <string name="content_setting_last_weight">체중</string>
+    <string name="content_setting_bmi_index">BMI</string>
+    <string name="content_setting_day_target">단계 목표</string>
+    <string name="content_setting_save">구하다</string>
+    <string name="content_setting_next">다음 것</string>
+    <string name="content_gender_female">여자</string>
+    <string name="content_gender_male">남성</string>
+    <string name="bmi_too_light">과도한 빛</string>
+    <string name="bmi_normal">표준</string>
+    <string name="bmi_too_heavy">살찐 지방</string>
+    <string name="bmi_obesity">뚱뚱한</string>
+    <string name="bmi_very_fat">과체중</string>
+    <string name="content_bmi_paragraph_1">BMI (체질량 지수)는 신체가 뚱뚱한 지 아닌지를 측정하는 국제 표준으로 건강에 대한 참고 가치이기도합니다. 높이와 무게를 고려해야합니다.</string>
+    <string name="content_bmi_paragraph_2">BMI는 신체 상태를 응답하는 데 사용하기 쉬운 방법이며, 과체중 인 성인은 심장 및 고혈압과 같은 질병의 위험이 더 높습니다.</string>
+    <string name="content_dialog_title_bmi">BMI 소개</string>
+    <string name="title_user_setting">환경</string>
+    <string name="content_training">WHO의 권고에 따르면, 성인은 정상적인 스포츠를 필요로하는데 약 8 분의 빠른 걸음 걸음과 같이 칼로리 소모가 약 40 분입니다.</string>
+    <string name="content_dialog_title_moving_target">일일 목표 목표 정보</string>
+    <string name="content_history_schedule_reminder">추억을 남겨주세요.</string>
+    <string name="content_save">구하다</string>
+
+
+
+    <string-array name="sleep">
+        <item>깊은 수면</item>
+        <item>가벼운 수면</item>
+        <item>깨다</item>
+    </string-array>
+
+    <string name="toast_feedback_success">제출 및 의견을 보내 주셔서 감사합니다.)</string>
+
+
+    <string name="content_guest_login_in">게스트 로그인</string>
+    <string name="content_user_login_in">로그인</string>
+
+    <!--全局工具类的字符串-->
+    <string name="dialog_waiting">로드 중 …</string>
+
+    <string name="title_schedule_manager">달력</string>
+    <string name="title_edit_schedule">참고 사항 추가</string>
+    <string name="content_time">시각</string>
+    <string name="content_every_day">매일</string>
+    <string name="content_today">오늘</string>
+    <string name="content_tomorrow">내일</string>
+    <string name="content_single">단일</string>
+    <string name="content_take_photo">사진을 찍다</string>
+    <string name="content_choose_picture">갤러리에서 선택하십시오.</string>
+    <string name="content_unknown_number">알 수없는 번호</string>
+    <string name="content_call">수신 전화:</string>
+    <string name="content_this_week">주</string>
+    <string name="content_this_month">달</string>
+    <string name="content_input_email">이메일 주소를 입력하십시오.</string>
+    <string name="content_input_verification_code">확인 입력</string>
+    <string name="content_obtain_verification_code">새로운 확인</string>
+    <string name="content_input_password">너의 비밀번호</string>
+    <string name="content_register">레지스터</string>
+    <string name="content_confirm_password">새 암호를 다시 입력하십시오.</string>
+    <string name="title_register">나에게 서명</string>
+    <string name="content_reacquire">다시 요청</string>
+    <string name="title_forget_password">비밀번호 분실</string>
+    <string name="hint_input_new_password">새 비밀번호</string>
+    <string name="content_confirm_new_password">새 비밀번호</string>
+    <string name="content_commit">제출</string>
+    <string name="content_not_valid_email">이메일 주소 형식이 잘못되었습니다!</string>
+    <string name="content_nickname_length">귀하의 데이터</string>
+    <string name="content_password_length">패스워드 길이는 6 ~ 14 자리입니다.</string>
+    <string name="content_valid_input">비밀번호가 맞지 않습니다</string>
+    <string name="content_forget_pwd">비밀번호 분실?</string>
+    <string name="content_update_app">버전 구개</string>
+    <string name="content_update">최신 정보</string>
+    <string name="content_update_ing">업데이트 중 …</string>
+    <string name="content_save_picture_to">사진이 저장되었습니다.</string>
+    <string name="content_nickname_not_be_null">데이터는 비워 둘 수 없습니다.</string>
+    <string name="title_open_close_bluetooth">블루투스 기능이 닫혀 있습니다. 지금 열리시겠습니까?</string>
+    <string name="content_open">승인</string>
+    <string name="content_no_data">데이터가 없습니다.</string>
+    <string name="content_application_exception">앱에 이상이 있습니다. 로그는 디버그 용으로 저장됩니다.</string>
+    <string name="title_history_schedule_reminder">추억을 남겨주세요.</string>
+    <string name="content_what_is_this">이게 뭐야?</string>
+    <string name="content_bluetooth">블루투스</string>
+    <string name="content_can_not_be_null">생각 나게하는 것을 써주세요.</string>
+    <string name="content_new_app_version">새 앱 버전</string>
+    <string name="content_update_new_app_version">새로운 기능이나 디버그가 포함 된 앱에 대한 새로운 업데이트가 있습니다. 지금 업데이트해야합니까?</string>
+    <string name="content_current_is_last">최신 버전입니다!</string>
+    <string name="content_new_device_version">시스템 힌트 </string>
+        
+    <string name="content_update_new_device_version">새로운 펌웨어 버전을 사용할 수 있습니다. 현재 버전 번호는 V%d이며 V%d로 업그레이드됩니다. </string>
+    <string name="content_current_device_version">현재 펌웨어 버전 : V%02d</string>
+    <string name="content_last_device_version">최신 펌웨어 버전 : V%02d</string>
+    <string name="content_congratulations_successful">업데이트가 완료되었습니다!</string>
+    <string name="content_is_last_device_version">최신 버전입니다.</string>
+    <string name="content_are_you_sure">확실해?</string>
+    <string name="content_want_reset">기기의 모든 데이터를 지우고 복구 할 수 없으므로 출하시 기본 모드로 설정해야하나요?</string>
+    <string name="content_want_clear">지운 후에 앱 캐시는 복구 할 수 없습니다. 여기에는 스포츠 데이터 및 설정이 포함되어 있습니다. 지금 삭제 하시겠습니까?</string>
+    <string name="content_want_unbind">연결이 해제되면 앱이 앱에서 길게 푸시 및 전화 관리 서비스를받을 수 없습니다 (기기 지원 인 경우). 이제 바인딩을 해제 하시겠습니까?</string>
+    <string name="content_stop_check">감지가 종료되었습니다.</string>
+    <string name="content_check_complete">감지가 완료되었습니다.</string>
+    <string name="content_checking">탐지가 진행 중입니다 …</string>
+    <string name="title_scan_band">스캔 장치</string>
+    <string name="content_scanning">스캐닝…</string>
+    <string name="content_binding">제본…</string>
+    <string name="content_input_correct_email">이메일 형식이 잘못되었습니다.</string>
+    <string name="content_input_correct_phone">전화 형식이 잘못되었습니다.</string>
+    <string name="content_exit_run">현재 스포츠 트랙 및 데이터를 저장하고 종료하십시오. 기간이 너무 짧으면 종료해야합니다. 데이터를 저장하지 않으시겠습니까?</string>
+    <string name="content_want_exit">꼭 그만둬?</string>
+    <string name="content_save_data">데이터가 저장 중입니다 …</string>
+    <string name="content_nickname_illegal">이름 길이가 잘못되었습니다 (1 ~ 16 자리).</string>
+    <string name="content_can_not_choose_future">미래 날짜는 선택할 수 없습니다.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">생각 나게하는 모든 %.1fhr (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">일정 날짜 선택</string>
+    <string name="content_preparing">준비 중입니다 …</string>
+    <string name="content_prepare_timeout">초과 근무 준비 중입니다. 다시 시도하십시오.</string>
+    <string name="content_during_upgrade">업데이트 중 …</string>
+    <string name="content_upgrade_failed">업데이트하지 못했습니다. 다시 시도하십시오.</string>
+    <string name="content_upgrade_cancel">업데이트가 취소되었으므로 다시 업데이트 할 필요가 없습니다!</string>
+    <string name="content_disconnect_band">장치가 연결되어 있지 않습니다!</string>
+    <string name="content_upgrade_no_plan">더 이상 펌웨어 업데이트</string>
+    <string name="content_getting_information">펌웨어가 확인 중입니다.</string>
+    <string name="content_download_failed">펌웨어 다운로드가 실패했습니다. 나중에 확인하십시오.</string>
+    <string name="content_downloading">상사..</string>
+    <string name="content_last_time">마지막으로:</string>
+    <string name="content_sleep_quality">품질:</string>
+    <string name="content_step_format">%d 단계</string>
+    <string name="content_day_format">dd</string>
+    <string name="content_bad">가난한</string>
+    <string name="content_general">표준</string>
+    <string name="content_well">좋은</string>
+    <string name="content_good">우수한</string>
+    <string name="content_permission_notification">[알림 표시 줄 권한]은 장치에 알림을 푸시하기위한 것입니다.</string>
+    <string name="content_authorized_to_use">앱이 모든 기능을 수행 할 수 있도록 해당 권한에 액세스하도록 허용하십시오.</string>
+    <string name="content_authorized">권한 요청</string>
+    <string name="content_next">다음 것</string>
+    <string name="content_exit_login">현재 계정을 로그 아웃하면 기기가 앱과의 연결이 끊어 지므로 계속 진행 하시겠습니까?</string>
+    <string name="content_use_for_sport">[스포츠 정보 표시] 기능 적용</string>
+    <string name="content_use_for_find_phone">[전화 찾기] 기능에 적용</string>
+    <string name="content_band_call_phone">기기가 휴대 전화를 검색 중입니다 …</string>
+    <string name="content_find_phone">전화 찾기</string>
+    <string name="content_permission_need">일부 기능이 비정상적으로 이어지는 앱에 대한 일부 권한을 거부했습니다. 해당 권한에 대한 앱 액세스를 허용하십시오.</string>
+    <string name="content_calendar">달력</string>
+    <string name="content_camera">카메라</string>
+    <string name="content_contacts">연락처 메뉴</string>
+    <string name="content_location">GPS</string>
+    <string name="content_microphone">마이크로폰</string>
+    <string name="content_phone">발신자 상태 / 전화 번호 / IMEI</string>
+    <string name="content_sensor">감지기</string>
+    <string name="content__sms">SMS</string>
+    <string name="content_storage">전화 저장 장치</string>
+    <string name="content_no_time">아니</string>
+    <string name="content_normal">표준</string>
+    <string name="content_poor">안좋다</string>
+    <string name="content_total_number_of_steps">총계 단계 : %02d</string>
+    <string name="content_reminder_content">참고 내용</string>
+    <string name="content_systolic_pressure">SBP</string>
+    <string name="content_diastolic_pressure">DBP</string>
+    <string name="content_deep_sleep">깊은 수면</string>
+    <string name="content_light_sleep">가벼운 수면</string>
+    <string name="content_wide_awake">깨다</string>
+    <string name="content_total_time_consuming">지속</string>
+    <string name="content_average_speed">평균 속도</string>
+    <string name="content_average_time_speed">평균 속도</string>
+    <string name="content_fastest_speed">최대 속도</string>
+    <string name="content_loading">로드 중 …</string>
+    <string name="content_device_no_bind">앱과 함께 기기를 바인딩하세요.</string>
+    <string name="content_scan_device">스캔 장치</string>
+    <string name="content_time_interval">시간 간격</string>
+    <string name="content_half_hour">0.5H</string>
+    <string name="content_one_hour">1H</string>
+    <string name="content_two_hour">2H</string>
+    <string name="content_three_hour">3H</string>
+    <string name="content_sunday">일.</string>
+    <string name="content_monday">월요일.</string>
+    <string name="content_tuesday">화.</string>
+    <string name="content_wednesday">수요일.</string>
+    <string name="content_thursday">목.</string>
+    <string name="content_friday">금.</string>
+    <string name="content_saturday">토.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">아래로 당겨 새로 고침</string>
+    <string name="content_refreshing">새롭게 하다</string>
+    <string name="content_is_loading">로드 중</string>
+    <string name="content_release_immediately_refresh">즉시 새로 고침하기</string>
+    <string name="content_refresh_completed">새로 고침 완료 됨</string>
+    <string name="content_refresh_failed">새로 고침 실패</string>
+    <string name="content_last_update">마지막 업데이트 : MM-dd HH:mm</string>
+    <string name="content_enter_email_is_correct">이메일 주소 형식이 올바른지 확인하십시오.</string>
+    <string name="unit_steps">단계</string>
+    <string name="content_map_type">지도 유형</string>
+    <string name="content_map_type_gaode">AMap (중국)</string>
+    <string name="content_map_type_google">구글지도</string>
+    <string name="content_map_type_automatic_smart_select">자동 선택</string>
+
+    <string name="content_connect_failed">연결에 실패</string>
+    <string name="content_try_to_fix">수정 시도</string>
+    <string name="content_connect_failed_fix_tips">기기에 연결할 수 없으면 시도해 볼 수 있습니다 : \n\n1. 다시 연결을 시도하십시오. \n\n2. Bluetooth를 끄고 켜십시오. \n\n3. 최고 정확도로 GPS를 켜십시오. \n\n4. 휴대 전화를 재부팅하십시오.</string>
+
+    <string name="content_item_fix_band">%1$s [장치 OTA 모드]</string>
+    <string name="content_fix_band_failed">기기 OTA 실패</string>
+    <string name="content_fix_band_failed_tips">기기에 대한 OTA 서비스를 선택하지 못했습니다. 기기가 10 분 이내에 자동으로 복구를 완료하지 않으면 Google에 문의하십시오.</string>
+    <string name="content_heart_detection_tips">* 일부 장치는이 기능을 지원하지 않습니다.</string>
+    <string name="content_description">알림 서비스 : \n QQ, Weibo, Wechat, Facebook, Twitter, Line, Linkedln, GooglePlus 알림을 휴대 전화에서 기기로 푸시합니다.</string>
+
+    <string name="content_input_band">기기 데이터를 입력하십시오.</string>
+    <string name="content_or_contact_us">또는 이메일 : wt5354@iwear88.com</string>
+    <string name="content_help">도움</string>
+    <string name="content_approve">승인</string>
+
+    <string name="content_permission_location">[위치 접근] 스마트 밴드의 위치를 파악하여 연결하고자하는 경우</string>
+    <string name="content_scan_timeout">장치를 찾을 수 없습니까? 열었다가 다시 닫은 후 다시 시도하십시오 [비행기 모드]</string>
+    <string name="content_push_warm">* 메시지 푸시 기능이 작동하지 않으면 여기를 클릭하고  를여십시오.</string>
+    <string name="content_reconnecting">서비스 또는 인터넷이 붐비는 중입니다. 잠시 기다려주십시오 …</string>
+    <string name="content_manual_reconnect">수동으로 장치 동기화</string>
+    <string name="content_login_means">에 로그인하고 동의 함</string>
+    <string name="content_terms">서비스 약관</string>
+    <string name="content_terms_title">개인 정보 및 건강 정책</string>
+    <string name="content_terms_first">* 귀하가 중요한 정보를 신뢰하는 것에 감사드립니다. 따라서 앱의 일부 기능에는 귀하의 허락을 받아야합니다.</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>여기에</a></font> 우리는 장치에 대한 개인 정보 보호 관행에 대해 설명하고, 수집하는 데이터, 사용 방법에 대해 배우게됩니다.]]></string>
+    <string name="content_terms_third">*이 제품은 의료 기기가 아니므로 질병 진단, 치료, 치료 또는 예방을 목적으로하지 않습니다. 정확도와 관련하여 의료 기기 또는 과학 측정 기기와 일치하도록 기기의 정확성을 고려한 것은 아닙니다.</string>
+    <string name="content_verification_help"><![CDATA[인증을받지 못 했습니까? 클릭하세요 <font color=#04F5D1> <a href=\'%s\'>여기에</a> </font> 도와주기 위해]]></string>
+    <string name="issue_with_log_in_or_sign_in">로그인 또는 로그인 관련 문제</string>
+    <string name="content_troubleshooting_help"><![CDATA[클릭하세요 <font color=#04F5D1> <a href=\'%s\'>여기에</a> </font> 문제 해결을 위해]]></string>
+    <string name="content_sleep_accuracy">얼마나 정확한 결과입니까?</string>
+    <string name="content_sleep_accuracy_1">자동 감지 수면 추적기는 일반적으로 정확하다고 여겨지며 사용자 습관이 다르기 때문에 오류가 발생하기 쉽습니다.</string>
+    <string name="content_sleep_accuracy_2">나중에 30 분 이내에 수면을 마쳤을 때 데이터가 없다면 수면 품질을 확인하십시오. 데이터가 분석되고 있습니다.</string>
+    <string name="content_accuracy_title">결과 정확도 정보</string>
+    <string name="content_app_unsupport_tips">이 기능은 팔찌에 넣어주세요</string>
+    <string name="content_permission_notification_enable">[알림] 허가가 종료되었습니다. 허가를 받아주십시오. 그렇지 않으면 [장치 찾기], [알림 표시 줄] 기능이 제대로 작동하지 않습니다.</string>
+    <string name="content_connect_google_fit">Google Fit 연결</string>
+    <string name="content_unlink_google_fit">Google Fit 연결 해제</string>
+    <string name="title_associate_google_fit">Google 피트니스 연결</string>
+    <string name="content_unit_time">장치 시간 형식</string>
+    <string name="content_upload_google_fit_now">지금 Google에 데이터를 업로드하십시오.</string>
+    <string name="content_tips_of_google_fit">데이터는 매일 자동으로 00 : 00/04 : 00/08 : 00/12 : 00/16 : 00/20 : 00에 Google 피트니스에 동기화됩니다.</string>
+
+
+    <string name="content_answer">답변을 입력하십시오.</string>
+    <string name="content_input_email_different">두 개의 입력 이메일이 다릅니다.</string>
+    <string name="content_resetpsw_now">암호 검색</string>
+    <string name="content_new_psw">새 비밀번호:</string>
+    <string name="content_question1">1.</string>
+    <string name="content_question2">2.</string>
+    <string name="content_input_reg_email">등록 메일 :</string>
+    <string name="content_register_question_step1">1. 이메일과 비밀번호를 기입하십시오.</string>
+    <string name="content_register_question_step2">2. 보안 답변 입력</string>
+    <string name="content_retrieve_type">비밀번호 검색 작성자 :</string>
+    <string name="content_register_success">등록이 성공적입니다!</string>
+    <string name="content_resetpsw_success">비밀번호 수정이 성공했습니다!</string>
+    <string name="content_resetpsw_wrong_answer">비밀 보안 답변이 잘못되었습니다!</string>
+    <string name="content_from_auth_code">이메일 확인</string>
+    <string name="content_from_question">보안 답변</string>
+    <string name="question1_1">첫 번째 / 현재 / 좋아하는 애완 동물의 데이터는 무엇입니까?</string>
+    <string name="question1_2">좋아하는 책은 무엇인가?</string>
+    <string name="question1_3">가장 좋아하는 음식은 무엇입니까?</string>
+    <string name="question2_4">처음으로 일한 회사는 무엇입니까?</string>
+    <string name="question2_5">네 엄마 데이터가 뭐니?</string>
+    <string name="question2_6">너는 어느 도시에서 태어 났니?</string>
+
+    <string name="content_connect_strava">Strava의 링크</string>
+    <string name="content_unlink_strava">Strava에서 연결 해제</string>
+    <string name="content_tips_of_strava">Strava를 연결 한 후 모션 트랙 레코드 인터페이스에서 Strava에 모션 트랙을 제출할 수 있습니다.</string>
+    <string name="content_uploaded_to_strava">Strava에 제출</string>
+    <string name="content_upload_to_strava">Strava에 제출</string>
+    <string name="content_retry">다시 해 보다</string>
+    <string name="content_err_save_sport_track_data_network_fail">모션 트랙 데이터를 저장할 수 없습니다. 네트워크 설정을 확인하십시오.</string>
+    <string name="content_donot_save">저장하지 마십시오</string>
+    <string name="content_link">모래밭</string>
+    <string name="content_help_and_feedback">도움말 및 피드백</string>
+
+    <string name="content_my_friends">친구</string>
+    <string name="content_search_friends_hint">사용자 ID / 이메일</string>
+    <string name="toast_tips_req_add_friends">친구 요청이 제출되었습니다.</string>
+    <string name="title_tab_msg_system">무엇이 새로운가?</string>
+    <string name="title_tab_msg_add_friend">친구 요청</string>
+    <string name="title_tab_my_friends">친구</string>
+    <string name="content_add_agree_friends">친구로 추가하고 싶다.</string>
+    <string name="content_btn_agreed">동의</string>
+    <string name="content_btn_refused">거부하다</string>
+    <string name="content_encourage">북돋우다</string>
+    <string name="content_zan">슬쩍 찌르다</string>
+    <string name="content_add_friends">친구로 추가</string>
+    <string name="content_already_friends">수락 된</string>
+    <string name="content_already_refused">거부 됨</string>
+    <string name="content_nickname">별명:</string>
+    <string name="content_nickname_2">별명</string>
+    <string name="content_sign_null">여기에서 비우기</string>
+    <string name="content_sign">보여줄 것을 적으십시오.</string>
+    <string name="content_setting_sign">서명</string>
+    <string name="content_remark_null">여기에서 비우기</string>
+    <string name="content_user_info">사용자 정보</string>
+    <string name="content_set_remark">노트</string>
+    <string name="content_average_blood_oxygen">BO 평균</string>
+    <string name="content_step_num">단계 수</string>
+    <string name="content_sleep_data">자다</string>
+    <string name="content_bp_bo">BP / BO</string>
+    <string name="content_invite_friends">다른 회원을 지금 가입하도록 초대</string>
+    <string name="content_save_image">스크린 샷 저장</string>
+
+    <string name="content_encourage_you">너를 격려해라.</string>
+    <string name="content_zan_you">칭찬 해.</string>
+
+
+    <string name="content_no_friends">친구를 찾지 못했습니다.</string>
+    <string name="content_search_friends_input_err">올바른 사용자 ID / 이메일을 입력하십시오.</string>
+
+
+    <string name="content_weather_sunny_day">햇볕이 잘 드는</string>
+    <string name="content_weather_cloudy">흐린</string>
+    <string name="content_weather_snow">스노우</string>
+    <string name="content_weather_cloudy_day">흐린</string>
+    <string name="content_weather_rain">비</string>
+
+
+
+    <string name="content_my_ideal_weight">내 이상적인 적합성</string>
+    <string name="content_intake_calories">일일 칼로리 섭취량 설정</string>
+    <string name="content_sport_target">일일 스포츠 단계 설정</string>
+    <string name="content_intake_tips_head">최대 추천 섭취량은</string>
+    <string name="content_intake_tips_foot">칼로리가있는 음식</string>
+    <string name="content_recorded_meal">로그 %d 식사 %s</string>
+    <string name="content_this_meal_to_eat">나의 칼로리 섭취 기록</string>
+    <string name="content_food_input_empty_tips">입력 내용</string>
+    <string name="content_record_meal_to_eat">당신이 먹은 것을 기록하십시오.</string>
+    <string name="content_edit">편집하다</string>
+    <string name="content_your_goal_is_to_subtract">목표물이지고있다.</string>
+    <string name="content_the_current_every_day_for_a_sport_target">귀하의 일일 활동 수준은</string>
+    <string name="content_when_is_the_daily_consumption">매일 화상을 입을 때</string>
+    <string name="content_daily_intake_is">일일 섭취량은</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">예상되는 일일 체중 감량은?</string>
+    <string name="content_need_to_complete">성공 필요</string>
+    <string name="content_expected_time_for_success">예상 종료일 :</string>
+    <string name="content_please_adjust_the_plan">계획을 변경하십시오.</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">목표는 현재 무게보다 작아야합니다.</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">적합성을 위해 계획 변경</string>
+    <string name="content_recommended_daily_intake">건강 상태 및 목표 체중을 기준으로 권장 일일 칼로리 섭취량은 대략</string>
+    <string name="content_average_daily_calorie_deficit">평균 칼로리 결핍</string>
+    <string name="content_intake_of_qualified_days">섭취 목표 일수</string>
+    <string name="content_average_daily_intake_of_calories">평균 칼로리 섭취량</string>
+    <string name="content_the_highest_intake_of_calories">매일 최대 섭취량</string>
+    <string name="content_not_clock_in_number_of_days">내 섭취 기록 일 수 없음</string>
+    <string name="content_click_add_meal">음식 섭취량을 기록하려면 오른쪽 두드리기 아이콘을 클릭하십시오.</string>
+    <string name="content_total_intake_about">총 섭취량은</string>
+    <string name="content_calorie_consumption">칼로리 화상</string>
+    <string name="content_calorie_intake">칼로리 섭취량</string>
+    <string name="content_target_bmi">BMI</string>
+    <string name="content_diet_help_tips">개인의 성별과 연령에 기초하여 신진 대사 항목 유형을 caculate 한 다음 사용자가 목표 체중과 단계를 입력하여 체중 감량 목표 도달 날짜를 예측하고 개인 및 생활 습관의 변형이 발생할 수 있음을 유의하십시오 결과 왜곡. 의료 목적이 아닌</string>
+    <string name="content_have_the_calories_you_eat">어떻게 받아들일까요?</string>
+    <string name="content_diet_start">오늘 섭취량을 기록하는 다음 단계</string>
+    <string name="content_food_name">음식 이름</string>
+    <string name="content_amount">크기</string>
+    <string name="content_unit">단위</string>
+    <string name="content_cur_weight">현재 무게</string>
+    <string name="content_target_weight">목표 중량</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">일반 사용자를위한 체육관에서 운동을 시작하는 운동</string>
+    <string name="sport_encourage_prompt_1">후지산의 높이를 등가로 마쳤습니다.</string>
+    <string name="sport_encourage_prompt_2">WHO의 성인 일일 목표 수립</string>
+    <string name="sport_encourage_prompt_3">이 녹색 행성에 대해 약 805g의 이산화탄소를 줄였습니다.</string>
+    <string name="sport_encourage_prompt_4">루브르와 에펠 탑 사이의 거리</string>
+    <string name="sport_encourage_prompt_5">놀이터에서 약 30 바퀴를 끝내 셨습니다.</string>
+    <string name="sport_encourage_prompt_6">거리는 1 시간 이상 자전거로 변환됩니다.</string>
+
+    <string name="sleep_duration_encourage_prompt_0">수면 시간이 너무 짧습니다.</string>
+    <string name="sleep_duration_encourage_prompt_1">만성 수면 결핍은 심장병으로 이어진다.</string>
+    <string name="sleep_duration_encourage_prompt_2">좋은 수면은 건강의 기반입니다.</string>
+    <string name="sleep_duration_encourage_prompt_3">나쁜 수면 시간 없음</string>
+    <string name="sleep_duration_encourage_prompt_4">너는 부러운 수면을 취한다.</string>
+    <string name="sleep_duration_encourage_prompt_5">신선하고 활기찬 하루</string>
+    <string name="sleep_duration_encourage_prompt_6">어, 평상시보다 수면 시간이 길어.</string>
+    <string name="sleep_duration_encourage_prompt_7">어쩌면 당신이 장치와 착용 방법을 점검 할 때입니다.</string>
+
+    <string name="sleep_time_encourage_prompt_0">올바른 착용 여부를 확인하십시오.</string>
+    <string name="sleep_time_encourage_prompt_1">부러울만한 수면 시간</string>
+    <string name="sleep_time_encourage_prompt_2">수면을위한 가장 좋은 시간</string>
+    <string name="sleep_time_encourage_prompt_3">합리적인 수면 시간은 우수한 수면 품질의 열쇠입니다.</string>
+    <string name="sleep_time_encourage_prompt_4">수면이 시작되기 전에 부드러운 음악을 연주하십시오.</string>
+    <string name="sleep_time_encourage_prompt_5">0–1 0 시계는 간과 신장의 해독에 중요한시기입니다.</string>
+    <string name="sleep_time_encourage_prompt_6">잠자기 전에 잠을 자고 늦게까지 지내지 마십시오.</string>
+    <string name="sleep_time_encourage_prompt_7">장기간? 늦게까지 체재하십시오. 위대한 몸에 해를 입히십시오. 육체적 인 피로를 느끼게합니까?</string>
+
+
+    <string name="title_health_advisor">건강 고문</string>
+    <string name="content_ranking">순위</string>
+    <string name="content_friends_ranking">순위</string>
+    <string name="content_my_step_ranking">스텝 랭킹</string>
+    <string name="content_my_sleep_details">수면 세부 정보</string>
+    <string name="content_week_avg">이번 주 평균</string>
+    <string name="content_rg_week_avg">주별 평균</string>
+    <string name="content_rg_month_avg">월평균</string>
+    <string name="content_my_sleep_duration_ranking">수면 기간 세계 랭킹</string>
+    <string name="content_my_sleep_time_ranking">수면 시간 세계 랭킹</string>
+    <string name="content_range_avg_time">%s  -  %s의 평균 시간</string>
+    <string name="content_more_than_user">사용자의 %d%%보다 큼</string>
+    <string name="content_later_than_user">사용자의 %d%% 이상</string>
+
+    <string name="title_change_wallpaper">벽지</string>
+    <string name="content_setup_complete">설정 마무리!</string>
+    <string name="enable_wallpaper_fun">바탕 화면 기능</string>
+    <string name="enable_wallpaper_step_fun">보수계 플러그인</string>
+    <string name="content_not_saved">저장하지 않음</string>
+    <string name="content_not_saved_tips">저장 용량을 포기하고 종료 하시겠습니까?</string>
+    <string name="content_wallpaper_transmission">업데이트 중 …</string>
+    <string name="content_wallpaper_textcolor">글꼴 색상</string>
+
+    <string name="title_sport_mode">스포츠 모드</string>
+    <string name="sport_mode_walking">지안 부</string>
+    <string name="sport_mode_running">달리기</string>
+    <string name="sport_mode_mountaineering">등산</string>
+    <string name="sport_mode_cycling">승마</string>
+    <string name="sport_mode_table_tennis">탁구</string>
+    <string name="sport_mode_basketball">농구</string>
+    <string name="sport_mode_football">축구</string>
+    <string name="sport_mode_badminton">배드민턴</string>
+    <string name="sport_mode_treadmill">러닝 머신</string>
+    <string name="sport_mode_tennis">테니스</string>
+    <string name="sport_mode_swimming">수영</string>
+    <string name="unit_three_month">3 개월 이내</string> <!--其他语言要大写-->
+    <string name="content_duration">기간</string>
+    <string name="content_last_sport">최근 운동</string>
+    <string name="content_sport_mode_count">%d 회</string>
+    <string name="content_finish_distance">거리</string>
+    <string name="content_finish_calorie">칼로리</string>
+
+	<string name="content_update_ota">블루투스 연결 안정과 1.화면의 업그레이드 장치\n2.APP 장치 업그레이드 실패하면 검은 화면의 결과로, 방법\n3.업그레이드 필요 1-3 분 업그레이드는 APP 제거하지 마십시오 종료 또는 전화를 교체하지 마십시오! 업그레이드에 APP 다시</string>
+	<string name="toast_electric_low_ota_tips">설비 용량이 적은 50 %보다 업그레이드 할 수 없습니다입니다!</string>
+	<string name="content_guest_login_alert">시스템 업그레이드, 사용자의 적극적인 거부, Android의 향후 버전과 같은 요소로 인해 기본 방문자의 고유 ID 코드가 변경 될 수 있고 [방문자 로그인]을 사용 하는 사용자는 전자 메일을 통해 사용자를 등록할 것을 권장 합니다.</string>
+    <string name="content_terms_mob">타사 계정 로그인 및 로그 수집 기능을 구현하기 위해 mobtech의 mobsdk 제품을 사용합니다. 이 제품의 개인 정보 보호 정책 조건은 다음을
+        참조하십시오.http://www.mob.com/about/policy
+    </string>
+    <string name="content_terms_accept">당신 은 우리 의 서비스 조항 을 받 아들 여야 합 니 다.</string>
+</resources>

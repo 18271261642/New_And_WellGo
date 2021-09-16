@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">účet byl již zapsán</string>
+	<string name="error_user_not_exists">id je neexistovala, podívejte se, prosím,</string>
+	<string name="error_password_error">id a heslo je špatně</string>
+	<string name="error_phone_invalid">telefonní číslo je neplatné</string>
+	<string name="error_sms_too_frequently">žádost je příliš časté</string>
+	<string name="error_captcha_expired">ověření platnosti</string>
+	<string name="error_captcha_wrong">ověření platnosti</string>
+	<string name="error_captcha_failure">kontrola selhala</string>
+	<string name="error_email_registered">účet byl již zapsán</string>
+	<string name="error_captcha_req_success">žádost vyplnit</string>
+	<string name="network_err">internet selže, prosím, zkuste to později</string>
+
+</resources>

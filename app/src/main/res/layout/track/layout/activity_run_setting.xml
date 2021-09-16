@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ilRunSettingScreenAlwaysOn"
+        layout="@layout/item_run_setting" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:background="@color/white_1" />
+
+
+    <!--协议不兼容，暂时隐藏-->
+    <include
+        android:id="@+id/ilRunSettingShakeBandStart"
+        layout="@layout/item_run_setting"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:background="@color/white_1"
+        android:visibility="gone" />
+
+
+    <include
+        android:id="@+id/ilRunSettingShakeBandEnd"
+        layout="@layout/item_run_setting"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:background="@color/white_1"
+        android:visibility="gone" />
+    <!--协议不兼容，暂时隐藏-->
+
+    <include
+        android:id="@+id/ilRunSettingShowWeatherCurrentCity"
+        layout="@layout/item_run_setting" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:background="@color/white_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/widget_size_20"
+        android:layout_marginTop="@dimen/widget_size_30"
+        android:text="@string/content_map_type"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_10" />
+
+    <com.truescend.gofit.views.CompoundGroup
+        android:id="@+id/cgMapTypeSelector"
+        app:checkedPosition="0"
+        app:checkedType="single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/ilMapSettingAuto"
+            layout="@layout/item_map_setting" />
+
+        <include
+            android:id="@+id/ilMapSettingGaodeMap"
+            layout="@layout/item_map_setting" />
+
+        <include
+            android:id="@+id/ilMapSettingGoogleMap"
+            layout="@layout/item_map_setting" />
+    </com.truescend.gofit.views.CompoundGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:background="@color/white_1" />
+
+
+</LinearLayout>

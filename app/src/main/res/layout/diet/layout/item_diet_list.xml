@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_size_15">
+
+    <TextView
+        android:id="@+id/tvSerialNumber"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/border_circle_red"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20"
+        android:textStyle="bold"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/tvFoodNames"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:text="鸡肉/牛奶" />
+
+    <TextView
+        android:id="@+id/tvCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:textSize="@dimen/text_size_20"
+        tools:text="1280" />
+
+    <TextView
+        android:paddingStart="@dimen/widget_size_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kcal" />
+
+</LinearLayout>

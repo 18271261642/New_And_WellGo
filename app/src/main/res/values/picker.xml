@@ -1,0 +1,9 @@
+<resources>
+    <!-- Font -->
+    <string name="roboto_regular" translatable="false">sans-serif</string>
+    <string name="roboto_light" translatable="false">sans-serif-light</string>
+    <string name="roboto_condensed" translatable="false">sans-serif-condensed</string>
+    <string name="roboto_thin" translatable="false">sans-serif-thin</string>
+    <string name="roboto_medium" translatable="false">sans-serif-medium</string>
+    <string name="number_picker_formatter" translatable="false">%02d</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ViewSwitcher
+            android:id="@+id/vsEmptyContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+             <ProgressBar
+                 android:layout_gravity="center"
+                 android:id="@+id/tvScanningProgress"
+                 style="@style/Widget.AppCompat.ProgressBar"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp" />
+
+            <LinearLayout
+                android:id="@+id/llScanningTimeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@mipmap/icon_scan_error" />
+                <TextView
+                    android:paddingTop="@dimen/widget_size_20"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:maxEms="16"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_scan_timeout" />
+            </LinearLayout>
+        </ViewSwitcher>
+
+
+        <com.truescend.gofit.views.EmptyRecyclerView
+            android:id="@+id/rvScanningDevicesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvScanningDevices"
+        style="@style/TextViewButton"
+        android:text="@string/content_scanning_start" />
+
+</LinearLayout>

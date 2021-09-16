@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">konto zostało już zarejestrowane</string>
+	<string name="error_user_not_exists">dokument nie istnieje, proszę sprawdzić.</string>
+	<string name="error_password_error">identyfikator lub kod jest</string>
+	<string name="error_phone_invalid">numer telefonu jest nieważne</string>
+	<string name="error_sms_too_frequently">wniosek jest zbyt częste</string>
+	<string name="error_captcha_expired">weryfikacja minął</string>
+	<string name="error_captcha_wrong">weryfikacja minął</string>
+	<string name="error_captcha_failure">weryfikacja nie</string>
+	<string name="error_email_registered">konto zostało już zarejestrowane</string>
+	<string name="error_captcha_req_success">wniosek wypełniony</string>
+	<string name="network_err">połączenie z internetem zawiedzie, proszę spróbować później.</string>
+
+</resources>

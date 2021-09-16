@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_radius_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/widget_size_20"
+        android:text="@string/content_running_outside"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_1"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@color/grey" />
+
+    <TextView
+        android:id="@+id/tvRunningOutsideDialogConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:padding="@dimen/widget_size_10"
+        android:text="@string/content_confirm"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_15" />
+
+</LinearLayout>

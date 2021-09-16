@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#010101"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:flash="auto" />
+
+
+    <com.truescend.gofit.views.StatusBarHeightView
+        android:background="#010101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        app:use_type="use_padding_top">
+
+
+        <ImageView
+            android:id="@+id/ivRemoteCameraBack"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/widget_size_5"
+            android:src="@mipmap/icon_arrow_left"
+            android:tint="@color/white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/ivRemoteCameraFlash"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/widget_size_5"
+            android:src="@mipmap/icon_camera_flash_auto"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/ivRemoteCameraTransfer"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:layout_marginStart="@dimen/text_size_16"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/widget_size_5"
+            android:src="@mipmap/icon_camera_transfer"
+            android:tint="@color/white" />
+    </com.truescend.gofit.views.StatusBarHeightView>
+
+
+    <LinearLayout
+        android:background="#010101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/widget_size_10"
+        android:paddingTop="@dimen/widget_size_20"
+        android:paddingRight="@dimen/widget_size_10"
+        android:paddingBottom="@dimen/widget_size_20">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <View
+            android:layout_width="@dimen/widget_size_50"
+            android:layout_height="@dimen/widget_size_50" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" />
+
+        <FrameLayout
+            android:layout_width="@dimen/widget_size_60"
+            android:layout_height="@dimen/widget_size_60">
+
+            <ImageView
+                android:id="@+id/ivCameraTakePhoto"
+                android:layout_width="@dimen/widget_size_60"
+                android:layout_height="@dimen/widget_size_60"
+                android:background="?attr/selectableItemBackground"
+                android:src="@mipmap/icon_take_photo" />
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/clpCameraTakePhoto"
+                style="@style/CameraSaveProgressBar"
+                android:layout_width="@dimen/widget_size_30"
+                android:layout_height="@dimen/widget_size_30"
+                android:layout_gravity="center">
+
+            </androidx.core.widget.ContentLoadingProgressBar>
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" />
+
+        <ImageView
+            android:id="@+id/ivRemoteCameraPhotoPreview"
+            android:layout_width="@dimen/widget_size_50"
+            android:layout_height="@dimen/widget_size_50"
+            android:src="@mipmap/icon_camera_photo" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+
+</RelativeLayout>

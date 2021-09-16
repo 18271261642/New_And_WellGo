@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">账号已被注册</string>
+	<string name="error_user_not_exists">用户不存在，请先注册</string>
+	<string name="error_password_error">用户名或密码错误</string>
+	<string name="error_phone_invalid">无效的手机号码</string>
+	<string name="error_sms_too_frequently">请求短信过于频繁</string>
+	<string name="error_captcha_expired">验证码错误或已失效</string>
+	<string name="error_captcha_wrong">验证码错误或已失效</string>
+	<string name="error_captcha_failure">验证码错误</string>
+	<string name="error_email_registered">账号已被注册</string>
+	<string name="error_captcha_req_success">请求验证码成功</string>
+	<string name="network_err">网络连接不稳定,请检查网络是否通畅</string>
+
+</resources>

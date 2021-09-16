@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">장부는 이미 등록 이미</string>
+	<string name="error_user_not_exists">id 존재하지 확인하십시오.</string>
+	<string name="error_password_error">이 id 또는 잘못된 비밀번호</string>
+	<string name="error_phone_invalid">전화 번호가 잘못되었습니다.</string>
+	<string name="error_sms_too_frequently">너무 자주 요구</string>
+	<string name="error_captcha_expired">확인 만료</string>
+	<string name="error_captcha_wrong">확인 만료</string>
+	<string name="error_captcha_failure">인증 실패</string>
+	<string name="error_email_registered">장부는 이미 등록 이미</string>
+	<string name="error_captcha_req_success">요청 끝냈습니다.</string>
+	<string name="network_err">인터넷 연결 실패, 좀 이따</string>
+
+</resources>

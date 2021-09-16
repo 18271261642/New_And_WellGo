@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="vertical">
+    <!--顶部的睡眠图标和右边的颜色指示器-->
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- 图标 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_friends_bp_bo"
+            app:layout_heightPercent="13.5%w"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginTopPercent="4%w"
+            app:layout_widthPercent="13.5%w" />
+
+        <!-- 标题和日期 -->
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="2%w"
+            app:layout_marginTopPercent="4%w">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_bp_bo"
+                android:textStyle="bold"
+                app:layout_textSizePercent="4%sw" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                app:layout_textSizePercent="2.5%sw" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+        <!--右侧颜色指示器-->
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            app:layout_marginRightPercent="4%w"
+            app:layout_marginTopPercent="5%w">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/colorSystolic"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_systolic_pressure"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="10%sw">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorDiastolic"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_diastolic_pressure"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="10%sw">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBloodOxygen"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blood_oxygen"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <!--数据布局-->
+    <RelativeLayout
+        app:layout_heightPercent="50%w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.truescend.gofit.views.SplitLineChartView
+            android:id="@+id/bloodOxygenChartView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.truescend.gofit.views.BloodPressureChartView
+            android:id="@+id/bloodPressureChartView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="3"
+        app:rowCount="1">
+
+        <include
+            android:id="@+id/ilItemLeft"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+        <include
+            android:id="@+id/ilItemCenter"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+
+        <include
+            android:id="@+id/ilItemRight"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

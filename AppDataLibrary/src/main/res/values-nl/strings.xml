@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">De rekening is ingeschreven</string>
+	<string name="error_user_not_exists">Identiteitskaart bestaat niet, controleer de</string>
+	<string name="error_password_error">ID of fout wachtwoord.</string>
+	<string name="error_phone_invalid">Het nummer is ongeldig</string>
+	<string name="error_sms_too_frequently">Verzoek te vaak</string>
+	<string name="error_captcha_expired">Geldigheidsduur verstreken</string>
+	<string name="error_captcha_wrong">Geldigheidsduur verstreken</string>
+	<string name="error_captcha_failure">Niet controleren.</string>
+	<string name="error_email_registered">De rekening is ingeschreven</string>
+	<string name="error_captcha_req_success">Verzoek om de voltooiing van</string>
+	<string name="network_err">Internet verbinding mislukt, probeer het later opnieuw</string>
+
+</resources>

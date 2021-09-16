@@ -1,0 +1,13 @@
+<resources>
+    <string name="error_phone_registered">Hesap kaydedildi</string>
+    <string name="error_user_not_exists">Kullanıcı mevcut değil, lütfen önce kayıt olun</string>
+    <string name="error_password_error">Kullanıcı adı veya şifre yanlış</string>
+    <string name="error_phone_invalid">geçersiz cep telefonu numarası</string>
+    <string name="error_sms_too_frequently">Çok sık SMS isteyin</string>
+    <string name="error_captcha_expired">Doğrulama kodu yanlış veya süresi dolmuş</string>
+    <string name="error_captcha_wrong">Doğrulama kodu yanlış veya süresi dolmuş</string>
+    <string name="error_captcha_failure">Doğrulama kodu hatası</string>
+    <string name="error_email_registered">Hesap kaydedildi</string>
+    <string name="error_captcha_req_success">Doğrulama kodu başarısı isteyin</string>
+    <string name="network_err">ağ bağlantısı kararsız, lütfen ağın düzgün olup olmadığını kontrol edin</string>
+</resources>

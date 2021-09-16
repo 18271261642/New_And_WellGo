@@ -1,0 +1,625 @@
+<resources>
+    <string name="app_name">WellGo</string>
+
+    <string name="loading">Laden...</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_track">Track</string>
+    <string name="tab_device">Apparaat</string>
+    <string name="tab_user">Gebruiker</string>
+    <string name="course">Afstand</string>
+    <string name="target_step">Doel</string>
+    <string name="big_calories">Kcal</string>
+    <string name="you_health">UW GEZONDHEID</string>
+    <string name="heart_rate">Hr</string>
+    <string name="blood_pressure">Bp</string>
+    <string name="blood_oxygen">Omdat</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">SLAAPKWALITEIT</string>
+    <string name="check_self">Gezonder</string>
+    <string name="heart_record">Hartslag</string>
+    <string name="blood_pressure_record">Bloeddruk</string>
+    <string name="blood_oxygen_record">BLOED ZUURSTOF</string>
+    <string name="title_today_sleep">SLAAP ANALYSE</string>
+    <string name="sleep_total_time">Duur</string>
+    <string name="sleep_valid_time">Efficiënte tijd</string>
+    <string name="sleep_quality_time">Kwaliteit</string>
+    <string name="sleep_details">SLAAPGEGEVENS</string>
+
+    <string name="sleep_deep">Slapen</string>
+    <string name="sleep_light">Rusteloze</string>
+    <string name="sleep_awake">Wakker</string>
+    <string name="heart_details">HR-GEGEVENS</string>
+    <string name="blood_pressure_details">BP-GEGEVENS</string>
+    <string name="blood_oxygen_details">BO DETAILS</string>
+    <string name="title_track_setting">Instelling</string>
+    <string name="item_device_remote_camera">EXTERNE CAMERA</string>
+    <string name="item_device_search_band">APPARAAT ZOEKEN</string>
+    <string name="item_device_health_reminder">GEZONDHEID HERINNEREN</string>
+    <string name="item_device_schedule_reminder">Agenda</string>
+    <string name="item_device_alarm_clock">Alarm</string>
+    <string name="item_device_push">Kennisgeving</string>
+
+    <string name="delete">Verwijderen</string>
+
+    <string name="content_five_clock">U 5 alarmen instellen.</string>
+    <string name="content_remind_sedentary">Activiteit herinneren</string>
+    <string name="content_reminder_drink">Drankje herinneren</string>
+
+    <string name="day">Dag</string>
+    <string name="month">Maand</string>
+    <string name="year">Jaar</string>
+    <string name="step">Stap</string>
+    <string name="hour">Uur</string>
+
+    <!--通用单位-->
+    <string name="unit_hours">h</string>
+    <string name="unit_min">Min</string>
+    <string name="unit_heart">Bpm</string>
+    <string name="unit_pressure">mmhg</string>
+    <string name="unit_week">Week</string>
+    <string name="unit_day">Dag</string>
+    <string name="unit_month">Maand</string>
+    <string name="unit_year">Jaar</string>
+
+    <string name="unit_cal">Kcal</string>
+    <string name="unit_km">Km</string>
+    <string name="unit_km_h">Km/h</string>
+    <string name="unit_mile">Mijl</string>
+    <string name="unit_mile_h">mijl/h</string>
+    <string name="unit_C">°C</string>
+    <string name="unit_F">°F</string>
+    <string name="unit_kg">Kg</string>
+    <string name="unit_pounds">Pond</string>
+    <string name="unit_version">In%$1s</string>
+    <string name="unit_cm">Cm</string>
+
+    <string name="content_standard_days">Doel dagen</string>
+    <string name="content_avg_day_steps">Gemiddelde stap</string>
+    <string name="content_avg_month_steps">Gemiddelde stap</string>
+    <string name="content_avg_day_consume">Gemiddelde brand</string>
+    <string name="content_avg_month_consume">Gemiddelde brand</string>
+    <string name="content_total_distance">Afstand</string>
+    <string name="content_avg_day_distance">Gemiddelde afstand</string>
+    <string name="content_avg_month_distance">Gemiddelde afstand</string>
+    <string name="content_total_steps">Totale</string>
+    <string name="content_greatest_good">De dagen > = goed</string>
+    <string name="content_total_time_sleep">Effectieve slaap</string>
+    <string name="content_daily_time_sleep">Gemiddelde effectieve</string>
+    <string name="content_longest_single_sleep">Langste slaap</string>
+    <string name="content_proportion_of_sleep">Effectieve slaap</string>
+    <string name="content_quality_sleep">Kwaliteit</string>
+    <string name="content_average_heart">Avg.</string>
+    <string name="content_highest_heart">Max.</string>
+    <string name="content_minimum_heart">Min.</string>
+    <string name="content_heart_too_high">over-hoog</string>
+    <string name="content_heart_too_low">over-low</string>
+    <string name="content_average_pressure_diastolic">AVG. DBP</string>
+    <string name="content_average_pressure_systolic">AVG. SBP</string>
+    <string name="content_abnormal_systolic">Abnormale SBP</string>
+    <string name="content_abnormal_diastolic">Abnormale DBP</string>
+    <string name="content_max_value">Max.</string>
+    <string name="content_avg_value">Avg.</string>
+    <string name="content_min_value">Min.</string>
+    <string name="content_no">No</string>
+    <string name="content_yes">Ja</string>
+    <string name="content_total_mileage">Afstand</string>
+    <string name="content_burn_calories">Branden</string>
+    <string name="content_total_time_consumed">Duur</string>
+    <string name="content_air_quality">Luchtkwaliteit</string>
+    <string name="content_completed">Afstand</string>
+    <string name="content_calorie_burning">Branden</string>
+    <string name="content_per_hour">Snelheid</string>
+    <string name="content_pace">Tempo</string>
+    <string name="content_time_consuming">Duur</string>
+    <string name="content_keep_screen_light">Schermverlichting behouden</string>
+    <string name="content_shake_band_start">Apparaat trilt bij het uitvoeren van begin</string>
+    <string name="content_shake_band_end">Apparaat trilt bij het uitvoeren van finish</string>
+    <string name="content_show_weather">Weergeven weer</string>
+    <string name="content_need_open_gps">GPS-functie is niet beschikbaar en kan de locatie onnauwkeurigheid veroorzaken, gelieve de GPS op uw telefoon te activeren.</string>
+    <string name="content_open_now">Actieve</string>
+    <string name="content_leave_running">Sluit</string>
+    <string name="content_confirm">OK</string>
+    <string name="content_cancel">Annuleren</string>
+    <string name="content_running_outside">Gebruik GPS-functie buiten voor meer nauwkeurigheid op locatie.</string>
+    <string name="content_current_power"> Batterij van het apparaat:</string>
+    <string name="content_mac_address">Mac:</string>
+    <string name="content_shaking_band">Het apparaat is vibrerend...</string>
+    <string name="title_connected">Aangesloten </string>
+
+    <string name="content_scanning_start">SCAN APPARAAT</string>
+    <string name="toast_un_support_ble">Uw apparaat ondersteunt Bluetooth BLE niet.</string>
+    <string name="toast_bluetooth_is_close">Bluetooth is nog niet beschikbaar.</string>
+    <string name="toast_band_is_disconnect">APP is nog niet verbonden met het apparaat.</string>
+
+    <string name="title_today">Vandaag</string>
+    <string name="title_device_setting">Instelling</string>
+    <string name="title_about_app">EENHEDEN EN APP-INSTELLING</string>
+    <string name="title_feedback">CONTACTEER ONS</string>
+    <string name="title_update_band">APPARAATFIRMWARE</string>
+    <string name="title_health_reminder">GEZONDHEID HERINNEREN</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_schedule_reminder">Agenda</string>
+    <string name="title_message_push">Meldingen</string>
+
+    <string name="content_band_update">Firmware-update voor apparaat</string>
+    <string name="content_about_app">Eenheden en APP-instelling</string>
+    <string name="content_feedback">Contacteer ons</string>
+    <string name="content_reset">Standaardfabrieksinstellingen</string>
+    <string name="content_clean_cache">Wis app-cache</string>
+    <string name="content_unblock_device">Koppeling van apparaat opheffen</string>
+    <string name="content_heart_detection">HR auto-detectie</string>
+    <string name="content_light_screen">Roteren naar licht aan</string>
+    <string name="content_lost_reminder">Anti-verloren</string>
+
+    <string name="content_ota_update">Update</string>
+
+    <string name="content_app_current_version">APP-versie</string>
+    <string name="content_app_last_version">Nieuwste versie van de APP</string>
+    <string name="content_unit_distance">Lengte eenheid</string>
+    <string name="content_unit_temperature">Temperatuur eenheid</string>
+    <string name="content_unit_weight">Gewicht eenheid</string>
+    <string name="content_app_auto_update">APP auto-update</string>
+    <string name="content_app_auto_sync">Gegevens automatisch synchroniseren</string>
+
+    <string name="content_sport_done">Voltooien</string>
+    <string name="content_submit">Opslaan</string>
+    <string name="content_feedback_content">Bedankt voor het geven van een waardering</string>
+    <string name="content_exit">Annuleren</string>
+    <string name="content_call_reminder">Inkomend gesprek pushen</string>
+    <string name="content_message_reminder">SMS herinneren</string>
+    <string name="content_do_not_disturb">Stille modus</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Lijn</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">Herhaalmodus selecteren</string>
+    <string name="content_repeat">Herhaal</string>
+    <string name="content_title_exit_account">Wilt u de huidige account nu afsluiten?</string>
+    <string name="content_last_weight">Lichaamsgewicht:</string>
+    <string name="content_last_date">Datum van weging:</string>
+    <string name="content_personal_best_record">BESTE DAG</string>
+    <string name="content_standard_day">MAX DOEL</string>
+    <string name="content_best_week">BESTE WEEK</string>
+    <string name="content_best_month">BESTE MAAND</string>
+    <string name="content_personal_setting">Instelling</string>
+    <string name="content_exit_current_account">Afmelden</string>
+    <string name="content_bmi_index">Bmi:</string>
+    <string name="content_setting_nickname">Naam</string>
+    <string name="content_setting_gender">Geslacht</string>
+    <string name="content_setting_birth_year">Geboorte</string>
+    <string name="content_setting_height">Hoogte</string>
+    <string name="content_setting_last_weight">Lichaamsgewicht</string>
+    <string name="content_setting_bmi_index">Bmi</string>
+    <string name="content_setting_day_target">Stapdoel</string>
+    <string name="content_setting_save">Opslaan</string>
+    <string name="content_setting_next">Volgende</string>
+    <string name="content_gender_female">Vrouwelijke</string>
+    <string name="content_gender_male">Mannelijke</string>
+    <string name="bmi_too_light">over-Light</string>
+    <string name="bmi_normal">Normale</string>
+    <string name="bmi_too_heavy">enigszins vet</string>
+    <string name="bmi_obesity">Zwaarlijvige</string>
+    <string name="bmi_very_fat">overmatige obesitas</string>
+    <string name="content_bmi_paragraph_1">BMI (Body Mass Index) is een internationale norm voor het meten van het lichaam is vet of niet, wat ook een referentiewaarde is over gezondheid. het neemt hoogte en gewicht in overweging.</string>
+    <string name="content_bmi_paragraph_2">BMI is een eenvoudig te gebruiken manier om lichaamsconditie te reageren, de overmatige zwaarlijvige volwassene heeft een hoger risico op ziekte zoals kardinaal en hypertensie.</string>
+    <string name="content_dialog_title_bmi">Over BMI</string>
+    <string name="title_user_setting">Instelling</string>
+    <string name="content_training">Volgens advies van wie, de volwassene heeft een normale sport nodig over 40 minuten, die calorieën zo verbrandt als lopen voor 8000 snelle stappen.</string>
+    <string name="content_dialog_title_moving_target">Over uw dagelijkse stapdoel</string>
+    <string name="content_history_schedule_reminder">HERINNER GESCHIEDENIS</string>
+    <string name="content_save">Opslaan</string>
+
+
+    <string-array name="sleep">
+        <item>Slapen</item>
+        <item>Rusteloze</item>
+        <item>Wakker</item>
+    </string-array>
+
+
+    <string name="toast_feedback_success">Bedankt voor het indienen en feedback;)</string>
+
+    <string name="content_guest_login_in">Gast login</string>
+    <string name="content_user_login_in">Login in</string>
+
+
+    <string name="dialog_waiting">Laden...</string>
+
+    <string name="title_schedule_manager">Agenda</string>
+    <string name="title_edit_schedule">EEN NOTITIE TOEVOEGEN</string>
+    <string name="content_time">Tijd</string>
+    <string name="content_every_day">Dagelijkse</string>
+    <string name="content_today">Vandaag</string>
+    <string name="content_tomorrow">Morgen</string>
+    <string name="content_single">Één</string>
+    <string name="content_take_photo">Foto maken</string>
+    <string name="content_choose_picture">Kies uit galerij</string>
+    <string name="content_unknown_number">Onbekend nummer</string>
+    <string name="content_call">Inkomend gesprek:</string>
+    <string name="content_this_week">Week</string>
+    <string name="content_this_month">Maand</string>
+    <string name="content_input_email">Geef het e-mailadres op</string>
+    <string name="content_input_verification_code">Verificatie invoeren</string>
+    <string name="content_obtain_verification_code">Nieuwe verificatie</string>
+    <string name="content_input_password">Uw wachtwoord</string>
+    <string name="content_register">Registreren</string>
+    <string name="content_confirm_password">Voer opnieuw een nieuw wachtwoord in</string>
+    <string name="title_register">ME AANMELDEN</string>
+    <string name="content_reacquire">Aanvraag opnieuw</string>
+    <string name="title_forget_password">WACHTWOORD VERGETEN</string>
+    <string name="hint_input_new_password">Nieuw wachtwoord</string>
+    <string name="content_confirm_new_password">Nieuw wachtwoord</string>
+    <string name="content_commit">Opslaan</string>
+    <string name="content_not_valid_email">Ongeldige indeling van e-mailadres! </string>
+    <string name="content_nickname_length">Uw gegevens</string>
+    <string name="content_password_length">Lengte van wachtwoord is 6 ~ 14 cijfers</string>
+    <string name="content_valid_input">Wachtwoord is onjuist</string>
+    <string name="content_forget_pwd">Wachtwoord vergeten?</string>
+    <string name="content_update_app">Versie verhemelte</string>
+    <string name="content_update">Update</string>
+    <string name="content_update_ing">Bijwerken...</string>
+    <string name="content_save_picture_to">Foto wordt opgeslagen in</string>
+    <string name="content_nickname_not_be_null">Uw gegevens kunnen niet leeg zijn</string>
+    <string name="title_open_close_bluetooth">De Bluetooth-functie is gesloten, zeker om nu te openen?</string>
+    <string name="content_open">OK</string>
+    <string name="content_no_data">Nog geen gegevens</string>
+    <string name="content_application_exception">Er is iets mis met app, het logboek wordt opgeslagen voor debug.!</string>
+    <string name="title_history_schedule_reminder">HERINNER GESCHIEDENIS</string>
+    <string name="content_what_is_this">Wat is dit?</string>
+    <string name="content_bluetooth">Bluetooth</string>
+    <string name="content_can_not_be_null">Schrijf iets om u eraan te herinneren</string>
+    <string name="content_new_app_version">Nieuwe app-versie</string>
+    <string name="content_update_new_app_version">Er is een nieuwe update over uw app, die de nieuwe functie of debug bevat, zeker om nu bij te werken?</string>
+    <string name="content_current_is_last">Huidige versie is nieuwste!</string>
+    <string name="content_new_device_version">Systeemhints </string>
+        
+    <string name="content_update_new_device_version">Nieuwe firmwareversie is beschikbaar. Het huidige versienummer is V%d en wordt geüpgraded naar V%d. </string>
+    <string name="content_current_device_version">Huidige firmware versie: V%02d</string>
+    <string name="content_last_device_version">Nieuwste firmware versie: V%02d</string>
+    <string name="content_congratulations_successful">Update is voltooid!</string>
+    <string name="content_is_last_device_version">Huidige versie is nieuwste.</string>
+    <string name="content_are_you_sure">Weet je het zeker?</string>
+    <string name="content_want_reset">We gaan alle gegevens op uw apparaat wissen en niet kunnen herstellen, weet u zeker dat de fabrieksmodus is ingesteld?</string>
+    <string name="content_want_clear">App cache is niet herstelbaar na clearing, die uw sportgegevens en instelling bevat, zeker om nu te wissen?</string>
+    <string name="content_want_unbind">Uw apparaat won \'t ontvangen duwen en telefoon Management service (als uw apparaat ondersteuning) van app langer als de verbinding is Unbind, zeker om nu Unbind?</string>
+    <string name="content_stop_check">Detectie wordt afgesloten</string>
+    <string name="content_check_complete">Detectie is voltooid</string>
+    <string name="content_checking">Detectie is onder gaan...</string>
+    <string name="title_scan_band">SCAN APPARAAT</string>
+    <string name="content_scanning">Scannen...</string>
+    <string name="content_binding">Bindend...</string>
+    <string name="content_input_correct_email">Het e-mail formaat is onjuist</string>
+    <string name="content_input_correct_phone">Het telefoon formaat is onjuist</string>
+    <string name="content_exit_run">Opslaan en stoppen van de huidige sport track en gegevens, terwijl het won \'t opslaan van gegevens als de duur is te kort, zeker om te stoppen?</string>
+    <string name="content_want_exit">Zeker stoppen?</string>
+    <string name="content_save_data">Gegevens worden opgeslagen...</string>
+    <string name="content_nickname_illegal">De lengte van de naam is onjuist (1 ~ 16 cijfers)!</string>
+    <string name="content_can_not_choose_future">U geen datum in de toekomst selecteren.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">Elke%.1fhr te herinneren (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">Selecteer de datum voor de planning</string>
+    <string name="content_preparing">Bereid...</string>
+    <string name="content_prepare_timeout">Voorbereiden is overtijd, probeer het opnieuw</string>
+    <string name="content_during_upgrade">Bijwerken...</string>
+    <string name="content_upgrade_failed">Bijwerken mislukt, probeer het opnieuw</string>
+    <string name="content_upgrade_cancel">Update is geannuleerd, hoeft niet opnieuw te worden bijgewerkt!</string>
+    <string name="content_disconnect_band">Uw apparaat is niet verbonden!</string>
+    <string name="content_upgrade_no_plan">Geen firmware-update meer</string>
+    <string name="content_getting_information">De firmware is onder controle..</string>
+    <string name="content_download_failed">Firmware downloaden is mislukt, controleer dan later</string>
+    <string name="content_downloading">Onderneming..</string>
+    <string name="content_last_time">Laatste keer:</string>
+    <string name="content_sleep_quality">Kwaliteit:</string>
+    <string name="content_step_format">%d stap</string>
+    <string name="content_day_format">dd</string>
+    <string name="content_bad">Slechte</string>
+    <string name="content_general">Normale</string>
+    <string name="content_well">Goede</string>
+    <string name="content_good">Uitstekend</string>
+    <string name="content_permission_notification">[meldingsbalk toestemming] is voor het pushen van meldingen naar uw apparaat</string>
+    <string name="content_authorized_to_use">Zorg ervoor dat app toegang heeft tot die toestemming voor volledige functie:</string>
+    <string name="content_authorized">Aanvraag voor toestemming </string>
+    <string name="content_next">Volgende</string>
+    <string name="content_exit_login">Log uit zichtrekening en het apparaat zal worden losgekoppeld van de app, zeker om door te gaan?</string>
+    <string name="content_use_for_sport">Toepassen op de functie [Sport Information Display]</string>
+    <string name="content_use_for_find_phone">Toepassen op de functie [telefoon zoeken]</string>
+    <string name="content_band_call_phone">Apparaat is op zoek naar telefoon...</string>
+    <string name="content_find_phone">Zoek telefoon</string>
+    <string name="content_permission_need">U hebt sommige machtigingen voor de app geweigerd, wat leidt tot een abnormale functie, laat app toegang tot die machtigingen toe:</string>
+    <string name="content_calendar">Agenda</string>
+    <string name="content_camera">Camera</string>
+    <string name="content_contacts">menu contactpersonen</string>
+    <string name="content_location">Gps</string>
+    <string name="content_microphone">Microfoon</string>
+    <string name="content_phone">Status/nummer beller/IMEI</string>
+    <string name="content_sensor">Sensor</string>
+    <string name="content__sms">Sms</string>
+    <string name="content_storage">telefoonopslag</string>
+    <string name="content_no_time">No</string>
+    <string name="content_normal">Normale</string>
+    <string name="content_poor">Niet goed</string>
+    <string name="content_total_number_of_steps">Totale stap:%02d</string>
+    <string name="content_reminder_content">Inhoud van notitie</string>
+    <string name="content_systolic_pressure">Sbp</string>
+    <string name="content_diastolic_pressure">Dbp</string>
+    <string name="content_deep_sleep">Slapen</string>
+    <string name="content_light_sleep">Rusteloze</string>
+    <string name="content_wide_awake">Wakker</string>
+    <string name="content_total_time_consuming">Duur</string>
+    <string name="content_average_speed">Gemiddelde tempo</string>
+    <string name="content_average_time_speed">Gemiddelde snelheid</string>
+    <string name="content_fastest_speed">Maximale snelheid</string>
+    <string name="content_loading">Laden...</string>
+    <string name="content_device_no_bind">Bind het apparaat met de app</string>
+    <string name="content_scan_device">Scan apparaat</string>
+    <string name="content_time_interval">Tijdsinterval</string>
+    <string name="content_half_hour">0.5 h</string>
+    <string name="content_one_hour">1h</string>
+    <string name="content_two_hour">2H</string>
+    <string name="content_three_hour">3H</string>
+    <string name="content_sunday">Zon.</string>
+    <string name="content_monday">Mijn.</string>
+    <string name="content_tuesday">Di.</string>
+    <string name="content_wednesday">Wo.</string>
+    <string name="content_thursday">Do.</string>
+    <string name="content_friday">Vr.</string>
+    <string name="content_saturday">Zat.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">Naar beneden trekken om te vernieuwen</string>
+    <string name="content_refreshing">Verfrissend</string>
+    <string name="content_is_loading">Laden</string>
+    <string name="content_release_immediately_refresh">Release onmiddellijk vernieuwen</string>
+    <string name="content_refresh_completed">Vernieuwen voltooid</string>
+    <string name="content_refresh_failed">Vernieuwen is mislukt</string>
+    <string name="content_last_update">\' Laatste update: \' MM-dd HH:mm</string>
+    <string name="content_enter_email_is_correct">Controleer of de indeling van het e-mailadres juist is.</string>
+
+
+    <string name="unit_steps">Stap</string>
+    <string name="content_map_type">Kaart type</string>
+    <string name="content_map_type_gaode">AMap (China)</string>
+    <string name="content_map_type_google">Googlemap</string>
+    <string name="content_map_type_automatic_smart_select">Automatische selectie</string>
+
+    <string name="content_connect_failed">Verbinding is mislukt</string>
+    <string name="content_try_to_fix">Proberen op te lossen</string>
+    <string name="content_connect_failed_fix_tips">Kan geen verbinding maken met het apparaat, je zou kunnen proberen: \n\n1. Probeer opnieuw verbinding te maken. \n \ N2. Schakel Bluetooth uit en schakel in. \n \ N3. Probeer GPS-ans op de hoogste nauwkeurigheid in te schakelen. \n \ N4. Herstart je telefoon.</string>
+    <string name="content_item_fix_band">%1$s [apparaat OTA-modus]</string>
+    <string name="content_fix_band_failed">Apparaat OTA mislukt</string>
+    <string name="content_fix_band_failed_tips">Kan de OTA-service niet selecteren op het apparaat, neem dan contact met ons op als het apparaat het herstel nog steeds niet automatisch voltooit binnen 10 minuten.</string>
+    <string name="content_heart_detection_tips">* Sommige apparaten ondersteunen deze functie niet</string>
+    <string name="content_description">Notification Service: \n zal duwen QQ 、 Weibo 、 Wechat 、 Facebook 、 Twitter 、 lijn 、 linkedln 、 GooglePlus kennisgeving van uw telefoon naar apparaat. </string>
+    <string name="content_input_band">Voer uw apparaatgegevens in</string>
+    <string name="content_or_contact_us">Of neem contact met ons op E-mail: wt5354@iwear88.com</string>
+    <string name="content_help">Help</string>
+    <string name="content_approve">Goedkeuren</string>
+
+    <string name="content_permission_location">[Location Access] Voor het identificeren van de locatie van smartband en het verbinden</string>
+    <string name="content_scan_timeout">Niet gevonden apparaat? Probeer het opnieuw na het openen en sluit de [vliegtuigmodus] opnieuw</string>
+    <string name="content_push_warm">* Als de bericht-push-functie niet werkt, klik hier en open </string>
+    <string name="content_reconnecting">Service of Internet is busying, gelieve te wachten...</string>
+    <string name="content_manual_reconnect">Apparaten handmatig synchroniseren</string>
+    <string name="content_login_means">Log in en accepteerde de</string>
+    <string name="content_terms">Service voorwaarden</string>
+    <string name="content_terms_title">Privacy-en gezondheidsbeleid</string>
+    <string name="content_terms_first">* We waarderen het dat u ons vertrouwt met informatie die belangrijk voor u is, dus sommige functies van de app hebben uw toestemming nodig om te werken.</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>Hier</a></font> We beschrijven de privacypraktijken voor onze apparaten, u leert over de gegevens die we verzamelen, hoe we deze gebruiken.]]></string>
+    <string name="content_terms_third">* Dit product is geen medisch hulpmiddel, en is niet bedoeld om een ziekte te diagnosticeren, behandelen, genezen of voorkomen. Wat de nauwkeurigheid betreft, is de nauwkeurigheid van de apparaten niet bedoeld om medische hulpmiddelen of wetenschappelijke meetapparatuur aan te passen.</string>
+    <string name="content_verification_help"><![CDATA[Ontvangt u geen verificatie?Klik<font color=#04F5D1> <a href=\'%s\'>Hier</a> </font> voor hulp]]></string>
+    <string name="issue_with_log_in_or_sign_in">Probleem met aanmelden of aanmelden</string>
+    <string name="content_troubleshooting_help"><![CDATA[Klik<font color=#04F5D1> <a href=\'%s\'>Hier om probleemoplossing te krijgen]]></string>
+    <string name="content_sleep_accuracy">Hoe nauwkeurig zijn de resultaten?</string>
+    <string name="content_sleep_accuracy_1">De automatische detectie slaap trackers worden beschouwd als over het algemeen nauwkeurig, ze zijn ook gevoelig voor fouten vanwege verschillende gebruikers gewoonten.</string>
+    <string name="content_sleep_accuracy_2">Controleer de kwaliteit van de slaap later als het geen gegevens wanneer u net klaar bent met slapen binnen 30 minuten, de gegevens worden geanalyseerd.</string>
+    <string name="content_accuracy_title">Informatie over resultaat nauwkeurigheid</string>
+    <string name="content_app_unsupport_tips">Deze functie, gelieve in te stellen in de armband</string>
+    <string name="content_permission_notification_enable">"[Kennisgeving] de vergunning is afgesloten, laat de toestemming anders de functie [Find apparaat] 、 [Notification Bar] zal storing"</string>
+    <string name="content_connect_google_fit">Link Google fit</string>
+    <string name="content_unlink_google_fit">Google fit ontkoppelen</string>
+    <string name="title_associate_google_fit">Google fit koppelen</string>
+    <string name="content_unit_time">Tijdnotatie van apparaat</string>
+    <string name="content_upload_google_fit_now">DE GEGEVENS UPLOADEN NAAR GOOGLE FIT NOW</string>
+    <string name="content_tips_of_google_fit">De gegevens worden gesynchroniseerd met Google fit rond 00:00/04:00/8:00/12:00/16:00/20:00 elke dag automatisch.</string>
+
+    <string name="content_answer">Geef het antwoord op</string>
+    <string name="content_input_email_different">Twee invoer e-mail zijn verschillend</string>
+    <string name="content_resetpsw_now">Het wachtwoord opvragen</string>
+    <string name="content_new_psw">Nieuw wachtwoord:</string>
+    <string name="content_question1">1:</string>
+    <string name="content_question2">2:</string>
+    <string name="content_input_reg_email">Uw aangetekende post:</string>
+    <string name="content_register_question_step1">1. Vul het e-mailadres en wachtwoord in</string>
+    <string name="content_register_question_step2">2. invoeren van het beveiligings antwoord</string>
+    <string name="content_retrieve_type">Wachtwoord opvragen door:</string>
+    <string name="content_register_success">Registratie is gelukt!</string>
+    <string name="content_resetpsw_success">Het wijzigen van het wachtwoord is gelukt!</string>
+    <string name="content_resetpsw_wrong_answer">Het geheime veiligheids antwoord is verkeerd!</string>
+    <string name="content_from_auth_code">E-mail verificatie</string>
+    <string name="content_from_question">Beveiligings antwoord</string>
+    <string name="question1_1">Wat waren de gegevens van uw eerste/huidige/favoriete huisdier?</string>
+    <string name="question1_2">Wat is jouw favoriete boek?</string>
+    <string name="question1_3">Wat is je favoriete eten?</string>
+    <string name="question2_4">Wat was het eerste bedrijf waarvoor u werkte?</string>
+    <string name="question2_5">Wat is uw moeder gegevens?</string>
+    <string name="question2_6">In welke stad ben je geboren?</string>
+    <string name="content_connect_strava">Link naar Strava</string>
+    <string name="content_unlink_strava">Ontkoppelen van Strava</string>
+    <string name="content_tips_of_strava">Na het linken van Strava u uw bewegings spoor naar Strava verzenden in de interface van de bewegings track record.</string>
+    <string name="content_uploaded_to_strava">Ingediend bij Strava</string>
+    <string name="content_upload_to_strava">Verzenden naar Strava</string>
+    <string name="content_retry">Opnieuw</string>
+    <string name="content_err_save_sport_track_data_network_fail">Kan de bewegings trackgegevens niet opslaan, controleer dan de netwerkinstellingen</string>
+    <string name="content_donot_save">Niet opslaan</string>
+    <string name="content_link">Verwijzigingen</string>
+    <string name="content_help_and_feedback">Hulp en feedback</string>
+
+
+    <string name="content_my_friends">Vrienden</string>
+    <string name="content_search_friends_hint">Gebruikersnaam/e-mailadres</string>
+    <string name="toast_tips_req_add_friends">Je vriendschapsverzoek is ingediend</string>
+    <string name="title_tab_msg_system">Wat is nieuw</string>
+    <string name="title_tab_msg_add_friend">Vriendschapsverzoek</string>
+    <string name="title_tab_my_friends">Vrienden</string>
+    <string name="content_add_agree_friends">u als vriend wilt toevoegen</string>
+    <string name="content_btn_agreed">Accepteren</string>
+    <string name="content_btn_refused">Weigeren</string>
+    <string name="content_encourage">Aanmoedigen</string>
+    <string name="content_zan">Verschuiven</string>
+    <string name="content_add_friends">toevoegen als vriend</string>
+    <string name="content_already_friends">Aanvaard</string>
+    <string name="content_already_refused">Geweigerd</string>
+    <string name="content_nickname">Bijnaam:</string>
+    <string name="content_nickname_2">Bijnaam</string>
+    <string name="content_sign_null">Leeg hier</string>
+    <string name="content_sign">Schrijf iets om te laten zien</string>
+    <string name="content_setting_sign">Handtekening</string>
+    <string name="content_remark_null">Leeg hier</string>
+    <string name="content_user_info">Gebruikersinformatie</string>
+    <string name="content_set_remark">Opmerking</string>
+    <string name="content_average_blood_oxygen">BO AVG.</string>
+    <string name="content_step_num">Stappen</string>
+    <string name="content_sleep_data">Slaap</string>
+    <string name="content_bp_bo">BP/BO</string>
+    <string name="content_invite_friends">Nodig anderen uit om nu lid te worden</string>
+    <string name="content_save_image">Screenshots opslaan</string>
+
+    <string name="content_encourage_you">Moedigen u aan</string>
+    <string name="content_zan_you">Lof u</string>
+
+    <string name="content_no_friends">Didn \'t vind je vrienden</string>
+    <string name="content_search_friends_input_err">Geef de juiste gebruikersnaam/e-mailadres op</string>
+
+    <string name="content_weather_sunny_day">Zonnige</string>
+    <string name="content_weather_cloudy">Bewolkt</string>
+    <string name="content_weather_snow">Besneeuwde</string>
+    <string name="content_weather_cloudy_day">Bewolkte</string>
+    <string name="content_weather_rain">Regenachtige</string>
+
+
+
+    <string name="content_my_ideal_weight">MIJN IDEALE FITNESS</string>
+    <string name="content_intake_calories">Dagelijkse calorieën</string>
+    <string name="content_sport_target">Dagelijks sportdoel</string>
+    <string name="content_intake_tips_head">De Max aanbevolen inname is</string>
+    <string name="content_intake_tips_foot">eten met calorieën</string>
+    <string name="content_recorded_meal">Logboek%d maaltijd%s</string>
+    <string name="content_this_meal_to_eat">LOG MIJN CALORIE-INNAME</string>
+    <string name="content_food_input_empty_tips">Iets invoeren</string>
+    <string name="content_record_meal_to_eat">LOG VOEDSELINNAME</string>
+    <string name="content_edit">Bewerken</string>
+    <string name="content_your_goal_is_to_subtract">Uw doelwit verliest</string>
+    <string name="content_the_current_every_day_for_a_sport_target">Je dagelijkse activiteitsniveau is</string>
+    <string name="content_when_is_the_daily_consumption">Wanneer de dagelijkse verbranding</string>
+    <string name="content_daily_intake_is">Dagelijkse inname is</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">Schatting dagelijkse gewichtsverlies is</string>
+    <string name="content_need_to_complete">Succes behoeften</string>
+    <string name="content_expected_time_for_success">Geschatte einddatum is</string>
+    <string name="content_please_adjust_the_plan">Wijzig uw abonnement</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">Uw doel moet kleiner zijn dan het huidige gewicht</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">Verander je plan om fit te worden</string>
+    <string name="content_recommended_daily_intake">Op basis van uw gezondheidstoestand en doelgewicht, uw aanbevolen dagelijkse calorie-inname CA is</string>
+    <string name="content_average_daily_calorie_deficit">Gemiddeld calorie tekort</string>
+    <string name="content_intake_of_qualified_days">Dagen onder inlaat doel</string>
+    <string name="content_average_daily_intake_of_calories">Gemiddelde calorie-inname</string>
+    <string name="content_the_highest_intake_of_calories">Dagelijkse Max inname</string>
+    <string name="content_not_clock_in_number_of_days">Dagen niet mijn inname loggen</string>
+    <string name="content_click_add_meal">Klik op het icoon van de tap rechts om de voedselinname te loggen</string>
+    <string name="content_total_intake_about">Som intake is </string>
+    <string name="content_calorie_consumption">Calorie verbranding</string>
+    <string name="content_calorie_intake">Calorie-inname</string>
+    <string name="content_target_bmi">Bmi</string>
+    <string name="content_diet_help_tips">Baseren op iemands geslacht en leeftijd om te caculeren zijn of haar metabole itemType, dan gebruiker input de targets gewicht en stappen om de datum van het bereiken van gewicht-verliezen doel te schatten, houd er rekening mee dat de variatie van individuele en levenswijze kan leiden tot het resultaat vervorming Ergens. niet voor medische doeleinden</string>
+    <string name="content_have_the_calories_you_eat">HOEVEEL IK AT</string>
+    <string name="content_diet_start">Volgende stap om de inname van vandaag aan te melden</string>
+    <string name="content_food_name">Voedsel naam</string>
+    <string name="content_amount">Grootte</string>
+    <string name="content_unit">Eenheid</string>
+    <string name="content_cur_weight">Huidig gewicht</string>
+    <string name="content_target_weight">Doelgewicht</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">De oefening om te beginnen met trainen in de sportschool voor normale gebruikers</string>
+    <string name="sport_encourage_prompt_1">U hebt de hoogte van Fujisan op equivalente wijze afgewerkt</string>
+    <string name="sport_encourage_prompt_2">De hercommdatie van volwassen dagelijkse stappendoel van wie</string>
+    <string name="sport_encourage_prompt_3">Je hebt ongeveer 805g CO2 gereduceerd voor deze groene planeet</string>
+    <string name="sport_encourage_prompt_4">De afstand tussen het Louvre en de Eiffel toren</string>
+    <string name="sport_encourage_prompt_5">Je hebt ongeveer 30 ronden voltooid op Speeltuin</string>
+    <string name="sport_encourage_prompt_6">De afstand wordt vertaald in fietsen meer dan 1 uur</string>
+    <string name="sleep_duration_encourage_prompt_0">Uw slaap duur is te kort</string>
+    <string name="sleep_duration_encourage_prompt_1">Chronische slaaptekort leidt tot hart-en vaatziekten</string>
+    <string name="sleep_duration_encourage_prompt_2">Goede nachtrust is de basis van een goede gezondheid</string>
+    <string name="sleep_duration_encourage_prompt_3">Geen slechte slaap duur</string>
+    <string name="sleep_duration_encourage_prompt_4">Je hebt een benijdenswaardige slaap duur </string>
+    <string name="sleep_duration_encourage_prompt_5">Een frisse en energieke dag</string>
+    <string name="sleep_duration_encourage_prompt_6">Eh, u hebt een overlange slaap duur dan normale volwassenen</string>
+    <string name="sleep_duration_encourage_prompt_7">Misschien is het tijd voor u om het apparaat en uw DRAAGWIJZE te controleren</string>
+    <string name="sleep_time_encourage_prompt_0">Controleer uw apparaat op de juiste slijtage</string>
+    <string name="sleep_time_encourage_prompt_1">Een benijdenswaardige slaaptijd</string>
+    <string name="sleep_time_encourage_prompt_2">De beste tijd om te slapen</string>
+    <string name="sleep_time_encourage_prompt_3">Redelijke slaaptijd is de sleutel van uitstekende slaapkwaliteit </string>
+    <string name="sleep_time_encourage_prompt_4">Speel wat zachte muziek voordat je slaap begint</string>
+    <string name="sleep_time_encourage_prompt_5">0 – 10 \' klok is de belangrijke periode voor lever-en nierdetox</string>
+    <string name="sleep_time_encourage_prompt_6">Slaap eerder voor uw slaap, blijf niet laat</string>
+    <string name="sleep_time_encourage_prompt_7">Langdurig verblijf tot laat grote schade aan het lichaam, wat leidt tot fysieke vermoeidheid</string>
+    <string name="title_health_advisor">HEALTH ADVISOR</string>
+    <string name="content_ranking">Ranking</string>
+    <string name="content_friends_ranking">Uw ranking</string>
+    <string name="content_my_step_ranking">Stap wereld rangschikking</string>
+    <string name="content_my_sleep_details">Slaapgegevens</string>
+    <string name="content_week_avg">Gemiddeld deze week</string>
+    <string name="content_rg_week_avg">Week-Gemiddelde</string>
+    <string name="content_rg_month_avg">Maand-Gemiddelde</string>
+    <string name="content_my_sleep_duration_ranking">Slaap duur wereld rangschikking</string>
+    <string name="content_my_sleep_time_ranking">Slaaptijd wereld rangschikking</string>
+    <string name="content_range_avg_time">De gemiddelde tijd in%s-%s</string>
+    <string name="content_more_than_user">Meer dan%d%% van de gebruikers</string>
+    <string name="content_later_than_user">Later dan%d%% van de gebruikers</string>
+
+    <string name="title_change_wallpaper">Wallpaper</string>
+    <string name="content_setup_complete">Instelling finish!</string>
+    <string name="enable_wallpaper_fun">Behang functie</string>
+    <string name="enable_wallpaper_step_fun">Pedometer plugin</string>
+    <string name="content_not_saved">Opslaan</string>
+    <string name="content_not_saved_tips">Wilt u de opslagruimte opgeven en afsluiten?</string>
+    <string name="content_wallpaper_transmission">Bijwerken...</string>
+    <string name="content_wallpaper_textcolor">Tekstkleur</string>
+
+    <string name="title_sport_mode">SPORT MODUS</string>
+    <string name="sport_mode_walking">Wandelen</string>
+    <string name="sport_mode_running">Met</string>
+    <string name="sport_mode_mountaineering">Klimmen</string>
+    <string name="sport_mode_cycling">Fietsen</string>
+    <string name="sport_mode_table_tennis">Pingpong</string>
+    <string name="sport_mode_basketball">Basketbal</string>
+    <string name="sport_mode_football">Voetbal</string>
+    <string name="sport_mode_badminton">Badminton</string>
+    <string name="sport_mode_treadmill">Loopband</string>
+    <string name="sport_mode_tennis">Tennis</string>
+    <string name="sport_mode_swimming">Zwemmen</string>
+    <string name="unit_three_month">3 MAANDEN</string>
+    <string name="content_duration">Duur</string>
+    <string name="content_last_sport">Laatste sport</string>
+    <string name="content_sport_mode_count">%d keer</string>
+    <string name="content_finish_distance">Afstand</string>
+    <string name="content_finish_calorie">Calorieën</string>
+
+
+	<string name="content_update_ota">1.houden upgraden apparaten met Bluetooth-connectiviteit stabiel\n2.Niet stoppen APP upgrade van de weg\n3.Upgrading behoefte 1-3 minuten, wat resulteert in een zwart scherm als het apparaat niet in slaagt om te upgraden, niet verwijderen van de APP of vervang de telefoon! APP in de upgrade opnieuw</string>
+	<string name="toast_electric_low_ota_tips">Equipment capaciteit wordt minder dan 50%, is niet toegestaan ​​om te upgraden!</string>
+	<string name="content_guest_login_alert">Beïnvloed door systeemupgrades, actieve weigering van machtigingen door de gebruiker, de toekomstige Versie van Android en andere factoren, kan de unieke identiteitscode van de inheemse bezoeker worden gewijzigd, zullen de gebruikers die de "toeristenlogin" gebruiken waarschijnlijk gegevensverliessituatie zijn, wordt het geadviseerd om gebruikers via e-mail te registreren.</string>
+    <string name="content_terms_mob">Om de inlog- en logboekverzamelingsfunctie van een derde partij te realiseren,
+        gebruiken we het mobsdk-product van mobtech. Raadpleeg voor de voorwaarden van het privacybeleid van dit
+        product:http://www.mob.com/about/policy
+    </string>
+    <string name="content_terms_accept">U dient onze Servicevoorwaarden te accepteren</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/widget_size_25">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="@dimen/widget_size_5"
+        android:layout_marginTop="@dimen/widget_size_5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.truescend.gofit.views.TimePicker
+            android:id="@+id/tpReminderStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </com.truescend.gofit.views.TimePicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="@dimen/widget_size_10"
+            android:paddingStart="@dimen/widget_size_10"
+            android:text="——"
+            android:textSize="@dimen/text_size_15"
+            android:textStyle="bold" />
+
+        <com.truescend.gofit.views.TimePicker
+            android:id="@+id/tpReminderEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </com.truescend.gofit.views.TimePicker>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ilReminderTimeInterval"
+        layout="@layout/item_time" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/ilReminderWeek"
+            layout="@layout/item_week" />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

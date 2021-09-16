@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/New_And_WellGo.iml" filepath="$PROJECT_DIR$/.idea/modules/New_And_WellGo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppDataLibrary/New_And_WellGo.AppDataLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/AppDataLibrary/New_And_WellGo.AppDataLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BleOTASupport/New_And_WellGo.BleOTASupport.iml" filepath="$PROJECT_DIR$/.idea/modules/BleOTASupport/New_And_WellGo.BleOTASupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CameraLibrary/New_And_WellGo.CameraLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/CameraLibrary/New_And_WellGo.CameraLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DZBLELibrary/New_And_WellGo.DZBLELibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/DZBLELibrary/New_And_WellGo.DZBLELibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaTestLib/New_And_WellGo.JavaTestLib.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaTestLib/New_And_WellGo.JavaTestLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/New_And_WellGo.MPChartLib.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/New_And_WellGo.MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNBLELibrary/New_And_WellGo.SNBLELibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNBLELibrary/New_And_WellGo.SNBLELibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNDBLibrary/New_And_WellGo.SNDBLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNDBLibrary/New_And_WellGo.SNDBLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNLoginLibrary/New_And_WellGo.SNLoginLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNLoginLibrary/New_And_WellGo.SNLoginLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNMapLibrary/New_And_WellGo.SNMapLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNMapLibrary/New_And_WellGo.SNMapLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNNetworkLibrary/New_And_WellGo.SNNetworkLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNNetworkLibrary/New_And_WellGo.SNNetworkLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SNToolLibrary/New_And_WellGo.SNToolLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/SNToolLibrary/New_And_WellGo.SNToolLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/New_And_WellGo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/New_And_WellGo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifiLibrary/New_And_WellGo.wifiLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/wifiLibrary/New_And_WellGo.wifiLibrary.iml" />
+    </modules>
+  </component>
+</project>

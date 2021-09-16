@@ -1,0 +1,627 @@
+<resources>
+    <string name="app_name">WellGo</string>
+
+
+    <string name="loading">Caricamento…</string>
+
+    <string name="tab_home">HOME</string>
+    <string name="tab_track">PISTA</string>
+    <string name="tab_device">DISP.</string>
+    <string name="tab_user">IMPOSTA</string>
+    <string name="course">Distanza</string>
+    <string name="target_step">Target</string>
+    <string name="big_calories">Kcal</string>
+    <string name="you_health"> STATO</string>
+    <string name="heart_rate">HR</string>
+    <string name="blood_pressure">BP</string>
+    <string name="blood_oxygen">O2</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">SONNO</string>
+    <string name="check_self">SALUTE</string>
+    <string name="heart_record">CUORE</string>
+    <string name="blood_pressure_record">PRESSIONE</string>
+    <string name="blood_oxygen_record">OSSIGENO</string>
+    <string name="title_today_sleep">ANALISI SONNO </string>
+    <string name="sleep_total_time">Durata</string>
+    <string name="sleep_valid_time">Tempo efficiente</string>
+    <string name="sleep_quality_time">Qualità</string>
+    <string name="sleep_details">DETTAGLI SONNO </string>
+
+    <string name="sleep_deep">Sonno</string>
+    <string name="sleep_light">Agitato</string>
+    <string name="sleep_awake">Sveglio</string>
+    <string name="heart_details">DETTAGLI</string>
+    <string name="blood_pressure_details">DETTAGLI</string>
+    <string name="blood_oxygen_details">DETTAGLI</string>
+    <string name="title_track_setting">IMPOSTAZIONI</string>
+    <string name="item_device_remote_camera">FOTOCAMERA</string>
+    <string name="item_device_search_band">TROVA DISP.</string>
+    <string name="item_device_health_reminder">RICORDA </string>
+    <string name="item_device_schedule_reminder">CALENDARIO</string>
+    <string name="item_device_alarm_clock">SVEGLIA</string>
+    <string name="item_device_push">NOTIFICHE</string>
+
+    <string name="delete">Cancella </string>
+
+    <string name="content_five_clock">Imposta fino a 5 allarmi.</string>
+    <string name="content_remind_sedentary">Movimento</string>
+    <string name="content_reminder_drink">Bere</string>
+
+    <string name="day">Giorno </string>
+    <string name="month">Mese</string>
+    <string name="year">Anno</string>
+    <string name="step">Passi</string>
+    <string name="hour">Ora</string>
+
+    <!--通用单位-->--通用单位-->
+    <string name="unit_hours">h</string><!--小时-->
+    <string name="unit_min">min</string><!--分钟-->
+    <string name="unit_heart">bpm</string><!--心率单位-->
+    <string name="unit_pressure">mmHg</string><!--血压单位-->
+    <string name="unit_week">SETT</string>
+    <string name="unit_day">GIORNO </string>
+    <string name="unit_month">MESE</string>
+    <string name="unit_year">ANNO</string>
+
+    <string name="unit_cal">Kcal</string>
+    <string name="unit_km">Km</string>
+    <string name="unit_km_h">Km/h</string>
+    <string name="unit_mile">Miglio</string>
+    <string name="unit_mile_h">Miglio/h</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">Kg</string>
+    <string name="unit_pounds">Sterlina</string>
+    <string name="unit_version">V %1$s</string>
+    <string name="unit_cm">cm</string>
+
+    <string name="content_standard_days">Obiettivo</string>
+    <string name="content_avg_day_steps">Media passi</string>
+    <string name="content_avg_month_steps">Media passi</string>
+    <string name="content_avg_day_consume">Media Kcal</string>
+    <string name="content_avg_month_consume">Media Kcal</string>
+    <string name="content_total_distance">Distanza</string>
+    <string name="content_avg_day_distance">Media distanza</string>
+    <string name="content_avg_month_distance">Media distanza</string>
+    <string name="content_total_steps">Totale</string>
+    <string name="content_greatest_good">Giorni>=Buono</string>
+    <string name="content_total_time_sleep">Sonno effettivo</string>
+    <string name="content_daily_time_sleep">Media effettivo</string>
+    <string name="content_longest_single_sleep">Più lungo</string>
+    <string name="content_proportion_of_sleep">Sonno effettivo</string>
+    <string name="content_quality_sleep">Qualità</string>
+    <string name="content_average_heart">Media</string>
+    <string name="content_highest_heart">Max</string>
+    <string name="content_minimum_heart">Min</string>
+    <string name="content_heart_too_high">al di sopra </string>
+    <string name="content_heart_too_low">Al di sotto</string>
+    <string name="content_average_pressure_diastolic">Media DBP</string>
+    <string name="content_average_pressure_systolic">Media SBP</string>
+    <string name="content_abnormal_systolic">SBP anormale</string>
+    <string name="content_abnormal_diastolic">DBP anormale</string>
+    <string name="content_max_value">Max</string>
+    <string name="content_avg_value">Media</string>
+    <string name="content_min_value">Min</string>
+    <string name="content_no">No</string>
+    <string name="content_yes">Sì</string>
+    <string name="content_total_mileage">Distanza</string>
+    <string name="content_burn_calories">Calorie</string>
+    <string name="content_total_time_consumed">Durata</string>
+    <string name="content_air_quality">Qualità aria</string>
+    <string name="content_completed">Distanza</string>
+    <string name="content_calorie_burning">Calorie</string>
+    <string name="content_per_hour">Velocità</string>
+    <string name="content_pace">Ritmo</string>
+    <string name="content_time_consuming">Durata</string>
+    <string name="content_keep_screen_light">Tieni accesa luce display</string>
+    <string name="content_shake_band_start">Vibra con inzio corsa </string>
+    <string name="content_shake_band_end">Vibra con fine corsa</string>
+    <string name="content_show_weather">Visualizza Meteo</string>
+    <string name="content_need_open_gps">GPS non attivo,quindi la misura può essere poco precisa, attiva GPS da telefono.</string>
+    <string name="content_open_now">ATTIVA</string>
+    <string name="content_leave_running">ESCI</string>
+    <string name="content_confirm">OK</string>
+    <string name="content_cancel">CANCELLA </string>
+    <string name="content_running_outside">Per una misura più precisa utilizza il GPS quando fuori .</string>
+    <string name="content_current_power">Batteria :</string>
+    <string name="content_mac_address">MAC:</string>
+    <string name="content_shaking_band">Il dispositivo vibra…</string>
+    <string name="title_connected">CONNESSO</string>
+
+    <string name="content_scanning_start">CERCA DISPOSITIVO</string>
+    <string name="toast_un_support_ble">Bluetooth BLE non supportato </string>
+    <string name="toast_bluetooth_is_close">Bluetooth non ancora disponibile</string>
+    <string name="toast_band_is_disconnect">APP non ancora connessa </string>
+
+    <string name="title_today">OGGI</string>
+    <string name="title_device_setting">IMPOSTA</string>
+    <string name="title_about_app">IMPOSTA APP &amp; DISPOSITIVO</string>
+    <string name="title_feedback">CONTATTACI</string>
+    <string name="title_update_band">SW DISPOSITIVO</string>
+    <string name="title_health_reminder">RICORDA </string>
+    <string name="title_alarm">SVEGLIA</string>
+    <string name="title_schedule_reminder">CALENDARIO</string>
+    <string name="title_message_push">NOTIFICHE</string>
+
+    <string name="content_band_update">Aggiorna SW </string>
+    <string name="content_about_app">Imposta APP e Dispositivo</string>
+    <string name="content_feedback">Contattaci</string>
+    <string name="content_reset">Impostazione predefinita</string>
+    <string name="content_clean_cache">Canc.  Cache APP</string>
+    <string name="content_unblock_device">Disconnetti </string>
+    <string name="content_heart_detection">Rileva cuore in automatico </string>
+    <string name="content_light_screen">Ruota polso e accendi </string>
+    <string name="content_lost_reminder">Anti-perdita</string>
+
+    <string name="content_ota_update">Aggiorna</string>
+
+    <string name="content_app_current_version">Versione APP</string>
+    <string name="content_app_last_version">APP più recente</string>
+    <string name="content_unit_distance">Distanza</string>
+    <string name="content_unit_temperature">Temperatura</string>
+    <string name="content_unit_weight">Peso</string>
+    <string name="content_app_auto_update">Aggiorna APP in automatico </string>
+    <string name="content_app_auto_sync">Sincronizza in automatico </string>
+
+    <string name="content_sport_done">Fine</string>
+    <string name="content_submit">Invia </string>
+    <string name="content_feedback_content">Grazie.</string>
+    <string name="content_exit">CANCELLA </string>
+    <string name="content_call_reminder">Notifica chiamata entrante</string>
+    <string name="content_message_reminder">Notifica SMS</string>
+    <string name="content_do_not_disturb">Modalità silenziosa</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">Riq"ti</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">Seleziona modalità ripeti </string>
+    <string name="content_repeat">Ripeti</string>
+    <string name="content_title_exit_account">Confermi di voler uscire ?</string>
+    <string name="content_last_weight">Peso :</string>
+    <string name="content_last_date">Data misura</string>
+    <string name="content_personal_best_record">BEST DAY</string>
+    <string name="content_standard_day">MAX GOAL</string>
+    <string name="content_best_week">BEST WEEK</string>
+    <string name="content_best_month">BEST MONTH</string>
+    <string name="content_personal_setting">Impostazioni</string>
+    <string name="content_exit_current_account">Esci</string>
+    <string name="content_bmi_index">BMI:</string>
+    <string name="content_setting_nickname">Nome</string>
+    <string name="content_setting_gender">Sesso</string>
+    <string name="content_setting_birth_year">Anno</string>
+    <string name="content_setting_height">Altezza</string>
+    <string name="content_setting_last_weight">Peso</string>
+    <string name="content_setting_bmi_index">BMI</string>
+    <string name="content_setting_day_target">Obiettivo</string>
+    <string name="content_setting_save">Salva</string>
+    <string name="content_setting_next">Avanti</string>
+    <string name="content_gender_female">Donna</string>
+    <string name="content_gender_male">Uomo</string>
+    <string name="bmi_too_light">Troppo basso </string>
+    <string name="bmi_normal">Normale</string>
+    <string name="bmi_too_heavy">Sovrappeso</string>
+    <string name="bmi_obesity">Obeso</string>
+    <string name="bmi_very_fat">Molto obeso</string>
+    <string name="content_bmi_paragraph_1">BMI (Body Mass Index) è uno standard internazionale per misurare indice di massa corporea  che è anche un valore di riferimento per la propria  salute. prende in considerazione altezza e peso.</string>
+    <string name="content_bmi_paragraph_2">BMI  è un modo facile per valutare le condizioni di salute del nostro corpo, un adulto obeso ha un rischio maggiore in malattie cardiovascolari e di  ipertensione</string>
+    <string name="content_dialog_title_bmi">Info BMI</string>
+    <string name="title_user_setting">IMPOSTAZIONI</string>
+    <string name="content_training">Secondo l\'opinione dell\'OMS, un adulto ha bisogno di praticare  sport in modo normale per circa 40 minuti, in modo da bruciare  calorie nello stesso modo di una camminata da 8000 passi veloci.</string>
+    <string name="content_dialog_title_moving_target">Info su obiettivo giornaliero</string>
+    <string name="content_history_schedule_reminder">RICORDA STORICO</string>
+    <string name="content_save">Salva</string>
+
+
+    <string-array name="sleep">="sleep">
+        <item>Sonno ep</item>
+        <item>Agitatoss</item>
+        <item>Sveglioke</item>
+    </string-array>
+    ng-array>
+
+
+    <!--反馈--><!--反馈-->
+    <string name="toast_feedback_success">Grazie per l\'invio </string>
+
+    <!--视频引导页-->
+    <string name="content_guest_login_in">Login </string>
+    <string name="content_user_login_in">Login in</string>
+
+    <!--全局工具类的字符串-->
+    <string name="dialog_waiting">Caricamento…</string>
+
+    <string name="title_schedule_manager">CALENDARIO</string>
+    <string name="title_edit_schedule">AGG NOTA</string>
+    <string name="content_time">Data</string>
+    <string name="content_every_day">Giornaliero</string>
+    <string name="content_today">OGGI</string>
+    <string name="content_tomorrow">Domani</string>
+    <string name="content_single">Singolo</string>
+    <string name="content_take_photo">Fai foto</string>f
+    <string name="content_choose_picture">Scegli da galleria</string>
+    <string name="content_unknown_number">Numero sconosciuto</string>
+    <string name="content_call">Chiamata entrante:</string>
+    <string name="content_this_week">SETT</string>
+    <string name="content_this_month">MESE</string>
+    <string name="content_input_email">Inserisci email</string>
+    <string name="content_input_verification_code">Inserisci verifica</string>
+    <string name="content_obtain_verification_code">Nuova verifica</string>
+    <string name="content_input_password">Tua PW </string>
+    <string name="content_register">Registra</string>
+    <string name="content_confirm_password">Re-inserisci PW </string>
+    <string name="title_register">REGISTRAMI</string>
+    <string name="content_reacquire">Nuova richiesta </string>
+    <string name="title_forget_password">PW DIMENTICATA</string>
+    <string name="hint_input_new_password">Nuova password</string>
+    <string name="content_confirm_new_password">Nuova password</string>
+    <string name="content_commit">Invia </string>
+    <string name="content_not_valid_email">Formato email non valido !</string>
+    <string name="content_nickname_length">Tuoi dati</string>
+    <string name="content_password_length">PW deve essere di  6~14 caratteri</string>
+    <string name="content_valid_input">PW errata</string>
+    <string name="content_forget_pwd">PW dimenticata? </string>
+    <string name="content_update_app">La Nuova versione</string>
+    <string name="content_update">AGGIORNA</string>
+    <string name="content_update_ing">Aggiornamento…</string>
+    <string name="content_save_picture_to">Foto salvata su</string>
+    <string name="content_nickname_not_be_null">Non può stare vuoto</string>
+    <string name="title_open_close_bluetooth">Bluetooth spento, accenderlo? </string>
+    <string name="content_open">OK</string>
+    <string name="content_no_data">Nessun dato</string>
+    <string name="content_application_exception">C\'è qualcosa di sbagliato nell\'app, debug in corso!</string>
+    <string name="title_history_schedule_reminder">RICORDA STORICO</string>
+    <string name="content_what_is_this">Cos\'è?</string>
+    <string name="content_bluetooth">Bluetooth</string>
+    <string name="content_can_not_be_null">Scrivi un memo da ricordare</string>
+    <string name="content_new_app_version">Nuova versione APP</string>
+    <string name="content_update_new_app_version">C\'è un nuovo aggiornamento sulla tua app, che contiene la nuova funzione o debug, sicuro di aggiornare ora?</string>
+    <string name="content_current_is_last">La versione è già l\'ultima!</string>
+    <string name="content_new_device_version">Suggerimenti di sistema </string>
+    <string name="content_update_new_device_version">La nuova versione del firmware è disponibile, il numero della versione corrente è V%d e verrà aggiornato a V%d. </string>
+    <string name="content_current_device_version">Versione SW attuale:V%02d</string>
+    <string name="content_last_device_version">Ultima versione SW :V%02d</string>
+    <string name="content_congratulations_successful">Completato!</string>
+    <string name="content_is_last_device_version">La versione è già l\'ultima</string>
+    <string name="content_are_you_sure">SEI SICURO? </string>
+    <string name="content_want_reset">Cancelleremo tutti i dati sul tuo dispositivo e non possiamo più ripristinarli, procediamo?</string>
+    <string name="content_want_clear">La cache delle app non è recuperabile dopo la cancellazione,  contiene i dati e le impostazioni dello sport, sicuro di cancellare ora?</string>
+    <string name="content_want_unbind">Il tuo dispositivo non riceverà più il servizio di gestione delle chiamate e di notifiche dall\'APP (se il tuo dispositivo le supporta ) se verrà disconnessa, vuoi disconnetterla? </string>
+    <string name="content_stop_check">Rilevamento chiuso</string>
+    <string name="content_check_complete">Rilevamento concluso</string>
+    <string name="content_checking">Rilevamento in corso…</string>
+    <string name="title_scan_band">SCANSIONA</string>
+    <string name="content_scanning">SCANSIONE…</string>
+    <string name="content_binding">Collegamento…</string>
+    <string name="content_input_correct_email">Formato email errato</string>
+    <string name="content_input_correct_phone">Formato telefono  errato</string>
+    <string name="content_exit_run">Salva il percorso e relativi dati e  poi esci   , se la durata del percorso è troppo breve nessun dato sarà salvato, uscire?</string>
+    <string name="content_want_exit">Uscire? </string>
+    <string name="content_save_data">Dati salvati…</string>
+    <string name="content_nickname_illegal">Lunghezza errata（da 1~16 ）!</string>
+    <string name="content_can_not_choose_future">La data non può essere futura.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">Ogni %.1f hr ricorda (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">Fissa una data</string>
+    <string name="content_preparing">In preparazione…</string>
+    <string name="content_prepare_timeout">Tempo scaduto, riprova</string>
+    <string name="content_during_upgrade">Aggiornamento…</string>
+    <string name="content_upgrade_failed">Fallito, riprova</string>
+    <string name="content_upgrade_cancel">Cancellato, non serve riprovare!</string>
+    <string name="content_disconnect_band">Dispositivo non connesso </string>
+    <string name="content_upgrade_no_plan">Nessun aggiornamento sw</string>
+    <string name="content_getting_information">SW in analisi…</string>
+    <string name="content_download_failed">SW download fallito , riprova dopo </string>
+    <string name="content_downloading">Firm…</string>
+    <string name="content_last_time">Ultima volta:</string>
+    <string name="content_sleep_quality">Qualità:</string>
+    <string name="content_step_format">%d passi</string>
+    <string name="content_day_format">dd</string>
+    <string name="content_bad">Scarso</string>
+    <string name="content_general">Normale</string>
+    <string name="content_well">Buono</string>
+    <string name="content_good">Eccellente</string>
+    <string name="content_permission_notification"> [autorizzazione della barra di notifica] consente di inviare notifiche al dispositivo</string>
+    <string name="content_authorized_to_use">Autorizza APP ad accedere a funzioni complete:</string>
+    <string name="content_authorized">Richiesta permesso</string>
+    <string name="content_next">Prossimo</string>
+    <string name="content_exit_login">Esci dall\'account corrente e il dispositivo verrà disconnesso dall\'app, sicuro di continuare?</string>
+    <string name="content_use_for_sport">Applica alla funzione [display informazioni sportive]</string>
+    <string name="content_use_for_find_phone">Applica alla funzione [trova telefono]</string>
+    <string name="content_band_call_phone">Ricerca telefono…</string>
+    <string name="content_find_phone">Trova telefono</string>
+    <string name="content_permission_need">Hai negato alcune autorizzazioni per l\'app, il che porta ad alcune anomalie, ti preghiamo di consentire l\'accesso all\'app a queste autorizzazioni:</string>
+    <string name="content_calendar">Calendario</string>
+    <string name="content_camera">Fotocamera</string>
+    <string name="content_contacts">Rubrica</string>
+    <string name="content_location">GPS</string>
+    <string name="content_microphone">Microfono</string>
+    <string name="content_phone">Stato chiamante/nr/IMEI</string>
+    <string name="content_sensor">Sensore</string>
+    <string name="content__sms">SMS</string>
+    <string name="content_storage">Memoria telef</string>
+    <string name="content_no_time">No</string>
+    <string name="content_normal">Normale</string>
+    <string name="content_poor">Scarso</string>
+    <string name="content_total_number_of_steps">Tot passi: %02d</string>
+    <string name="content_reminder_content">Nota contenuto</string>
+    <string name="content_systolic_pressure">SBP</string>
+    <string name="content_diastolic_pressure">DBP</string>
+    <string name="content_deep_sleep">Sonno </string>
+    <string name="content_light_sleep">Agitato</string>
+    <string name="content_wide_awake">Sveglio</string>
+    <string name="content_total_time_consuming">Durata</string>
+    <string name="content_average_speed">Media ritmo</string>
+    <string name="content_average_time_speed">Vel. Media</string>
+    <string name="content_fastest_speed">Vel. Max</string>
+    <string name="content_loading">Caricamento…</string>
+    <string name="content_device_no_bind">Collega APP e disp.</string>
+    <string name="content_scan_device">Scansiona </string>
+    <string name="content_time_interval">Intervallo</string>
+    <string name="content_half_hour">0,5h</string>
+    <string name="content_one_hour">1h</string>
+    <string name="content_two_hour">2h</string>
+    <string name="content_three_hour">3h</string>
+    <string name="content_sunday">Dom.</string>
+    <string name="content_monday">Lun.</string>
+    <string name="content_tuesday">Mar.</string>
+    <string name="content_wednesday">Mer.</string>
+    <string name="content_thursday">Gio.</string>
+    <string name="content_friday">Ven.</string>
+    <string name="content_saturday">Sab.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">Scorri  giù e aggiorna</string>
+    <string name="content_refreshing">Aggiornamento</string>
+    <string name="content_is_loading">Caricamento</string>
+    <string name="content_release_immediately_refresh">Rilascia e aggiorna</string>
+    <string name="content_refresh_completed">Agg. completato</string>
+    <string name="content_refresh_failed">Agg. Fallito</string>
+    <string name="content_last_update">\'Ultimo agg.:\' MM-GG HH:mm</string>
+    <string name="content_enter_email_is_correct">Controlla formato email</string>
+
+
+    <string name="unit_steps">Passi</string>
+    <string name="content_map_type">Tipo Mappa</string>
+    <string name="content_map_type_gaode">Amap(Cina)</string>
+    <string name="content_map_type_google">GoogleMap</string>
+    <string name="content_map_type_automatic_smart_select">Automatico</string>
+
+    <string name="content_connect_failed">Fallito</string>
+    <string name="content_try_to_fix">Correggi</string>
+    <string name="content_connect_failed_fix_tips">Impossibile connettersi con il dispositivo, prova: \ n \ n1. Prova a connetterti di nuovo. \ N \ n2.Rimuovi Bluetooth e accendi. \ N \ n3.Prova ad accendere il GPS e seleziona la massima precisione. \ N \ n4.Riavvia il telefono.</string>
+    <string name="content_item_fix_band">%1$s [Disp. modo  OTA]</string>
+    <string name="content_fix_band_failed">Disp. OTA fallito</string>
+    <string name="content_fix_band_failed_tips">Impossibile selezionare il servizio OTA sul dispositivo, si prega di contattarci se il dispositivo non ha ancora completato il recupero automaticamente entro 10 minuti.</string>
+    <string name="content_heart_detection_tips">* non è supportata da tutti i dispositivi</string>
+    <string name="content_description">Servizio di notifica: \ n invierà notifiche QQ, Weibo, Wechat, Facebook, Twitter, Line, Linkedln, GooglePlus dal tuo telefono al dispositivo.</string>
+    <string name="content_input_band">Inserisci i dati del dispositivo</string>
+    <string name="content_or_contact_us">O contattaci : wt5354@iwear88.com</string>
+    <string name="content_help">Aiuto</string>
+    <string name="content_approve">APPROVA</string>
+
+    <string name="content_permission_location"> [Accesso posizione] Per cercare di identificare la posizione del dispositivo e collegarlo</string>
+    <string name="content_scan_timeout">Dispositivo non trovato? riprova dopo aver aperto e richiuso [Modalità aereo]</string>
+    <string name="content_push_warm">* Se la funzione push del messaggio non funziona, fare clic qui e aprire </string>
+    <string name="content_reconnecting">Funzione o internet occupati, attendere…</string>
+    <string name="content_manual_reconnect">Sincronizza manualmente</string>
+    <string name="content_login_means">Login e accetta i</string>
+    <string name="content_terms">Termini del servizio</string>
+    <string name="content_terms_title">Policy privacy e salute</string>
+    <string name="content_terms_first">* Apprezziamo il fatto che tu confidi  in noi con informazioni importanti per te, quindi alcune funzioni dell\'app richiedono il tuo permesso per accedervi.</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>Qui</a></font> descriviamo le pratiche sulla privacy per i nostri dispositivi, imparerai i dati che raccogliamo, come li usiamo.]]></string>
+    <string name="content_terms_third">* Questo prodotto non è un dispositivo medico e non è destinato a diagnosticare, trattare, curare o prevenire alcuna malattia. Per quanto riguarda la precisione, l\'accuratezza dei dispositivi non è intesa per confrontarsi con dispositivi medici o dispositivi di misurazione scientifica.</string>
+
+    <string name="content_verification_help"><![CDATA[Verifica non ricevuta? Fare clic su <font color=#04F5D1> <a href=\'%s\'>Qui</a> </font> per aiuto]]></string>
+
+    <string name="issue_with_log_in_or_sign_in">Problema con il log-in o l\'accesso</string>
+    <string name="content_troubleshooting_help"><![CDATA[Fai clic su <font color=#04F5D1> <a href=\'%s\'>Qui</a> </font> per ottenere la risoluzione dei problemi]]></string>
+
+    <string name="content_sleep_accuracy">Quanto sono precisi i risultati?</string>
+    <string name="content_sleep_accuracy_1">I rilevatori di sonno a rilevamento automatico sono considerati generalmente accurati, inoltre sono soggetti a errori a causa delle diverse abitudini dell\'utente.</string>
+    <string name="content_sleep_accuracy_2">Si prega di controllare la qualità del sonno più tardi se non ci sono dati quando hai appena finito di dormire,  entro 30 minuti, i dati vengono analizzati.</string>
+    <string name="content_accuracy_title">Info su precisione dati</string>
+    <string name="content_app_unsupport_tips">Questa fuznione, impostarla sul bracciale</string>
+    <string name="content_permission_notification_enable">"[Notifica] L\'autorizzazione è stata chiusa, si prega di autorizzare altrimenti la funzione [Trova dispositivo], [Barra di notifica] funzionerà male"</string>
+    <string name="content_connect_google_fit">Collega Google Fit</string>
+    <string name="content_unlink_google_fit">Scollega Google Fit</string>
+    <string name="title_associate_google_fit">Associa Google Fit</string>
+    <string name="content_unit_time">Formato orario </string>
+    <string name="content_upload_google_fit_now">AGGIORNA DATI SU GOOGLE FIT ORA</string>
+    <string name="content_tips_of_google_fit">I dati verranno sincronizzati automaticamente su Google Fit intorno alle 00: 00/04: 00/8: 00/12: 00/16: 00/20: 00 tutti i giorni.</string>
+
+    <string name="content_answer">Inserisci risposta</string>
+    <string name="content_input_email_different">Le email non corrispondono</string>
+    <string name="content_resetpsw_now">Recupera PW </string>
+    <string name="content_new_psw">Nuova PW: </string>
+    <string name="content_question1">1:</string>
+    <string name="content_question2">2:</string>
+    <string name="content_input_reg_email">La tua mail registrata: </string>
+    <string name="content_register_question_step1">1. inserisci email e PW</string>
+    <string name="content_register_question_step2">2.Inserisci risposta di sicurezza</string>
+    <string name="content_retrieve_type">Recupera PW da:</string>
+    <string name="content_register_success">Registrato!</string>
+    <string name="content_resetpsw_success">Password modificata!</string>
+    <string name="content_resetpsw_wrong_answer">Risposta di sicurezza errata!</string>
+    <string name="content_from_auth_code">Verifica email</string>
+    <string name="content_from_question">Risposta di sicurezza</string>
+    <string name="question1_1">Qual\'è la data del primo/attuale/preferito animale</string>
+    <string name="question1_2">Qual è il libro preferito?</string>
+    <string name="question1_3">Qual è il cibo preferito?</string>
+    <string name="question2_4">Qual è la prima azienda in cui hai lavorato? </string>
+    <string name="question2_5">Qual è la data di tua madre?</string>
+    <string name="question2_6">In quale città sei nato?</string>
+    <string name="content_connect_strava">Collega a Strava</string>
+    <string name="content_unlink_strava">Scollega da Strava</string>
+    <string name="content_tips_of_strava">Dopo aver collegato Strava, puoi inviare la traccia del tuo movimento a Strava nell\'interfaccia del track record.</string>
+    <string name="content_uploaded_to_strava">Inviato a Strava</string>
+    <string name="content_upload_to_strava">Invia a Strava</string>
+    <string name="content_retry">Riprova</string>
+    <string name="content_err_save_sport_track_data_network_fail">Salvataggio non possibile, controlla impostazioni di rete</string>
+    <string name="content_donot_save">Non salvare</string>
+    <string name="content_link">Collega</string>
+    <string name="content_help_and_feedback">Help and feedback</string>
+
+
+    <string name="content_my_friends">Amici</string>
+    <string name="content_search_friends_hint">ID utente/email</string>
+    <string name="toast_tips_req_add_friends">Richiesta amicizia  inviata </string>
+    <string name="title_tab_msg_system">Novità</string>
+    <string name="title_tab_msg_add_friend">Richiesta amicizia</string>
+    <string name="title_tab_my_friends">Amici</string>
+    <string name="content_add_agree_friends">Voglio aggiungerti come amico </string>
+    <string name="content_btn_agreed">Accetta</string>
+    <string name="content_btn_refused">Rifiuta</string>
+    <string name="content_encourage">Incoraggia</string>
+    <string name="content_zan">Colpisci</string>
+    <string name="content_add_friends">Aggiungi come amico </string>
+    <string name="content_already_friends">Accettato</string>
+    <string name="content_already_refused">Rifiutato</string>
+    <string name="content_nickname">Soprannome:</string>
+    <string name="content_nickname_2">Soprannome</string>
+    <string name="content_sign_null">Qui vuoto</string>
+    <string name="content_sign">Scrivi qualcosa da mostrare</string>
+    <string name="content_setting_sign">Firma</string>
+    <string name="content_remark_null">Qui vuoto</string>
+    <string name="content_user_info">Info utente</string>
+    <string name="content_set_remark">Nota</string>
+    <string name="content_average_blood_oxygen">Media O2</string>
+    <string name="content_step_num">Passi</string>
+    <string name="content_sleep_data">Sonno </string>
+    <string name="content_bp_bo">BP/O2</string>
+    <string name="content_invite_friends">Invita qualcuno </string>
+    <string name="content_save_image">Salva schermo</string>
+
+    <string name="content_encourage_you">Incoraggiarti</string>
+    <string name="content_zan_you">Lodarti</string>
+
+    <string name="content_no_friends">Non ho trovato i tuoi amici </string>
+    <string name="content_search_friends_input_err">Inserisci ID utente/email corretti</string>
+
+    <string name="content_weather_sunny_day">SOLEGGIATO</string>
+    <string name="content_weather_cloudy">NUVOLO</string>
+    <string name="content_weather_snow">NEVOSO</string>
+    <string name="content_weather_cloudy_day">SCURO</string>
+    <string name="content_weather_rain">PIOVOSO</string>
+
+
+    <string name="content_my_ideal_weight">IL MIO FITNESS</string>
+    <string name="content_intake_calories">Imposta calorie giornaliere</string>
+    <string name="content_sport_target">Imposta passi giornalieri</string>
+    <string name="content_intake_tips_head">Il massimo raccomandato è </string>
+    <string name="content_intake_tips_foot">Cibo con calorie</string>
+    <string name="content_recorded_meal">Registra %d pasto %s</string>
+    <string name="content_this_meal_to_eat">REGISTRA LE MIE CALORIE </string>
+    <string name="content_food_input_empty_tips">Inserisci qualcosa</string>
+    <string name="content_record_meal_to_eat">REGISTRA CIBO</string>
+    <string name="content_edit">Modifica</string>
+    <string name="content_your_goal_is_to_subtract">Il tuo target è perdere</string>
+    <string name="content_the_current_every_day_for_a_sport_target">La tua attività quotidiana è:</string>
+    <string name="content_when_is_the_daily_consumption">Quando il consumo quotidiano è</string>
+    <string name="content_daily_intake_is">Assunzione giornaliera</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">Stima perdita peso quotidiana è</string>
+    <string name="content_need_to_complete">Necessità di successo </string>
+    <string name="content_expected_time_for_success">Stima fine data è </string>
+    <string name="content_please_adjust_the_plan">Cambia il tuo piano </string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">Il tuo target dovrebbe essere meno di questo peso </string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">Cambia il tuo piano </string>
+    <string name="content_recommended_daily_intake">In base alle condizioni di salute e al target peso , l\'apporto calorico giornaliero consigliato è circa</string>
+    <string name="content_average_daily_calorie_deficit">Media deficit calorico </string>
+    <string name="content_intake_of_qualified_days">Giorni sotto l\'obiettivo di assunzione</string>
+    <string name="content_average_daily_intake_of_calories">Media calorie assunte</string>
+    <string name="content_the_highest_intake_of_calories">Max assunzione gironaliera</string>
+    <string name="content_not_clock_in_number_of_days">Giorni di assunzione non registrati</string>
+    <string name="content_click_add_meal">Clicca su + in alto a destra e registra cibo</string>
+    <string name="content_total_intake_about">La somma di assunzione è</string>
+    <string name="content_calorie_consumption">Calorie bruciate</string>
+    <string name="content_calorie_intake">Calorie assunte</string>
+    <string name="content_target_bmi">BMI</string>
+    <string name="content_diet_help_tips">Si basa sul sesso e sull\'età dell\'individuo per calcolare il metabolismo, digita l\'obiettivo di peso e le fasi per stimare la data di raggiungimento dell\'obiettivo di perdita di peso, si noti che la variazione abitudinale individuale e della vita può portare alla distorsione dei risultati in qualche modo. non valido per uso medico</string>
+    <string name="content_have_the_calories_you_eat">QUANTO MANGIO </string>
+    <string name="content_diet_start">prossimo passo per registrare l\'assunzione di oggi</string>
+    <string name="content_food_name">Tipo di cibo</string>
+    <string name="content_amount">Peso</string>
+    <string name="content_unit">Unità</string>
+    <string name="content_cur_weight">Peso attuale </string>
+    <string name="content_target_weight">Target peso </string>
+
+
+    <string name="sport_encourage_prompt_0">L\'esercizio per iniziare l\'allenamento in palestra per persona normale</string>
+    <string name="sport_encourage_prompt_1">Hai completato l\'altezza del monto Fuji in modo equivalente</string>
+    <string name="sport_encourage_prompt_2">La raccomandazione dell\'obiettivo giornaliero dei passi da adulto dell\'OMS</string>
+    <string name="sport_encourage_prompt_3">Hai ridotto circa 805 g di CO2 per questo nostro pianeta </string>
+    <string name="sport_encourage_prompt_4">La distanza tra il Louvre e la Torre Eiffel</string>
+    <string name="sport_encourage_prompt_5">Hai completato circa 30 giri del parco </string>
+    <string name="sport_encourage_prompt_6">La distanza si traduce in bicicletta per più di 1 ora</string>
+    <string name="sleep_duration_encourage_prompt_0">Il tuo sonno è troppo breve</string>
+    <string name="sleep_duration_encourage_prompt_1">Il deficit di sonno cronico porta a malattie cardiache</string>
+    <string name="sleep_duration_encourage_prompt_2">Una buona dormita è la base della salute</string>
+    <string name="sleep_duration_encourage_prompt_3">Non male la durata del sonno</string>
+    <string name="sleep_duration_encourage_prompt_4">Hai una durata del sonno invidiabile</string>
+    <string name="sleep_duration_encourage_prompt_5">Una fresca e vigorosa giornata</string>
+    <string name="sleep_duration_encourage_prompt_6">Eh, hai una durata del sonno troppo lunga rispetto agli adulti normali</string>
+    <string name="sleep_duration_encourage_prompt_7">Forse è il momento per te di controllare il dispositivo e come indossarlo</string>
+    <string name="sleep_time_encourage_prompt_0">Si prega di controllare il dispositivo ed indossarlo correttamente</string>
+    <string name="sleep_time_encourage_prompt_1">Un invidiabile durata del sonnpo </string>
+    <string name="sleep_time_encourage_prompt_2">Il momento migliore per dormire</string>
+    <string name="sleep_time_encourage_prompt_3">Una ragionevole durata del sonno  è la chiave della qualità del sonno eccellente</string>
+    <string name="sleep_time_encourage_prompt_4">Ascolta della musica soft prima di dormire</string>
+    <string name="sleep_time_encourage_prompt_5">0–1 0 \'clock è il periodo importante per la disintossicazione del fegato e dei reni</string>
+    <string name="sleep_time_encourage_prompt_6">Vai a dormire , non stare alzato fino a tardi</string>
+    <string name="sleep_time_encourage_prompt_7">Restare alzati fino a sera tarda crea un  grave danno per il corpo, portandolo  a forte stanchezza fisica</string>
+    <string name="title_health_advisor">CONSULENTE SANITARIO</string>
+    <string name="content_ranking">Classifica</string>
+    <string name="content_friends_ranking">La tua classifica</string>
+    <string name="content_my_step_ranking">Classifica mondiale passi</string>
+    <string name="content_my_sleep_details">DETTAGLI SONNO </string>
+    <string name="content_week_avg">Media questa settimana</string>
+    <string name="content_rg_week_avg">Media settimanale</string>
+    <string name="content_rg_month_avg">Media mensile</string>
+    <string name="content_my_sleep_duration_ranking">Classifica mondiale della durata del sonno</string>
+    <string name="content_my_sleep_time_ranking">Classifica mondiale della durata del sonno</string>
+    <string name="content_range_avg_time">Il tempo medio in %s - %s</string>
+    <string name="content_more_than_user">Più del %d %% degli utenti</string>
+    <string name="content_later_than_user">Più tardi del %d %% degli utenti</string>
+
+    <string name="title_change_wallpaper">IMPOSTAZIONE CARTA DA PARATI</string>
+    <string name="content_setup_complete">Impostazione di finitura!</string>
+    <string name="enable_wallpaper_fun">Funzione wallpaper</string>
+    <string name="enable_wallpaper_step_fun">Plugin per pedometro</string>
+    <string name="content_not_saved">Rimuovi</string>
+    <string name="content_not_saved_tips">Vuoi rinunciare allo spazio di archiviazione ed uscire?</string>
+    <string name="content_wallpaper_transmission">Aggiornamento…</string>
+    <string name="content_wallpaper_textcolor">Colore carattere</string>
+
+    <string name="title_sport_mode">MODO DI SPORTA</string>
+    <string name="sport_mode_walking">Camminare</string>
+    <string name="sport_mode_running">Esecuzione</string>
+    <string name="sport_mode_mountaineering">Climbing</string>
+    <string name="sport_mode_cycling">Biking</string>
+    <string name="sport_mode_table_tennis">Pingmong.</string>
+    <string name="sport_mode_basketball">Basketball</string>
+    <string name="sport_mode_football">Calcio</string>
+    <string name="sport_mode_badminton">Badminton.</string>
+    <string name="sport_mode_treadmill">Treadmill</string>
+    <string name="sport_mode_tennis">Tennis</string>
+    <string name="sport_mode_swimming">Nuotare</string>
+    <string name="unit_three_month">3 MESI</string>
+    <string name="content_duration">Durata</string>
+    <string name="content_last_sport">ultimo</string>
+    <string name="content_sport_mode_count">%d Times</string>
+    <string name="content_finish_distance">Distanza</string>
+    <string name="content_finish_calorie">Calorie</string>
+
+	<string name="content_update_ota">1.Dispositivi mantenere l\'aggiornamento con la connettività Bluetooth stabile\n2.Non smettere APP aggiornare il modo in cui\n3.Aggiornamento bisogno 1-3 minuti, risultando in una schermata nera se il dispositivo non riesce ad aggiornare, non lo fanno disinstallare l\'app o sostituire il telefono! APP in aggiornamento di nuovo</string>
+	<string name="toast_electric_low_ota_tips">Capacità Attrezzatura è inferiore al 50%, non sono autorizzati a eseguire l\'aggiornamento!</string>
+	<string name="content_guest_login_alert">Interessato da aggiornamenti di sistema, utente attiva negazione delle autorizzazioni, Android versione futura e altri fattori, il codice di identità univoco del visitatore nativo può essere cambiato, gli utenti che utilizzano il "accesso turistico" sarà probabilmente situazione di perdita di dati, si consiglia di registrare gli utenti via e-mail.</string>
+    <string name="content_terms_mob">Per realizzare il login di account di terze parti e la funzione di raccolta dei
+        log, utilizziamo il prodotto mobsdk di mobtech. Per i termini della politica sulla privacy di questo prodotto,
+        fare riferimento a:http://www.mob.com/about/policy
+    </string>
+    <string name="content_terms_accept">Devi accettare i nostri Termini di servizio</string>
+</resources>

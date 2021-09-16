@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_diet_edit_meal">
+
+    <TextView
+        android:id="@+id/tvSerialNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/colorRed"
+        app:layout_widthPercent="5%w"
+        tools:text="1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/widget_size_5"
+        app:cardUseCompatPadding="true"
+        app:layout_widthPercent="40%w">
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:textDirection="locale"
+            android:layoutDirection="locale"
+            android:id="@+id/autoTipsInputFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:paddingEnd="@dimen/widget_size_5"
+            android:paddingStart="@dimen/widget_size_5"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_13" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/widget_size_5"
+        app:cardUseCompatPadding="true"
+        app:layout_widthPercent="20%w">
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_13"
+
+            tools:text="980" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/widget_size_5"
+        app:cardUseCompatPadding="true">
+
+        <com.truescend.gofit.views.AppCompatMultiLineSpinner
+            android:id="@+id/spUnit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:entries="@array/unit_amount"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:imeOptions="actionNext" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/widget_size_5"
+        app:cardUseCompatPadding="true"
+        app:layout_widthPercent="20%w">
+
+        <EditText
+            android:id="@+id/etCalories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_13"
+            tools:text="1862" />
+    </androidx.cardview.widget.CardView>
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.truescend.gofit.views.StatusBarHeightView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/titleBackgroundColor"
+        android:orientation="vertical"
+        app:use_type="use_padding_top">
+
+        <include layout="@layout/include_title" />
+
+    </com.truescend.gofit.views.StatusBarHeightView>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rlRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#444444"
+        app:srlAccentColor="@android:color/white"
+        app:srlEnablePreviewInEditMode="true"
+        app:srlPrimaryColor="#444444">
+        <!--srlAccentColor srlPrimaryColor 将会改变 Header 和 Footer 的主题颜色-->
+        <!--srlEnablePreviewInEditMode 可以开启和关闭预览功能-->
+        <!--<com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <com.truescend.gofit.utils.NewClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.truescend.gofit.views.VerticalScrollView
+            android:id="@+id/mNestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.truescend.gofit.views.InfiniteViewPager
+                    android:id="@+id/vpHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:overScrollMode="never" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/widget_size_5"
+                    android:layout_marginEnd="@dimen/widget_size_10"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    android:layout_marginTop="@dimen/widget_size_10"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/you_health"
+                        android:textColor="@color/colorTitleText" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tvWeatherTypeName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/widget_size_5"
+                        android:textColor="@color/colorTitleText"
+                        android:textStyle="bold"
+                        tools:text="晴天" />
+
+                    <ImageView
+                        android:id="@+id/ivWeatherIcon"
+                        android:layout_width="@dimen/widget_size_20"
+                        android:layout_height="@dimen/widget_size_20"
+                        android:layout_marginStart="@dimen/widget_size_5"
+                        tools:src="@mipmap/icon_weather_sunny_day_2" />
+
+                    <TextView
+                        android:id="@+id/tvWeatherTemperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/widget_size_5"
+                        android:textColor="@color/colorTitleText"
+                        android:textStyle="bold"
+                        tools:text="10℃~23℃" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4.5dp"
+                    android:layout_marginEnd="@dimen/widget_size_6"
+                    android:layout_marginStart="@dimen/widget_size_6"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/cvHomeUserDiet"
+                        layout="@layout/item_home_top_card_view" />
+                </LinearLayout>
+
+                <!--<com.truescend.gofit.views.AutoFitGridLayout-->
+                    <!--android:id="@+id/mGridLayout"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="@dimen/widget_size_6"-->
+                    <!--android:layout_marginStart="@dimen/widget_size_6"-->
+                    <!--app:columnCount="2"-->
+                    <!--app:horizontalSpace="4.5dp"-->
+                    <!--app:verticalSpace="4.5dp">-->
+
+                    <!--<include-->
+                        <!--android:id="@+id/cvHomeSleep"-->
+                        <!--layout="@layout/item_home_card_view"-->
+                        <!--app:layout_columnWeight="1" />-->
+
+                    <!--<include-->
+                        <!--android:id="@+id/cvHomeCheck"-->
+                        <!--layout="@layout/item_home_card_view"-->
+                        <!--app:layout_columnWeight="1" />-->
+
+                    <!--<include-->
+                        <!--android:id="@+id/cvHomeHeart"-->
+                        <!--layout="@layout/item_home_card_view"-->
+                        <!--app:layout_columnWeight="1" />-->
+
+                    <!--<include-->
+                        <!--android:id="@+id/cvHomeBloodPressure"-->
+                        <!--layout="@layout/item_home_card_view"-->
+                        <!--app:layout_columnWeight="1" />-->
+
+                    <!--<include-->
+                        <!--android:id="@+id/cvHomeBloodOxygen"-->
+                        <!--layout="@layout/item_home_card_view"-->
+                        <!--app:layout_columnWeight="1" />-->
+
+                <!--</com.truescend.gofit.views.AutoFitGridLayout>-->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mGridRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvEditMode"
+                    style="@style/TextViewButton"
+                    android:text="@string/content_edit" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/widget_size_10" />
+            </LinearLayout>
+        </com.truescend.gofit.views.VerticalScrollView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

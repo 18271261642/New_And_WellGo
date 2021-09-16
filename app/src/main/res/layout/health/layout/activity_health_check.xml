@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_size_15">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabHealthCheckType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ViewSwitcher
+            android:id="@+id/vsHealthCheckStatusSwitcher"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/widget_size_20">
+
+            <ImageView
+                android:id="@+id/ivHealthCheckNormal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/icon_health_check_begin" />
+
+            <ImageView
+                android:id="@+id/ivHealthCheckRunning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </ViewSwitcher>
+
+        <TextView
+            android:id="@+id/tvHealthCheckValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="--"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tvHealthCheckUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="bpm"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <com.truescend.gofit.views.ScrollingImageView
+        android:id="@+id/sivHealthCheckScrollAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:initialState="stopped"
+        app:speed="3dp"
+        app:src="@mipmap/icon_heart_anim" />
+
+</LinearLayout>

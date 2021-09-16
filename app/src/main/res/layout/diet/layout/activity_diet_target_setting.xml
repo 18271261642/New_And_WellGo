@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/widget_size_20"
+    android:paddingStart="@dimen/widget_size_20"
+    android:paddingTop="@dimen/widget_size_10">
+
+    <com.truescend.gofit.views.VerticalScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/layout_diet_weight_select_group" />
+
+                <include layout="@layout/layout_diet_unit_group" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/text_size_10"
+                    android:text="@string/content_target_bmi"
+                    android:textColor="@color/grey" />
+
+                <TextView
+                    android:id="@+id/tvTargetBMI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:text="23.9" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/ilUserSettingIntakeCalories"
+                layout="@layout/item_banner_button" />
+
+            <include
+                android:id="@+id/ilUserSettingTarget"
+                layout="@layout/item_banner_button" />
+
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/layout_diet_card_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="60%w" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </LinearLayout>
+    </com.truescend.gofit.views.VerticalScrollView>
+
+    <TextView
+        android:id="@+id/tvUserSettingSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_size_15"
+        android:layout_marginEnd="@dimen/widget_size_5"
+        android:layout_marginStart="@dimen/widget_size_5"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@drawable/radius_button_black_bg"
+        android:gravity="center"
+        android:padding="@dimen/widget_size_10"
+        android:text="@string/content_setting_save"
+        android:textColor="@color/text_option_black_bg"
+        android:textSize="@dimen/text_size_15" />
+</LinearLayout>

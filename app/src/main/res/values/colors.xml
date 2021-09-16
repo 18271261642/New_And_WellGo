@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#888888</color>
+    <color name="colorAccent">#88000000</color>
+    <color name="colorTitleText">#000000</color>
+    <color name="colorLine">#EFEFEF</color>
+    <color name="colorSplash">#D5FF45</color>
+    <color name="colorRed">#AD204B</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#757575</color>
+    <color name="red">#F90D1B</color>
+    <color name="orange">#FD9927</color>
+
+    <color name="white_1">#EFEFEF</color>
+    <color name="black_1">#191919</color>
+
+    <color name="black_translucent">#55000000</color>
+    <color name="grey_translucent">#7F757575</color>
+
+
+    <!--主题色-->
+    <color name="t_1_colorPrimary">#101010</color>
+    <color name="t_1_colorPrimaryDark">#101010</color>
+    <color name="t_1_colorAccent">@color/themeColor1</color>
+    <color name="t_1_colorTitleBar">@color/t_1_colorPrimary</color>
+    <color name="t_1_lineColor">#883B3B3B</color>
+
+    <color name="themeColor1">#C1A05D</color>
+    <color name="themeColor2">#c50b30</color>
+    <color name="themeColor3">#84b4e4</color>
+    <color name="themeColor4">#0195d3</color>
+    <color name="themeColor5">#015876</color>
+    <color name="themeColor6">#fecf29</color>
+    <color name="themeColor7">#f66d1f</color>
+    <color name="themeColor8">#3e2581</color>
+    <color name="themeColor9">#ff0066</color>
+    <color name="themeColor10">#81007f</color>
+    <color name="themeColor11">#0000fe</color>
+    <!---->
+
+
+    <!--深睡、浅睡、清醒进度条颜色-->
+    <color name="loading_text">#0099CC</color>
+    <!--跑道页面半透明黑色背景-->
+    <color name="running_translucent">#55000000</color>
+    <!--睡眠-->
+    <color name="colorSleepDeep">#7046A8</color>
+    <color name="colorSleepLight">#8373CB</color>
+    <color name="colorSleepSober">#B7BAE5</color>
+    <!--血压-->
+    <color name="colorSystolic">#F86B9A</color>
+    <color name="colorDiastolic">#6DCBFD</color>
+    <color name="colorBloodOxygen">#FE1A97</color>
+
+</resources>

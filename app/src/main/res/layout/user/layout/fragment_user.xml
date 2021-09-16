@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhy.android.percent.support.PercentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                app:layout_heightPercent="35%sh">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/icon_top_bg"
+                    android:scaleType="centerCrop" />
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civUserHeadPortrait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/img_test_picture"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="@dimen/widget_size_2"
+                        app:layout_heightPercent="30%w"
+                        app:layout_widthPercent="40%w" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <include
+                            android:id="@+id/ilUserNickName"
+                            layout="@layout/item_information" />
+
+                        <include
+                            android:id="@+id/ilUserID"
+                            layout="@layout/item_information" />
+
+                        <include
+                            android:id="@+id/ilUserWeight"
+                            layout="@layout/item_information" />
+
+                        <include
+                            android:id="@+id/ilUserDate"
+                            layout="@layout/item_information" />
+
+                        <include
+                            android:id="@+id/ilUserBMI"
+                            layout="@layout/item_information" />
+
+                    </LinearLayout>
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <com.truescend.gofit.views.StatusBarHeightView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/widget_size_5"
+                    android:orientation="vertical"
+                    app:use_type="use_padding_top">
+
+                    <ImageView
+                        android:id="@+id/ivUserShare"
+                        android:layout_width="@dimen/title_height"
+                        android:layout_height="@dimen/title_height"
+
+                        android:padding="@dimen/widget_size_10"
+                        android:src="@mipmap/icon_share_white" />
+                </com.truescend.gofit.views.StatusBarHeightView>
+
+
+            </RelativeLayout>
+        </com.zhy.android.percent.support.PercentFrameLayout>
+
+        <com.truescend.gofit.views.AutoFitGridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/widget_size_30"
+            android:layout_marginBottom="@dimen/widget_size_30"
+            app:columnCount="2"
+            app:horizontalSpace="1dp"
+            app:verticalSpace="@dimen/widget_size_30">
+
+            <include
+                android:id="@+id/ilUserBestRecord"
+                layout="@layout/item_user_file" />
+
+            <include
+                android:id="@+id/ilUserStandardDay"
+                layout="@layout/item_user_file" />
+
+            <include
+                android:id="@+id/ilUserBestWeek"
+                layout="@layout/item_user_file" />
+
+            <include
+                android:id="@+id/ilUserBestMonth"
+                layout="@layout/item_user_file" />
+
+        </com.truescend.gofit.views.AutoFitGridLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--我的好友-->
+            <include
+                android:id="@+id/ilUserFriends"
+                layout="@layout/item_banner_button" />
+            <!--个人设置-->
+            <include
+                android:id="@+id/ilUserPersonalSettings"
+                layout="@layout/item_banner_button" />
+
+            <TextView
+                android:textDirection="locale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:paddingStart="28dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="28dp"
+                android:paddingBottom="5dp"
+                android:text="@string/content_link"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+
+            <!--关联GoogleFit-->
+            <include
+                android:id="@+id/ilUserGoogleFit"
+                layout="@layout/item_banner_button" />
+            <!--关联Strava-->
+            <include
+                android:id="@+id/ilUserStrava"
+                layout="@layout/item_banner_button" />
+
+            <!--关联天猫精灵-->
+            <include
+                android:id="@+id/ilUserTmallGenie"
+                layout="@layout/item_banner_button" />
+
+            <TextView
+                android:textDirection="locale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:paddingStart="28dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="28dp"
+                android:paddingBottom="5dp"
+                android:text="@string/content_help_and_feedback"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+            <!--意见反馈-->
+            <include
+                android:id="@+id/ilDeviceSettingFeedback"
+                layout="@layout/item_banner_button" />
+            <!--帮助文档-->
+            <include
+                android:id="@+id/ilDeviceSettingHelp"
+                layout="@layout/item_banner_button" />
+            <!--退出登录-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUserExitCurrentAccount"
+                    style="@style/TextViewButton"
+                    android:text="@string/content_exit_current_account" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</androidx.core.widget.NestedScrollView>

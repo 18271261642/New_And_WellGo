@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_size_10"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+
+    <ImageView
+        android:id="@+id/ivPathMapItemIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/widget_size_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/ivPathMapItemIcon">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPathMapItemAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                tools:text="西藏省-家里蹲市2-胡来区"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_12"/>
+            <TextView
+                android:id="@+id/tvPathMapItemDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/widget_size_10"
+                android:gravity="center"
+                tools:text="2017/10/09 14:22"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/grey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_2"
+            android:layout_marginBottom="@dimen/widget_size_2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPathMapItemTotalMileage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="23.55km"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_13"/>
+            <TextView
+                android:id="@+id/tvPathMapItemCalories"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="1455"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_13" />
+
+            <TextView
+                android:id="@+id/tvPathMapItemTotalTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="14h32m"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_total_mileage"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/grey"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_burn_calories"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/grey"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_total_time_consumed"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/grey"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

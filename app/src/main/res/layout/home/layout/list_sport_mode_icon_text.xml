@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="30%h"
+        app:layout_marginTopPercent="5%h"
+        app:layout_widthPercent="30%h"
+        tools:src="@mipmap/icon_details_use_time" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#A1A1A1"
+        app:layout_marginBottomPercent="2%h"
+        app:layout_marginTopPercent="2%h"
+        app:layout_textSizePercent="12%w"
+        tools:text="Burn calories" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginBottomPercent="5%h"
+        app:layout_textSizePercent="14%w"
+        tools:text="23h59mins" />
+</com.zhy.android.percent.support.PercentLinearLayout>

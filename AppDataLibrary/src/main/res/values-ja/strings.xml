@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">アカウントはすでに登録済み</string>
+	<string name="error_user_not_exists">IDが存在するのではなく、チェックしてください</string>
+	<string name="error_password_error">IDやパスワードが間違っている</string>
+	<string name="error_phone_invalid">電話番号が無効です</string>
+	<string name="error_sms_too_frequently">あまり頻繁に要求</string>
+	<string name="error_captcha_expired">検証は期限切れです</string>
+	<string name="error_captcha_wrong">検証は期限切れです</string>
+	<string name="error_captcha_failure">検証に失敗した</string>
+	<string name="error_email_registered">アカウントはすでに登録済み</string>
+	<string name="error_captcha_req_success">終了した要求</string>
+	<string name="network_err">インターネット接続に失敗し、後にしようとしてください</string>
+
+</resources>

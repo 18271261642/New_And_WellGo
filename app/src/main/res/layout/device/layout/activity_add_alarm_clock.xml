@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.truescend.gofit.views.TimePicker
+        android:id="@+id/tpAddAlarmClockTime"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/widget_size_40"
+        android:layout_marginTop="@dimen/widget_size_40">
+
+    </com.truescend.gofit.views.TimePicker>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_size_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/content_repeat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAddAlarmClockRepetitionPeriod"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/widget_size_10"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size_12"
+            tools:text="周日,周一,周二,周三,周四,周五,周六" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/ilAddAlarmClockWeekCycle"
+            layout="@layout/item_week" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,629 @@
+<resources>
+    <string name="app_name">WellGo</string>
+	<string name="loading">prosím...</string>
+
+	<string name="tab_home">Denne</string>
+	<string name="tab_track">Činnosti</string>
+	<string name="tab_device">Zariadenia</string>
+	<string name="tab_user">Používateľa</string>
+	<string name="course">Najazdených kilometrov</string>
+	<string name="target_step">Cieľové kroky</string>
+	<string name="big_calories">Kcal</string>
+	<string name="you_health">Vaše zdravie.</string>
+	<string name="heart_rate">Srdcová frekvencia</string>
+	<string name="blood_pressure">Krvného tlaku</string>
+	<string name="blood_oxygen">Kyslíka v krvi</string>
+
+	<string name="rung">-</string>
+	<string name="sleep_record">Záznamy o spánku</string>
+	<string name="check_self">Moje lekárske check-up.</string>
+	<string name="heart_record">Záznam srdcovej frekvencie</string>
+	<string name="blood_pressure_record">Záznamy krvného tlaku</string>
+	<string name="blood_oxygen_record">Záznamy kyslíka v krvi</string>
+	<string name="title_today_sleep">Spať dnes</string>
+	<string name="sleep_total_time">Celkový čas spánku</string>
+	<string name="sleep_valid_time">Efektívna doba spánku</string>
+	<string name="sleep_quality_time">Kvalita spánku</string>
+	<string name="sleep_details">Detaily spánku</string>
+
+	<string name="sleep_deep">Hlbokého spánku</string>
+	<string name="sleep_light">Ľahký spánok</string>
+	<string name="sleep_awake">Nahor</string>
+	<string name="heart_details">Detaily srdcovej frekvencie</string>
+	<string name="blood_pressure_details">Detaily krvného tlaku</string>
+	<string name="blood_oxygen_details">Krvný kyslík Podrobnosti</string>
+	<string name="title_track_setting">Nastavenie dráhy</string>
+	<string name="item_device_remote_camera">Vzdialená kamera</string>
+	<string name="item_device_search_band">Nájsť náramok</string>
+	<string name="item_device_health_reminder">Zdravotné výstrahy</string>
+	<string name="item_device_schedule_reminder">Správa plánovania</string>
+	<string name="item_device_alarm_clock">Budík</string>
+	<string name="item_device_push">Tlačiť</string>
+
+	<string name="delete">Odstrániť</string>
+
+	<string name="content_five_clock">Môžete nastaviť až 5 alarmov.</string>
+	<string name="content_remind_sedentary">Sedavý pripomenutie</string>
+	<string name="content_reminder_drink">Piť vodu varovania</string>
+
+	<string name="day">Dní</string>
+	<string name="month">Mesiac</string>
+	<string name="year">Rokov</string>
+	<string name="step">Krok</string>
+	<string name="hour">Hodín</string>
+
+<!--通用单位-->
+<string name="unit_hours">h</string><!--小时-->
+<string name="unit_min">min</string><!--分钟-->
+<string name="unit_heart">bpm</string><!--心率单位-->
+<string name="unit_pressure">mmHg</string><!--血压单位-->
+	<string name="unit_week">Týždeň</string>
+	<string name="unit_day">Deň</string>
+	<string name="unit_month">Mesiac</string>
+	<string name="unit_year">Rokov</string>
+
+	<string name="unit_cal">Karty</string>
+	<string name="unit_km">Km</string>
+	<string name="unit_km_h">km/h</string>
+	<string name="unit_mile">Míle</string>
+	<string name="unit_mile_h">Mile/h</string>
+	<string name="unit_C">° C</string>
+	<string name="unit_F">° F</string>
+	<string name="unit_kg">Kg</string>
+	<string name="unit_pounds">Libra</string>
+	<string name="unit_version">V %1 $ s</string>
+	<string name="unit_cm">Cm</string>
+
+	<string name="content_standard_days">Počet dní na splnenie štandardu</string>
+	<string name="content_avg_day_steps">Priemerný denný postup</string>
+	<string name="content_avg_month_steps">Mesačné priemerné kroky</string>
+	<string name="content_avg_day_consume">Priemerná denná spotreba</string>
+	<string name="content_avg_month_consume">Mesačná priemerná spotreba</string>
+	<string name="content_total_distance">Celková vzdialenosť</string>
+	<string name="content_avg_day_distance">Denná priemerná vzdialenosť</string>
+	<string name="content_avg_month_distance">Mesačná priemerná vzdialenosť</string>
+	<string name="content_total_steps">Celkový počet krokov</string>
+	<string name="content_greatest_good">Viac ako dobré dni</string>
+	<string name="content_total_time_sleep">Celková efektívna doba spánku</string>
+	<string name="content_daily_time_sleep">Priemerný denný efektívny čas spánku</string>
+	<string name="content_longest_single_sleep">Maximálne jediné spanie</string>
+	<string name="content_proportion_of_sleep">Percentuálny podiel účinného spánku</string>
+	<string name="content_quality_sleep">Kvalita spánku</string>
+	<string name="content_average_heart">Priemerná srdcová frekvencia</string>
+	<string name="content_highest_heart">Najvyššia srdcová frekvencia</string>
+	<string name="content_minimum_heart">Najnižšia srdcová frekvencia</string>
+	<string name="content_heart_too_high">Vysoká srdcová frekvencia</string>
+	<string name="content_heart_too_low">Srdcová frekvencia je príliš nízka</string>
+	<string name="content_average_pressure_diastolic">Priemerný diastopress</string>
+	<string name="content_average_pressure_systolic">Priemerný systolický tlak</string>
+	<string name="content_abnormal_systolic">Systolický abnormálne</string>
+	<string name="content_abnormal_diastolic">Diastopress abnormálne</string>
+	<string name="content_max_value">Maximálna</string>
+	<string name="content_avg_value">Priemerná</string>
+	<string name="content_min_value">Min</string>
+	<string name="content_no">Či</string>
+	<string name="content_yes">Je</string>
+	<string name="content_total_mileage">Celkový počet najazdených kilometrov</string>
+	<string name="content_burn_calories">Konzumovať veľké karty</string>
+	<string name="content_total_time_consumed">Celkovo časovo náročné</string>
+	<string name="content_air_quality">Kvalita ovzdušia:</string>
+	<string name="content_completed">Dokončená</string>
+	<string name="content_calorie_burning">Spaľovanie kalórií</string>
+	<string name="content_per_hour">Rýchlosť</string>
+	<string name="content_pace">Rýchlosť</string>
+	<string name="content_time_consuming">Čas spotrebovaný</string>
+	<string name="content_keep_screen_light">Obrazovka telefónu zostane na</string>
+	<string name="content_shake_band_start">Vibračné tipy na ručné zvonenie na začiatku behu</string>
+	<string name="content_shake_band_end">Ručný prsteň vibračné tipy na konci behu</string>
+	<string name="content_show_weather">Zobraziť aktuálne počasie v meste</string>
+	<string name="content_need_open_gps">Mobilný telefón GPS funkcia nie je zapnutá, spôsobí aktuálnu polohu a skutočné umiestnenie má veľký rozdiel, prosím, zapnite funkciu mobilného telefónu GPS.</string>
+	<string name="content_open_now">Otvoriť</string>
+	<string name="content_leave_running">Výstupu</string>
+	<string name="content_confirm">si si istý</string>
+	<string name="content_cancel">Zrušiť</string>
+	<string name="content_running_outside">Vnútorné cvičenie spôsobí, že trať pohybu nie je zaznamenaná, použite outdooruse.</string>
+	<string name="content_current_power">Aktuálny poplatok:</string>
+	<string name="content_mac_address">Mac:</string>
+	<string name="content_shaking_band">V náramku vibrácie...</string>
+	<string name="title_connected">Pripojený</string>
+
+	<string name="content_scanning_start">Skenuje periférne zariadenia</string>
+	<string name="toast_un_support_ble">Vá ¹ telefón nepodporuje Bluetooth BLE</string>
+	<string name="toast_bluetooth_is_close">Funkcia Bluetooth nie je zapnutá</string>
+	<string name="toast_band_is_disconnect">Nie ste pripojení k náramku!</string>
+
+	<string name="title_today">Uskutočnená dnes o</string>
+	<string name="title_device_setting">Nastaviť</string>
+	<string name="title_about_app">Nastavenie verzie a jednotky aplikácie</string>
+	<string name="title_feedback">Spätnú väzbu</string>
+	<string name="title_update_band">Aktualizácie firmvéru</string>
+	<string name="title_health_reminder">Zdravotné výstrahy</string>
+	<string name="title_alarm">Budík</string>
+	<string name="title_schedule_reminder">Naplánovať pripomenutie</string>
+	<string name="title_message_push">Push správy</string>
+
+	<string name="content_band_update">Aktualizácia firmvéru náramku</string>
+	<string name="content_about_app">Nastavenie verzie a jednotky aplikácie</string>
+	<string name="content_feedback">Spätnú väzbu</string>
+	<string name="content_reset">Obnovenie továrenského nastavenia náramku</string>
+	<string name="content_clean_cache">Vymazanie vyrovnávacej pamäte aplikácií</string>
+	<string name="content_unblock_device">Zrušenie viazania zariadenia</string>
+	<string name="content_heart_detection">Automatická detekcia srdcovej frekvencie</string>
+	<string name="content_light_screen">Zdvihnite obrazovku svetla zápästia</string>
+	<string name="content_lost_reminder">Pripomenutie proti poklesu</string>
+
+	<string name="content_ota_update">Aktualizácia</string>
+
+	<string name="content_app_current_version">Aktuálna verzia aplikácie</string>
+	<string name="content_app_last_version">Najnovšia verzia aplikácie</string>
+	<string name="content_unit_distance">Formát zobrazenia vzdialenosti</string>
+	<string name="content_unit_temperature">Formát zobrazenia teploty</string>
+	<string name="content_unit_weight">Formát zobrazenia váhy</string>
+	<string name="content_app_auto_update">Automatické aktualizácie aplikácie</string>
+	<string name="content_app_auto_sync">Automatická synchronizácia</string>
+
+	<string name="content_sport_done">Koniec</string>
+	<string name="content_submit">Predložiť</string>
+	<string name="content_feedback_content">Prosím, zadajte, čo chcete dať spätnú väzbu na</string>
+	<string name="content_exit">Výstupu</string>
+	<string name="content_call_reminder">Upozornenie na hovor</string>
+	<string name="content_message_reminder">SMS upozornenie</string>
+	<string name="content_do_not_disturb">Prepínač Nerušiť</string>
+
+	<string name="reminder_facebook">Facebook</string>
+	<string name="reminder_weChat">Wech</string>
+	<string name="reminder_line">Riadok</string>
+	<string name="reminder_weibo">Weibo</string>
+	<string name="reminder_linkin">Linkin</string>
+	<string name="reminder_qq">Qq</string>
+	<string name="reminder_google_plus">Google Plus</string>
+
+
+
+	<string name="content_choose_repeat_cycle">Vyberte opakovanie</string>
+	<string name="content_repeat">Opakujte</string>
+	<string name="content_title_exit_account">Naozaj chcete ukončiť svoj bežný účet?</string>
+	<string name="content_last_weight">Meranie poslednej váhy:</string>
+	<string name="content_last_date">Naposledy merané:</string>
+	<string name="content_personal_best_record">Najlepšie jeden-dňový rekord</string>
+	<string name="content_standard_day">Počet po sebe idúcich dní schôdze</string>
+	<string name="content_best_week">Najlepší týždeň</string>
+	<string name="content_best_month">Najlepší mesiac</string>
+	<string name="content_personal_setting">Osobné nastavenia</string>
+	<string name="content_exit_current_account">Odhláste sa zo svojho aktuálneho prihlasovacieho účtu</string>
+	<string name="content_bmi_index">Index BMI:</string>
+	<string name="content_setting_nickname">Prezývka</string>
+	<string name="content_setting_gender">Pohlavie</string>
+	<string name="content_setting_birth_year">Rok narodenia</string>
+	<string name="content_setting_height">Výška</string>
+	<string name="content_setting_last_weight">Meranie poslednej váhy</string>
+	<string name="content_setting_bmi_index">Index BMI</string>
+	<string name="content_setting_day_target">Denné ciele</string>
+	<string name="content_setting_save">Uložiť</string>
+	<string name="content_setting_next">Ďalšie</string>
+	<string name="content_gender_female">Žena</string>
+	<string name="content_gender_male">Man</string>
+	<string name="bmi_too_light">Príliš ľahká</string>
+	<string name="bmi_normal">Normálne</string>
+	<string name="bmi_too_heavy">Nadváhou</string>
+	<string name="bmi_obesity">Obezita</string>
+	<string name="bmi_very_fat">Veľmi tuk.</string>
+	<string name="content_bmi_paragraph_1">Index BMI, alebo index telesnej hmotnosti, je bežne používaným medzinárodným meradlom hmotnosti telesného tuku a zdravia, tento ukazovateľ berie do úvahy hmotnosť a výšku dva faktory</string>
+	<string name="content_bmi_paragraph_2">BMI je jednoduchý, praktický a odráža systémovú nadváhu a obezitu.Pri meraní rizika srdcových ochorení a vysokého krvného tlaku v dôsledku nadváhy je presnejšie, než len meranie hmotnosti</string>
+	<string name="content_dialog_title_bmi">Čo je BMI?</string>
+	<string name="title_user_setting">Osobné nastavenia</string>
+	<string name="content_training">Podľa Svetovej zdravotníckej organizácie, dospelí musia vziať 40 minút stredne-intenzita školenia každý deň, ekvivalent chôdze 8 000 krokov</string>
+	<string name="content_dialog_title_moving_target">Športové ciele</string>
+	<string name="content_history_schedule_reminder">Pripomenutie historickej agendy</string>
+	<string name="content_save">Uložiť</string>
+
+
+
+    <string-array name="sleep">
+		<item>Hlbokého spánku</item>
+		<item>Ľahký spánok</item>
+		<item>Nahor</item>
+    </string-array>
+
+
+<!--反馈-->
+	<string name="toast_feedback_success">Spätná väzba podanie bolo úspešné, ďakujem vám za vaše cenné návrhy!</string>
+
+<!--视频引导页-->
+	<string name="content_guest_login_in">Turistické prihlásenie</string>
+	<string name="content_user_login_in">Prihlásiť</string>
+
+<!--全局工具类的字符串-->
+	<string name="dialog_waiting">prosím...</string>
+
+	<string name="title_schedule_manager">Správa plánovania</string>
+	<string name="title_edit_schedule">Upraviť plán</string>
+	<string name="content_time">Čas</string>
+	<string name="content_every_day">každý deň</string>
+	<string name="content_today">Uskutočnená dnes o</string>
+	<string name="content_tomorrow">Zajtra</string>
+	<string name="content_single">Jednotného</string>
+	<string name="content_take_photo">Fotografie</string>
+	<string name="content_choose_picture">Výber z mobilného albumu</string>
+	<string name="content_unknown_number">Neznáme číslo</string>
+	<string name="content_call">Hovor:</string>
+	<string name="content_this_week">Týždeň</string>
+	<string name="content_this_month">Mesiac</string>
+	<string name="content_input_email">Prosím, zadajte poštovú schránku</string>
+	<string name="content_input_verification_code">Prosím, zadajte overovací kód</string>
+	<string name="content_obtain_verification_code">Získanie overovacieho kódu</string>
+	<string name="content_input_password">Prosím, zadajte svoje heslo</string>
+	<string name="content_register">Registrované</string>
+	<string name="content_confirm_password">Potvrďte heslo</string>
+	<string name="title_register">Registrované</string>
+	<string name="content_reacquire">Znovuzískanie</string>
+	<string name="title_forget_password">Zabudli ste heslo</string>
+	<string name="hint_input_new_password">Zadajte nové heslo</string>
+	<string name="content_confirm_new_password">Potvrďte, prosím, nové heslo</string>
+	<string name="content_commit">Predložiť</string>
+	<string name="content_not_valid_email">Nie je platná poštová schránka!</string>
+	<string name="content_nickname_length">Prosím, zadajte svoju prezývku</string>
+	<string name="content_password_length">Dĺžka hesla môže byť 6 až 14 bitov</string>
+	<string name="content_valid_input">Dve heslá vstup nezrovnalosti</string>
+	<string name="content_forget_pwd">Zabudli ste heslo?</string>
+	<string name="content_update_app">Inovácia verzie</string>
+	<string name="content_update">Aktualizácia</string>
+	<string name="content_update_ing">V aktualizácii...</string>
+	<string name="content_save_picture_to">Obrázok sa uloží v</string>
+	<string name="content_nickname_not_be_null">Prezývka nemôže byť prázdna</string>
+	<string name="title_open_close_bluetooth">Zistil, že je Bluetooth telefón vypnutý, chcete ho zapnúť?</string>
+	<string name="content_open">Otvorte ho</string>
+	<string name="content_no_data">Žiadne údaje v tomto čase</string>
+	<string name="content_application_exception">Program výnimkou, je ukladanie log, prosím, nerobí nič!</string>
+	<string name="title_history_schedule_reminder">Historický program</string>
+	<string name="content_what_is_this">čo je to?</string>
+	<string name="content_bluetooth">Bluetooth</string>
+	<string name="content_can_not_be_null">Obsah upomienky nemôže byť prázdny</string>
+	<string name="content_new_app_version">Aplikácia má nové aktualizácie</string>
+	<string name="content_update_new_app_version">Vaša aplikácia má novú verziu a aktualizácia obsahuje opravy chýb a vylepšenia výkonu na určenie aktualizácie?</string>
+	<string name="content_current_is_last">Je to aktuálne!</string>
+	<string name="content_new_device_version">Systémové tipy</string>
+	<string name="content_update_new_device_version">Nová verzia firmvéru dostupná s aktuálnym číslom verzie V%d a inováciou na V%d</string>
+	<string name="content_current_device_version">Aktuálny firmvér zariadenia: V%02d</string>
+	<string name="content_last_device_version">Najnovší firmvér zariadenia: V%02d</string>
+	<string name="content_congratulations_successful">Gratulujeme, upgrade bol úspech!</string>
+	<string name="content_is_last_device_version">Aktuálne aktuálny</string>
+	<string name="content_are_you_sure">si si istý?</string>
+	<string name="content_want_reset">Sme asi vyčistiť všetky nastavenia a dáta z vášho náramku a nemožno obnoviť, určiť továrenské nastavenia pre obnovenie zariadenia?</string>
+	<string name="content_want_clear">Vyrovnávacia pamäť aplikácie obsahuje lokálne údaje, ako sú údaje o pohybe a osobné informácie, a po odstránení sa údaje nebudú môcť obnoviť.</string>
+	<string name="content_want_unbind">Po nezáväznej aplikácii na zariadenie nebude môcť vaše zariadenie naďalej prijímať funkcie, ako sú upozornenia na informácie a Správa telefónu z aplikácie (niektoré zariadenia nemajú túto funkciu), chcete pokračovať?</string>
+	<string name="content_stop_check">Zastavené fyzikálne vyšetrenie</string>
+	<string name="content_check_complete">Dokončená</string>
+	<string name="content_checking">Nachádzate sa v súčasnosti v lekárskej prehliadke...</string>
+	<string name="title_scan_band">Skenovať náramok</string>
+	<string name="content_scanning">V scan...</string>
+	<string name="content_binding">Záväzné...</string>
+	<string name="content_input_correct_email">Prosím, zadajte správnu poštovú schránku</string>
+	<string name="content_input_correct_phone">Prosím, zadajte správne telefónne číslo</string>
+	<string name="content_exit_run">Ukončite a uložte aktuálnu pohybovú dráhu a údaje, ak je pohyb príliš krátky a údaje nebudú uložené, chcete pokračovať?</string>
+	<string name="content_want_exit">Chcete skončiť?</string>
+	<string name="content_save_data">Ukladá sa údaje...</string>
+	<string name="content_nickname_illegal">Prezývky sú príliš dlhé alebo príliš krátke (1 až 16 znakov)!</string>
+	<string name="content_can_not_choose_future">Nemôžete vybrať dátum pre budúcnosť</string>
+	<string name="content_calendar_format">Rrrr y mwym mesiac</string>
+	<string name="content_reminder_time">Pripomenutie každých%1F hodín (%02d:%02d-%02d:%02d)</string>
+	<string name="content_choose_one_day_reminder">Vyberte si deň, ktorý vám pripomenie</string>
+	<string name="content_preparing">V príprave...</string>
+	<string name="content_prepare_timeout">Pripravený na čas, skúste to znova</string>
+	<string name="content_during_upgrade">V upgrade...</string>
+	<string name="content_upgrade_failed">Inovácia zlyhala, skúste to znova</string>
+	<string name="content_upgrade_cancel">Inovácia bola zrušená a nevyžaduje sa žiadna aktualizácia opakovania!</string>
+	<string name="content_disconnect_band">Nie ste pripojení k náramku!</string>
+	<string name="content_upgrade_no_plan">Žiadny scenár inovácie pre zariadenie</string>
+	<string name="content_getting_information">Získanie informácií o verzii firmvéru:</string>
+	<string name="content_download_failed">Nepodarilo sa prevziať balík firmvéru, skontrolujte nastavenia siete</string>
+	<string name="content_downloading">Preberá sa firmvér:</string>
+	<string name="content_last_time">Minule:</string>
+	<string name="content_sleep_quality">Kvalita spánku:</string>
+	<string name="content_step_format">%d krok</string>
+	<string name="content_day_format">ddDay</string>
+	<string name="content_bad">Chudobných</string>
+	<string name="content_general">ako tak</string>
+	<string name="content_well">dobrý</string>
+	<string name="content_good">Vynikajúce</string>
+	<string name="content_permission_notification">Na paneli upozornení sa povolenie na čítanie používa na tlačenie obsahu na náramok</string>
+	<string name="content_authorized_to_use">Povoľte, aby tieto povolenia boli oprávnené pokračovať:</string>
+	<string name="content_authorized">Oprávnený</string>
+	<string name="content_next">Ďalšie</string>
+	<string name="content_exit_login">Keď ukončíte svoj aktuálny režim prihlásenia do účtu/návštevníka, zariadenie Bluetooth sa odpojí a či bude pokračovať</string>
+	<string name="content_use_for_sport">Používa sa pre funkciu "Motion a ďalšie informácie prezeranie"</string>
+	<string name="content_use_for_find_phone">Pre funkciu ručné kapela hľadá mobilný telefón</string>
+	<string name="content_band_call_phone">Náramok hľadá pre tento telefón...</string>
+	<string name="content_find_phone">Pozrite sa na mobilný telefón.</string>
+	<string name="content_permission_need">Odmietli ste niektoré povolenia, ktoré daná aplikácia musí mať, a aplikácia nebude pracovať správne, takže tieto povolenia musíte povoliť, aby ste mohli pokračovať:</string>
+	<string name="content_calendar">Kalendár</string>
+	<string name="content_camera">Fotoaparát</string>
+	<string name="content_contacts">Kontakty</string>
+	<string name="content_location">Informácie o polohe</string>
+	<string name="content_microphone">Mikrofón</string>
+	<string name="content_phone">Stav hovoru/číslo/IMEI</string>
+	<string name="content_sensor">Snímače tela</string>
+	<string name="content__sms">Sms</string>
+	<string name="content_storage">Úložný priestor</string>
+	<string name="content_no_time">ešte nie</string>
+	<string name="content_normal">Obyčajné</string>
+	<string name="content_poor">Chudobných</string>
+	<string name="content_total_number_of_steps">Celkový počet krokov:%02d</string>
+	<string name="content_reminder_content">Pripomenutia</string>
+	<string name="content_systolic_pressure">Sysion</string>
+	<string name="content_diastolic_pressure">Diastou tlak</string>
+	<string name="content_deep_sleep">Hlbokého spánku</string>
+	<string name="content_light_sleep">Ľahký spánok</string>
+	<string name="content_wide_awake">Nahor</string>
+	<string name="content_total_time_consuming">Celkovo časovo náročné</string>
+	<string name="content_average_speed">Priemerné tempo</string>
+	<string name="content_average_time_speed">Priemerná rýchlosť</string>
+	<string name="content_fastest_speed">Najrýchlejšia rýchlosť</string>
+	<string name="content_loading">Načítať...</string>
+	<string name="content_device_no_bind">Neviazané zariadenie, najprv naviazať náramok</string>
+	<string name="content_scan_device">Skenovať náramok</string>
+	<string name="content_time_interval">Interval</string>
+	<string name="content_half_hour">0,5 h</string>
+	<string name="content_one_hour">1H</string>
+	<string name="content_two_hour">2H</string>
+	<string name="content_three_hour">3H</string>
+	<string name="content_sunday">Nedeľu</string>
+	<string name="content_monday">Pondelok</string>
+	<string name="content_tuesday">Utorok</string>
+	<string name="content_wednesday">Stredu</string>
+	<string name="content_thursday">Štvrtok</string>
+	<string name="content_friday">Piatok</string>
+	<string name="content_saturday">Sobotu</string>
+	<string name="content_calendar_title">Rrrr y mwym mesiac</string>
+	<string name="content_pull_down_to_refresh">Rozbaľovaciu ponuku môžete obnoviť</string>
+	<string name="content_refreshing">Osviežujúci...</string>
+	<string name="content_is_loading">Nakládky...</string>
+	<string name="content_release_immediately_refresh">Uvoľniť okamžité obnovenie</string>
+	<string name="content_refresh_completed">Obnoviť dokončené</string>
+	<string name="content_refresh_failed">Nepodarilo sa obnoviť</string>
+	<string name="content_last_update">\'Posledná aktualizovaná\' MM-dd HH:mm</string>
+	<string name="content_enter_email_is_correct">Prosím, zadajte správnu poštovú schránku</string>
+	<string name="unit_steps">Krok</string>
+	<string name="content_map_type">Typ mapy</string>
+	<string name="content_map_type_gaode">Gaudrea mapa (Čína)</string>
+	<string name="content_map_type_google">Google Maps</string>
+	<string name="content_map_type_automatic_smart_select">Inteligentná voľba</string>
+
+	<string name="content_connect_failed">Pripojenie zlyhalo</string>
+	<string name="content_try_to_fix">Pokúste sa opraviť</string>
+	<string name="content_connect_failed_fix_tips">Nedá sa pripojiť k náramku, môžete skúsiť:.N1.znova pripojiť.........................................................................................................................................................................................................</string>
+
+	<string name="content_item_fix_band">%1 $ s (Uložiť tehly)</string>
+	<string name="content_fix_band_failed">Nepodarilo sa zachrániť tehly</string>
+	<string name="content_fix_band_failed_tips">Nemožno určiť zariadenie tehla Rescue Plan, prosím, počkajte 10 minút a uvidíme, či náramok automaticky vráti do normálu, ak stále nemôže automaticky vrátiť do normálu, prosím, dajte nám spätnú väzbu v aplikácii</string>
+	<string name="content_heart_detection_tips">Niektoré zariadenia nepodporujú túto funkciu</string>
+	<string name="content_description">Správa push Monitoring Service:.n Počúvajte QQ, Wech, Weibo, Facebook, Twitter, line, linkedln, Google Plus push to oznámenia Bar a pošlite ho na náramok</string>
+
+	<string name="content_input_band">Prosím, zadajte názov vášho náramok</string>
+	<string name="content_or_contact_us">Alebo nás kontaktujte e-mailom: wt5354@iwear88.com</string>
+
+	<string name="content_help">Používateľské zmluvy a zásady ochrany osobných údajov</string>
+	<string name="content_approve">Umožniť</string>
+	<string name="content_permission_location">Prístup k polohe sa používa na nájdenie polohy náramku a pripojenie</string>
+	<string name="content_scan_timeout">Neviete nájsť zariadenie? Zapnutie a vypnutie telefónu, režimu lietadlo a opätovné spustenie skenovania</string>
+	<string name="content_push_warm">Ak správa push funkcia nefunguje, kliknite tu a otvorte ho!</string>
+	<string name="content_reconnecting">Vaše zariadenie alebo sieť je zaneprázdnená,</string>
+	<string name="content_manual_reconnect">Manuálna synchronizácia zariadení</string>
+	<string name="content_login_means">Prihlásenie znamená čítanie a odsúhlasenie</string>
+	<string name="content_terms">Používateľské zmluvy a zásady ochrany osobných údajov</string>
+	<string name="content_terms_title">O používateľských dohodách a zásadách ochrany osobných údajov/presnosti dát zariadení</string>
+	<string name="content_terms_first">*</string>
+	<string name="content_terms_second"><![CDATA[* Ďakujeme vám za vašu dôveru a vieme, že vaše informácie sú veľmi dôležité, takže väčšina funkcií aplikácie vyžaduje, aby vaše povolenie fungovalo správne, kliknite na tlačidlo<font color=#04F5D1><a href=\'%s\'>Používateľské zmluvy a zásady ochrany osobných údajov</a></font>aby ste si boli vedomí svojho obmedzenia výkonu.]]></string>
+	<string name="content_terms_third">Tento produkt nie je zdravotníckym zariadením a nezdá sa byť určený na použitie v noci na liečbu, liečenie alebo prevenciu akejkoľvek choroby.Rafinovanosť produktov nie je pokusom o porovnanie s medicínskymi alebo vedeckými meracími pomôckou.</string>
+	<string name="content_verification_help"><![CDATA[Nedá sa získať overovací kód? Kliknite <font color=#04F5D1> <a href=\'%s\'>Tu</a> </font>Získajte pomoc.]]></string>
+	<string name="issue_with_log_in_or_sign_in">Vyskytol sa problém s prihlásením sa na prihlásenie</string>
+	<string name="content_troubleshooting_help"><![CDATA[Kliknite<font color=#04F5D1> <a href=\'%s\'>Dostať</a> </font>Chyba manuál]]></string>
+	<string name="content_sleep_accuracy">O presnosti spánku</string>
+	<string name="content_sleep_accuracy_1">Automatická detekcia spánku všeobecne má vysokú presnosť, ale rôzne používateľské návyky môžu viesť k chybám.</string>
+	<string name="content_sleep_accuracy_2">Keď zistíte, že dôvod pre nezaznamenané údaje o spánku je v analýze do 0,5 hodín po skončení spánku, skontrolujte, či neskôr.</string>
+	<string name="content_accuracy_title">O presnosti spánku!</string>
+	<string name="content_app_unsupport_tips">Táto funkcia je nastavená na náramok</string>
+	<string name="content_permission_notification_enable">Oznámenie push povolenie bolo vypnuté, prosím, zapnite ho, inak to spôsobí, že funkcie, ako je nájsť náramok, oznámenia Bar zobrazenie údajov o pohybe, atď, aby nefungoval správne</string>
+	<string name="content_unit_time">Náramok časový systém</string>
+	<string name="content_connect_google_fit">Súvisiace s Google fit</string>
+	<string name="content_unlink_google_fit">Zrušiť priradenie služby Google fit</string>
+	<string name="title_associate_google_fit">Súvisiace s Google fit</string>
+	<string name="content_upload_google_fit_now">Nahrajte svoje údaje do služby Google fit teraz</string>
+	<string name="content_tips_of_google_fit">Keď je združenie úspešné, dáta sa automaticky nahrajú do Google fit na 0:4/8:00/12:16/20/20 hodín denne</string>
+
+
+	<string name="content_answer">Prosím, zadajte odpoveď</string>
+	<string name="content_input_email_different">Poštová schránka zadaná dvakrát nie je rovnaká</string>
+	<string name="content_resetpsw_now">Vyhľadanie hesla</string>
+	<string name="content_new_psw">Nové heslo:</string>
+	<string name="content_question1">Otázka 1:</string>
+	<string name="content_question2">Otázka 2:</string>
+	<string name="content_input_reg_email">Prosím, zadajte registrovanú poštovú schránku</string>
+	<string name="content_register_question_step1">1.Vyplňte poštovú schránku a heslo</string>
+	<string name="content_register_question_step2">2.zadajte tajnú ochranu problém</string>
+	<string name="content_retrieve_type">Ako sa dostať späť:</string>
+	<string name="content_register_success">Registrácia bola úspešná!</string>
+	<string name="content_resetpsw_success">Zmena hesla bola úspešná!</string>
+	<string name="content_resetpsw_wrong_answer">Tajné poistenie odpoveď zle!</string>
+	<string name="content_from_auth_code">Pass overovací kód</string>
+	<string name="content_from_question">Prostredníctvom otázky bezpečnosti</string>
+	<string name="question1_1">Aký je váš prvý/aktuálne/obľúbený PET meno?</string>
+	<string name="question1_2">Aký je názov vašej obľúbenej knihy?</string>
+	<string name="question1_3">Aké je vaše obľúbené jedlo?</string>
+	<string name="question2_4">Aký bol názov spoločnosti pre vašu prvú prácu?</string>
+	<string name="question2_5">Aký je názov vašej matky?</string>
+	<string name="question2_6">Aký je názov mesta, kde ste sa narodili?</string>
+
+	<string name="content_connect_strava">Súvisiaca strava</string>
+	<string name="content_unlink_strava">Zrušiť priradenie strava</string>
+	<string name="content_tips_of_strava">Po spojení s strava môžete odoslať svoju pohyblivú dráhu na strava v rozhraní nahrávania pohybovej dráhy</string>
+	<string name="content_uploaded_to_strava">Odoslané do strava</string>
+	<string name="content_upload_to_strava">Odoslať do strava</string>
+	<string name="content_retry">Znova</string>
+	<string name="content_err_save_sport_track_data_network_fail">Údaje pohybovej dráhy nie je možné uložiť, skontrolujte, či je sieť otvorená</string>
+	<string name="content_donot_save">Neukladajte</string>
+	<string name="content_link">Pripojenie</string>
+	<string name="content_help_and_feedback">Pomocník a spätná väzba</string>
+
+	<string name="content_my_friends">môj priateľ</string>
+	<string name="content_search_friends_hint">User ID/Email/telefónne číslo</string>
+	<string name="toast_tips_req_add_friends">Requestadded priateľ pozvanie poslal</string>
+	<string name="title_tab_msg_system">Systémová správa</string>
+	<string name="title_tab_msg_add_friend">Žiadosť o priateľstvo</string>
+	<string name="title_tab_my_friends">Moji priatelia a rodina.</string>
+	<string name="content_add_agree_friends">Opýtajte sa vás pridať ako priateľa</string>
+	<string name="content_btn_agreed">Súhlasiť</string>
+	<string name="content_btn_refused">Odmietol</string>
+	<string name="content_encourage">Podporovať</string>
+	<string name="content_zan">Rád</string>
+	<string name="content_add_friends">Pridať ako priateľa</string>
+	<string name="content_already_friends">Pridalo</string>
+	<string name="content_already_refused">Zamietnuté</string>
+	<string name="content_nickname">Prezývka:</string>
+	<string name="content_nickname_2">Prezývka</string>
+	<string name="content_sign_null">Druhá strana nevyplnila podpis</string>
+	<string name="content_sign">Prosím, vyplňte svoj podpis</string>
+	<string name="content_setting_sign">Podpis</string>
+	<string name="content_remark_null">Poznámky nie sú vyplnené</string>
+	<string name="content_user_info">Informácie o používateľovi</string>
+	<string name="content_set_remark">Nastaviť poznámky</string>
+	<string name="content_average_blood_oxygen">Priemerný krvný kyslík</string>
+	<string name="content_step_num">Počet krokov</string>
+	<string name="content_sleep_data">Spať</string>
+	<string name="content_bp_bo">Krvný tlak kyslíka v krvi</string>
+	<string name="content_invite_friends">Pozvať priateľov</string>
+	<string name="content_save_image">Uloženie obrázka</string>
+
+	<string name="content_encourage_you">Povzbudiť, aby ste vykonávali viac</string>
+	<string name="content_zan_you">Páčilo sa mi.</string>
+
+
+	<string name="content_no_friends">Nenašiel som priateľa.</string>
+	<string name="content_search_friends_input_err">Prosím, zadajte správne užívateľské ID/Email/telefónne číslo</string>
+
+
+	<string name="content_weather_sunny_day">Jasné</string>
+	<string name="content_weather_cloudy">Zakalená</string>
+	<string name="content_weather_snow">Sneh</string>
+	<string name="content_weather_cloudy_day">Yin</string>
+	<string name="content_weather_rain">Dážď</string>
+
+
+
+	<string name="content_my_ideal_weight">Moja ideálna váha</string>
+	<string name="content_intake_calories">Denný príjem kalórií nastavenia</string>
+	<string name="content_sport_target">Denný krok pohyb cieľ</string>
+	<string name="content_intake_tips_head">Jete až do toho, čo jete každý deň.</string>
+	<string name="content_intake_tips_foot">Kalórie potravín</string>
+	<string name="content_recorded_meal">Zaznamenané%d jedlo%s</string>
+	<string name="content_this_meal_to_eat">Čo ste jedli v tomto jedle?</string>
+	<string name="content_food_input_empty_tips">Táto položka nemôže byť prázdna</string>
+	<string name="content_record_meal_to_eat">Zaznamenajte si, čo ste jedli.</string>
+	<string name="content_edit">Upraviť</string>
+	<string name="content_your_goal_is_to_subtract">Vaším cieľom je odčítať</string>
+	<string name="content_the_current_every_day_for_a_sport_target">Súčasný denný cieľ cvičenia je</string>
+	<string name="content_when_is_the_daily_consumption">Keď je denná spotreba</string>
+	<string name="content_daily_intake_is">Denný príjem je</string>
+	<string name="content_the_current_is_expected_to_reduce_a_day">Očakáva sa, že prúd ležiace na deň zníži</string>
+	<string name="content_need_to_complete">Musieť dokončiť</string>
+	<string name="content_expected_time_for_success">Odhadovaný čas úspešnosti</string>
+	<string name="content_please_adjust_the_plan">Upravte plán</string>
+	<string name="content_target_weight_should_be_less_than_the_current_weight">Cieľová hmotnosť by mala byť menšia ako aktuálna hmotnosť</string>
+	<string name="content_the_current_plan_is_not_suitable_for_weight_loss">Aktuálny plán nie je vhodný na chudnutie</string>
+	<string name="content_recommended_daily_intake">V závislosti na vašich zdravotných a hmotnostné ciele, sa odporúča konzumovať približne denne kalórií</string>
+	<string name="content_average_daily_calorie_deficit">Priemerný denný deficit tepla</string>
+	<string name="content_intake_of_qualified_days">Počet kvalifikačných dní</string>
+	<string name="content_average_daily_intake_of_calories">Priemerný denný príjem kalórií</string>
+	<string name="content_the_highest_intake_of_calories">Maximálny príjem kalórií</string>
+	<string name="content_not_clock_in_number_of_days">Počet dní, ktoré nie sú zablokované</string>
+	<string name="content_click_add_meal">Kliknite na ikonu v pravom hornom rohu vytvoriť záznam</string>
+	<string name="content_total_intake_about">Celkový príjem je asi</string>
+	<string name="content_calorie_consumption">Spotreba kalórií</string>
+	<string name="content_calorie_intake">Príjem kalórií</string>
+	<string name="content_target_bmi">Cieľová BMI</string>
+	<string name="content_diet_help_tips">Aplikácia vypočíta základnú rýchlosť metabolizmu na základe osobného pohlavia/veku používateľa a keď používateľ zadá cieľovú hmotnosť a denné kroky, aplikácia vypočíta približný dátum pre úspešnosť chudnutia.Vzhľadom na rozdiely v osobnej fyzickej kondícii a životných návykoch je presnosť tejto funkcie len pre referenciu a nie je určená na lekárske účely.</string>
+	<string name="content_have_the_calories_you_eat">Spotrebované kalórie</string>
+	<string name="content_diet_start">Začnite jedlo-tenké turné</string>
+	<string name="content_food_name">Názov potraviny</string>
+	<string name="content_amount">Hmotnosť</string>
+	<string name="content_unit">Jednotka</string>
+	<string name="content_cur_weight">Aktuálna hmotnosť</string>
+	<string name="content_target_weight">Cieľová hmotnosť</string>
+
+
+
+
+	<string name="sport_encourage_prompt_0">Výška cvičenia, ktoré priemerný užívateľ ohrieva v telocvični</string>
+	<string name="sport_encourage_prompt_1">Výška je ekvivalentná k lezenie Mount Fuji.</string>
+	<string name="sport_encourage_prompt_2">KTO odporúča počet krokov, ktoré dospelí môžu dokončiť za deň</string>
+	<string name="sport_encourage_prompt_3">Znížili sme planétu asi o 805g emisií CO2.</string>
+	<string name="sport_encourage_prompt_4">Dokončili ste vzdialenosť od Louvru do Parížskej veže.</string>
+	<string name="sport_encourage_prompt_5">Je to ekvivalent beží 30 kôl na ihrisku.</string>
+	<string name="sport_encourage_prompt_6">Jazda na bicykli na viac ako 1 hodinu</string>
+
+	<string name="sleep_duration_encourage_prompt_0">Váš spánok je príliš krátky, prosím, urobte si pauzu</string>
+	<string name="sleep_duration_encourage_prompt_1">Krátky dlhodobý spánok môže spôsobiť srdcové problémy</string>
+	<string name="sleep_duration_encourage_prompt_2">Dobrý spánok je základom zdravia</string>
+	<string name="sleep_duration_encourage_prompt_3">Dobré trvanie spánku</string>
+	<string name="sleep_duration_encourage_prompt_4">Máš závideniahodný spánok.</string>
+	<string name="sleep_duration_encourage_prompt_5">Energický deň!</string>
+	<string name="sleep_duration_encourage_prompt_6">Spať trochu dlho.</string>
+	<string name="sleep_duration_encourage_prompt_7">No, nie je to trochu závrat spať tak dlho?</string>
+
+	<string name="sleep_time_encourage_prompt_0">Skontrolujte, či je zariadenie správne opotrebované</string>
+	<string name="sleep_time_encourage_prompt_1">Závideniahodný čas zaspať</string>
+	<string name="sleep_time_encourage_prompt_2">Zdravý čas spať</string>
+	<string name="sleep_time_encourage_prompt_3">Rozumný čas spánku je dôležitou podmienkou pre dobrý spánok</string>
+	<string name="sleep_time_encourage_prompt_4">Prehrávanie relaxačnej hudby pred spaním pomáha spať</string>
+	<string name="sleep_time_encourage_prompt_5">0-1 je čas, kedy sa pečeň začne detoxikáciu.</string>
+	<string name="sleep_time_encourage_prompt_6">Take prestávku skoro dnes, nie zostať až neskoro</string>
+	<string name="sleep_time_encourage_prompt_7">Zostať až neskoro na dlhú dobu zvyšuje riziko kardiovaskulárnych ochorení o 36%</string>
+
+
+	<string name="title_health_advisor">Zdravie denne</string>
+	<string name="content_ranking">Poradie</string>
+	<string name="content_friends_ranking">Vaši priatelia a rodina hodnosť</string>
+	<string name="content_my_step_ranking">Moje kroky svetového rebríčka</string>
+	<string name="content_my_sleep_details">Môj spánok Podrobnosti</string>
+	<string name="content_week_avg">Priemerný tento týždeň</string>
+	<string name="content_rg_week_avg">Týždenný priemer</string>
+	<string name="content_rg_month_avg">Priemerná</string>
+	<string name="content_my_sleep_duration_ranking">Svetové hodnotenie mojej kvality spánku</string>
+	<string name="content_my_sleep_time_ranking">Môj čas spať World Ranking</string>
+	<string name="content_range_avg_time">Priemerný čas v%s-%s</string>
+	<string name="content_more_than_user">Viac ako%d%používateľov</string>
+	<string name="content_later_than_user">Používatelia neskôr ako%d%</string>
+
+	<string name="title_change_wallpaper">Zmena tapety</string>
+	<string name="content_setup_complete">Nastaviť je kompletný!</string>
+	<string name="enable_wallpaper_fun">Zapnúť šetrič obrazovky</string>
+	<string name="enable_wallpaper_step_fun">Zobraziť kroky</string>
+	<string name="content_not_saved">Neuložia</string>
+	<string name="content_not_saved_tips">Chcete sa vzdať úspory a výstupu?</string>
+	<string name="content_wallpaper_transmission">V prenose dát...</string>
+	<string name="content_wallpaper_textcolor">Farba textu</string>
+
+	<string name="title_sport_mode">Športový režim</string>
+	<string name="sport_mode_walking">Chôdza</string>
+	<string name="sport_mode_running">Spustený</string>
+	<string name="sport_mode_mountaineering">Lezenie</string>
+	<string name="sport_mode_cycling">Cyklistika</string>
+	<string name="sport_mode_table_tennis">Stolný tenis</string>
+	<string name="sport_mode_basketball">Basketbal</string>
+	<string name="sport_mode_football">Futbal</string>
+	<string name="sport_mode_badminton">Badminton</string>
+	<string name="sport_mode_treadmill">Bežecký pás</string>
+	<string name="sport_mode_tennis">Tenisový kurt</string>
+	<string name="sport_mode_swimming">Plávanie</string>
+	<string name="unit_three_month">Do troch mesiacov</string>
+	<string name="content_duration">Trvanie</string>
+	<string name="content_last_sport">Nedávne športové</string>
+	<string name="content_sport_mode_count">%d-krát</string>
+	<string name="content_finish_distance">Vzdialenosť k dokončeniu</string>
+	<string name="content_finish_calorie">Spálené kalórie</string>
+	<string name="content_update_ota">1.upgrade Udržujte zariadenie Bluetooth pripojenie stabilné...Neukončite aplikáciu na upgrade trasu.upgrade trvá 1 až 3 minúty, ak zariadenie upgrade nedokáže spôsobiť čiernu obrazovku, nie odinštalovať aplikáciu alebo vymeniť telefón! Opätovným zadaním aplikácie dokončite inováciu</string>
+	<string name="toast_electric_low_ota_tips">Zariadenie je menej ako 50%, inovácia nie je povolená!</string>
+	<string name="content_guest_login_alert">Ovplyvnené upgrady systému, užívateľ aktívne popieranie oprávnenia, Android budúce verzie a ďalšie faktory, jedinečný identifikačný kód domorodý návštevník môže byť zmenený, užívatelia, ktorí používajú "turistické login" bude pravdepodobne strata dát situácie, sa odporúča registrovať užívateľa prostredníctvom e-mailu.</string>
+    <string name="content_terms_mob">Na realizáciu funkcie prihlásenia a zhromažďovania protokolov tretích strán používame produkt mobtechd mobsdk. Podmienky ochrany osobných údajov tohto produktu nájdete na adrese: http: www.mob.comaboutpolicy</string>
+    <string name="content_terms_accept">Mali by ste prijať naše zmluvné podmienky</string>
+</resources>

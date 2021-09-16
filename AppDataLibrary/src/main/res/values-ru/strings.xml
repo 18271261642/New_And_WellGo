@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">счет был зарегистрирован уже</string>
+	<string name="error_user_not_exists">номер не существует, пожалуйста, проверьте</string>
+	<string name="error_password_error">идентификатор и пароль - это неправильно</string>
+	<string name="error_phone_invalid">телефон недействительными</string>
+	<string name="error_sms_too_frequently">запрос слишком часто</string>
+	<string name="error_captcha_expired">проверка истек</string>
+	<string name="error_captcha_wrong">проверка истек</string>
+	<string name="error_captcha_failure">проверки не</string>
+	<string name="error_email_registered">счет был зарегистрирован уже</string>
+	<string name="error_captcha_req_success">просьба завершено</string>
+	<string name="network_err">интернет - соединение, попробуйте позже</string>
+
+</resources>

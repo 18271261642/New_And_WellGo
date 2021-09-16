@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">konto on juba registreeritud</string>
+	<string name="error_user_not_exists">id ei ole olemas, palun kontrollige.</string>
+	<string name="error_password_error">id või salasõna, on vale.</string>
+	<string name="error_phone_invalid">telefoni number on vale</string>
+	<string name="error_sms_too_frequently">taotlus on liiga sageli</string>
+	<string name="error_captcha_expired">kontroll on lõppenud,</string>
+	<string name="error_captcha_wrong">kontroll on lõppenud,</string>
+	<string name="error_captcha_failure">kontroll ei ole</string>
+	<string name="error_email_registered">konto on juba registreeritud</string>
+	<string name="error_captcha_req_success">palve täidetud</string>
+	<string name="network_err">interneti - ühendus ei tööta, palun proovige hiljem.</string>
+
+</resources>

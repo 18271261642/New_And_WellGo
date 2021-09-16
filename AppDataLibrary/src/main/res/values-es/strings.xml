@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">La cuenta ha sido registrado ya</string>
+	<string name="error_user_not_exists">ID no existe, por favor, compruebe</string>
+	<string name="error_password_error">El ID o contraseña es incorrecta</string>
+	<string name="error_phone_invalid">El número de teléfono es invalido</string>
+	<string name="error_sms_too_frequently">La solicitud es demasiado frecuente</string>
+	<string name="error_captcha_expired">La verificación es vencida</string>
+	<string name="error_captcha_wrong">La verificación es vencida</string>
+	<string name="error_captcha_failure">Verification failed</string>
+	<string name="error_email_registered">La cuenta ha sido registrado ya</string>
+	<string name="error_captcha_req_success">Solicitud Completado</string>
+	<string name="network_err">La conexión a internet falla, por favor intente más tarde</string>
+
+</resources>

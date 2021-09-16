@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="vertical">
+    <!--顶部的步数图标 -->
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_friends_step_num"
+            app:layout_heightPercent="13.5%w"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginTopPercent="4%w"
+            app:layout_widthPercent="13.5%w" />
+
+        <!--睡眠图标相关指示器-->
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="2%w"
+            app:layout_marginTopPercent="4%w">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_step_num"
+                android:textStyle="bold"
+                app:layout_textSizePercent="4%sw" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                app:layout_textSizePercent="2.5%sw" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <!--步数数据滚动布局-->
+    <com.truescend.gofit.views.QuickViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false" />
+
+    <com.truescend.gofit.views.HorizontalPicker
+        android:id="@+id/mHorizontalPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#22000000"
+        android:fillViewport="true"
+        android:orientation="horizontal"
+     >
+
+    </com.truescend.gofit.views.HorizontalPicker>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_marginPercent="4%w">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_step_calories" />
+
+        <TextView
+            android:layout_marginEnd="@dimen/widget_size_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_burn_calories"
+            app:layout_textSizePercent="3%sw" />
+
+        <TextView
+            android:id="@+id/tvCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            app:layout_textSizePercent="3%sw" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_cal"
+            app:layout_textSizePercent="3%sw" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_step_distance" />
+
+        <TextView
+            android:layout_marginEnd="@dimen/widget_size_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course"
+            app:layout_textSizePercent="3%sw" />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="0.00"
+            android:textStyle="bold"
+            app:layout_textSizePercent="3%sw" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/tvDistanceUnit"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_km"
+            app:layout_textSizePercent="3%sw" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_heightPercent="35%sh">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/icon_top_bg"
+                android:scaleType="centerCrop" />
+            <!--标题-->
+            <com.truescend.gofit.views.StatusBarHeightView
+                android:id="@+id/llTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                app:use_type="use_padding_top">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tvDeviceBandName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/widget_size_2"
+                            android:layout_marginEnd="@dimen/widget_size_2"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_16"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ivDeviceSetting"
+                        android:layout_width="@dimen/title_height"
+                        android:layout_height="@dimen/title_height"
+                        android:layout_alignParentEnd="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/widget_size_10"
+                        android:src="@mipmap/icon_setting_white_device" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widget_size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/widget_size_20"
+                        android:layout_marginEnd="@dimen/widget_size_5"
+                        android:text="@string/content_current_power"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_12" />
+
+                    <com.truescend.gofit.views.BatteryView
+                        android:id="@+id/ivDeviceElectric"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widget_size_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/widget_size_20"
+                        android:layout_marginEnd="@dimen/widget_size_5"
+                        android:text="@string/content_mac_address"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_12" />
+
+                    <TextView
+                        android:id="@+id/tvDeviceMac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_12"
+                        tools:text="E0:00:13:AA:18:B7" />
+
+                </LinearLayout>
+            </com.truescend.gofit.views.StatusBarHeightView>
+
+
+        </RelativeLayout>
+    </com.zhy.android.percent.support.PercentFrameLayout>
+
+
+
+    <ViewSwitcher
+        android:id="@+id/vsDeviceSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.truescend.gofit.views.AutoFitGridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:columnCount="3"
+            app:horizontalSpace="4.5dp"
+            app:verticalSpace="4.5dp">
+
+            <include
+                android:id="@+id/ilDeviceWallpaperTempLeft"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceWallpaper"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceWallpaperTempRight"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceRemoteCamera"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceSearchBand"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceHealthReminder"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceScheduleReminder"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDeviceAlarmClock"
+                layout="@layout/item_device_icon" />
+
+            <include
+                android:id="@+id/ilDevicePush"
+                layout="@layout/item_device_icon" />
+
+        </com.truescend.gofit.views.AutoFitGridLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/widget_size_20"
+            android:background="@drawable/border_radius_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/widget_size_20">
+
+                <ProgressBar
+                    android:id="@+id/pbDeviceDialogLoading"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:id="@+id/tvDeviceDialogTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_5"
+                    android:gravity="center|start"
+                    android:maxEms="12"
+                    android:text="@string/content_reconnecting"
+                    android:textSize="@dimen/text_size_15" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btDeviceDialogButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/item_device_button_bg"
+                android:text="@string/content_manual_reconnect"
+                android:textColor="@color/text_option_white_bg"
+                android:textSize="@dimen/text_size_15" />
+
+
+        </LinearLayout>
+    </ViewSwitcher>
+
+</LinearLayout>

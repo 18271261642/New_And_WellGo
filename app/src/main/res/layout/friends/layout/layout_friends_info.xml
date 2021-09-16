@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_size_10">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_size_50"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/widget_size_10"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_heightPercent="45%h">
+
+        <include layout="@layout/layout_friends_info_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvRequestAddFriends"
+        style="@style/TextViewButton"
+        android:layout_margin="0dp"
+        tools:text="@string/content_add_friends" />
+</com.zhy.android.percent.support.PercentLinearLayout>

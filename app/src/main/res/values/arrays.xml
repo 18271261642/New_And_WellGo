@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="retrieve_type">
+        <item>@string/content_from_auth_code</item>
+        <item>@string/content_from_question</item>
+    </string-array>
+
+    <string-array name="week_day">
+        <item>@string/content_sunday</item>
+        <item>@string/content_monday</item>
+        <item>@string/content_tuesday</item>
+        <item>@string/content_wednesday</item>
+        <item>@string/content_thursday</item>
+        <item>@string/content_friday</item>
+        <item>@string/content_saturday</item>
+    </string-array>
+
+
+    <string-array name="question1">
+        <item>@string/question1_1</item>
+        <item>@string/question1_2</item>
+        <item>@string/question1_3</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>@string/question2_4</item>
+        <item>@string/question2_5</item>
+        <item>@string/question2_6</item>
+    </string-array>
+
+    <string-array name="unit_amount">
+        <item>g</item>
+        <item>lb</item>
+        <item>oz</item>
+        <item>ml</item>
+    </string-array>
+
+
+    <string-array name="sport_encourage_prompt">
+        <item>@string/sport_encourage_prompt_0</item>
+        <item>@string/sport_encourage_prompt_1</item>
+        <item>@string/sport_encourage_prompt_2</item>
+        <item>@string/sport_encourage_prompt_3</item>
+        <item>@string/sport_encourage_prompt_4</item>
+        <item>@string/sport_encourage_prompt_5</item>
+        <item>@string/sport_encourage_prompt_6</item>
+    </string-array>
+
+    <string-array name="sleep_duration_encourage_prompt">
+        <item>@string/sleep_duration_encourage_prompt_0</item>
+        <item>@string/sleep_duration_encourage_prompt_1</item>
+        <item>@string/sleep_duration_encourage_prompt_2</item>
+        <item>@string/sleep_duration_encourage_prompt_3</item>
+        <item>@string/sleep_duration_encourage_prompt_4</item>
+        <item>@string/sleep_duration_encourage_prompt_5</item>
+        <item>@string/sleep_duration_encourage_prompt_6</item>
+        <item>@string/sleep_duration_encourage_prompt_7</item>
+    </string-array>
+
+    <string-array name="sleep_time_encourage_prompt">
+        <item>@string/sleep_time_encourage_prompt_0</item>
+        <item>@string/sleep_time_encourage_prompt_1</item>
+        <item>@string/sleep_time_encourage_prompt_2</item>
+        <item>@string/sleep_time_encourage_prompt_3</item>
+        <item>@string/sleep_time_encourage_prompt_4</item>
+        <item>@string/sleep_time_encourage_prompt_5</item>
+        <item>@string/sleep_time_encourage_prompt_6</item>
+        <item>@string/sleep_time_encourage_prompt_7</item>
+    </string-array>
+</resources>

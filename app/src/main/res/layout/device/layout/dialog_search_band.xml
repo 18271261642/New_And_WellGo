@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:minWidth="300dp"
+    android:padding="@dimen/widget_size_20"
+    android:layout_gravity="center"
+    android:background="@drawable/border_radius_white">
+
+    <ImageView
+        android:id="@+id/ivSearchBandDialogIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/icon_band" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="@dimen/widget_size_20"
+        android:text="@string/content_shaking_band"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_15" />
+
+    <TextView
+        android:id="@+id/tvSearchBandDialogConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/widget_size_5"
+        android:gravity="center"
+        android:text="@string/content_confirm"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_15" />
+
+
+</LinearLayout>

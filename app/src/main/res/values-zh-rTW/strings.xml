@@ -1,0 +1,990 @@
+<resources>
+        
+    <string name="app_name">WellGo</string>
+  
+
+        
+    <string name="loading">請稍後…</string>
+
+        
+    <string name="tab_home">日常</string>
+        
+    <string name="tab_track">活動</string>
+        
+    <string name="tab_device">設備</string>
+        
+    <string name="tab_user">用戶</string>
+        
+    <string name="course">里程&#160;</string>
+        
+    <string name="target_step">目標步數</string>
+        
+    <string name="big_calories">大卡</string>
+        
+    <string name="you_health">你的健康</string>
+        
+    <string name="heart_rate">心率</string>
+        
+    <string name="blood_pressure">血壓</string>
+        
+    <string name="blood_oxygen">血氧</string>
+
+        
+    <string name="rung">-</string>
+        
+    <string name="sleep_record">睡眠記錄</string>
+        
+    <string name="check_self">我的體檢</string>
+        
+    <string name="heart_record">心率記錄</string>
+        
+    <string name="blood_pressure_record">血壓記錄</string>
+        
+    <string name="blood_oxygen_record">血氧記錄</string>
+        
+    <string name="title_today_sleep">今日睡眠</string>
+        
+    <string name="sleep_total_time">總睡眠時間</string>
+        
+    <string name="sleep_valid_time">有效睡眠時長</string>
+        
+    <string name="sleep_quality_time">睡眠質量</string>
+        
+    <string name="sleep_details">睡眠詳情</string>
+
+        
+    <string name="sleep_deep">深睡</string>
+        
+    <string name="sleep_light">淺睡</string>
+        
+    <string name="sleep_awake">清醒</string>
+        
+    <string name="heart_details">心率詳情</string>
+        
+    <string name="blood_pressure_details">血壓詳情</string>
+        
+    <string name="blood_oxygen_details">血氧詳情</string>
+        
+    <string name="title_track_setting">跑道設置</string>
+        
+    <string name="item_device_remote_camera">遠程相機</string>
+        
+    <string name="item_device_search_band">查找手環</string>
+        
+    <string name="item_device_health_reminder">健康提醒</string>
+        
+    <string name="item_device_schedule_reminder">日程管理</string>
+        
+    <string name="item_device_alarm_clock">鬧鐘</string>
+        
+    <string name="item_device_push">推送</string>
+
+        
+    <string name="delete">刪除</string>
+
+        
+    <string name="content_five_clock">最多可以設置5個鬧鐘。 </string>
+        
+    <string name="content_remind_sedentary">久坐提醒</string>
+        
+    <string name="content_reminder_drink">喝水提醒</string>
+
+        
+    <string name="day">天</string>
+        
+    <string name="month">月</string>
+        
+    <string name="year">年</string>
+        
+    <string name="step">步</string>
+        
+    <string name="hour">小時</string>
+
+        <!--通用單位-->
+        
+    <string name="unit_hours">h</string><!--小時-->
+        
+    <string name="unit_min">min</string><!--分鐘-->
+        
+    <string name="unit_heart">bpm</string><!--心率單位-->
+        
+    <string name="unit_pressure">mmHg</string><!--血壓單位-->
+        
+    <string name="unit_week">週</string>
+        
+    <string name="unit_day">日</string>
+        
+    <string name="unit_month">月</string>
+        
+    <string name="unit_year">年</string>
+
+        
+    <string name="unit_cal">卡</string>
+        
+    <string name="unit_km">km</string>
+        
+    <string name="unit_km_h">km/h</string>
+        
+    <string name="unit_mile">mile</string>
+        
+    <string name="unit_mile_h">mile/h</string>
+        
+    <string name="unit_C">℃</string>
+        
+    <string name="unit_F">℉</string>
+        
+    <string name="unit_kg">Kg</string>
+        
+    <string name="unit_pounds">LB</string>
+        
+    <string name="unit_version">V %1$s</string>
+        
+    <string name="unit_cm">cm</string>
+
+        
+    <string name="content_standard_days">達標天數</string>
+        
+    <string name="content_avg_day_steps">日均步數</string>
+        
+    <string name="content_avg_month_steps">月均步數</string>
+        
+    <string name="content_avg_day_consume">日均消耗</string>
+        
+    <string name="content_avg_month_consume">月均消耗</string>
+        
+    <string name="content_total_distance">總距離</string>
+        
+    <string name="content_avg_day_distance">日均距離</string>
+        
+    <string name="content_avg_month_distance">月均距離</string>
+        
+    <string name="content_total_steps">總步數</string>
+        
+    <string name="content_greatest_good">大於良好天數</string>
+        
+    <string name="content_total_time_sleep">有效睡眠總時長</string>
+        
+    <string name="content_daily_time_sleep">日均有效睡眠時長</string>
+        
+    <string name="content_longest_single_sleep">單次最長睡眠</string>
+        
+    <string name="content_proportion_of_sleep">有效睡眠佔比</string>
+        
+    <string name="content_quality_sleep">睡眠質量</string>
+        
+    <string name="content_average_heart">平均心率</string>
+        
+    <string name="content_highest_heart">最高心率</string>
+        
+    <string name="content_minimum_heart">最低心率</string>
+        
+    <string name="content_heart_too_high">心率過高</string>
+        
+    <string name="content_heart_too_low">心率過低</string>
+        
+    <string name="content_average_pressure_diastolic">平均舒張壓</string>
+        
+    <string name="content_average_pressure_systolic">平均收縮壓</string>
+        
+    <string name="content_abnormal_systolic">收縮壓異常</string>
+        
+    <string name="content_abnormal_diastolic">舒張壓異常</string>
+        
+    <string name="content_max_value">最大值</string>
+        
+    <string name="content_avg_value">平均值</string>
+        
+    <string name="content_min_value">最小值</string>
+        
+    <string name="content_no">否</string>
+        
+    <string name="content_yes">是</string>
+        
+    <string name="content_total_mileage">總里程</string>
+        
+    <string name="content_burn_calories">消耗大卡</string>
+        
+    <string name="content_total_time_consumed">總耗時</string>
+    <string name="content_air_quality">空氣質量：</string>
+        
+    <string name="content_completed">已完成</string>
+        
+    <string name="content_calorie_burning">卡路里燃燒</string>
+        
+    <string name="content_per_hour">時速</string>
+        
+    <string name="content_pace">配速</string>
+        
+    <string name="content_time_consuming">已耗時</string>
+        
+    <string name="content_keep_screen_light">手機屏幕保持常亮</string>
+        
+    <string name="content_shake_band_start">跑步開始時手環震動提示</string>
+        
+    <string name="content_shake_band_end">跑步結束時手環震動提示</string>
+        
+    <string name="content_show_weather">顯示當前城市天氣</string>
+        
+    <string name="content_need_open_gps">手機GPS功能未打開，會導致當前位置與實際位置有較大的差異，請開啟手機GPS功能。 </string>
+        
+    <string name="content_open_now">開啟</string>
+        
+    <string name="content_leave_running">退出</string>
+        
+    <string name="content_confirm">確定</string>
+        
+    <string name="content_cancel">取消</string>
+        
+    <string name="content_running_outside">室內運動會導致運動軌跡記錄不准，請於戶外使用。 </string>
+        
+    <string name="content_current_power">當前電量：</string>
+        
+    <string name="content_mac_address">MAC:</string>
+        
+    <string name="content_shaking_band">手環震動中…</string>
+        
+    <string name="title_connected">已連接</string>
+
+        
+    <string name="content_scanning_start">掃描周邊設備</string>
+        
+    <string name="toast_un_support_ble">您的手機不支持藍牙BLE</string>
+        
+    <string name="toast_bluetooth_is_close">未打開藍牙</string>
+        
+    <string name="toast_band_is_disconnect">您未連接到手環!</string>
+
+        
+    <string name="title_today">今天</string>
+        
+    <string name="title_device_setting">設置</string>
+        
+    <string name="title_about_app">APP版本與單位設置</string>
+        
+    <string name="title_feedback">意見反饋</string>
+        
+    <string name="title_update_band">固件更新</string>
+        
+    <string name="title_health_reminder">健康提醒</string>
+        
+    <string name="title_alarm">鬧鐘</string>
+        
+    <string name="title_schedule_reminder">日程提醒</string>
+        
+    <string name="title_message_push">消息推送</string>
+
+        
+    <string name="content_band_update">手環固件更新</string>
+        
+    <string name="content_about_app">APP版本與單位設置</string>
+        
+    <string name="content_feedback">意見反饋</string>
+        
+    <string name="content_reset">恢復手環出廠設置</string>
+        
+    <string name="content_clean_cache">清除APP緩存</string>
+        
+    <string name="content_unblock_device">解除設備綁定</string>
+        
+    <string name="content_heart_detection">心率自動檢測</string>
+        
+    <string name="content_light_screen">抬腕亮屏</string>
+        
+    <string name="content_lost_reminder">防丟提醒</string>
+
+        
+    <string name="content_ota_update">更新</string>
+
+        
+    <string name="content_app_current_version">APP當前版本</string>
+        
+    <string name="content_app_last_version">APP最新版本</string>
+        
+    <string name="content_unit_distance">距離顯示格式</string>
+        
+    <string name="content_unit_temperature">溫度顯示格式</string>
+        
+    <string name="content_unit_weight">重量顯示格式</string>
+        
+    <string name="content_app_auto_update">APP自動更新</string>
+        
+    <string name="content_app_auto_sync">自動同步</string>
+
+        
+    <string name="content_sport_done">結束</string>
+        
+    <string name="content_submit">提交</string>
+        
+    <string name="content_feedback_content">請輸入你要反饋的內容</string>
+        
+    <string name="content_exit">退出</string>
+        
+    <string name="content_call_reminder">來電提醒</string>
+        
+    <string name="content_message_reminder">短信提醒</string>
+        
+    <string name="content_do_not_disturb">免打擾開關</string>
+
+        
+    <string name="reminder_facebook">Facebook</string>
+        
+    <string name="reminder_weChat">Wechat</string>
+        
+    <string name="reminder_line">Line</string>
+        
+    <string name="reminder_weibo">Weibo</string>
+        
+    <string name="reminder_linkin">Linkin</string>
+        
+    <string name="reminder_qq">QQ</string>
+        
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+        
+    <string name="content_choose_repeat_cycle">選擇重複週期</string>
+        
+    <string name="content_repeat">重複</string>
+        
+    <string name="content_title_exit_account">確定退出當前賬戶嗎？ </string>
+        
+    <string name="content_last_weight">上次測量體重:</string>
+        
+    <string name="content_last_date">上次測量日期:</string>
+        
+    <string name="content_personal_best_record">最佳單日記錄</string>
+        
+    <string name="content_standard_day">連續達標天數</string>
+        
+    <string name="content_best_week">最佳星期</string>
+        
+    <string name="content_best_month">最佳月份</string>
+        
+    <string name="content_personal_setting">個人設置</string>
+        
+    <string name="content_exit_current_account">退出當前登錄賬號</string>
+        
+    <string name="content_bmi_index">BMI指數:</string>
+        
+    <string name="content_setting_nickname">暱稱</string>
+        
+    <string name="content_setting_gender">性別</string>
+        
+    <string name="content_setting_birth_year">出生年份</string>
+        
+    <string name="content_setting_height">身高</string>
+        
+    <string name="content_setting_last_weight">上次測量體重</string>
+        
+    <string name="content_setting_bmi_index">BMI指數</string>
+        
+    <string name="content_setting_day_target">每日目標</string>
+        
+    <string name="content_setting_save">保存</string>
+        
+    <string name="content_setting_next">下一步</string>
+        
+    <string name="content_gender_female">女</string>
+        
+    <string name="content_gender_male">男</string>
+        
+    <string name="bmi_too_light">過輕</string>
+        
+    <string name="bmi_normal">正常</string>
+        
+    <string name="bmi_too_heavy">過重</string>
+        
+    <string name="bmi_obesity">肥胖</string>
+    <string name="bmi_very_fat">非常肥胖</string>
+        
+    <string name="content_bmi_paragraph_1">BMI指數即身體質量指數，是目前國際上常用的衡量人體胖瘦程度以及是否健康的一個標準，該指標考慮了體重和身高兩個因素</string>
+        
+    <string name="content_bmi_paragraph_2">BMI簡單、實用、可反映全身性超重和肥胖。在測量身體因超重而面臨心髒病、高血壓等風險時，比單純的以體重來認定，更具有準確性</string>
+        
+    <string name="content_dialog_title_bmi">什麼是BMI</string>
+        
+    <string name="title_user_setting">個人設置</string>
+        
+    <string name="content_training">根據世界衛生組織建議，成人需要每天進行中等強度訓練40分鐘，相當於快走8000步</string>
+        
+    <string name="content_dialog_title_moving_target">運動目標</string>
+        
+    <string name="content_history_schedule_reminder">歷史日程提醒</string>
+        
+    <string name="content_save">保存</string>
+
+
+        
+    <string-array name="sleep">
+                
+        <item>深睡</item>
+                
+        <item>淺睡</item>
+                
+        <item>清醒</item>
+            
+    </string-array>
+
+
+        <!--反饋-->
+        
+    <string name="toast_feedback_success">反饋提交成功,感謝您的寶貴建議!</string>
+
+        <!--視頻引導頁-->
+        
+    <string name="content_guest_login_in">遊客登錄</string>
+        
+    <string name="content_user_login_in">登錄</string>
+
+        <!--全局工具類的字符串-->
+        
+    <string name="dialog_waiting">請稍後…</string>
+
+        
+    <string name="title_schedule_manager">日程管理</string>
+        
+    <string name="title_edit_schedule">編輯日程</string>
+        
+    <string name="content_time">時間</string>
+        
+    <string name="content_every_day">每天</string>
+        
+    <string name="content_today">今天</string>
+        
+    <string name="content_tomorrow">明天</string>
+        
+    <string name="content_single">單次</string>
+        
+    <string name="content_take_photo">拍照</string>
+        
+    <string name="content_choose_picture">從手機相冊選擇</string>
+        
+    <string name="content_unknown_number">未知號碼</string>
+        
+    <string name="content_call">來電：</string>
+        
+    <string name="content_this_week">本週</string>
+        
+    <string name="content_this_month">本月</string>
+        
+    <string name="content_input_email">請輸入郵箱</string>
+        
+    <string name="content_input_verification_code">請輸入驗證碼</string>
+        
+    <string name="content_obtain_verification_code">獲取驗證碼</string>
+        
+    <string name="content_input_password">請輸入密碼</string>
+        
+    <string name="content_register">註冊</string>
+        
+    <string name="content_confirm_password">確認密碼</string>
+        
+    <string name="title_register">註冊</string>
+        
+    <string name="content_reacquire">重新獲取</string>
+        
+    <string name="title_forget_password">忘記密碼</string>
+        
+    <string name="hint_input_new_password">請輸入新的密碼</string>
+        
+    <string name="content_confirm_new_password">請確認新的密碼</string>
+        
+    <string name="content_commit">提交</string>
+        
+    <string name="content_not_valid_email">不是有效的郵箱！ </string>
+        
+    <string name="content_nickname_length">請輸入暱稱</string>
+        
+    <string name="content_password_length">密碼長度只能為6~14位</string>
+        
+    <string name="content_valid_input">兩次密碼輸入不一致</string>
+        
+    <string name="content_forget_pwd">忘記密碼?</string>
+        
+    <string name="content_update_app">版本升級</string>
+        
+    <string name="content_update">更新</string>
+        
+    <string name="content_update_ing">更新中…</string>
+        
+    <string name="content_save_picture_to">圖片保存在</string>
+        
+    <string name="content_nickname_not_be_null">暱稱不能為空</string>
+        
+    <string name="title_open_close_bluetooth">檢測到手機藍牙已關閉,是否打開？ </string>
+        
+    <string name="content_open">打開</string>
+        
+    <string name="content_no_data">暫無數據</string>
+        
+    <string name="content_application_exception">程序異常，正在保存日誌，請不要做任何操作!</string>
+        
+    <string name="title_history_schedule_reminder">歷史日程</string>
+        
+    <string name="content_what_is_this">這是什麼？ </string>
+        
+    <string name="content_bluetooth">藍牙</string>
+        
+    <string name="content_can_not_be_null">提醒內容不能為空</string>
+        
+    <string name="content_new_app_version">APP有新的更新</string>
+        
+    <string name="content_update_new_app_version">您的APP有新的版本發布，更新包含了bug修復和性能提升，確定更新嗎？ </string>
+        
+    <string name="content_current_is_last">當前已是最新版本！ </string>
+        
+    <string name="content_new_device_version">系統提示</string>
+        
+    <string name="content_update_new_device_version">新的固件版本可用，當前版本號為V%d，並將升級到V%d</string>    
+
+    <string name="content_current_device_version">當前設備固件：V%02d</string>
+        
+    <string name="content_last_device_version">最新設備固件：V%02d</string>
+        
+    <string name="content_congratulations_successful">恭喜你,升級成功!</string>
+        
+    <string name="content_is_last_device_version">當前已為最新版本</string>
+        
+    <string name="content_are_you_sure">是否確定？ </string>
+        
+    <string name="content_want_reset">我們即將清除你手環的所有設置與數據，且無法恢復，確定恢復設備的出廠設置？ </string>
+        
+    <string name="content_want_clear">app緩存包含你的各項運動數據和個人信息等本地數據，一旦刪除將無法恢復數據，是否要繼續？ </string>
+        
+    <string name="content_want_unbind">解除APP與設備的綁定後，您的設備將無法繼續接收來自APP的信息提醒和電話管理等功能（部分設備無此功能），是否要繼續？ </string>
+        
+    <string name="content_stop_check">已停止體檢</string>
+        
+    <string name="content_check_complete">體檢完成</string>
+        
+    <string name="content_checking">您當前正在體檢中…</string>
+        
+    <string name="title_scan_band">掃描手環</string>
+        
+    <string name="content_scanning">掃描中…</string>
+        
+    <string name="content_binding">正在綁定…</string>
+        
+    <string name="content_input_correct_email">請輸入正確的郵箱</string>
+    <string name="content_input_correct_phone">請輸入正確的手機號</string>
+        
+    <string name="content_exit_run">退出並且保存當前運動軌跡與數據，如果運動時長過短則不會保存數據，是否要繼續？ </string>
+        
+    <string name="content_want_exit">是否退出？ </string>
+        
+    <string name="content_save_data">正在保存數據…</string>
+        
+    <string name="content_nickname_illegal">暱稱過長或過短（1~16個字符）!</string>
+        
+    <string name="content_can_not_choose_future">不能選擇未來的日期</string>
+        
+    <string name="content_calendar_format">yyyy年MM月</string>
+        
+    <string name="content_reminder_time">每隔%.1f小時提醒一次 (%02d:%02d-%02d:%02d)</string>
+        
+    <string name="content_choose_one_day_reminder">請選擇一天進行提醒</string>
+        
+    <string name="content_preparing">準備中…</string>
+        
+    <string name="content_prepare_timeout">準備超時,請重試</string>
+        
+    <string name="content_during_upgrade">升級中…</string>
+        
+    <string name="content_upgrade_failed">升級失敗,請重試</string>
+        
+    <string name="content_upgrade_cancel">升級已取消,不需要重複升級!</string>
+        
+    <string name="content_disconnect_band">您未連接到手環!</string>
+        
+    <string name="content_upgrade_no_plan">暫無該設備的升級方案</string>
+        
+    <string name="content_getting_information">正在獲取固件版本信息..</string>
+        
+    <string name="content_download_failed">下載固件包失敗,請檢查網絡設置</string>
+        
+    <string name="content_downloading">正在下載固件..</string>
+        
+    <string name="content_last_time">最後一次:</string>
+        
+    <string name="content_sleep_quality">睡眠質量:</string>
+        
+    <string name="content_step_format">%d 步</string>
+        
+    <string name="content_day_format">dd日</string>
+        
+    <string name="content_bad">較差</string>
+        
+    <string name="content_general">一般</string>
+        
+    <string name="content_well">良好</string>
+        
+    <string name="content_good">優秀</string>
+        
+    <string name="content_permission_notification">[通知欄讀取權限] 用於推送內容到手環上</string>
+        
+    <string name="content_authorized_to_use">請必須允許授權這些權限才能繼續使用:</string>
+        
+    <string name="content_authorized">授權</string>
+        
+    <string name="content_next">下一步</string>
+        
+    <string name="content_exit_login">退出當前賬戶/遊客登錄模式後，您的設備藍牙將斷開，是否要繼續</string>
+        
+    <string name="content_use_for_sport">用於[運動等信息查看]功能</string>
+        
+    <string name="content_use_for_find_phone">用於[手環尋找手機]功能</string>
+        
+    <string name="content_band_call_phone">手環正在尋找本手機…</string>
+        
+    <string name="content_find_phone">找手機</string>
+        
+    <string name="content_permission_need">你拒絕了app必須的一些權限,應用將無法正常使用,請必須允許授權這些權限才能繼續使用:</string>
+        
+    <string name="content_calendar">日曆</string>
+        
+    <string name="content_camera">相機</string>
+        
+    <string name="content_contacts">通訊錄</string>
+        
+    <string name="content_location">位置信息</string>
+        
+    <string name="content_microphone">麥克風</string>
+        
+    <string name="content_phone">來電狀態/號碼/IMEI</string>
+        
+    <string name="content_sensor">身體傳感器</string>
+        
+    <string name="content__sms">短信</string>
+        
+    <string name="content_storage">存儲空間</string>
+        
+    <string name="content_no_time">暫無</string>
+        
+    <string name="content_normal">普通</string>
+        
+    <string name="content_poor">欠佳</string>
+        
+    <string name="content_total_number_of_steps">總步數: %02d</string>
+        
+    <string name="content_reminder_content">提醒內容</string>
+        
+    <string name="content_systolic_pressure">收縮壓</string>
+        
+    <string name="content_diastolic_pressure">舒張壓</string>
+        
+    <string name="content_deep_sleep">深睡</string>
+        
+    <string name="content_light_sleep">淺睡</string>
+        
+    <string name="content_wide_awake">清醒</string>
+        
+    <string name="content_total_time_consuming">總耗時</string>
+        
+    <string name="content_average_speed">平均配速</string>
+        
+    <string name="content_average_time_speed">平均時速</string>
+        
+    <string name="content_fastest_speed">最快時速</string>
+        
+    <string name="content_loading">加載中…</string>
+        
+    <string name="content_device_no_bind">未綁定設備，請先綁定手環</string>
+        
+    <string name="content_scan_device">掃描手環</string>
+        
+    <string name="content_time_interval">時間間隔</string>
+        
+    <string name="content_half_hour">0.5H</string>
+        
+    <string name="content_one_hour">1H</string>
+        
+    <string name="content_two_hour">2H</string>
+        
+    <string name="content_three_hour">3H</string>
+        
+    <string name="content_sunday">週日</string>
+        
+    <string name="content_monday">週一</string>
+        
+    <string name="content_tuesday">週二</string>
+        
+    <string name="content_wednesday">週三</string>
+        
+    <string name="content_thursday">週四</string>
+        
+    <string name="content_friday">週五</string>
+        
+    <string name="content_saturday">週六</string>
+        
+    <string name="content_calendar_title">yyyy年MM月</string>
+        
+    <string name="content_pull_down_to_refresh">下拉可以刷新</string>
+        
+    <string name="content_refreshing">正在刷新…</string>
+        
+    <string name="content_is_loading">正在加載…</string>
+        
+    <string name="content_release_immediately_refresh">釋放立即刷新</string>
+        
+    <string name="content_refresh_completed">刷新完成</string>
+        
+    <string name="content_refresh_failed">刷新失敗</string>
+        
+    <string name="content_last_update">上次更新 M-d HH:mm</string>
+        
+    <string name="content_enter_email_is_correct">請輸入正確的郵箱</string>
+        
+    <string name="unit_steps">步</string>
+        
+    <string name="content_map_type">地圖類型</string>
+        
+    <string name="content_map_type_gaode">高德地圖(中國)</string>
+        
+    <string name="content_map_type_google">谷歌地圖</string>
+    <string name="content_map_type_automatic_smart_select">智能選擇</string>
+
+        
+    <string name="content_connect_failed">連接失敗</string>
+        
+    <string name="content_try_to_fix">嘗試修復</string>
+        
+    <string name="content_connect_failed_fix_tips">無法連接到手環,你可以嘗試:\n\n1.再重新連接一次.\n\n2.先關閉藍牙,然後重新打開藍牙.\n\n3.嘗試開啟手機的GPS,選擇GPS最高精度級別.\n\n4.重啟你的手機</string>
+
+        
+    <string name="content_item_fix_band">%1$s [救磚]</string>
+        
+    <string name="content_fix_band_failed">救磚失敗</string>
+        
+    <string name="content_fix_band_failed_tips">無法確定該設備的救磚方案,請等待10分鐘並觀察手環是否自動恢復正常,如仍然無法自動恢復正常,請在應用內反饋給我們</string>
+        
+    <string name="content_heart_detection_tips">*部分設備不支持此功能</string>
+        
+    <string name="content_description">消息推送監聽服務：\n監聽QQ、微信、微博、Facebook、Twitter、Line、Linkedln、GooglePlus推送到通知欄的信息，並發送給手環</string>
+
+      
+    <string name="content_input_band">請輸入你的手環名稱</string>
+    <string name="content_or_contact_us">或者聯繫我們 Email: wt5354@iwear88.com</string>
+
+    <string name="content_help">幫助</string>
+    <string name="content_approve">允許</string>
+    <string name="content_permission_location">[位置訪問] 用於查找手環的位置並連接</string>
+    <string name="content_scan_timeout">無法發現設備？請開啟並關閉手機【飛行模式】，再次開始掃描功能</string>
+    <string name="content_push_warm">*如果消息推送功能無法正常使用，請點擊這裡並打開</string>
+    <string name="content_reconnecting">設備或網絡忙，請稍後</string>
+    <string name="content_manual_reconnect">手動同步設備</string>
+    <string name="content_login_means">登錄即代表閱讀并同意</string>
+    <string name="content_terms">服務條款</string>
+    <string name="content_terms_first">*</string>
+    <string name="content_terms_second"><![CDATA[* 感謝您的信任並且我們知道您的信息非常重要，所以應用程序部分功能需要您的允許才能正常工作, 點擊<font color=#04F5D1><a href=\'%s\'>这里</a></font>以獲知您的權限使用说明。]]></string>
+    <string name="content_terms_third">* 本產品並非醫療裝置，且並不旨在用於診斷、治療、治愈或預防任何疾病。產品精確性並非試圖與醫療或科學測量裝置相比。</string>
+    <string name="content_terms_title">關於隱私與準確度</string>
+    <string name="content_verification_help"><![CDATA[收不到驗證碼？點擊<font color=#04F5D1> <a href=\'%s\'>這裏</a> </font>獲取幫助。]]></string>
+    <string name="issue_with_log_in_or_sign_in">登錄與註冊遇到問題</string>
+    <string name="content_troubleshooting_help"><![CDATA[點擊<font color=#04F5D1> <a href=\'%s\'>獲取</a> </font>故障排除手冊]]></string>
+    <string name="content_sleep_accuracy">關於睡眠準確度</string>
+    <string name="content_sleep_accuracy_1">睡眠自動檢測一般具有較高的準確度，但不同用戶的睡眠習慣會導致誤差。</string>
+    <string name="content_sleep_accuracy_2">當睡眠結束的0.5小時內您發現無記錄的原因為睡眠數據在分析中，請稍後再查看即可。</string>
+    <string name="content_accuracy_title">關於睡眠準確度！</string>
+    <string name="content_app_unsupport_tips">該功能請在手環上設置</string>
+    <string name="content_permission_notification_enable">[通知推送]許可權已被關閉，請開啟，否則會導致查找手環、通知欄顯示運動數據等功能無法正常工作</string>
+    <string name="content_unit_time">手環時間制式</string>
+    <string name="content_connect_google_fit">關聯 Google Fit</string>
+    <string name="content_unlink_google_fit">取消關聯 Google Fit</string>
+    <string name="title_associate_google_fit">關聯 Google Fit</string>
+    <string name="content_upload_google_fit_now">立刻上傳數據至Google Fit</string>
+    <string name="content_tips_of_google_fit">關聯成功後，數據會於每天的0點/4點/8點/12點/16點/20點左右自動上傳到Google Fit</string>
+
+
+    <string name="content_answer">請輸入答案</string>
+    <string name="content_input_email_different">兩次輸入的郵箱不一樣</string>
+    <string name="content_resetpsw_now">找回密碼</string>
+    <string name="content_new_psw">新密碼：</string>
+    <string name="content_question1">問題1:</string>
+    <string name="content_question2">問題2:</string>
+    <string name="content_input_reg_email">請輸入注册的郵箱</string>
+    <string name="content_register_question_step1">1.填寫郵箱和密碼</string>
+    <string name="content_register_question_step2">2.輸入密保問題</string>
+    <string name="content_retrieve_type">找回管道：</string>
+    <string name="content_register_success">注册成功！</string>
+    <string name="content_resetpsw_success">密碼修改成功！</string>
+    <string name="content_resetpsw_wrong_answer">密保回答錯誤！</string>
+    <string name="content_from_auth_code">通過驗證碼</string>
+    <string name="content_from_question">通過密保問題</string>
+    <string name="question1_1">你的第一條/現在的/最喜歡的寵物名字是什麼？</string>
+    <string name="question1_2">你最喜歡的書的名字是什麼？</string>
+    <string name="question1_3">你最喜歡的食物是什麼？</string>
+    <string name="question2_4">你第一份工作的公司名稱是什麼？</string>
+    <string name="question2_5">你母親的名字是什麼？</string>
+    <string name="question2_6">你出生的都市的名字是什麼？</string>
+
+    <string name="content_connect_strava">關聯Strava</string>
+    <string name="content_unlink_strava">取消關聯Strava</string>
+    <string name="content_tips_of_strava">關聯Strava後你可以在運動軌跡記錄介面提交你的運動軌跡到Strava</string>
+    <string name="content_uploaded_to_strava">已提交到Strava</string>
+    <string name="content_upload_to_strava">提交到Strava</string>
+    <string name="content_retry">重試</string>
+    <string name="content_err_save_sport_track_data_network_fail">無法保存運動軌跡數據，請檢查網絡是否通暢</string>
+    <string name="content_donot_save">不保存</string>
+    <string name="content_link">關聯</string>
+    <string name="content_help_and_feedback">幫助與反饋</string>
+
+
+    <string name="content_my_friends">我的好友</string>
+    <string name="content_search_friends_hint">用戶ID/郵箱/電話號碼</string>
+    <string name="toast_tips_req_add_friends">已發送請求添加好友邀請</string>
+    <string name="title_tab_msg_system">系統消息</string>
+    <string name="title_tab_msg_add_friend">好友請求</string>
+    <string name="title_tab_my_friends">我的親友</string>
+    <string name="content_add_agree_friends">請求添加你為好友</string>
+    <string name="content_btn_agreed">同意</string>
+    <string name="content_btn_refused">拒絕</string>
+    <string name="content_encourage">鼓勵</string>
+    <string name="content_zan">點贊</string>
+    <string name="content_add_friends">添加為好友</string>
+    <string name="content_already_friends">已添加</string>
+    <string name="content_already_refused">已拒絕</string>
+    <string name="content_nickname">昵稱：</string>
+    <string name="content_nickname_2">昵稱</string>
+    <string name="content_sign_null">對方未填寫簽名</string>
+    <string name="content_sign">請填寫簽名</string>
+    <string name="content_setting_sign">簽名</string>
+    <string name="content_remark_null">未填寫備註</string>
+    <string name="content_user_info">用戶資訊</string>
+    <string name="content_set_remark">設定備註</string>
+    <string name="content_average_blood_oxygen">平均血氧</string>
+    <string name="content_step_num">步數</string>
+    <string name="content_sleep_data">睡眠</string>
+    <string name="content_bp_bo">血壓血氧</string>
+    <string name="content_invite_friends">邀請好友</string>
+    <string name="content_save_image">保存圖片</string>
+
+    <string name="content_encourage_you">鼓勵你多運動</string>
+    <string name="content_zan_you">讚了你一下</string>
+
+    <string name="content_no_friends">沒有找到你的朋友</string>
+    <string name="content_search_friends_input_err">請輸入正確的用戶ID/郵箱/電話號碼</string>
+
+
+    <string name="content_weather_sunny_day">陽光充足</string>
+    <string name="content_weather_cloudy">多雲</string>
+    <string name="content_weather_snow">下雪</string>
+    <string name="content_weather_cloudy_day">陰天</string>
+    <string name="content_weather_rain">多雨</string>
+
+
+
+    <string name="content_my_ideal_weight">我的理想體重</string>
+    <string name="content_intake_calories">每日攝入熱量設置</string>
+    <string name="content_sport_target">每日步數運動目標</string>
+    <string name="content_intake_tips_head">你每天最多攝入</string>
+    <string name="content_intake_tips_foot">熱量的食物</string>
+    <string name="content_recorded_meal">已記錄 %d 餐 %s</string>
+    <string name="content_this_meal_to_eat">這餐吃了什麼</string>
+    <string name="content_food_input_empty_tips">該項不能為空</string>
+    <string name="content_record_meal_to_eat">記錄吃了什麼</string>
+    <string name="content_edit">修改</string>
+    <string name="content_your_goal_is_to_subtract">您的目標是減去</string>
+    <string name="content_the_current_every_day_for_a_sport_target">當前每天的運動目標為</string>
+    <string name="content_when_is_the_daily_consumption">當每日消耗是</string>
+    <string name="content_daily_intake_is">每日攝入是</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">當前預計每天減少</string>
+    <string name="content_need_to_complete">完成需要</string>
+    <string name="content_expected_time_for_success">預計成功時間為</string>
+    <string name="content_please_adjust_the_plan">請調整計劃</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">目標體重應小於當前體重</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">當前計劃不適宜減肥</string>
+    <string name="content_recommended_daily_intake">根據您的健康情況和體重目標,建議日均攝入卡路里約為</string>
+    <string name="content_average_daily_calorie_deficit">日均熱量赤字</string>
+    <string name="content_intake_of_qualified_days">攝入合格天數</string>
+    <string name="content_average_daily_intake_of_calories">日均攝入熱量</string>
+    <string name="content_the_highest_intake_of_calories">最高攝入熱量</string>
+    <string name="content_not_clock_in_number_of_days">未打卡天數</string>
+    <string name="content_click_add_meal">點擊右上角圖標以創建記錄</string>
+    <string name="content_total_intake_about">總攝入約為</string>
+    <string name="content_calorie_consumption">熱量消耗</string>
+    <string name="content_calorie_intake">熱量攝入</string>
+    <string name="content_target_bmi">目標BMI</string>
+    <string name="content_diet_help_tips">App會根據用戶的個人性別/年齡計算算出基礎代謝率，當用戶輸入目標體重和每日步數後，App會以此算出大致的減肥成功日期。因個人體質和生活習慣差異性，本功能準確度僅供參考，不做醫療保健用途。 </string>
+    <string name="content_have_the_calories_you_eat">已攝入熱量</string>
+    <string name="content_diet_start">開啟我的美食享\'瘦\'之旅</string>
+    <string name="content_food_name">食物名稱</string>
+    <string name="content_amount">份量</string>
+    <string name="content_unit">單位</string>
+    <string name="content_cur_weight">當前體重</string>
+    <string name="content_target_weight">目標體重</string>
+
+
+    <string name="sport_encourage_prompt_0">普通用戶在健身房熱身的運動量</string>
+    <string name="sport_encourage_prompt_1">換成高度相當於登上了富士山</string>
+    <string name="sport_encourage_prompt_2">WHO推薦的成年人每日完成的步數目標</string>
+    <string name="sport_encourage_prompt_3">妳為地球減少了約805g二氧化碳排放</string>
+    <string name="sport_encourage_prompt_4">妳完成了從盧浮宮到巴黎鐵塔的距離</string>
+    <string name="sport_encourage_prompt_5">相當於操場跑了30圈</string>
+    <string name="sport_encourage_prompt_6">自行車騎行超過1小時的距離</string>
+
+    <string name="sleep_duration_encourage_prompt_0">妳的睡眠時長過短，請註意休息</string>
+    <string name="sleep_duration_encourage_prompt_1">長期睡眠過短會引起心臟問題</string>
+    <string name="sleep_duration_encourage_prompt_2">良好的睡眠是健康的基礎</string>
+    <string name="sleep_duration_encourage_prompt_3">還不錯的睡眠時長</string>
+    <string name="sleep_duration_encourage_prompt_4">妳擁有了令人羨慕的睡眠</string>
+    <string name="sleep_duration_encourage_prompt_5">精力充沛的壹天!</string>
+    <string name="sleep_duration_encourage_prompt_6">睡眠時間有點長</string>
+    <string name="sleep_duration_encourage_prompt_7">唉，睡這麽久是不是頭有點昏?</string>
+
+    <string name="sleep_time_encourage_prompt_0">請檢查是否有正確佩戴設備</string>
+    <string name="sleep_time_encourage_prompt_1">令人羨慕的入睡時間</string>
+    <string name="sleep_time_encourage_prompt_2">最健康的入睡時間</string>
+    <string name="sleep_time_encourage_prompt_3">合理的入睡時間是優秀睡眠的重要條件</string>
+    <string name="sleep_time_encourage_prompt_4">睡前播放輕松的音樂有助睡眠</string>
+    <string name="sleep_time_encourage_prompt_5">0–1點是肝臟開始排毒的時間</string>
+    <string name="sleep_time_encourage_prompt_6">今天早點休息，不要熬夜</string>
+    <string name="sleep_time_encourage_prompt_7">長期熬夜會使患心血管疾病幾率增加36%</string>
+
+
+    <string name="title_health_advisor">健康日報</string>
+    <string name="content_ranking">排行</string>
+    <string name="content_friends_ranking">妳的親友排名</string>
+    <string name="content_my_step_ranking">我的步數世界排名</string>
+    <string name="content_my_sleep_details">我的睡眠詳情</string>
+    <string name="content_week_avg">本周平均</string>
+    <string name="content_rg_week_avg">周平均</string>
+    <string name="content_rg_month_avg">月平均</string>
+    <string name="content_my_sleep_duration_ranking">我的睡眠質量世界排名</string>
+    <string name="content_my_sleep_time_ranking">我的入睡時間世界排名</string>
+    <string name="content_range_avg_time">您在%s  -  %s的平均時間</string>
+    <string name="content_more_than_user">超過了%d%%的用戶</string>
+    <string name="content_later_than_user">晚於%d%%的用戶</string>
+
+    <string name="title_change_wallpaper">牆紙設置</string>
+    <string name="content_setup_complete">設置完成!</string>
+    <string name="enable_wallpaper_fun">壁紙功能</string>
+    <string name="enable_wallpaper_step_fun">計步器外掛程式</string>
+    <string name="content_not_saved">取消保存</string>
+    <string name="content_not_saved_tips">是否要保存更新？</string>
+    <string name="content_wallpaper_transmission">數據傳輸中…</string>
+    <string name="content_wallpaper_textcolor">字體顏色</string>
+
+    <string name="title_sport_mode">運動模式</string>
+    <string name="sport_mode_walking">健步</string>
+    <string name="sport_mode_running">跑步</string>
+    <string name="sport_mode_mountaineering">登山</string>
+    <string name="sport_mode_cycling">騎行</string>
+    <string name="sport_mode_table_tennis">乒乓球</string>
+    <string name="sport_mode_basketball">籃球</string>
+    <string name="sport_mode_football">足球</string>
+    <string name="sport_mode_badminton">羽毛球</string>
+    <string name="sport_mode_treadmill">跑步機</string>
+    <string name="sport_mode_tennis">網球</string>
+    <string name="sport_mode_swimming">游泳</string>
+    <string name="unit_three_month">三個月內</string>
+    <string name="content_duration">時長</string>
+    <string name="content_last_sport">最近運動</string>
+    <string name="content_sport_mode_count">%d 次</string>
+    <string name="content_finish_distance">完成距離</string>
+    <string name="content_finish_calorie">消耗卡路里</string>
+	<string name="content_update_ota">1.升級請保持設備藍牙連接穩定\n2.請勿在升級途中退出APP\n3.升級需要1–3分鐘，若設備升級失敗導致黑屏，請勿卸載APP或更換手機 ！再次進入APP完成升級</string>
+	<string name="toast_electric_low_ota_tips">設備電量低於50%, 不允許升級!</string>
+	<string name="content_guest_login_alert">受系統升級、使用者主動拒絕許可權、Android未來版本 等因素影響, 本機的遊客唯一標識碼可能會被改變, 使用[遊客登錄]的使用者將可能出現資料丟失的情況, 建議通過Email註冊使用者.</string>
+    <string name="content_terms_mob">為了實現第三方帳戶登錄和日誌收集功能，我們使用了mobtech的mobsdk產品。有關此產品的隱私政策條款，請參閱：http://www.mob.com/about/policy</string>
+    <string name="content_terms_accept">您應該接受我們的服務條款</string>
+</resources>

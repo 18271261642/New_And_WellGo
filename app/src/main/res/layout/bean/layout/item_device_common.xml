@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/widget_size_15"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDeviceCommonTitle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                tools:text="@string/content_heart_detection"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tvDeviceCommonTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/widget_size_10"
+                tools:text="(12:00-24:00)"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_12" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDeviceCommonIntervalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_size_10"
+            tools:text="每隔1小时提醒一次(9:00-18:00)" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivDeviceCommonSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/widget_size_10"
+        android:padding="@dimen/widget_size_10"
+        android:src="@mipmap/icon_setting_default"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <CheckBox
+        android:id="@+id/cbDeviceCommonSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_size_5"
+        android:layout_marginBottom="@dimen/widget_size_5"
+        android:layout_marginEnd="@dimen/widget_size_20"
+        android:button="@null"
+        android:background="@drawable/checkbox_switch_button"/>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_size_20"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="4" />
+
+            <View
+                android:layout_width="@dimen/widget_size_10"
+                android:layout_height="@dimen/widget_size_10"
+                android:background="@color/colorSleepDeep" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/widget_size_3"
+                android:text="@string/content_deep_sleep"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_10" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="@dimen/widget_size_10"
+                android:layout_height="@dimen/widget_size_10"
+                android:background="@color/colorSleepLight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/widget_size_3"
+                android:text="@string/content_light_sleep"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_10" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="@dimen/widget_size_10"
+                android:layout_height="@dimen/widget_size_10"
+                android:background="@color/colorSleepSober" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/widget_size_3"
+                android:text="@string/content_wide_awake"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_10" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="4" />
+        </LinearLayout>
+
+        <com.truescend.gofit.views.SleepChartView
+            android:id="@+id/scvSleepChartView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.truescend.gofit.views.AutoFitGridLayout
+        android:id="@+id/mGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/widget_size_6"
+        android:layout_marginStart="@dimen/widget_size_6"
+        app:columnCount="3" >
+
+
+        <include
+            android:id="@+id/ilSleepDetailsTotalTime"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+        <include
+            android:id="@+id/ilSleepDetailsValidTime"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+        <include
+            android:id="@+id/ilSleepDetailsSleepQuality"
+            layout="@layout/item_home_status"
+            app:layout_columnWeight="1" />
+
+        <!--<include-->
+        <!--android:id="@+id/ilSleepDetailsTotalTime"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_margin="@dimen/widget_size_1"-->
+        <!--layout="@layitem_home_statusatus"-->
+        <!--app:layout_columnWeight="1" />-->
+
+        <!--<include-->
+        <!--android:id="@+id/ilSleepDetailsValidTime"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_margin="@dimen/widget_size_1"-->
+        <!--layout="@layitem_home_statusatus"-->
+        <!--app:layout_columnWeight="1"/>-->
+
+        <!--<include-->
+        <!--android:id="@+id/ilSleepDetailsSleepQuality"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_margin="@dimen/widget_size_1"-->
+        <!--layout="@layitem_home_statusatus"-->
+        <!--app:layout_columnWeight="1"/>-->
+
+    </com.truescend.gofit.views.AutoFitGridLayout>
+
+
+    <include layout="@layout/include_shadow_top" />
+
+    <include
+        android:id="@+id/ilSleepDetails"
+        layout="@layout/item_details" />
+
+    <include layout="@layout/include_shadow_bottom" />
+
+
+    <include
+        android:id="@+id/ilSleepDeepSleep"
+        layout="@layout/item_sleep_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_size_30" />
+
+    <include
+        android:id="@+id/ilSleepLightSleep"
+        layout="@layout/item_sleep_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_size_30" />
+
+    <include
+        android:id="@+id/ilSleepAwake"
+        layout="@layout/item_sleep_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_size_40"
+        android:layout_marginTop="@dimen/widget_size_30" />
+
+
+</LinearLayout>

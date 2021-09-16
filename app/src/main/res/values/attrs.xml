@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleBackgroundColor" format="reference|color" />
+    <!--<adataname="titleTextColor" format="reference|color" />-->
+    <attr name="titleIconColor" format="reference|color" />
+    <attr name="lineColor" format="reference|color" />
+
+
+    <attr name="textLight" format="reference|color" />
+    <attr name="app_color_3" format="reference|color" />
+    <attr name="colorTitleBar" format="reference|color" />
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RulerViewStyle">
+        <attr name="rBorderWidth" format="dimension" />
+        <attr name="rBorderColor" format="color" />
+        <attr name="rLineColor" format="color" />
+        <attr name="rTrigonSize" format="dimension" />
+        <attr name="rPixel" format="integer" />
+        <attr name="rStep" format="integer" />
+        <attr name="rLineWidth" format="dimension" />
+        <attr name="rTextSize" format="dimension" />
+        <attr name="rTextColor" format="color" />
+        <attr name="rLineHeight" format="dimension" />
+        <attr name="rLineToText" format="dimension" />
+        <attr name="rBegin" format="integer" />
+        <attr name="rEnd" format="integer" />
+        <attr name="rMinVelocity" format="integer" />
+        <attr name="rAnimTime" format="integer" />
+        <attr name="rIndicateHeight" format="dimension" />
+        <attr name="rIsRect" format="boolean" />
+        <attr name="rIsTop" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TagCloudLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="tagSpacing" format="dimension" />
+        <!-- 是否是固定布局 -->
+        <attr name="isFixed" format="boolean" />
+        <attr name="columnSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressBarColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="textIsDisplayable" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+
+        <attr name="progress_text_offset" format="dimension" />
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NumberPicker">
+        <attr name="np_width" format="dimension" />
+        <attr name="np_height" format="dimension" />
+        <attr name="np_dividerColor" format="color" />
+        <attr name="np_dividerDistance" format="dimension" />
+        <attr name="np_dividerThickness" format="dimension" />
+        <attr name="np_formatter" format="string" />
+        <attr name="np_max" format="integer" />
+        <attr name="np_min" format="integer" />
+        <attr name="np_order" format="enum">
+            <enum name="ascending" value="0" />
+            <enum name="descending" value="1" />
+        </attr>
+        <attr name="np_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="np_selectedTextColor" format="color" />
+        <attr name="np_selectedTextSize" format="dimension" />
+        <attr name="np_textColor" format="color" />
+        <attr name="np_textSize" format="dimension" />
+        <attr name="np_typeface" format="string" />
+        <attr name="np_value" format="integer" />
+        <attr name="np_wheelItemCount" format="integer" />
+        <attr name="np_wrapSelectorWheel" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleRippleButton">
+        <attr name="crb_backgroundColor" format="color|reference" />
+        <attr name="crb_backgroundAlphaColor" format="color|reference" />
+        <attr name="crb_src" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PathAnimatedView">
+        <attr name="strokeColor" format="color" />
+
+        <attr name="stroke_Width" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="ParallaxView">
+        <attr name="speed" format="dimension" />
+        <attr name="src" format="reference" />
+        <attr name="sceneLength" format="integer" />
+        <attr name="randomness" format="reference" />
+        <attr name="initialState" format="enum">
+            <enum name="started" value="0" />
+            <enum name="stopped" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AutoFitGridLayout">
+        <attr name="columnCount" format="integer" />
+        <attr name="horizontalSpace" format="dimension" />
+        <attr name="verticalSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <attr name="points_visibility" format="boolean" />
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="points_container_background" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="CompoundGroup">
+        <!-- The id of the child radio button that should be checked by default
+             within this radio group. -->
+        <attr name="checkedPosition" format="integer"/>
+        <attr name="checkedType" format="enum">
+            <enum name="single" value="0" />
+            <enum name="multi" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="StatusBarHeightView">
+
+        <attr name="use_type" format="integer">
+            <enum name="use_height" value="0" />
+            <enum name="use_padding_top" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HintMultiLineEditText">
+        <attr name="android:textColor" format="color" />
+        <attr name="android:textColorHint" format="color" />
+        <attr name="android:textSize" format="dimension" />
+        <attr name="hintSize" format="dimension" />
+        <attr name="android:text" format="string" />
+        <attr name="android:hint" format="string" />
+        <attr name="android:imeOptions"/>
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:maxLines"/>
+    </declare-styleable>
+  <declare-styleable name="VerticalScrollView">
+        <attr name="scrollWithId" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RulerView">
+        <attr name="rv_labelTextColor" format="color" />
+        <attr name="rv_labelTextSize" format="dimension" />
+        <attr name="rv_labelTextMarginTop" format="dimension" />
+        <attr name="rv_lineColor" format="color" />
+        <attr name="rv_centerLineColor" format="color" />
+        <attr name="rv_lineSpaceWidth" format="dimension" />
+        <attr name="rv_lineWidth" format="dimension" />
+        <attr name="rv_lineMaxHeight" format="dimension" />
+        <attr name="rv_lineMidHeight" format="dimension" />
+        <attr name="rv_lineMinHeight" format="dimension" />
+        <attr name="rv_alphaEnable" format="boolean" />
+        <attr name="rv_minValue" format="float"/>
+        <attr name="rv_maxValue" format="float"/>
+        <attr name="rv_selectorValue" format="float"/>
+        <attr name="rv_perValue" format="float"/>
+    </declare-styleable>
+
+</resources>

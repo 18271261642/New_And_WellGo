@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">A conta FOI registada já</string>
+	<string name="error_user_not_exists">ID não existia, por favor verifique</string>
+	<string name="error_password_error">O ID ou senha errada</string>
+	<string name="error_phone_invalid">O número do telefone é inválido</string>
+	<string name="error_sms_too_frequently">O pedido é demasiado frequente</string>
+	<string name="error_captcha_expired">Verificação expirou</string>
+	<string name="error_captcha_wrong">Verificação expirou</string>
+	<string name="error_captcha_failure">Verificação falhou</string>
+	<string name="error_email_registered">A conta FOI registada já</string>
+	<string name="error_captcha_req_success">Pedido concluído</string>
+	<string name="network_err">A ligação à Internet falhar, tente Mais tarde</string>
+
+</resources>

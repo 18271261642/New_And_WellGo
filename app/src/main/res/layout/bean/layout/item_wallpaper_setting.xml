@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_size_20"
+    android:background="?attr/selectableItemBackground"
+    tools:background="@color/white">
+
+    <ImageView
+        android:id="@+id/ivWallpaperItemIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:src="@mipmap/icon_wallpaper_fun_enable" />
+
+    <TextView
+        android:id="@+id/tvWallpaperSettingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/widget_size_20"
+        android:layout_toEndOf="@+id/ivWallpaperItemIcon"
+        android:layout_toStartOf="@+id/cbWallpaperSettingSwitch"
+        android:textSize="@dimen/text_size_15"  />
+
+    <CheckBox
+        android:id="@+id/cbWallpaperSettingSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/checkbox_switch_button"
+        android:button="@null" />
+
+</RelativeLayout>

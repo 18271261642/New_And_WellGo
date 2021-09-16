@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ilSportTitle"
+        layout="@layout/layout_details_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/widget_size_5"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/widget_size_40">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/widget_size_10">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvStepTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <com.truescend.gofit.views.BarChartView
+            android:id="@+id/bcvStepChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/widget_size_15"
+            android:layout_marginEnd="@dimen/widget_size_15"
+
+            />
+
+    </LinearLayout>
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:columnCount="3"
+        app:rowCount="2">
+
+        <include
+            android:id="@+id/ilSportStandardDays"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <include
+            android:id="@+id/ilSportDailySteps"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <include
+            android:id="@+id/ilSportDailyConsume"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <include
+            android:id="@+id/ilSportTotalDistance"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <include
+            android:id="@+id/ilSportDailyDistance"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <include
+            android:id="@+id/ilSportTotalSteps"
+            layout="@layout/item_home_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/widget_size_1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_40"
+        android:layout_marginTop="@dimen/widget_size_5"
+        android:background="@color/white" />
+
+</LinearLayout>

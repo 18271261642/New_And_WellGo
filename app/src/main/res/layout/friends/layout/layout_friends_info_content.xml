@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/grey"
+        app:civ_border_width="@dimen/widget_size_2"
+        app:layout_heightPercent="40%h"
+        app:layout_widthPercent="30%w"
+
+     />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_widthPercent="35%w">
+
+        <com.truescend.gofit.views.ThumbAnimImageView
+            android:id="@+id/ivZan"
+            app:layout_heightPercent="50%w"
+            app:layout_widthPercent="50%w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_zan_on" />
+
+        <TextView
+            android:id="@+id/tvZan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_zan" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_widthPercent="35%w">
+
+        <com.truescend.gofit.views.ThumbAnimImageView
+            android:id="@+id/ivEncourage"
+            app:layout_heightPercent="50%w"
+            app:layout_widthPercent="50%w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_encourage_on" />
+
+        <TextView
+            android:id="@+id/tvEncourage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_encourage" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        app:layout_heightPercent="30%h">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llNickNameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvNickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/content_nickname_2" />
+
+                <ImageView
+                    android:id="@+id/ivGender"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/selector_gender" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvIdName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.zhy.android.percent.support.PercentFrameLayout>

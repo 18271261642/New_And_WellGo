@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">das konto wurde bereits registriert</string>
+	<string name="error_user_not_exists">id nicht existierte, bitte</string>
+	<string name="error_password_error">die id und passwort falsch ist</string>
+	<string name="error_phone_invalid">die telefonnummer ist ungültig</string>
+	<string name="error_sms_too_frequently">der antrag ist zu kurz</string>
+	<string name="error_captcha_expired">verifikation ist abgelaufen</string>
+	<string name="error_captcha_wrong">verifikation ist abgelaufen</string>
+	<string name="error_captcha_failure">prüfung gescheitert</string>
+	<string name="error_email_registered">das konto wurde bereits registriert</string>
+	<string name="error_captcha_req_success">bitte abgeschlossen</string>
+	<string name="network_err">die internet - verbindung fehlschlägt, bitte versuchen sie es später</string>
+
+</resources>

@@ -1,0 +1,624 @@
+<resources>
+    <string name="app_name">WellGo</string>
+
+    <string name="loading">लोड...</string>
+
+    <string name="tab_home">घर</string>
+    <string name="tab_track">ट्रैक</string>
+    <string name="tab_device">उपकरण</string>
+    <string name="tab_user">उपयोगकर्ता</string>
+    <string name="course">दूरी</string>
+    <string name="target_step">लक्ष्य</string>
+    <string name="big_calories">केकल</string>
+    <string name="you_health">आपका स्वास्थ्य</string>
+    <string name="heart_rate">घण्टे</string>
+    <string name="blood_pressure">Bp</string>
+    <string name="blood_oxygen">क्योंकि</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">SLEEP गुणवत्ता</string>
+    <string name="check_self">स्वस्थ</string>
+    <string name="heart_record">दिल की दर</string>
+    <string name="blood_pressure_record">रक्तचाप</string>
+    <string name="blood_oxygen_record">रक्त OXYGEN</string>
+    <string name="title_today_sleep">SLEEP ANALYSIS</string>
+    <string name="sleep_total_time">अवधि</string>
+    <string name="sleep_valid_time">कुशल समय</string>
+    <string name="sleep_quality_time">गुणवत्ता</string>
+    <string name="sleep_details">SLEEP विवरण</string>
+
+    <string name="sleep_deep">सो</string>
+    <string name="sleep_light">बेचैन</string>
+    <string name="sleep_awake">जाग</string>
+    <string name="heart_details">मानव संसाधन विवरण</string>
+    <string name="blood_pressure_details">बीपी विवरण</string>
+    <string name="blood_oxygen_details">बीओ विवरण</string>
+    <string name="title_track_setting">सेटिंग</string>
+    <string name="item_device_remote_camera">REMOTE CAMERA</string>
+    <string name="item_device_search_band">FIND डिवाइस</string>
+    <string name="item_device_health_reminder">स्वास्थ्य की याद</string>
+    <string name="item_device_schedule_reminder">कैलेंडर</string>
+    <string name="item_device_alarm_clock">अलार्म</string>
+    <string name="item_device_push">सूचना</string>
+
+    <string name="delete">हटाएँ</string>
+
+    <string name="content_five_clock">आप 5 अलार्म सेट अप कर सकते हैं.</string>
+    <string name="content_remind_sedentary">गतिविधि याद दिलाना</string>
+    <string name="content_reminder_drink">पेय याद दिलाना</string>
+
+    <string name="day">दिन</string>
+    <string name="month">महीना</string>
+    <string name="year">साल</string>
+    <string name="step">चरण</string>
+    <string name="hour">घंटा</string>
+
+    <!--通用单位-->
+    <string name="unit_hours">(ज)</string>
+    <string name="unit_min">न्यूनतम</string>
+    <string name="unit_heart">Bpm</string>
+    <string name="unit_pressure">mmHg</string>
+    <string name="unit_week">सप्ताह</string>
+    <string name="unit_day">दिन</string>
+    <string name="unit_month">महीना</string>
+    <string name="unit_year">साल</string>
+
+    <string name="unit_cal">के.के.ल</string>
+    <string name="unit_km">किमी</string>
+    <string name="unit_km_h">कि.मी./</string>
+    <string name="unit_mile">मील</string>
+    <string name="unit_mile_h">मील/ज</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">किलो</string>
+    <string name="unit_pounds">पाउंड</string>
+    <string name="unit_version">मV %1$s</string>
+    <string name="unit_cm">सेमी</string>
+
+    <string name="content_standard_days">लक्ष्य दिन</string>
+    <string name="content_avg_day_steps">औसत कदम</string>
+    <string name="content_avg_month_steps">औसत कदम</string>
+    <string name="content_avg_day_consume">औसत जला</string>
+    <string name="content_avg_month_consume">औसत जला</string>
+    <string name="content_total_distance">दूरी</string>
+    <string name="content_avg_day_distance">औसत दूरी</string>
+    <string name="content_avg_month_distance">औसत दूरी</string>
+    <string name="content_total_steps">कुल</string>
+    <string name="content_greatest_good">दिन >= अच्छा</string>
+    <string name="content_total_time_sleep">प्रभावी नींद</string>
+    <string name="content_daily_time_sleep">औसत प्रभावी</string>
+    <string name="content_longest_single_sleep">सबसे लंबे समय तक नींद</string>
+    <string name="content_proportion_of_sleep">प्रभावी नींद</string>
+    <string name="content_quality_sleep">गुणवत्ता</string>
+    <string name="content_average_heart">औसत.</string>
+    <string name="content_highest_heart">अधिकतम.</string>
+    <string name="content_minimum_heart">न्यूनतम.</string>
+    <string name="content_heart_too_high">उच्च</string>
+    <string name="content_heart_too_low">अतिलो</string>
+    <string name="content_average_pressure_diastolic">औसत डीबीपी</string>
+    <string name="content_average_pressure_systolic">औसत एसबीपी</string>
+    <string name="content_abnormal_systolic">असामान्य एसबीपी</string>
+    <string name="content_abnormal_diastolic">असामान्य डीबीपी</string>
+    <string name="content_max_value">अधिकतम.</string>
+    <string name="content_avg_value">औसत.</string>
+    <string name="content_min_value">न्यूनतम.</string>
+    <string name="content_no">नहीं</string>
+    <string name="content_yes">हाँ</string>
+    <string name="content_total_mileage">दूरी</string>
+    <string name="content_burn_calories">जला</string>
+    <string name="content_total_time_consumed">अवधि</string>
+    <string name="content_air_quality">वायु गुणवत्ता</string>
+    <string name="content_completed">दूरी</string>
+    <string name="content_calorie_burning">जला</string>
+    <string name="content_per_hour">गति</string>
+    <string name="content_pace">गति</string>
+    <string name="content_time_consuming">अवधि</string>
+    <string name="content_keep_screen_light">स्क्रीन लाइट पर रखें</string>
+    <string name="content_shake_band_start">चलने के प्रारंभ होने पर डिवाइस कंपन करता है</string>
+    <string name="content_shake_band_end">समाप्त चलते समय डिवाइस कंपन</string>
+    <string name="content_show_weather">प्रदर्शन मौसम</string>
+    <string name="content_need_open_gps">जीपीएस समारोह उपलब्ध नहीं है और स्थान अशुद्धि का कारण बन सकता है, अपने फोन पर जीपीएस सक्रिय कृपया.</string>
+    <string name="content_open_now">सक्रिय</string>
+    <string name="content_leave_running">छोड़ना</string>
+    <string name="content_confirm">ठीक है</string>
+    <string name="content_cancel">रद्द करना</string>
+    <string name="content_running_outside">स्थान पर अधिक सटीकता के लिए जीपीएस समारोह आउटडोर का उपयोग करें।</string>
+    <string name="content_current_power"> डिवाइस बैटरी:</string>
+    <string name="content_mac_address">मैक:</string>
+    <string name="content_shaking_band">डिवाइस हिल रहा है...</string>
+    <string name="title_connected">जुड़ा </string>
+
+    <string name="content_scanning_start">स्कैन डिवाइस</string>
+    <string name="toast_un_support_ble">आपका डिवाइस ब्लूटूथ BLE का समर्थन नहीं करता है।</string>
+    <string name="toast_bluetooth_is_close">ब्लूटूथ अभी तक उपलब्ध नहीं है.</string>
+    <string name="toast_band_is_disconnect">एपीपी अभी तक डिवाइस के साथ जुड़ा हुआ नहीं है।</string>
+
+    <string name="title_today">आज</string>
+    <string name="title_device_setting">सेटिंग</string>
+    <string name="title_about_app">इकाइयों और एपीपी सेटिंग</string>
+    <string name="title_feedback">संपर्क अमेरिका</string>
+    <string name="title_update_band">DEVICE FIRMWARE</string>
+    <string name="title_health_reminder">स्वास्थ्य की याद</string>
+    <string name="title_alarm">अलार्म</string>
+    <string name="title_schedule_reminder">कैलेंडर</string>
+    <string name="title_message_push">सूचनाएँ</string>
+
+    <string name="content_band_update">डिवाइस फर्मवेयर अद्यतन</string>
+    <string name="content_about_app">इकाइयों और एपीपी सेटिंग</string>
+    <string name="content_feedback">हमसे संपर्क करें</string>
+    <string name="content_reset">डिवाइस फैक्टरी डिफ़ॉल्ट</string>
+    <string name="content_clean_cache">अनुप्रयोग कैश साफ़ करें</string>
+    <string name="content_unblock_device">अनबाइंड डिवाइस बाँधना</string>
+    <string name="content_heart_detection">एचआर ऑटो-डिटेक्शन</string>
+    <string name="content_light_screen">पर प्रकाश करने के लिए घुमाएँ</string>
+    <string name="content_lost_reminder">विरोधी खो</string>
+
+    <string name="content_ota_update">अद्यतन</string>
+
+    <string name="content_app_current_version">एपीपी संस्करण</string>
+    <string name="content_app_last_version">नवीनतम एपीपी संस्करण</string>
+    <string name="content_unit_distance">लंबाई इकाई</string>
+    <string name="content_unit_temperature">तापमान इकाई</string>
+    <string name="content_unit_weight">वजन यूनिट</string>
+    <string name="content_app_auto_update">एपीपी स्वत: अद्यतन</string>
+    <string name="content_app_auto_sync">डेटा स्वत:-सिंक</string>
+
+    <string name="content_sport_done">समाप्त</string>
+    <string name="content_submit">जमा करें</string>
+    <string name="content_feedback_content">आपकी प्रतिक्रिया के लिए धन्यवाद.</string>
+    <string name="content_exit">रद्द करना</string>
+    <string name="content_call_reminder">आवक कॉल पुशिंग</string>
+    <string name="content_message_reminder">एसएमएस याद दिलाना</string>
+    <string name="content_do_not_disturb">साइलेंट मोड</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">दोहराएँ मोड का चयन करें</string>
+    <string name="content_repeat">दोहराएँ</string>
+    <string name="content_title_exit_account">यकीन है कि अब चालू खाते से बाहर निकलें?</string>
+    <string name="content_last_weight">शरीर का वजन:</string>
+    <string name="content_last_date">वजन तिथि:</string>
+    <string name="content_personal_best_record">सबसे अच्छा दिन</string>
+    <string name="content_standard_day">अधिकतम लक्ष्य</string>
+    <string name="content_best_week">सबसे अच्छा सप्ताह</string>
+    <string name="content_best_month">सबसे अच्छा महीना</string>
+    <string name="content_personal_setting">सेटिंग</string>
+    <string name="content_exit_current_account">लॉग आउट करें</string>
+    <string name="content_bmi_index">बीएमआई:</string>
+    <string name="content_setting_nickname">नाम</string>
+    <string name="content_setting_gender">लिंग</string>
+    <string name="content_setting_birth_year">जन्म</string>
+    <string name="content_setting_height">ऊंचाई</string>
+    <string name="content_setting_last_weight">शरीर का वजन</string>
+    <string name="content_setting_bmi_index">बीएमआई</string>
+    <string name="content_setting_day_target">चरण लक्ष्य</string>
+    <string name="content_setting_save">सहेजें</string>
+    <string name="content_setting_next">अगला</string>
+    <string name="content_gender_female">महिला</string>
+    <string name="content_gender_male">पुरुष</string>
+    <string name="bmi_too_light">अतिप्रकाश</string>
+    <string name="bmi_normal">सामान्य</string>
+    <string name="bmi_too_heavy">थोड़ा मोटा</string>
+    <string name="bmi_obesity">मोटे</string>
+    <string name="bmi_very_fat">अति-बीजा</string>
+    <string name="content_bmi_paragraph_1">बीएमआई (बॉडी मास इंडेक्स) शरीर को मापने के लिए एक अंतरराष्ट्रीय मानक है या नहीं, जो भी स्वास्थ्य के बारे में एक संदर्भ मूल्य है. यह ध्यान में ऊंचाई और वजन लेता है.</string>
+    <string name="content_bmi_paragraph_2">बीएमआई प्रतिक्रिया शरीर की स्थिति के लिए एक आसान करने के लिए उपयोग करने का तरीका है, अधिक मोटापे से ग्रस्त वयस्क कार्डिनल और उच्च रक्तचाप जैसे रोग में एक उच्च जोखिम है।</string>
+    <string name="content_dialog_title_bmi">बीएमआई के बारे में</string>
+    <string name="title_user_setting">सेटिंग</string>
+    <string name="content_training">डब्ल्यूएचओ की सलाह के अनुसार, वयस्क को लगभग 40 मिनट तक एक सामान्य खेल की आवश्यकता होती है, जो 8000 तेजी से कदम के लिए चलने के समान कैलोरी जलाता है।</string>
+    <string name="content_dialog_title_moving_target">अपने दैनिक चरण लक्ष्य के बारे में</string>
+    <string name="content_history_schedule_reminder">इतिहास को याद रखें</string>
+    <string name="content_save">सहेजें</string>
+
+
+    <string-array name="sleep">
+        <item>सो</item>
+        <item>बेचैन</item>
+        <item>जाग</item>
+    </string-array>
+
+
+    <!--反馈-->
+    <string name="toast_feedback_success">प्रस्तुत करने और प्रतिक्रिया ;) के लिए धन्यवाद</string>
+
+
+    <string name="content_guest_login_in">अतिथि लॉगिन</string>
+    <string name="content_user_login_in">लॉगिन इन</string>
+
+    <!--全局工具类的字符串-->
+    <string name="dialog_waiting">लोड...</string>
+
+    <string name="title_schedule_manager">कैलेंडर</string>
+    <string name="title_edit_schedule">एक नोट जोड़ें</string>
+    <string name="content_time">समय</string>
+    <string name="content_every_day">दैनिक</string>
+    <string name="content_today">आज</string>
+    <string name="content_tomorrow">कल</string>
+    <string name="content_single">एकल</string>
+    <string name="content_take_photo">फ़ोटो ले लो</string>
+    <string name="content_choose_picture">गैलरी से चुनें</string>
+    <string name="content_unknown_number">अज्ञात नंबर</string>
+    <string name="content_call">इनकमिंग कॉल:</string>
+    <string name="content_this_week">सप्ताह</string>
+    <string name="content_this_month">महीना</string>
+    <string name="content_input_email">कृपया ईमेल पता दर्ज करें</string>
+    <string name="content_input_verification_code">सत्यापन दर्ज करें</string>
+    <string name="content_obtain_verification_code">नया सत्यापन</string>
+    <string name="content_input_password">आपका पासवर्ड</string>
+    <string name="content_register">पंजीकृत करें</string>
+    <string name="content_confirm_password">नया पासवर्ड फिर से दर्ज करें</string>
+    <string name="title_register">मुझे साइन इन करें</string>
+    <string name="content_reacquire">फिर से अनुरोध करें</string>
+    <string name="title_forget_password">पासवर्ड को भूल जाओ</string>
+    <string name="hint_input_new_password">नया पासवर्ड</string>
+    <string name="content_confirm_new_password">नया पासवर्ड</string>
+    <string name="content_commit">जमा करें</string>
+    <string name="content_not_valid_email">अमान्य ईमेल पता प्रारूप! </string>
+    <string name="content_nickname_length">आपका डेटा</string>
+    <string name="content_password_length">पासवर्ड की लंबाई 6 "14 अंक है</string>
+    <string name="content_valid_input">पासवर्ड गलत है</string>
+    <string name="content_forget_pwd">पासवर्ड भूल जाओ?</string>
+    <string name="content_update_app">संस्करण तालु</string>
+    <string name="content_update">अद्यतन</string>
+    <string name="content_update_ing">अद्यतन...</string>
+    <string name="content_save_picture_to">फोटो में सहेजा गया है</string>
+    <string name="content_nickname_not_be_null">आपका डेटा रिक्त नहीं हो सकता</string>
+    <string name="title_open_close_bluetooth">ब्लूटूथ समारोह बंद कर दिया है, अब खोलने के लिए सुनिश्चित करें?</string>
+    <string name="content_open">ठीक है</string>
+    <string name="content_no_data">अभी तक कोई डेटा नहीं</string>
+    <string name="content_application_exception">वहाँ अनुप्रयोग के साथ कुछ गलत है, लॉग डिबग के लिए बचत कर रहा है.!</string>
+    <string name="title_history_schedule_reminder">इतिहास को याद रखें</string>
+    <string name="content_what_is_this">यह क्या है?</string>
+    <string name="content_bluetooth">ब्लूटूथ</string>
+    <string name="content_can_not_be_null">आपको याद दिलाने के लिए कुछ लिखें</string>
+    <string name="content_new_app_version">नया ऐप संस्करण</string>
+    <string name="content_update_new_app_version">नए समारोह या डिबग, अब अद्यतन करने के लिए सुनिश्चित होता है, जो अपने अनुप्रयोग के बारे में नया अद्यतन है?</string>
+    <string name="content_current_is_last">वर्तमान संस्करण नवीनतम है!</string>
+
+    <string name="content_new_device_version">सिस्टम संकेत </string>
+    <string name="content_update_new_device_version">नया फर्मवेयर संस्करण उपलब्ध है, वर्तमान संस्करण संख्या V%d है और इसे V%d में अपग्रेड किया जाएगा।</string>
+    <string name="content_current_device_version">वर्तमान फर्मवेयर संस्करण:V%02d</string>
+    <string name="content_last_device_version">नवीनतम फर्मवेयर संस्करण:V%02d</string>
+    <string name="content_congratulations_successful">अद्यतन समाप्त हो गया है!</string>
+    <string name="content_is_last_device_version">वर्तमान संस्करण नवीनतम है.</string>
+    <string name="content_are_you_sure">क्या आपको यकीन है?</string>
+    <string name="content_want_reset">हम अपने डिवाइस पर सभी डेटा स्पष्ट करने के लिए जा रहे हैं और ठीक करने में असमर्थ हैं, तो आप कारखाने मोड डिफ़ॉल्ट करने के लिए सुनिश्चित कर रहे हैं?</string>
+    <string name="content_want_clear">अनुप्रयोग कैश अपने खेल डेटा और सेटिंग, अब स्पष्ट करने के लिए सुनिश्चित होता है जो समाशोधन के बाद वसूली योग्य नहीं है?</string>
+    <string name="content_want_unbind">कनेक्शन unbind है, तो अब app से धक्का और फोन प्रबंधन सेवा (यदि आपके डिवाइस का समर्थन) प्राप्त नहीं होगा, अब unbind करने के लिए सुनिश्चित करें?</string>
+    <string name="content_stop_check">जांच काफी है</string>
+    <string name="content_check_complete">पता लगाना समाप्त हो गया है</string>
+    <string name="content_checking">जांच चल रही है ...</string>
+    <string name="title_scan_band">स्कैन डिवाइस</string>
+    <string name="content_scanning">स्कैनिंग...</string>
+    <string name="content_binding">बाइंडिंग...</string>
+    <string name="content_input_correct_email">ई-मेल स्वरूप गलत है</string>
+    <string name="content_input_correct_phone">फ़ोन स्वरूप ग़लत है</string>
+    <string name="content_exit_run">सहेजें और वर्तमान खेल ट्रैक और डेटा से बाहर निकलें, जबकि यह किसी भी डेटा को बचाने के लिए अगर अवधि बहुत कम है, छोड़ने के लिए सुनिश्चित नहीं होगा?</string>
+    <string name="content_want_exit">ज़रूर छोड़ने के लिए?</string>
+    <string name="content_save_data">डेटा सहेजा जा रहा है...</string>
+    <string name="content_nickname_illegal">नाम लंबाई गलत है(1"16 अंक)!</string>
+    <string name="content_can_not_choose_future">आप किसी भावी दिनांक का चयन नहीं कर सकते.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">हर%.1fhr याद दिलाने के लिए (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">शेड्यूल के लिए दिनांक का चयन करें</string>
+    <string name="content_preparing">तैयार किया जा रहा है ...</string>
+    <string name="content_prepare_timeout">तैयार ओवरटाइम है, कृपया फिर से प्रयास करें</string>
+    <string name="content_during_upgrade">अद्यतन...</string>
+    <string name="content_upgrade_failed">अद्यतन कर रहा है, कृपया पुन: प्रयास करें</string>
+    <string name="content_upgrade_cancel">अद्यतन रद्द कर दिया है, फिर से अद्यतन करने के लिए कोई ज़रूरत नहीं है!</string>
+    <string name="content_disconnect_band">आपकी डिवाइस असंबद्ध है!</string>
+    <string name="content_upgrade_no_plan">कोई और अधिक फर्मवेयर अद्यतन</string>
+    <string name="content_getting_information">फर्मवेयर की जांच की जा रही है।</string>
+    <string name="content_download_failed">फर्मवेयर डाउनलोड करने में विफल रहा, कृपया बाद में जाँच करें</string>
+    <string name="content_downloading">फर्म..</string>
+    <string name="content_last_time">पिछली बार:</string>
+    <string name="content_sleep_quality">गुणवत्ता:</string>
+    <string name="content_step_format">%d चरण</string>
+    <string name="content_day_format">Dd</string>
+    <string name="content_bad">गरीब</string>
+    <string name="content_general">सामान्य</string>
+    <string name="content_well">अच्छा</string>
+    <string name="content_good">अति उत्कृष्ट</string>
+    <string name="content_permission_notification">[सूचना बार अनुमति] अपने डिवाइस के लिए अधिसूचना धक्का के लिए है</string>
+    <string name="content_authorized_to_use">पूर्ण समारोह के लिए उन अनुमति का उपयोग करने के लिए एप्लिकेशन को अनुमति दें:</string>
+    <string name="content_authorized">अनुमति अनुरोध </string>
+    <string name="content_next">अगला</string>
+    <string name="content_exit_login">चालू खाते से लॉग आउट करें और डिवाइस अनुप्रयोग के लिए काट दिया जाएगा, जारी रखने के लिए सुनिश्चित करें?</string>
+    <string name="content_use_for_sport">खेल जानकारी प्रदर्शन करने के लिए लागू करें[खेल जानकारी प्रदर्शन] फ़ंक्शन</string>
+    <string name="content_use_for_find_phone">करने के लिए लागू करें [फोन] फ़ंक्शन ढूँढें</string>
+    <string name="content_band_call_phone">डिवाइस फ़ोन खोज रहा है...</string>
+    <string name="content_find_phone">फ़ोन ढूंढें</string>
+    <string name="content_permission_need">आप कुछ समारोह असामान्य की ओर जाता है, जो अनुप्रयोग के बारे में कुछ अनुमतियों से इनकार किया है, उन अनुमतियों के लिए एप्लिकेशन का उपयोग की अनुमति दें:</string>
+    <string name="content_calendar">कैलेंडर</string>
+    <string name="content_camera">कैमरा</string>
+    <string name="content_contacts">संपर्क मेनू</string>
+    <string name="content_location">जीपीएस</string>
+    <string name="content_microphone">माइक्रोफोन</string>
+    <string name="content_phone">कॉलर स्थिति /IMEI</string>
+    <string name="content_sensor">सेंसर</string>
+    <string name="content__sms">एसएमएस</string>
+    <string name="content_storage">फोन भंडारण</string>
+    <string name="content_no_time">नहीं</string>
+    <string name="content_normal">सामान्य</string>
+    <string name="content_poor">अच्छा नहीं</string>
+    <string name="content_total_number_of_steps">कुल चरण: %02d</string>
+    <string name="content_reminder_content">नोट सामग्री</string>
+    <string name="content_systolic_pressure">Sbp</string>
+    <string name="content_diastolic_pressure">Dbp</string>
+    <string name="content_deep_sleep">सो</string>
+    <string name="content_light_sleep">बेचैन</string>
+    <string name="content_wide_awake">जाग</string>
+    <string name="content_total_time_consuming">अवधि</string>
+    <string name="content_average_speed">औसत गति</string>
+    <string name="content_average_time_speed">औसत गति</string>
+    <string name="content_fastest_speed">अधिकतम गति</string>
+    <string name="content_loading">लोड...</string>
+    <string name="content_device_no_bind">एप्लिकेशन के साथ डिवाइस बाइंड करें</string>
+    <string name="content_scan_device">स्कैन डिवाइस</string>
+    <string name="content_time_interval">समय अंतराल</string>
+    <string name="content_half_hour">0.5 एच</string>
+    <string name="content_one_hour">1एच</string>
+    <string name="content_two_hour">2एच</string>
+    <string name="content_three_hour">3एच</string>
+    <string name="content_sunday">सूर्य.</string>
+    <string name="content_monday">मेरे.</string>
+    <string name="content_tuesday">Tue.</string>
+    <string name="content_wednesday">बुध.</string>
+    <string name="content_thursday">गुरू.</string>
+    <string name="content_friday">शुक्र.</string>
+    <string name="content_saturday">Sat.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">ताज़ा करने के लिए नीचे खींचो</string>
+    <string name="content_refreshing">ताज़ा</string>
+    <string name="content_is_loading">लोड</string>
+    <string name="content_release_immediately_refresh">तुरंत ताज़ा करें</string>
+    <string name="content_refresh_completed">पूर्ण ताज़ा करें</string>
+    <string name="content_refresh_failed">ताज़ा करना विफल</string>
+    <string name="content_last_update">[अंतिम अद्यतन:] MM-dd HH:mm</string>
+    <string name="content_enter_email_is_correct">कृपया सुनिश्चित करें कि ईमेल पता स्वरूप सही है.</string>
+
+
+    <string name="unit_steps">चरण</string>
+    <string name="content_map_type">मानचित्र प्रकार</string>
+    <string name="content_map_type_gaode">AMap (China)</string>
+    <string name="content_map_type_google">Google Map</string>
+    <string name="content_map_type_automatic_smart_select">ऑटो चयन</string>
+
+    <string name="content_connect_failed">कनेक्शन विफल</string>
+    <string name="content_try_to_fix">ठीक करने की कोशिश करो</string>
+    <string name="content_connect_failed_fix_tips">डिवाइस के साथ कनेक्ट करने में असमर्थ, आप प्रयास कर सकते हैं:[n]n1. फिर से कनेक्ट करने का प्रयास करें.[n]n].turn बंद ब्लूटूथ और चालू करें.[n]n3. सबसे अधिक सटीकता के लिए जीपीएस ans swtich पर चालू करने के लिए प्रयास करें। अपने फोन रिबूट।</string>
+    <string name="content_item_fix_band">%1$s [डिवाइस ओटीए मोड]</string>
+    <string name="content_fix_band_failed">डिवाइस ओटीए विफल</string>
+    <string name="content_fix_band_failed_tips">डिवाइस के लिए ओटीए सेवा का चयन करने में विफल रहा है, डिवाइस अभी भी 10 मिनट के भीतर स्वचालित रूप से वसूली खत्म नहीं अगर हमारे साथ संपर्क करें।</string>
+    <string name="content_heart_detection_tips">* कुछ उपकरणों इस समारोह का समर्थन नहीं</string>
+    <string name="content_description">अधिसूचना सेवा: एन डिवाइस के लिए अपने फोन से QQ、Weibo、Wechat、Facebook、Twitter、Line、Linkedln、GooglePlus  अधिसूचना धक्का होगा। </string>
+    <string name="content_input_band">कृपया अपना डिवाइस डेटा दर्ज करें</string>
+    <string name="content_or_contact_us">या हमसे संपर्क करें ईमेल: wt5354@iwear88.com</string>
+    <string name="content_help">मदद</string>
+    <string name="content_approve">अनुमोदन</string>
+
+    <string name="content_permission_location">[स्थान पहुँच] स्मार्ट बैंड के स्थान की पहचान करने और इसे कनेक्ट करने की कोशिश कर के लिए</string>
+    <string name="content_scan_timeout">डिवाइस नहीं मिला? कृपया फिर से प्रयास करने के बाद खुला और फिर से बंद [एयरप्लेन मोड]</string>
+    <string name="content_push_warm">* यदि संदेश पुश सुविधा काम नहीं करता है, यहाँ क्लिक करें और खुला </string>
+    <string name="content_reconnecting">सेवा या इंटरनेट व्यस्त है, कृपया प्रतीक्षा करें ...</string>
+    <string name="content_manual_reconnect">मैन्युअल रूप से डिवाइस सिंक्रनाइज़ करें</string>
+    <string name="content_login_means">लॉगिन करें और स्वीकार किए जाते हैं</string>
+    <string name="content_terms">सेवा की शर्तें</string>
+    <string name="content_terms_title">गोपनीयता और स्वास्थ्य नीति</string>
+    <string name="content_terms_first">* हम आपको जानकारी है कि आप के लिए महत्वपूर्ण है के साथ हम पर भरोसा कर रहे हैं कि सराहना करते हैं, तो अनुप्रयोग के कुछ कार्यों के लिए काम करने के लिए आपकी अनुमति की जरूरत है।</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>यहाँ</a></font> हम अपने डिवाइस के लिए गोपनीयता प्रथाओं का वर्णन करते हैं, आप हमारे द्वारा एकत्रित डेटा, हम उसका उपयोग कैसे करते हैं के बारे में जानेंगे.]]></string>
+    <string name="content_terms_third">* इस उत्पाद को एक चिकित्सा उपकरण नहीं है, और निदान, उपचार, इलाज, या किसी भी बीमारी को रोकने का इरादा नहीं है. सटीकता के संबंध में, उपकरणों की सटीकता चिकित्सा उपकरणों या वैज्ञानिक माप उपकरणों से मेल करने का इरादा नहीं है.</string>
+    <string name="content_verification_help"><![CDATA[सत्यापन प्राप्त नहीं हो रहा है?क्लिक करें<font color=#04F5D1> <a href=\'%s\'>यहाँ</a> </font> मदद के लिए]]></string>
+    <string name="issue_with_log_in_or_sign_in">लॉग-इन या साइन-इन के साथ समस्या</string>
+    <string name="content_troubleshooting_help"><![CDATA[क्लिक करें<font color=#04F5D1> <a href=\'%s\'>यहाँ समस्या निवारण प्राप्त करने के लिए]]></string>
+    <string name="content_sleep_accuracy">परिणाम कितने सटीक हैं?</string>
+    <string name="content_sleep_accuracy_1">ऑटो का पता लगाने नींद trackers आम तौर पर सही माना जाता है, वे भी विभिन्न उपयोगकर्ता आदतों की वजह से त्रुटियों के लिए प्रवण हैं.</string>
+    <string name="content_sleep_accuracy_2">कृपया बाद में नींद की गुणवत्ता की जांच करें यदि आप30 मिनट के भीतर ही सोना समाप्त कर देते हैं, तो डेटा का विश्लेषण किया जा रहा है।</string>
+    <string name="content_accuracy_title">परिणाम सटीकता के बारे में</string>
+    <string name="content_app_unsupport_tips">इस समारोह में, कंगन में स्थापित कृपया</string>
+    <string name="content_permission_notification_enable">[Notification] परमिट बंद कर दिया गया है, कृपया अनुमति अन्यथा कार्य [डिवाइस खोजें] [Notification बार] खराबी होगी अनुमति दें"</string>
+    <string name="content_connect_google_fit">लिंक गूगल फ़िट</string>
+    <string name="content_unlink_google_fit">Google फ़िट अनलिंक करें</string>
+    <string name="title_associate_google_fit">एसोसिएट गूगल फ़िट</string>
+    <string name="content_unit_time">डिवाइस समय स्वरूप</string>
+    <string name="content_upload_google_fit_now">अब GOOGLE फिट करने के लिए डेटा को अपलोड करें</string>
+    <string name="content_tips_of_google_fit">डेटा 00:00/04:00/8:00/12:00/16:00/20:00 हर रोज स्वचालित रूप से के आसपास गूगल फ़िट करने के लिए सिंक्रनाइज़ किया जाएगा।</string>
+
+    <string name="content_answer">कृपया उत्तर दर्ज करें</string>
+    <string name="content_input_email_different">दो इनपुट ईमेल अलग हैं</string>
+    <string name="content_resetpsw_now">पासवर्ड पुनर्प्राप्त करें</string>
+    <string name="content_new_psw">नया पासवर्ड:</string>
+    <string name="content_question1">1:</string>
+    <string name="content_question2">2:</string>
+    <string name="content_input_reg_email">आपका पंजीकृत मेल:</string>
+    <string name="content_register_question_step1">1. ईमेल और पासवर्ड भरें</string>
+    <string name="content_register_question_step2">2. सुरक्षा जवाब inputting</string>
+    <string name="content_retrieve_type">पासवर्ड पुनर्प्राप्ति द्वारा:</string>
+    <string name="content_register_success">पंजीकरण सफल होता है!</string>
+    <string name="content_resetpsw_success">पासवर्ड संशोधन सफल है!</string>
+    <string name="content_resetpsw_wrong_answer">गुप्त सुरक्षा जवाब गलत है!</string>
+    <string name="content_from_auth_code">ईमेल सत्यापन</string>
+    <string name="content_from_question">सुरक्षा उत्तर</string>
+    <string name="question1_1">आपके पहले/वर्तमान/पसंदीदा पालतू जानवर का डेटा क्या था?</string>
+    <string name="question1_2">अपने पसंदीदा किताब क्या है?</string>
+    <string name="question1_3">अपने पसंदीदा भोजन क्या है?</string>
+    <string name="question2_4">पहली कंपनी है कि आप के लिए काम किया था?</string>
+    <string name="question2_5">आपकी माँ डेटा क्या है?</string>
+    <string name="question2_6">आप किस शहर में पैदा हुए थे?</string>
+    <string name="content_connect_strava">Strava के लिए लिंक</string>
+    <string name="content_unlink_strava">Strava से अनलिंक</string>
+    <string name="content_tips_of_strava">Strava जोड़ने के बाद, आप गति ट्रैक रिकॉर्ड इंटरफ़ेस में Strava के लिए अपनी गति ट्रैक प्रस्तुत कर सकते हैं.</string>
+    <string name="content_uploaded_to_strava">Strava को प्रस्तुत</string>
+    <string name="content_upload_to_strava">Strava के लिए जमा करें</string>
+    <string name="content_retry">पुनर्प्रयास</string>
+    <string name="content_err_save_sport_track_data_network_fail">गति ट्रैक डेटा सहेजने में असमर्थ, कृपया नेटवर्क सेटिंग्स जाँचें</string>
+    <string name="content_donot_save">सहेजें नहीं</string>
+    <string name="content_link">लिंक</string>
+    <string name="content_help_and_feedback">मदद और फ़ीडबैक</string>
+
+
+    <string name="content_my_friends">दोस्तों</string>
+    <string name="content_search_friends_hint">उपयोगकर्ता ID/ईमेल</string>
+    <string name="toast_tips_req_add_friends">आपका मित्र अनुरोध सबमिट कर दिया गया है</string>
+    <string name="title_tab_msg_system">नया क्या है</string>
+    <string name="title_tab_msg_add_friend">मित्र अनुरोध</string>
+    <string name="title_tab_my_friends">दोस्तों</string>
+    <string name="content_add_agree_friends">आप एक दोस्त के रूप में जोड़ना चाहते हैं</string>
+    <string name="content_btn_agreed">स्वीकार करना</string>
+    <string name="content_btn_refused">इनकार</string>
+    <string name="content_encourage">प्रोत्साहित करना</string>
+    <string name="content_zan">नज</string>
+    <string name="content_add_friends">एक दोस्त के रूप में जोड़ना</string>
+    <string name="content_already_friends">स्वीकार</string>
+    <string name="content_already_refused">अस्वीकृत</string>
+    <string name="content_nickname">उपनाम:</string>
+    <string name="content_nickname_2">उपनाम</string>
+    <string name="content_sign_null">यहाँ खाली</string>
+    <string name="content_sign">दिखाने के लिए कुछ लिखें</string>
+    <string name="content_setting_sign">हस्ताक्षर</string>
+    <string name="content_remark_null">यहाँ खाली</string>
+    <string name="content_user_info">उपयोगकर्ता जानकारी</string>
+    <string name="content_set_remark">नोट</string>
+    <string name="content_average_blood_oxygen">बीओ औसत.</string>
+    <string name="content_step_num">चरणों</string>
+    <string name="content_sleep_data">नींद</string>
+    <string name="content_bp_bo">बीपी/बीओ</string>
+    <string name="content_invite_friends">अब शामिल होने के लिए अन्य को आमंत्रित करें</string>
+    <string name="content_save_image">स्क्रीनशॉट सहेजें</string>
+
+    <string name="content_encourage_you">आपको प्रोत्साहित करें</string>
+    <string name="content_zan_you">तुम्हारी स्तुति करो</string>
+
+    <string name="content_no_friends">क्या अपने मित्रों को नहीं मिला</string>
+    <string name="content_search_friends_input_err">कृपया सही यूजर आईडी दर्ज करें /</string>
+
+    <string name="content_weather_sunny_day">धूप</string>
+    <string name="content_weather_cloudy">बादल छाना</string>
+    <string name="content_weather_snow">बर्फीला</string>
+    <string name="content_weather_cloudy_day">घटाटोप</string>
+    <string name="content_weather_rain">बरसाती</string>
+
+
+
+    <string name="content_my_ideal_weight">मेरे आदर्श स्वास्थ्य</string>
+    <string name="content_intake_calories">दैनिक कैलोरी सेवन सेटिंग</string>
+    <string name="content_sport_target">दैनिक कदम खेल सेटिंग</string>
+    <string name="content_intake_tips_head">अधिकतम अनुशंसित सेवन है</string>
+    <string name="content_intake_tips_foot">कैलोरी के साथ भोजन</string>
+    <string name="content_recorded_meal">लॉग %d भोजन %s</string>
+    <string name="content_this_meal_to_eat">लॉग मेरे कैलोरी इंटेक</string>
+    <string name="content_food_input_empty_tips">इनपुट कुछ</string>
+    <string name="content_record_meal_to_eat">लॉग फूड इंटेक</string>
+    <string name="content_edit">संपादित</string>
+    <string name="content_your_goal_is_to_subtract">आपका लक्ष्य खो रहा है</string>
+    <string name="content_the_current_every_day_for_a_sport_target">आपका दैनिक गतिविधि स्तर है</string>
+    <string name="content_when_is_the_daily_consumption">जब दैनिक जला है</string>
+    <string name="content_daily_intake_is">दैनिक सेवन है</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">अनुमान दैनिक वजन कम है</string>
+    <string name="content_need_to_complete">सफलता की जरूरत</string>
+    <string name="content_expected_time_for_success">अनुमान समाप्ति दिनांक है</string>
+    <string name="content_please_adjust_the_plan">कृपया अपनी योजना बदलें</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">आपका लक्ष्य वर्तमान वजन से कम होना चाहिए</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">फिट होने के लिए अपनी योजना बदलें</string>
+    <string name="content_recommended_daily_intake">अपने स्वास्थ्य की स्थिति और लक्ष्य वजन पर आधारित है, अपने की सिफारिश की दैनिक कैलोरी सेवन लगभग है</string>
+    <string name="content_average_daily_calorie_deficit">औसत कैलोरी की कमी</string>
+    <string name="content_intake_of_qualified_days">दिन के तहत सेवन लक्ष्य</string>
+    <string name="content_average_daily_intake_of_calories">औसत कैलोरी सेवन</string>
+    <string name="content_the_highest_intake_of_calories">दैनिक अधिकतम सेवन</string>
+    <string name="content_not_clock_in_number_of_days">दिन नहीं लॉग इन मेरे सेवन</string>
+    <string name="content_click_add_meal">भोजन का सेवन लॉग इन करने के लिए सही नल पर आइकन पर क्लिक करें</string>
+    <string name="content_total_intake_about">योग सेवन है </string>
+    <string name="content_calorie_consumption">कैलोरी जला</string>
+    <string name="content_calorie_intake">कैलोरी का सेवन</string>
+    <string name="content_target_bmi">बीएमआई</string>
+    <string name="content_diet_help_tips">व्यक्तिगत लिंग और उम्र के आधार पर अपने या उसके चयापचय आइटम प्रकार caculate करने के लिए, तो उपयोगकर्ता इनपुट लक्ष्य वजन और कदम वजन खोने के लक्ष्य तक पहुँचने की तारीख का अनुमान लगाने के लिए, कृपया ध्यान दें कि व्यक्ति और जीवन की आदत के बदलाव परिणाम विरूपण के लिए नेतृत्व कर सकते हैं किसी. चिकित्सा प्रयोजनों के लिए नहीं</string>
+    <string name="content_have_the_calories_you_eat">कितना मैं खा</string>
+    <string name="content_diet_start">आज प्रवेश करने के लिए अगला चरण</string>
+    <string name="content_food_name">खाद्य नाम</string>
+    <string name="content_amount">आकार</string>
+    <string name="content_unit">इकाई</string>
+    <string name="content_cur_weight">वर्तमान वजन</string>
+    <string name="content_target_weight">लक्ष्य वजन</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">व्यायाम सामान्य उपयोगकर्ता के लिए जिम में कसरत शुरू करने के लिए</string>
+    <string name="sport_encourage_prompt_1">आपने फ़ुजीसान की ऊंचाई बराबर कर ली है</string>
+    <string name="sport_encourage_prompt_2">डब्ल्यूएचओ से वयस्क दैनिक कदम लक्ष्य की पुनर्नियुक्ति</string>
+    <string name="sport_encourage_prompt_3">आप इस हरे ग्रह के लिए 805g Co2 के बारे में कम कर दिया है</string>
+    <string name="sport_encourage_prompt_4">लोवर और एफिल टॉवर के बीच की दूरी</string>
+    <string name="sport_encourage_prompt_5">आप लगभग खेल के मैदान पर 30 गोद समाप्त हो गया है</string>
+    <string name="sport_encourage_prompt_6">दूरी से अधिक 1 घंटे biking में अनुवाद है</string>
+    <string name="sleep_duration_encourage_prompt_0">आपकी नींद की अवधि बहुत कम है</string>
+    <string name="sleep_duration_encourage_prompt_1">पुरानी नींद की कमी हृदय रोग की ओर जाता है</string>
+    <string name="sleep_duration_encourage_prompt_2">अच्छी नींद अच्छे स्वास्थ्य का आधार है</string>
+    <string name="sleep_duration_encourage_prompt_3">कोई बुरा नींद अवधि</string>
+    <string name="sleep_duration_encourage_prompt_4">आप एक ईर्ष्या नींद की अवधि है </string>
+    <string name="sleep_duration_encourage_prompt_5">एक ताजा और जोरदार दिन</string>
+    <string name="sleep_duration_encourage_prompt_6">एह, आप सामान्य वयस्कों की तुलना में एक से अधिक लंबी नींद की अवधि है</string>
+    <string name="sleep_duration_encourage_prompt_7">हो सकता है कि यह समय के लिए आप डिवाइस और अपने पहने रास्ते की जांच करने के लिए</string>
+    <string name="sleep_time_encourage_prompt_0">उचित पहनने के लिए अपने डिवाइस की जाँच करें</string>
+    <string name="sleep_time_encourage_prompt_1">एक ईर्ष्या पूर्ण नींद समय</string>
+    <string name="sleep_time_encourage_prompt_2">सोने के लिए सबसे अच्छा समय</string>
+    <string name="sleep_time_encourage_prompt_3">उचित नींद समय उत्कृष्ट नींद की गुणवत्ता की कुंजी है </string>
+    <string name="sleep_time_encourage_prompt_4">अपनी नींद शुरू होने से पहले कुछ नरम संगीत चलाएँ</string>
+    <string name="sleep_time_encourage_prompt_5">0-1 घड़ी जिगर और गुर्दे detox के लिए महत्वपूर्ण अवधि है</string>
+    <string name="sleep_time_encourage_prompt_6">अपनी नींद के लिए पहले सो जाओ, देर तक नहीं रहना</string>
+    <string name="sleep_time_encourage_prompt_7">लंबे समय तक रहने के शरीर के लिए देर से महान नुकसान, शारीरिक थकान के लिए अग्रणी</string>
+    <string name="title_health_advisor">स्वास्थ्य सलाहकार</string>
+    <string name="content_ranking">रैंकिंग</string>
+    <string name="content_friends_ranking">आपकी रैंकिंग</string>
+    <string name="content_my_step_ranking">चरण विश्व रैंकिंग</string>
+    <string name="content_my_sleep_details">नींद विवरण</string>
+    <string name="content_week_avg">इस सप्ताह औसत</string>
+    <string name="content_rg_week_avg">साप्ताहिक औसत</string>
+    <string name="content_rg_month_avg">मासिक औसत</string>
+    <string name="content_my_sleep_duration_ranking">नींद अवधि विश्व रैंकिंग</string>
+    <string name="content_my_sleep_time_ranking">स्लीपिंग टाइम वर्ल्ड रैंकिंग</string>
+    <string name="content_range_avg_time">में आपका औसत समय %s - %s</string>
+    <string name="content_more_than_user">%d%% से अधिक उपयोगकर्ता</string>
+    <string name="content_later_than_user">बाद में %d%% उपयोगकर्ताओं की तुलना में</string>
+
+    <string name="title_change_wallpaper">वॉलपेपर</string>
+    <string name="content_setup_complete">स्थापना खत्म!</string>
+    <string name="enable_wallpaper_fun">वॉलपेपर समारोह</string>
+    <string name="enable_wallpaper_step_fun">पेडोमीटर प्लगइन</string>
+    <string name="content_not_saved">अनसहेजें</string>
+    <string name="content_not_saved_tips">क्या आप संग्रहण छोड़ना और छोड़ना चाहते हैं?</string>
+    <string name="content_wallpaper_transmission">अद्यतन...</string>
+    <string name="content_wallpaper_textcolor">फ़ॉन्ट रंग</string>
+
+    <string name="title_sport_mode">खेल मोड</string>
+    <string name="sport_mode_walking">चलना</string>
+    <string name="sport_mode_running">भागना</string>
+    <string name="sport_mode_mountaineering">चढ़ाई</string>
+    <string name="sport_mode_cycling">Biking</string>
+    <string name="sport_mode_table_tennis">पिंगपोंग</string>
+    <string name="sport_mode_basketball">बास्केटबॉल</string>
+    <string name="sport_mode_football">फुटबॉल</string>
+    <string name="sport_mode_badminton">बैडमिंटन</string>
+    <string name="sport_mode_treadmill">ट्रेडमिल</string>
+    <string name="sport_mode_tennis">टेनिस</string>
+    <string name="sport_mode_swimming">तैरना</string>
+    <string name="unit_three_month">3 महीने</string>
+    <string name="content_duration">अवधि</string>
+    <string name="content_last_sport">पिछले खेल</string>
+    <string name="content_sport_mode_count">%d टाइम्स</string>
+    <string name="content_finish_distance">दूरी</string>
+    <string name="content_finish_calorie">कैलोरी</string>
+	<string name="content_update_ota">1.ब्लूटूथ कनेक्टिविटी स्थिर साथ रखें उन्नयन उपकरणों\n2।, ऐप्लिकेशन को अनइंस्टॉल नहीं कर छोड़ मत करो एपीपी रास्ता\n3। उन्नयन की जरूरत उन्नयन 1-3 मिनट, एक काली स्क्रीन में जिसके परिणामस्वरूप डिवाइस अपग्रेड करने में विफल रहता है, तो या फोन की जगह! उन्नयन में एपीपी फिर से</string>
+	<string name="toast_electric_low_ota_tips">उपकरण क्षमता से कम 50%, उन्नत करने के लिए अनुमति नहीं है जाता है!</string>
+	<string name="content_guest_login_alert">सिस्टम अपग्रेड, उपयोगकर्ता की अनुमति, एंड्रॉइड फ्यूचर संस्करण और अन्य कारकों से प्रभावित, देशी आगंतुक के विशिष्ट पहचान कोड को बदला जा सकता है, "पर्यटक लॉगिन" का उपयोग करने वाले उपयोगकर्ता डेटा हानि की स्थिति होगी, ईमेल के माध्यम से उपयोगकर्ताओं को पंजीकृत करने की सिफारिश की जाती है।</string>
+    <string name="content_terms_mob">तीसरे पार्टी खाता लागइन और लॉग संग्रह फंक्शन को जानने के लिए, हम Mobtech के mobsdk
+        उत्पादन का उपयोग करते हैं.इस उत्पादक के निजी नीति के लिए, कृपया संदर्भ करें:http://www.mob.com/about/policy
+    </string>
+    <string name="content_terms_accept">आपको स्वीकार करना चाहिए</string>
+</resources>

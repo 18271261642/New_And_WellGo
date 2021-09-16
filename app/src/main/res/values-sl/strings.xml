@@ -1,0 +1,629 @@
+<resources>
+    <string name="app_name">WellGo</string>
+	<string name="loading">prosim...</string>
+
+	<string name="tab_home">Dnevno</string>
+	<string name="tab_track">Dejavnosti</string>
+	<string name="tab_device">Opreme</string>
+	<string name="tab_user">Uporabnik</string>
+	<string name="course">Kilometrine</string>
+	<string name="target_step">Ciljni koraki</string>
+	<string name="big_calories">Kcal</string>
+	<string name="you_health">Tvoje zdravje.</string>
+	<string name="heart_rate">Srčni utrip</string>
+	<string name="blood_pressure">Krvni tlak</string>
+	<string name="blood_oxygen">Krvni kisik</string>
+
+	<string name="rung">-</string>
+	<string name="sleep_record">Zapisi spanja</string>
+	<string name="check_self">Moj zdravniški pregled.</string>
+	<string name="heart_record">Zapis srčnega utripa</string>
+	<string name="blood_pressure_record">Krvni tlak evidence</string>
+	<string name="blood_oxygen_record">Krvni kisik evidence</string>
+	<string name="title_today_sleep">Spanje danes</string>
+	<string name="sleep_total_time">Skupni čas spanja</string>
+	<string name="sleep_valid_time">Učinkovito trajanje spanja</string>
+	<string name="sleep_quality_time">Kakovost spanja</string>
+	<string name="sleep_details">Podrobnosti spanja</string>
+
+	<string name="sleep_deep">Globok spanec</string>
+	<string name="sleep_light">Lahki spanec</string>
+	<string name="sleep_awake">Buden</string>
+	<string name="heart_details">Podatki o srčnem utripu</string>
+	<string name="blood_pressure_details">Podatki o krvnem tlaku</string>
+	<string name="blood_oxygen_details">Krvni kisik podrobnosti</string>
+	<string name="title_track_setting">Nastavitve vzletno-pristajalne steze</string>
+	<string name="item_device_remote_camera">Oddaljena kamera</string>
+	<string name="item_device_search_band">Poišči zapestnico</string>
+	<string name="item_device_health_reminder">Zdravstvena opozorila</string>
+	<string name="item_device_schedule_reminder">Upravljanje razporeda</string>
+	<string name="item_device_alarm_clock">Budilka</string>
+	<string name="item_device_push">Push</string>
+
+	<string name="delete">Izbrisati</string>
+
+	<string name="content_five_clock">Nastavite lahko do 5 alarmov.</string>
+	<string name="content_remind_sedentary">Sedeči opomnik</string>
+	<string name="content_reminder_drink">Pijte vodo opozorilo</string>
+
+	<string name="day">Dni</string>
+	<string name="month">Mesec</string>
+	<string name="year">Let</string>
+	<string name="step">Korak</string>
+	<string name="hour">Ur</string>
+
+	<!--通用单位-->
+	<string name="unit_hours">h</string><!--小时-->
+	<string name="unit_min">min</string><!--分钟-->
+	<string name="unit_heart">bpm</string><!--心率单位-->
+	<string name="unit_pressure">mmHg</string><!--血压单位-->
+	<string name="unit_week">Teden</string>
+	<string name="unit_day">Dan</string>
+	<string name="unit_month">Mesec</string>
+	<string name="unit_year">Let</string>
+
+	<string name="unit_cal">Kartico</string>
+	<string name="unit_km">Km</string>
+	<string name="unit_km_h">km/h</string>
+	<string name="unit_mile">Milj</string>
+	<string name="unit_mile_h">Mile/h</string>
+	<string name="unit_C">° C</string>
+	<string name="unit_F">° F</string>
+	<string name="unit_kg">Kg</string>
+	<string name="unit_pounds">Lb</string>
+	<string name="unit_version">V %1 $ s</string>
+	<string name="unit_cm">Cm</string>
+
+	<string name="content_standard_days">Število dni za izpolnjevanje standardnih</string>
+	<string name="content_avg_day_steps">Povprečni dnevni koraki</string>
+	<string name="content_avg_month_steps">Mesečni povprečni koraki</string>
+	<string name="content_avg_day_consume">Povprečna dnevna poraba</string>
+	<string name="content_avg_month_consume">Mesečna Povprečna poraba</string>
+	<string name="content_total_distance">Skupna razdalja</string>
+	<string name="content_avg_day_distance">Dnevna povprečna razdalja</string>
+	<string name="content_avg_month_distance">Mesečna povprečna razdalja</string>
+	<string name="content_total_steps">Skupni koraki</string>
+	<string name="content_greatest_good">Več kot dobrih dni</string>
+	<string name="content_total_time_sleep">Skupno učinkovito trajanje spanja</string>
+	<string name="content_daily_time_sleep">Povprečni dnevni efektivni čas spanja</string>
+	<string name="content_longest_single_sleep">Največji enojni spanec</string>
+	<string name="content_proportion_of_sleep">Odstotek učinkovitega spanja</string>
+	<string name="content_quality_sleep">Kakovost spanja</string>
+	<string name="content_average_heart">Povprečni srčni utrip</string>
+	<string name="content_highest_heart">Najvišji srčni utrip</string>
+	<string name="content_minimum_heart">Najnižji srčni utrip</string>
+	<string name="content_heart_too_high">Visok srčni utrip</string>
+	<string name="content_heart_too_low">Srčni utrip je prenizek</string>
+	<string name="content_average_pressure_diastolic">Povprečni diastotisk</string>
+	<string name="content_average_pressure_systolic">Povprečni sistolični tlak</string>
+	<string name="content_abnormal_systolic">Sistolični nenormalen</string>
+	<string name="content_abnormal_diastolic">Distopress nenormalno</string>
+	<string name="content_max_value">Največ</string>
+	<string name="content_avg_value">Povprečna</string>
+	<string name="content_min_value">Min</string>
+	<string name="content_no">Ali</string>
+	<string name="content_yes">Je</string>
+	<string name="content_total_mileage">Skupno število prevoženih kilometrov</string>
+	<string name="content_burn_calories">Porabijo velike karte</string>
+	<string name="content_total_time_consumed">Skupaj zamudno</string>
+	<string name="content_air_quality">Kakovost zraka:</string>
+	<string name="content_completed">Dokončati</string>
+	<string name="content_calorie_burning">Izgorevanje kalorij</string>
+	<string name="content_per_hour">Hitrost</string>
+	<string name="content_pace">Hitrost</string>
+	<string name="content_time_consuming">Porabljen čas</string>
+	<string name="content_keep_screen_light">Zaslon telefona ostane na</string>
+	<string name="content_shake_band_start">Ročni obroč vibracij Nasveti na začetku teči</string>
+	<string name="content_shake_band_end">Ročni obroč vibracij Nasveti na koncu teči</string>
+	<string name="content_show_weather">Prikaži trenutno vreme v mestu</string>
+	<string name="content_need_open_gps">Mobilni telefon GPS funkcija ni vklopljena, bo povzročil trenutne lokacije in dejanska lokacija ima veliko razliko, prosimo, vključite mobilni telefon GPS funkcijo.</string>
+	<string name="content_open_now">Odprt</string>
+	<string name="content_leave_running">Izhod</string>
+	<string name="content_confirm">si prepričan</string>
+	<string name="content_cancel">Preklicati</string>
+	<string name="content_running_outside">Notranja vaja bo povzročila skladbo gibanja ni zabeležena, prosimo, uporabite outdooruse.</string>
+	<string name="content_current_power">Trenutna dajatev:</string>
+	<string name="content_mac_address">Mac:</string>
+	<string name="content_shaking_band">V vibracije zapestnice...</string>
+	<string name="title_connected">Povezani</string>
+
+	<string name="content_scanning_start">Optično branje perifernih naprav</string>
+	<string name="toast_un_support_ble">Telefon ne podpira tehnologije Bluetooth BLE</string>
+	<string name="toast_bluetooth_is_close">Bluetooth ni vklopljen</string>
+	<string name="toast_band_is_disconnect">Niste povezani z zapestnico!</string>
+
+	<string name="title_today">Danes</string>
+	<string name="title_device_setting">Nastaviti</string>
+	<string name="title_about_app">Različica aplikacije in nastavitve enote</string>
+	<string name="title_feedback">Povratne informacije</string>
+	<string name="title_update_band">Posodobitve vdelane programske opreme</string>
+	<string name="title_health_reminder">Zdravstvena opozorila</string>
+	<string name="title_alarm">Budilka</string>
+	<string name="title_schedule_reminder">Opomnik za urnik</string>
+	<string name="title_message_push">Sporočilo Pritisni</string>
+
+	<string name="content_band_update">Posodobitev strojne programske opreme zapestnico</string>
+	<string name="content_about_app">Različica aplikacije in nastavitve enote</string>
+	<string name="content_feedback">Povratne informacije</string>
+	<string name="content_reset">Obnavljanje tovarniških nastavitev zapestnice</string>
+	<string name="content_clean_cache">Počisti predpomnilnik aplikacij</string>
+	<string name="content_unblock_device">Nezavezujoča naprava</string>
+	<string name="content_heart_detection">Samodejno zaznavanje srčnega utripa</string>
+	<string name="content_light_screen">Dvignite zaslon z lučjo za zapestje</string>
+	<string name="content_lost_reminder">Opomnik proti spustu</string>
+
+	<string name="content_ota_update">Posodobitev</string>
+
+	<string name="content_app_current_version">Trenutna različica aplikacije</string>
+	<string name="content_app_last_version">Najnovejša različica aplikacije</string>
+	<string name="content_unit_distance">Oblika prikaza razdalje</string>
+	<string name="content_unit_temperature">Oblika prikaza temperature</string>
+	<string name="content_unit_weight">Oblika prikaza teže</string>
+	<string name="content_app_auto_update">Samodejne posodobitve aplikacij</string>
+	<string name="content_app_auto_sync">Samodejna sinhronizacija</string>
+
+	<string name="content_sport_done">Koncu</string>
+	<string name="content_submit">Predloži</string>
+	<string name="content_feedback_content">Prosimo, vnesite tisto, kar želite, da bi vam povratne informacije o</string>
+	<string name="content_exit">Izhod</string>
+	<string name="content_call_reminder">Opozorilo o klicu</string>
+	<string name="content_message_reminder">Opozorila SMS</string>
+	<string name="content_do_not_disturb">Stikalo ne moti</string>
+
+	<string name="reminder_facebook">Facebook</string>
+	<string name="reminder_weChat">Wechat</string>
+	<string name="reminder_line">Vrstico</string>
+	<string name="reminder_weibo">Weibo</string>
+	<string name="reminder_linkin">Linkin</string>
+	<string name="reminder_qq">Qq</string>
+	<string name="reminder_google_plus">Google Plus</string>
+
+
+
+	<string name="content_choose_repeat_cycle">Izbira ponovitve</string>
+	<string name="content_repeat">Ponovite</string>
+	<string name="content_title_exit_account">Ali ste prepričani, da želite zapreti trenutni račun?</string>
+	<string name="content_last_weight">Merjenje zadnje teže:</string>
+	<string name="content_last_date">Zadnja izmerjena:</string>
+	<string name="content_personal_best_record">Najboljši enodnevni zapis</string>
+	<string name="content_standard_day">Število zaporednih dni sestanka</string>
+	<string name="content_best_week">Najboljši teden</string>
+	<string name="content_best_month">Najboljši mesec</string>
+	<string name="content_personal_setting">Osebne nastavitve</string>
+	<string name="content_exit_current_account">Odjava iz trenutnega računa za prijavo</string>
+	<string name="content_bmi_index">Indeks ITM:</string>
+	<string name="content_setting_nickname">Vzdevek</string>
+	<string name="content_setting_gender">Spol</string>
+	<string name="content_setting_birth_year">Leto rojstva</string>
+	<string name="content_setting_height">Višina</string>
+	<string name="content_setting_last_weight">Merjenje zadnje teže</string>
+	<string name="content_setting_bmi_index">Indeks ITM</string>
+	<string name="content_setting_day_target">Dnevni cilji</string>
+	<string name="content_setting_save">Shranite</string>
+	<string name="content_setting_next">Naslednji</string>
+	<string name="content_gender_female">Ženska</string>
+	<string name="content_gender_male">Man</string>
+	<string name="bmi_too_light">Prelahki</string>
+	<string name="bmi_normal">Normalno</string>
+	<string name="bmi_too_heavy">Preves</string>
+	<string name="bmi_obesity">Debelost</string>
+	<string name="bmi_very_fat">Zelo debela.</string>
+	<string name="content_bmi_paragraph_1">Indeks BMI, ali indeks telesne mase, se pogosto uporablja mednarodno merilo telesne maščobe teže in zdravja, ta kazalnik upošteva težo in višino dva dejavnika</string>
+	<string name="content_bmi_paragraph_2">ITM je preprost, praktičen in odraža sistemsko prekomerno telesno težo in debelost.Pri merjenju tveganja za bolezni srca in visokega krvnega tlaka zaradi prekomerne telesne teže, je bolj natančen kot zgolj merjenje teže</string>
+	<string name="content_dialog_title_bmi">Kaj je ITM?</string>
+	<string name="title_user_setting">Osebne nastavitve</string>
+	<string name="content_training">Po navedbah Svetovne zdravstvene organizacije, odrasli morajo sprejeti 40 minut zmerno intenzivnostjo usposabljanja vsak dan, kar je enakovredno peš 8.000 koraki</string>
+	<string name="content_dialog_title_moving_target">Športni cilji</string>
+	<string name="content_history_schedule_reminder">Opomniki zgodovinske agende</string>
+	<string name="content_save">Shranite</string>
+
+
+
+    <string-array name="sleep">
+		<item>Globok spanec</item>
+		<item>Lahki spanec</item>
+		<item>Buden</item>
+    </string-array>
+
+
+<!--反馈-->
+	<string name="toast_feedback_success">Povratne informacije oddajo je bila uspešna, hvala za vaše dragocene predloge!</string>
+
+<!--视频引导页-->
+	<string name="content_guest_login_in">Turistična prijava</string>
+	<string name="content_user_login_in">Prijavo</string>
+
+<!--全局工具类的字符串-->
+	<string name="dialog_waiting">prosim...</string>
+
+	<string name="title_schedule_manager">Upravljanje razporeda</string>
+	<string name="title_edit_schedule">Uredi urnik</string>
+	<string name="content_time">Čas</string>
+	<string name="content_every_day">vsak dan</string>
+	<string name="content_today">Danes</string>
+	<string name="content_tomorrow">Jutri</string>
+	<string name="content_single">Enotnega</string>
+	<string name="content_take_photo">Fotografija</string>
+	<string name="content_choose_picture">Izbiranje iz mobilnega albuma</string>
+	<string name="content_unknown_number">Neznano število</string>
+	<string name="content_call">Klic:</string>
+	<string name="content_this_week">Teden</string>
+	<string name="content_this_month">Mesec</string>
+	<string name="content_input_email">Prosimo, vnesite nabiralnik</string>
+	<string name="content_input_verification_code">Prosimo, vnesite kodo za preverjanje</string>
+	<string name="content_obtain_verification_code">Pridobite kodo za preverjanje</string>
+	<string name="content_input_password">Prosimo, vnesite svoje geslo</string>
+	<string name="content_register">Registrirana</string>
+	<string name="content_confirm_password">Potrditev gesla</string>
+	<string name="title_register">Registrirana</string>
+	<string name="content_reacquire">Spet</string>
+	<string name="title_forget_password">Pozabite geslo</string>
+	<string name="hint_input_new_password">Prosimo, vnesite novo geslo</string>
+	<string name="content_confirm_new_password">Prosimo, potrdite novo geslo</string>
+	<string name="content_commit">Predloži</string>
+	<string name="content_not_valid_email">Ni veljaven nabiralnik!</string>
+	<string name="content_nickname_length">Prosimo, vpišite svoj vzdevek</string>
+	<string name="content_password_length">Dolžina gesla je lahko le 6 do 14 bitov</string>
+	<string name="content_valid_input">Dve nedoslednosti vnosa gesel</string>
+	<string name="content_forget_pwd">Pozabite geslo?</string>
+	<string name="content_update_app">Nadgradnja različice</string>
+	<string name="content_update">Posodobitev</string>
+	<string name="content_update_ing">V posodobitvi...</string>
+	<string name="content_save_picture_to">Slika se shrani v</string>
+	<string name="content_nickname_not_be_null">Vzdevek ne more biti prazen</string>
+	<string name="title_open_close_bluetooth">Ali ga želite vklopiti, če je telefon Bluetooth izklopljen?</string>
+	<string name="content_open">Odpri</string>
+	<string name="content_no_data">Ni podatkov v tem trenutku</string>
+	<string name="content_application_exception">Program izjema, je varčevanje log, prosim, ne storiti ničesar!</string>
+	<string name="title_history_schedule_reminder">Zgodovinski program</string>
+	<string name="content_what_is_this">kaj je?</string>
+	<string name="content_bluetooth">Bluetooth</string>
+	<string name="content_can_not_be_null">Vsebina opomnika ne more biti prazna</string>
+	<string name="content_new_app_version">APLIKACIJA ima nove posodobitve</string>
+	<string name="content_update_new_app_version">Vaša aplikacija ima novo izdajo in posodobitev vključuje popravke napak in izboljšave učinkovitosti delovanja za določitev posodobitve?</string>
+	<string name="content_current_is_last">Na tekočem je!</string>
+	<string name="content_new_device_version">Sistemski Nasveti</string>
+	<string name="content_update_new_device_version">Nova različica vdelane programske opreme, ki je na voljo s trenutno številko različice V%d in nadgradnjo na V%d</string>
+	<string name="content_current_device_version">Strojna programska oprema trenutne naprave: V%02d</string>
+	<string name="content_last_device_version">Najnovejša strojna programska oprema naprave: V%02d</string>
+	<string name="content_congratulations_successful">Čestitam, vzpenjajoč se was a uspeh!</string>
+	<string name="content_is_last_device_version">Trenutno posodobljen</string>
+	<string name="content_are_you_sure">si prepričan?</string>
+	<string name="content_want_reset">Mi smo na tem, da počistite vse nastavitve in podatke iz vaše zapestnice in ne more obnoviti, da se določi tovarniške nastavitve za napravo za obnovitev?</string>
+	<string name="content_want_clear">Predpomnilnik aplikacije vsebuje lokalne podatke, kot so podatki o gibanju in osebni podatki, in ko ste izbrisani, podatkov ne boste mogli obnoviti.</string>
+	<string name="content_want_unbind">Po nezavezujoči aplikaciji naprave naprava ne bo mogla še naprej prejemati funkcij, kot so informacijska opozorila in upravljanje telefona iz aplikacije (nekatere naprave nimajo te funkcije), ali želite nadaljevati?</string>
+	<string name="content_stop_check">Ustavil fizični pregled</string>
+	<string name="content_check_complete">Dokončati</string>
+	<string name="content_checking">Trenutno ste v zdravniškem pregledu...</string>
+	<string name="title_scan_band">Optično branje zapestnica</string>
+	<string name="content_scanning">V skeniranju...</string>
+	<string name="content_binding">Zavezujoče...</string>
+	<string name="content_input_correct_email">Prosimo, vnesite pravilen nabiralnik</string>
+	<string name="content_input_correct_phone">Prosimo, vnesite pravilno telefonsko številko</string>
+	<string name="content_exit_run">Izhod in shranjevanje trenutne sledi gibanja in podatkov, če je predlog prekratek in podatki ne bodo shranjeni, ali želite nadaljevati?</string>
+	<string name="content_want_exit">Ali želite zapreti?</string>
+	<string name="content_save_data">Shranjevanje podatkov...</string>
+	<string name="content_nickname_illegal">Vzdevki so predolgi ali prekratki (1 do 16 znakov)!</string>
+	<string name="content_can_not_choose_future">Ne morete izbrati datuma za prihodnost</string>
+	<string name="content_calendar_format">Llll y mwym mesec</string>
+	<string name="content_reminder_time">Opomnik vsakih%1f uro (%02d:%02d-%02d:%02d)</string>
+	<string name="content_choose_one_day_reminder">Prosimo, izberite dan, da opomni</string>
+	<string name="content_preparing">V pripravi...</string>
+	<string name="content_prepare_timeout">Pripravljeni na čas, poskusite znova</string>
+	<string name="content_during_upgrade">V nadgradnjo...</string>
+	<string name="content_upgrade_failed">Nadgradnja ni uspela, poskusite znova</string>
+	<string name="content_upgrade_cancel">Nadgradnja je bila preklicana in ni potrebno ponoviti nadgradnje!</string>
+	<string name="content_disconnect_band">Niste povezani z zapestnico!</string>
+	<string name="content_upgrade_no_plan">Ni scenarija nadgradnje za napravo</string>
+	<string name="content_getting_information">Pridobivanje informacij o različici vdelane programske opreme:</string>
+	<string name="content_download_failed">Prenos paketa vdelane programske opreme ni uspel, preverite omrežne nastavitve</string>
+	<string name="content_downloading">Nalaganje vdelane programske opreme:</string>
+	<string name="content_last_time">Zadnji čas:</string>
+	<string name="content_sleep_quality">Kakovost spanja:</string>
+	<string name="content_step_format">%d korak</string>
+	<string name="content_day_format">ddDay</string>
+	<string name="content_bad">Slabo</string>
+	<string name="content_general">tako tako</string>
+	<string name="content_well">dobro</string>
+	<string name="content_good">Odlično</string>
+	<string name="content_permission_notification">Oznanilo zasova čitanje dovoljenje je že rabljen v zbodljaj zadovoljen v zapestnica</string>
+	<string name="content_authorized_to_use">Dovolite, da se ta dovoljenja odobrijo za nadaljevanje:</string>
+	<string name="content_authorized">Pooblaščeni</string>
+	<string name="content_next">Naslednji</string>
+	<string name="content_exit_login">Ko zapustite trenutni račun/prijavni način za obiskovalce, bo naprava Bluetooth odklopljena in ali bo še naprej</string>
+	<string name="content_use_for_sport">Uporablja se za funkcijo "Motion in druge informacije ogled"</string>
+	<string name="content_use_for_find_phone">Za funkcijo ročnega pasu, ki išče mobilni telefon</string>
+	<string name="content_band_call_phone">Zapestnica išče ta telefon...</string>
+	<string name="content_find_phone">Poglej za mobitel.</string>
+	<string name="content_permission_need">Zavrnili ste nekatera dovoljenja, ki jih mora imeti aplikacija, in aplikacija ne bo delovala pravilno, zato morate dovoliti, da se ta dovoljenja nadaljujejo:</string>
+	<string name="content_calendar">Koledar</string>
+	<string name="content_camera">Kamero</string>
+	<string name="content_contacts">Stike</string>
+	<string name="content_location">Informacije o lokaciji</string>
+	<string name="content_microphone">Mikrofon</string>
+	<string name="content_phone">Stanje klica/številka/IMEI</string>
+	<string name="content_sensor">Senzorji telesa</string>
+	<string name="content__sms">Sms</string>
+	<string name="content_storage">Prostor za shranjevanje</string>
+	<string name="content_no_time">ne še</string>
+	<string name="content_normal">Navadnih</string>
+	<string name="content_poor">Slabo</string>
+	<string name="content_total_number_of_steps">Skupni koraki:%02d</string>
+	<string name="content_reminder_content">Opomnike</string>
+	<string name="content_systolic_pressure">Sysion</string>
+	<string name="content_diastolic_pressure">Diastou tlak</string>
+	<string name="content_deep_sleep">Globok spanec</string>
+	<string name="content_light_sleep">Lahki spanec</string>
+	<string name="content_wide_awake">Buden</string>
+	<string name="content_total_time_consuming">Skupaj zamudno</string>
+	<string name="content_average_speed">Povprečni tempo</string>
+	<string name="content_average_time_speed">Povprečna hitrost</string>
+	<string name="content_fastest_speed">Najhitrejša hitrost</string>
+	<string name="content_loading">Naložen...</string>
+	<string name="content_device_no_bind">Nevezana naprava, najprej vežejo zapestnico</string>
+	<string name="content_scan_device">Optično branje zapestnica</string>
+	<string name="content_time_interval">Interval</string>
+	<string name="content_half_hour">0,5 ure</string>
+	<string name="content_one_hour">1H</string>
+	<string name="content_two_hour">2H</string>
+	<string name="content_three_hour">3H</string>
+	<string name="content_sunday">Nedeljo</string>
+	<string name="content_monday">Ponedeljek</string>
+	<string name="content_tuesday">Torek</string>
+	<string name="content_wednesday">Sredo</string>
+	<string name="content_thursday">Četrtek</string>
+	<string name="content_friday">Petek</string>
+	<string name="content_saturday">Soboto</string>
+	<string name="content_calendar_title">Llll y mwym mesec</string>
+	<string name="content_pull_down_to_refresh">Kaplja-niz moči osvežiti</string>
+	<string name="content_refreshing">Osvežujoč...</string>
+	<string name="content_is_loading">Nakladanje...</string>
+	<string name="content_release_immediately_refresh">Sprosti takojšnje osveževanje</string>
+	<string name="content_refresh_completed">Osveži celoten</string>
+	<string name="content_refresh_failed">Osveževanja ni bilo mogoče osvežiti</string>
+	<string name="content_last_update">\'Zadnja posodobljena\' MM-dd HH:mm</string>
+	<string name="content_enter_email_is_correct">Prosimo, vnesite prav\ilen nabiralnik</string>
+	<string name="unit_steps">Korak</string>
+	<string name="content_map_type">Vrsta zemljevida</string>
+	<string name="content_map_type_gaode">Gaudrea zemljevid (Kitajska)</string>
+	<string name="content_map_type_google">Google Zemljevidi</string>
+	<string name="content_map_type_automatic_smart_select">Pametna izbira</string>
+
+	<string name="content_connect_failed">Povezava ni uspela</string>
+	<string name="content_try_to_fix">Poskusite popraviti</string>
+	<string name="content_connect_failed_fix_tips">Ne morem se povezati z zapestnico, lahko poskusite:.N1.znova znova..........................................................................................................................................................................................................................</string>
+
+	<string name="content_item_fix_band">%1 $ s (shrani opeke)</string>
+	<string name="content_fix_band_failed">Ni uspelo shraniti opeke</string>
+	<string name="content_fix_band_failed_tips">Ne morem določiti naprave za reševanje opeke načrt, počakajte 10 minut in videli, če se zapestnica samodejno vrne v normalno stanje, če še vedno ne more samodejno vrniti v normalno stanje, vas prosimo, da nam povratne informacije v aplikaciji</string>
+	<string name="content_heart_detection_tips">Nekatere naprave ne podpirajo te funkcije</string>
+	<string name="content_description">Message push spremljanje storitev:.n Poslušajte QQ, WeChat, Weibo, Facebook, Twitter, line, Linkedln, Google Plus push za obvestilo bar in ga pošljite na zapestnico</string>
+
+	<string name="content_input_band">Prosimo, vnesite ime svoje zapestnice</string>
+	<string name="content_or_contact_us">Ali pišite nam email: wt5354@iwear88.com</string>
+
+	<string name="content_help">Uporabniške pogodbe in pravilnik o zasebnosti</string>
+	<string name="content_approve">Omogočajo</string>
+	<string name="content_permission_location">Location Access se uporablja za iskanje lokacije zapestnice in povezovanje</string>
+	<string name="content_scan_timeout">Ne najdem naprave? Vklopite in izklopite telefon, način letenja in znova začnite optično brati</string>
+	<string name="content_push_warm">Če sporočilo push funkcija ne deluje, kliknite tukaj in jo odprite!</string>
+	<string name="content_reconnecting">Naprava ali omrežje je zasedeno, prosimo,</string>
+	<string name="content_manual_reconnect">Ročno sinhroniziranje naprav</string>
+	<string name="content_login_means">Prijava pomeni branje in strinjanje</string>
+	<string name="content_terms">Uporabniške pogodbe in pravilnik o zasebnosti</string>
+	<string name="content_terms_title">O uporabniških sporazumih in pravilniku o zasebnosti/natančnosti podatkov naprave</string>
+	<string name="content_terms_first">*</string>
+	<string name="content_terms_second"><![CDATA[*  Zahvaljujemo se vam za vaše zaupanje in vemo, da so vaši podatki zelo pomembni, zato večina funkcij aplikacije zahteva, da vaše dovoljenje deluje pravilno, kliknite<font color=#04F5D1><a href=\'%s\'>Uporabniške pogodbe in pravilnik o zasebnosti</a></font>Upoštevajte navodila za uporabo omejitve moči.]]></string>
+	<string name="content_terms_third">Ta izdelek ni medicinski pripomoček in se ne zdi, da je namenjen za uporabo ponoči za zdravljenje, zdravljenje ali preprečevanje bolezni.Rafinement izdelka ni poskus primerjave z medicinsko ali znanstveno merilno napravo.</string>
+	<string name="content_verification_help"><![CDATA[Ne morete dobiti kode za preverjanje? Kliknite <font color=#04F5D1> <a href=\'%s\'>tukaj</a> </font>Pojdi po pomoč.]]></string>
+	<string name="issue_with_log_in_or_sign_in">Problem je, da se prijavite za znak.</string>
+	<string name="content_troubleshooting_help"><![CDATA[Kliknite<font color=#04F5D1> <a href=\'%s\'>Dobili</a> </font>Priročnik za napake]]></string>
+	<string name="content_sleep_accuracy">O natančnosti spanja</string>
+	<string name="content_sleep_accuracy_1">Samodejno zaznavanje spanja ima na splošno visoko natančnost, vendar lahko različne uporabniške navade privedejo do napak.</string>
+	<string name="content_sleep_accuracy_2">Ko ugotovite, da je razlog za neposnete podatke o spanju v analizi v 0,5 urah po koncu spanja, prosimo, preverite nazaj kasneje.</string>
+	<string name="content_accuracy_title">O natančnosti spanja!</string>
+	<string name="content_app_unsupport_tips">Ta funkcija je nastavljena na zapestnici</string>
+	<string name="content_permission_notification_enable">Obvestilo push dovoljenje je bil izklopljen, prosim vklopite, sicer bo povzročilo funkcije, kot so našli zapestnico, obvestilo bar izpis podatkov gibanja, itd, da ne deluje pravilno</string>
+	<string name="content_unit_time">Časovni sistem zapestnice</string>
+	<string name="content_connect_google_fit">Povezano z Googlom fit</string>
+	<string name="content_unlink_google_fit">Razdruži Google fit</string>
+	<string name="title_associate_google_fit">Povezano z Googlom fit</string>
+	<string name="content_upload_google_fit_now">Prenesite podatke v Google fit zdaj</string>
+	<string name="content_tips_of_google_fit">Ko je povezava uspešna, se podatki samodejno naložili na Google fit ob 0:4/8:00/12:16/20/20 ura na dan</string>
+
+
+	<string name="content_answer">Prosimo, vnesite odgovor</string>
+	<string name="content_input_email_different">Nabiralnik, ki je bil vnesen dvakrat, ni enak</string>
+	<string name="content_resetpsw_now">Iskanje gesla</string>
+	<string name="content_new_psw">Novo geslo:</string>
+	<string name="content_question1">Vprašanje 1:</string>
+	<string name="content_question2">Vprašanje 2:</string>
+	<string name="content_input_reg_email">Prosimo, vnesite registrirani nabiralnik</string>
+	<string name="content_register_question_step1">1.izpolnite nabiralnik in geslo</string>
+	<string name="content_register_question_step2">2.Vnesite težavo s skrivnim varstvom</string>
+	<string name="content_retrieve_type">Kako priti nazaj:</string>
+	<string name="content_register_success">Registracija je bila uspešna!</string>
+	<string name="content_resetpsw_success">Sprememba gesla je bila uspešna!</string>
+	<string name="content_resetpsw_wrong_answer">Skrivno zavarovanje odgovor narobe!</string>
+	<string name="content_from_auth_code">Podaj kodo za preverjanje</string>
+	<string name="content_from_question">Z vprašanjem varnosti</string>
+	<string name="question1_1">Kakšen je vaš prvi/tok/najljubši jjeza ime?</string>
+	<string name="question1_2">Kako je ime tvoji najljubši knjigi?</string>
+	<string name="question1_3">Katera je tvoja najljubša hrana?</string>
+	<string name="question2_4">Kako je bilo ime podjetju za vašo prvo službo?</string>
+	<string name="question2_5">Kako je ime tvoji materi?</string>
+	<string name="question2_6">Kakšno je ime mesta, kjer ste se rodili?</string>
+
+	<string name="content_connect_strava">Pridruženi strava</string>
+	<string name="content_unlink_strava">Unassociate strava</string>
+	<string name="content_tips_of_strava">Po povezavi z strava, lahko pošljete svoj predlog poti do strava v Motion Track snemanje vmesnika</string>
+	<string name="content_uploaded_to_strava">Predložene strava</string>
+	<string name="content_upload_to_strava">Pošlji v strava</string>
+	<string name="content_retry">Ponoviti</string>
+	<string name="content_err_save_sport_track_data_network_fail">Podatkov o sledi gibanja ni mogoče shraniti, preverite, ali je omrežje odprto</string>
+	<string name="content_donot_save">Ne shrani</string>
+	<string name="content_link">Povezavo</string>
+	<string name="content_help_and_feedback">Pomoč in povratne informacije</string>
+
+	<string name="content_my_friends">moj prijatelj</string>
+	<string name="content_search_friends_hint">ID uporabnika/e-pošta/telefonska številka</string>
+	<string name="toast_tips_req_add_friends">Vabilo na povabilo prijatelju poslano</string>
+	<string name="title_tab_msg_system">Sistemsko sporočilo</string>
+	<string name="title_tab_msg_add_friend">Povabilo prijatelju</string>
+	<string name="title_tab_my_friends">Moji prijatelji in družina.</string>
+	<string name="content_add_agree_friends">Prosite, da vas doda kot prijatelja</string>
+	<string name="content_btn_agreed">Strinjajo</string>
+	<string name="content_btn_refused">Zavrnil</string>
+	<string name="content_encourage">Spodbujanje</string>
+	<string name="content_zan">Všeč</string>
+	<string name="content_add_friends">Dodaj kot prijatelja</string>
+	<string name="content_already_friends">Dodano</string>
+	<string name="content_already_refused">Zavrnjena</string>
+	<string name="content_nickname">Vzdevek:</string>
+	<string name="content_nickname_2">Vzdevek</string>
+	<string name="content_sign_null">Druga stranka ni zapolnila podpisa</string>
+	<string name="content_sign">Prosimo, izpolnite svoj podpis</string>
+	<string name="content_setting_sign">Podpis</string>
+	<string name="content_remark_null">Opombe niso zapolnjene</string>
+	<string name="content_user_info">Informacije o uporabniku</string>
+	<string name="content_set_remark">Nastavljanje opomb</string>
+	<string name="content_average_blood_oxygen">Povprečni kisik v krvi</string>
+	<string name="content_step_num">Število korakov</string>
+	<string name="content_sleep_data">Spanja</string>
+	<string name="content_bp_bo">Krvni tlak v krvi kisika</string>
+	<string name="content_invite_friends">Povabite prijatelje</string>
+	<string name="content_save_image">Shranjevanje slike</string>
+
+	<string name="content_encourage_you">Spodbujajte vas, da uveljavite več</string>
+	<string name="content_zan_you">Všeč si mi bil.</string>
+
+
+	<string name="content_no_friends">Nisem našel prijatelja.</string>
+	<string name="content_search_friends_input_err">Vnesite pravilen ID uporabnika/e-poštno/telefonsko številko</string>
+
+
+	<string name="content_weather_sunny_day">Jasno</string>
+	<string name="content_weather_cloudy">Oblačno</string>
+	<string name="content_weather_snow">Sneg</string>
+	<string name="content_weather_cloudy_day">Yin</string>
+	<string name="content_weather_rain">Dež</string>
+
+
+
+	<string name="content_my_ideal_weight">Moja idealna teža</string>
+	<string name="content_intake_calories">Dnevne nastavitve vnosa kalorij</string>
+	<string name="content_sport_target">Dnevni korak gibanje cilj</string>
+	<string name="content_intake_tips_head">Ješ vse, kar ješ vsak dan.</string>
+	<string name="content_intake_tips_foot">Kalorična hrana</string>
+	<string name="content_recorded_meal">Zabeleženih%d moke%s</string>
+	<string name="content_this_meal_to_eat">Kaj si jedel pri tem obroku?</string>
+	<string name="content_food_input_empty_tips">Ta element ne more biti prazen</string>
+	<string name="content_record_meal_to_eat">Snemite, kar ste jedli.</string>
+	<string name="content_edit">Spremeniti</string>
+	<string name="content_your_goal_is_to_subtract">Vaš cilj je, da odštejemo</string>
+	<string name="content_the_current_every_day_for_a_sport_target">Trenutni dnevni cilj vadbe je</string>
+	<string name="content_when_is_the_daily_consumption">Ko je dnevna poraba</string>
+	<string name="content_daily_intake_is">Dnevni vnos je</string>
+	<string name="content_the_current_is_expected_to_reduce_a_day">Sedanje Laganje na dan naj bi se zmanjšalo</string>
+	<string name="content_need_to_complete">Potreba po popolni</string>
+	<string name="content_expected_time_for_success">Ocenjeni čas uspeha</string>
+	<string name="content_please_adjust_the_plan">Prosimo, prilagodite načrt</string>
+	<string name="content_target_weight_should_be_less_than_the_current_weight">Ciljna teža mora biti manjša od trenutne teže</string>
+	<string name="content_the_current_plan_is_not_suitable_for_weight_loss">Trenutni načrt ni primeren za hujšanje</string>
+	<string name="content_recommended_daily_intake">Glede na vaše zdravje in telesne cilje, je priporočljivo, da porabijo približno dnevne kalorije</string>
+	<string name="content_average_daily_calorie_deficit">Povprečni dnevni toplotni primanjkljaj</string>
+	<string name="content_intake_of_qualified_days">Število dni, ki izpolnjujejo pogoje</string>
+	<string name="content_average_daily_intake_of_calories">Povprečni dnevni vnos kalorij</string>
+	<string name="content_the_highest_intake_of_calories">Največji vnos kalorij</string>
+	<string name="content_not_clock_in_number_of_days">Število dni, ki niso ustvarila</string>
+	<string name="content_click_add_meal">Kliknite na ikono v zgornjem desnem kotu, da ustvarite zapis</string>
+	<string name="content_total_intake_about">Skupni vnos je približno</string>
+	<string name="content_calorie_consumption">Poraba kalorij</string>
+	<string name="content_calorie_intake">Vnos kalorij</string>
+	<string name="content_target_bmi">Ciljni ITM</string>
+	<string name="content_diet_help_tips">Aplikacija izračuna bazno stopnjo presnove na podlagi osebnega spola/starosti uporabnika in ko uporabnik vnese ciljno težo in dnevne korake, aplikacija izračuna približen datum za uspeh izgube teže.Zaradi razlik v osebni telesni kondicijski sposobnosti in življenjskih navadah je natančnost te funkcije samo za referenco in ni namenjena za medicinske namene.</string>
+	<string name="content_have_the_calories_you_eat">Porabljene kalorije</string>
+	<string name="content_diet_start">Začnite s hrano tanko turnejo</string>
+	<string name="content_food_name">Ime živila</string>
+	<string name="content_amount">Težo</string>
+	<string name="content_unit">Enota</string>
+	<string name="content_cur_weight">Trenutna teža</string>
+	<string name="content_target_weight">Ciljna teža</string>
+
+
+
+
+	<string name="sport_encourage_prompt_0">Znesek vadbe, ki ga povprečni uporabnik segreje v telovadnici</string>
+	<string name="sport_encourage_prompt_1">Višina je enakovredna plezanju Mount Fuji.</string>
+	<string name="sport_encourage_prompt_2">WHO priporoča število korakov, ki jih odrasli lahko dopolni na dan</string>
+	<string name="sport_encourage_prompt_3">Planet ste zmanjšali za približno 805g emisij CO2.</string>
+	<string name="sport_encourage_prompt_4">Končal si razdaljo od Louvre do stolpa Pariza.</string>
+	<string name="sport_encourage_prompt_5">To je enakovredno teče 30 krogov na igrišču.</string>
+	<string name="sport_encourage_prompt_6">Vožnja s kolesom za več kot 1 uro</string>
+
+	<string name="sleep_duration_encourage_prompt_0">Tvoj spanec je prekratek, prosim Vzemi si odmor.</string>
+	<string name="sleep_duration_encourage_prompt_1">Kratkoročno dolgotrajno spanje lahko povzroči težave s srcem</string>
+	<string name="sleep_duration_encourage_prompt_2">Dober spanec je temelj zdravja</string>
+	<string name="sleep_duration_encourage_prompt_3">Dobro trajanje spanja</string>
+	<string name="sleep_duration_encourage_prompt_4">Imaš zavidljivo spanje.</string>
+	<string name="sleep_duration_encourage_prompt_5">Energičen dan!</string>
+	<string name="sleep_duration_encourage_prompt_6">Spi malo dlje.</string>
+	<string name="sleep_duration_encourage_prompt_7">No, ali ni malce omotično spati tako dolgo?</string>
+
+	<string name="sleep_time_encourage_prompt_0">Preverite, ali je naprava pravilno obrabljena</string>
+	<string name="sleep_time_encourage_prompt_1">Enviable čas, da zaspi</string>
+	<string name="sleep_time_encourage_prompt_2">Zdrav čas za spanje</string>
+	<string name="sleep_time_encourage_prompt_3">Razumen čas spanja je pomemben pogoj za dobro spanje</string>
+	<string name="sleep_time_encourage_prompt_4">Predvajanje sproščujoče glasbe pred spanjem pomaga spati</string>
+	<string name="sleep_time_encourage_prompt_5">0-1 je čas, ko jetra začne razstrupljanja.</string>
+	<string name="sleep_time_encourage_prompt_6">Vzemi si odmor zgodaj danes, ne bodi pozen.</string>
+	<string name="sleep_time_encourage_prompt_7">Bivanje pozno za dalj časa povečuje tveganje za srčno-žilne bolezni za 36%</string>
+
+
+	<string name="title_health_advisor">Zdravje Daily</string>
+	<string name="content_ranking">Razvrstitev</string>
+	<string name="content_friends_ranking">Vaši prijatelji in družinski čin</string>
+	<string name="content_my_step_ranking">Moj koraki svetovni lestvici</string>
+	<string name="content_my_sleep_details">Moji podatki o spanju</string>
+	<string name="content_week_avg">Povprečni ta teden</string>
+	<string name="content_rg_week_avg">Tedensko povprečje</string>
+	<string name="content_rg_month_avg">Povprečna</string>
+	<string name="content_my_sleep_duration_ranking">Svetovna razvrstitev moje kakovosti spanja</string>
+	<string name="content_my_sleep_time_ranking">Moj čas za spanje svetovni lestvici</string>
+	<string name="content_range_avg_time">Povprečen čas v%s-%s</string>
+	<string name="content_more_than_user">Več kot%d%uporabnikov</string>
+	<string name="content_later_than_user">Uporabniki pozneje kot%d%</string>
+
+	<string name="title_change_wallpaper">Spreminjanje ozadja</string>
+	<string name="content_setup_complete">Nastavitev je končana!</string>
+	<string name="enable_wallpaper_fun">Omogoči ohranjevalnik zaslona</string>
+	<string name="enable_wallpaper_step_fun">Pokaži korake</string>
+	<string name="content_not_saved">Ni shranjeno</string>
+	<string name="content_not_saved_tips">Ali želite odreči varčevanje in izstop?</string>
+	<string name="content_wallpaper_transmission">V prenosu podatkov...</string>
+	<string name="content_wallpaper_textcolor">Barva besedila</string>
+
+	<string name="title_sport_mode">Športni način</string>
+	<string name="sport_mode_walking">Hoja</string>
+	<string name="sport_mode_running">Teče</string>
+	<string name="sport_mode_mountaineering">Plezanje</string>
+	<string name="sport_mode_cycling">Kolesarjenje</string>
+	<string name="sport_mode_table_tennis">Namizni tenis</string>
+	<string name="sport_mode_basketball">Košarka</string>
+	<string name="sport_mode_football">Nogomet</string>
+	<string name="sport_mode_badminton">Badminton</string>
+	<string name="sport_mode_treadmill">Dirinčenje</string>
+	<string name="sport_mode_tennis">Tenis</string>
+	<string name="sport_mode_swimming">Plavanje</string>
+	<string name="unit_three_month">V treh mesecih</string>
+	<string name="content_duration">Trajanje</string>
+	<string name="content_last_sport">Nedavni športi</string>
+	<string name="content_sport_mode_count">%d-krat</string>
+	<string name="content_finish_distance">Razdalja do zaključka</string>
+	<string name="content_finish_calorie">Porabljene kalorije</string>
+	<string name="content_update_ota">1.nadgradnja prosim, da naprava Bluetooth povezava stabilna...ne zapustite aplikacije na poti nadgradnje.nadgradnja traja od 1 do 3 minute, če nadgradnja naprave ne povzroči črnega zaslona, ne odstranite aplikacije ali zamenjajte telefona! Znova vnesite APLIKACIJO, da dokončate nadgradnjo</string>
+	<string name="toast_electric_low_ota_tips">Naprava je manj kot 50%, nadgradnja ni dovoljena!</string>
+	<string name="content_guest_login_alert">Vplivati z sistem vzpenjajoč se, uporabnik dejanje zanikanje od dovoljenje, Android prihodnji prevod ter drugi zastopstvo, edin identiteta zbornik od rojsten obiskovalec maj obstati sprememba, uporabnik kdo raba "turističen prepričevalnost" hoteti najbrže obstati novice škoda položaj, ono je priporočnik v register uporabnik pot email.</string>
+    <string name="content_terms_mob">Da bi uresničili funkcijo prijave in zbiranja računov drugih ponudnikov, uporabljamo mobtechov izdelek mobsdk. Za pogoje o politiki zasebnosti tega izdelka glejte: http: www.mob.comaboutpolicy</string>
+    <string name="content_terms_accept">Sprejmite naše pogoje storitve</string>
+</resources>

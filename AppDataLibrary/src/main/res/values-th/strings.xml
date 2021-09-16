@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">บัญชีที่ได้รับการจดทะเบียนแล้ว</string>
+	<string name="error_user_not_exists">ID ไม่ได้มีอยู่จริง กรุณาตรวจสอบ</string>
+	<string name="error_password_error">ID หรือรหัสผ่านผิด</string>
+	<string name="error_phone_invalid">โทรศัพท์หมายเลขไม่ถูกต้อง</string>
+	<string name="error_sms_too_frequently">ขอด้วยบ่อย ๆ</string>
+	<string name="error_captcha_expired">ตรวจสอบการหมดอายุ</string>
+	<string name="error_captcha_wrong">ตรวจสอบการหมดอายุ</string>
+	<string name="error_captcha_failure">การตรวจสอบล้มเหลว</string>
+	<string name="error_email_registered">บัญชีที่ได้รับการจดทะเบียนแล้ว</string>
+	<string name="error_captcha_req_success">ขอให้เสร็จสมบูรณ์</string>
+	<string name="network_err">การเชื่อมต่ออินเทอร์เน็ตล้มเหลว โปรดลองใหม่ในภายหลัง</string>
+
+</resources>

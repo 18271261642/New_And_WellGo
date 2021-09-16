@@ -1,0 +1,51 @@
+
+ext {
+    android = [
+            applicationId      : "com.truescend.gofit",
+            versionCode        : 1519,
+            versionName        : "1.5.19",
+            updateAppName      : "wellgo",
+            appId              : "2",
+            isGooglePlayVersion: false
+    ]
+    supports = [
+            isSupportStrava : true,
+            isSupportTmallGenie : true,
+            isSupportDiet : true,
+            isSupportLoginFromQQ : true,
+            isSupportLoginFromWX : true,
+            isSupportLoginFromTwitter : true
+    ]
+    otherApiKey = [
+            buglyKey           : "7fca8c552a",
+            Strava_ClientID    : "26929",
+            Strava_ClientSecret: "a432aee41582f96dd45ba7d3de2069b05833f7d0"
+    ]
+//    keystore = [
+//            keyStoreFile    : "../readme/key/WellGoKey.jks",
+//            keyStorePassword: "neoon123456",
+//            keyAlias        : "fit",
+//            keyPassword     : "neoon123456"
+//
+//    ]
+    mapApiKey = [
+            apiKeyGaodeMap : "6bbd4499dd753766d30b97e7f57a4b81",
+            apiKeyGoogleMap: "AIzaSyDwmewF127UgSSMfcBch9d7mhxJ1R9uDmQ",
+    ]
+    mobApiKey = [
+//            MobSDK_appKey    : "20cbe8ce805da",
+//            MobSDK_appSecret : "6dd28cb4aa80d3b5e9660a7a8589c7f1",
+
+            MobSDK_appKey      : "32c16df642b60",
+            MobSDK_appSecret   : "8f546591783016fd16a6fa403e8dc536",
+
+            Wechat_appKey    : "wx5cf03ed04b9338e2",
+            Wechat_appSecret : "4504d34b0c4475b69ada0c7634b2e4ab",
+
+            QQ_appKey        : "1106159546",
+            QQ_appSecret     : "cipnMmrmr6q4n6OG",
+
+            Twitter_appKey   : "uCamIWihTUcuggYhAWKehp4zD",
+            Twitter_appSecret: "lFSso3KY0y6R8ffKc6xfQL7Q9FC7dNY2XjsBS4Ixb26vvGmQ8q",
+    ]
+}

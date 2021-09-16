@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WellGo</string>
+
+    <string name="loading">ஏற்றுகிறது...</string>
+
+    <string name="tab_home">முகப்பு</string>
+    <string name="tab_track">தடம்</string>
+    <string name="tab_device">சாதனம்</string>
+    <string name="tab_user">பயனர்</string>
+    <string name="course">தூரம்</string>
+    <string name="target_step">இலக்கு</string>
+    <string name="big_calories">கலோரி</string>
+    <string name="you_health">சுகாதாரம்</string>
+    <string name="heart_rate">மேல்நிலைப்</string>
+    <string name="blood_pressure">BP</string>
+    <string name="blood_oxygen">ஏனென்றால்</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">தூக்க பதிவ</string>
+    <string name="check_self">உடல் பரிசோ</string>
+    <string name="heart_record">இதய துட</string>
+    <string name="blood_pressure_record">இரத்த அழுத்</string>
+    <string name="blood_oxygen_record">இரத்த ஆக்சி</string>
+    <string name="title_today_sleep">தஇன்று தூங்கு</string>
+    <string name="sleep_total_time">மொத்த தூக்க</string>
+    <string name="sleep_valid_time">திறமையான நேரம்</string>
+    <string name="sleep_quality_time">தரம்</string>
+    <string name="sleep_details">தூக்க விபரங்கள்</string>
+
+    <string name="sleep_deep">தூங்கி</string>
+    <string name="sleep_light">அமைதியற்ற</string>
+    <string name="sleep_awake">விழித்து</string>
+    <string name="heart_details">HR விபரங்கள்</string>
+    <string name="blood_pressure_details">BP விவரங்கள்</string>
+    <string name="blood_oxygen_details">BO விபரங்கள்</string>
+    <string name="title_track_setting">அமைப்பு</string>
+    <string name="item_device_remote_camera">தொலைநிலை கேமரா</string>
+    <string name="item_device_search_band">சாதனத்தை கண்டுபிடி</string>
+    <string name="item_device_health_reminder">ஆரோக்கியம் நினைவூட்டும்</string>
+    <string name="item_device_schedule_reminder">காலண்டர்</string>
+    <string name="item_device_alarm_clock">அலார</string>
+    <string name="item_device_push">அறிவிக்கை</string>
+
+    <string name="delete">நீக்கு</string>
+
+    <string name="content_five_clock">5 அலாரத்தை அமைக்கலாம்.</string>
+    <string name="content_remind_sedentary">செயல்பாடு ஞாபகப்படுத்துங்கள்</string>
+    <string name="content_reminder_drink">ஞாபகப்படுத்துங்கள்</string>
+
+    <string name="day">நாள்</string>
+    <string name="month">மாதம்</string>
+    <string name="year">ஆண்டு</string>
+    <string name="step">படியில்</string>
+    <string name="hour">மணி நேரம்</string>
+
+
+    <string name="unit_hours">எச்</string>
+    <string name="unit_min">நிமி</string>
+    <string name="unit_heart">bpm</string>
+    <string name="unit_pressure">mmHg</string>
+    <string name="unit_week">வாரம்</string>
+    <string name="unit_day">நாள்</string>
+    <string name="unit_month">மாதம்</string>
+    <string name="unit_year">ஆண்டு</string>
+
+    <string name="unit_cal">கலோரி</string>
+    <string name="unit_km">கி</string>
+    <string name="unit_km_h">கிமீ/h</string>
+    <string name="unit_mile">மைல்</string>
+    <string name="unit_mile_h">மைல்/h</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">Kg</string>
+    <string name="unit_pounds">பவுனுக்கு</string>
+    <string name="unit_version">%$1s இல்</string>
+    <string name="unit_cm">முதல்வர்</string>
+
+    <string name="content_standard_days">குறிக்கோள் நாட்கள்</string>
+    <string name="content_avg_day_steps">சராசரி அடி</string>
+    <string name="content_avg_month_steps">சராசரி அடி</string>
+    <string name="content_avg_day_consume">அவg தீக்காயம்</string>
+    <string name="content_avg_month_consume">அவg தீக்காயம்</string>
+    <string name="content_total_distance">தூரம்</string>
+    <string name="content_avg_day_distance">அவg தூர</string>
+    <string name="content_avg_month_distance">அவg தூர</string>
+    <string name="content_total_steps">மொத்த</string>
+    <string name="content_greatest_good">நாட்கள் > = நல்ல</string>
+    <string name="content_total_time_sleep">பயனுள்ள தூக்கம்</string>
+    <string name="content_daily_time_sleep">அவg திறன</string>
+    <string name="content_longest_single_sleep">மிக நீண்ட தூக்கம்</string>
+    <string name="content_proportion_of_sleep">பயனுள்ள தூக்கம்</string>
+    <string name="content_quality_sleep">தரம்</string>
+    <string name="content_average_heart">அவg.</string>
+    <string name="content_highest_heart">மேக்ஸ்.</string>
+    <string name="content_minimum_heart">நிமி.</string>
+    <string name="content_heart_too_high">மேல்-உயர்</string>
+    <string name="content_heart_too_low">மேல்-கீழ்</string>
+    <string name="content_average_pressure_diastolic">அவg DBP</string>
+    <string name="content_average_pressure_systolic">அவg SBP</string>
+    <string name="content_abnormal_systolic">அசாதாரண SBP</string>
+    <string name="content_abnormal_diastolic">அசாதாரண DBP</string>
+    <string name="content_max_value">மேக்ஸ்.</string>
+    <string name="content_avg_value">அவg.</string>
+    <string name="content_min_value">நிமி.</string>
+    <string name="content_no">இல்லை</string>
+    <string name="content_yes">ஆம்</string>
+    <string name="content_total_mileage">தூரம்</string>
+    <string name="content_burn_calories">எழுதும்</string>
+    <string name="content_total_time_consumed">Duration</string>
+    <string name="content_air_quality">காற்றின் தரம்</string>
+    <string name="content_completed">தூரம்</string>
+    <string name="content_calorie_burning">எழுதும்</string>
+
+    <string name="content_pace">வேகத்தில்</string>
+    <string name="content_time_consuming">Duration</string>
+    <string name="content_keep_screen_light">திரை ஒளியை தொடர்ந்து வைத்திரு</string>
+    <string name="content_shake_band_start">இயங்கும் போது சாதனம் அதிர்கிறது</string>
+    <string name="content_shake_band_end">இயங்கும் போது சாதனம் அதிர்கிறது</string>
+    <string name="content_show_weather">காட்சி வானிலை</string>
+    <string name="content_need_open_gps">GPS செயல்பாடு கிடைக்கப்பெறவில்லை மற்றும் இருப்பிடத்தை துல்லியமாகச் சரிசெய்யலாம், உங்கள் ஃபோனில் GPS-ஐ செயலுக்குக் கொண்டு வரவும்.</string>
+    <string name="content_open_now">நடப்பு</string>
+    <string name="content_leave_running">வெள்ளையனே வெளியேறு</string>
+    <string name="content_confirm">சரி</string>
+    <string name="content_cancel">ரத்து</string>
+    <string name="content_running_outside">இருப்பிடத்தில் மேலும் துல்லியத்திற்கு ஜிபிஎஸ் செயல்பாடு வெளிப்புற பயன்படுத்தவும்.</string>
+    <string name="content_current_power"> சாதன பேட்டரி:</string>
+    <string name="content_mac_address">Mac:</string>
+    <string name="content_shaking_band">சாதனம் அதிர்வுறும்...</string>
+    <string name="title_connected">இணைக்கப்பட்டது </string>
+
+    <string name="content_scanning_start">ஸ்கேன் சாதனம்</string>
+    <string name="toast_un_support_ble">உங்கள் சாதனம் Bluetooth-க்கு ஆதரவளிக்கவில்லை.</string>
+    <string name="toast_bluetooth_is_close">ப்ளூடூத் இதுவரை கிடைக்கவில்லை.</string>
+    <string name="toast_band_is_disconnect">பயன்பாடு இதுவரை சாதனத்துடன் இணைக்கப்படவில்லை.</string>
+
+    <string name="title_today">இன்று</string>
+    <string name="title_device_setting">அமைப்பு</string>
+    <string name="title_about_app">நிரல் பதிப்பு / அலகு</string>
+    <string name="title_feedback">எம்மை தொடர்புகொள்ள</string>
+    <string name="title_update_band">சாதன சாதனநிரல்</string>
+    <string name="title_health_reminder">ஆரோக்கியம் நினைவூட்டும்</string>
+    <string name="title_alarm">அலார</string>
+    <string name="title_schedule_reminder">காலண்டர்</string>
+    <string name="title_message_push">அறிவிக்கைகள்</string>
+
+    <string name="content_band_update">சாதன சாதனநிரல் புதுப்பித்தல்</string>
+    <string name="content_about_app">நிரல் பதிப்பு / அலகு</string>
+    <string name="content_feedback">எம்மை தொடர்புகொள்ள</string>
+    <string name="content_reset">சாதன தொழிற்சாலை இயல்புநிலை</string>
+    <string name="content_clean_cache">பயன்பாட்டு தேக்ககத்தை அழி</string>
+    <string name="content_unblock_device">சாதன இணைப்புக் கட்டுகளை அவிழ்த்து விடவும்</string>
+    <string name="content_heart_detection">HR ஆட்டோ கண்டுபிடிப்பு</string>
+    <string name="content_light_screen">மீது வெளிச்சத்தை சுழற்று</string>
+    <string name="content_lost_reminder">எதிர்ப்பு இழந்த</string>
+
+    <string name="content_ota_update">புதுப்பித்தல்</string>
+
+    <string name="content_app_current_version">பயன்பாட்டு பதிப்பு</string>
+    <string name="content_app_last_version">சமீபத்திய செயலி பதிப்பு</string>
+    <string name="content_unit_distance">நீள அலகு</string>
+    <string name="content_unit_temperature">வெப்பநிலை அலகு</string>
+    <string name="content_unit_weight">எடை அலகு</string>
+    <string name="content_app_auto_update">செயலி தானியங்கு-புதுப்பித்தல்</string>
+    <string name="content_app_auto_sync">தரவு தானாக ஒத்திசை</string>
+
+    <string name="content_sport_done">முடி</string>
+    <string name="content_submit">சமர்ப்பிக்க</string>
+    <string name="content_feedback_content">உங்கள் பின்னூட்டத்திற்கு நன்றி.</string>
+    <string name="content_exit">ரத்து</string>
+    <string name="content_call_reminder">உள்வரும் அழைப்பு தள்ளுதல்</string>
+    <string name="content_message_reminder">எஸ்எம்எஸ் நினைவூட்ட</string>
+    <string name="content_do_not_disturb">அமைதியான பயன்முறை</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">திரும்பச்செய்யல் வகையை தேர்ந்தெடு</string>
+    <string name="content_repeat">மறுபடி</string>
+    <string name="content_title_exit_account">நடப்பு கணக்கை இப்போது விலகுவது உறுதி?</string>
+    <string name="content_last_weight">உடல் எடை:</string>
+    <string name="content_last_date">வெயிட்டிங் தேதி:</string>
+    <string name="content_personal_best_record">சிறந்த நாள்</string>
+    <string name="content_standard_day">அதிகபட்ச இலக்கு</string>
+    <string name="content_best_week">சிறந்த வாரம்</string>
+    <string name="content_best_month">சிறந்த மாதம்</string>
+    <string name="content_personal_setting">அமைப்பு</string>
+    <string name="content_exit_current_account">வெளியேறு</string>
+    <string name="content_bmi_index">BMI</string>
+    <string name="content_setting_nickname">பெயர்</string>
+    <string name="content_setting_gender">பாலின</string>
+    <string name="content_setting_birth_year">பிறந்த</string>
+    <string name="content_setting_height">உயரம்</string>
+    <string name="content_setting_last_weight">உடல் எடையை</string>
+    <string name="content_setting_bmi_index">BMI</string>
+     <string name="content_setting_day_target">படி இலக்கு</string>
+    <string name="content_setting_save">சேமி</string>
+    <string name="content_setting_next">அடுத்த</string>
+    <string name="content_gender_female">பெண்</string>
+    <string name="content_gender_male">ஆண்</string>
+    <string name="bmi_too_light">மேல்-ஒளி</string>
+    <string name="bmi_normal">சராசரி</string>
+    <string name="bmi_too_heavy">கொஞ்சம் கொழுக்கட்டை</string>
+    <string name="bmi_obesity">பருமனான</string>
+    <string name="bmi_very_fat">அதிக பருமனாக</string>
+    <string name="content_bmi_paragraph_1">BMI (உடல் நிறை குறியீடு) உடலை அளவிடுவதற்கு ஒரு சர்வதேச தரநிலை உள்ளது, அது கொழுப்பு அல்லது இல்லை, இது உடல்நலத்தைப் பற்றிய ஒரு குறிப்பு மதிப்பாகும். இது உயரம் மற்றும் எடையை கருத்தில் கொள்கிறது.</string>
+    <string name="content_bmi_paragraph_2">BMI ஒரு எளிதாக-பயன்படுத்த வழி உள்ளது உடல் நிலையை எதிர்கொள்ளும், அதிக பருமனான வயதுவந்தோர் கார்டினல் மற்றும் உயர் இரத்த அழுத்தம் போன்ற நோய் உயர் ஆபத்து உள்ளது.</string>
+    <string name="content_dialog_title_bmi">BMI பற்றி</string>
+    <string name="title_user_setting">அமைப்பு</string>
+    <string name="content_training">யார் ஆலோசனை படி, வயது முதிர்ந்தவர்களுக்கு ஒரு சாதாரண விளையாட்டு தேவை 40 8000 நிமிடங்கள்.</string>
+    <string name="content_dialog_title_moving_target">உங்கள் தினசரி படி இலக்கு பற்றி</string>
+    <string name="content_history_schedule_reminder">வரலாற்றை நினைவுபடுத்தவும்</string>
+    <string name="content_save">சேமி</string>
+
+
+    <string-array name="sleep">
+        <item>தூங்கி</item>
+        <item>அமைதியற்ற</item>
+        <item>விழித்து</item>
+    </string-array>
+
+
+    <string name="toast_feedback_success">சமர்ப்பித்தலும் பின்னூட்டமும் நன்றி;)</string>
+
+
+    <string name="content_guest_login_in">விருந்தினர் உள்நுழைவு</string>
+    <string name="content_user_login_in">உள்நுழைக</string>
+
+
+  
+    <string name="dialog_waiting">ஏற்றுகிறது...</string>
+    <string name="title_schedule_manager">காலண்டர்</string>
+    <string name="title_edit_schedule">குறிப்பை சேர்</string>
+    <string name="content_time">நேரம்</string>
+    <string name="content_every_day">அன்றாட</string>
+    <string name="content_today">இன்று</string>
+    <string name="content_tomorrow">நாளை</string>
+    <string name="content_single">ஒரு</string>
+    <string name="content_take_photo">புகைப்படம் எடுக்கவும்</string>
+    <string name="content_choose_picture">படத்தொகுப்பிலிருந்து தேர்வுசெய்</string>
+    <string name="content_unknown_number">அறியாத எண்</string>
+    <string name="content_call">உள்வரும் அழைப்பு:</string>
+    <string name="content_this_week">வாரம்</string>
+    <string name="content_this_month">மாதம்</string>
+    <string name="content_input_email">தயவு செய்து மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+    <string name="content_input_verification_code">சரிபார்ப்பை உள்ளிடவும்</string>
+    <string name="content_obtain_verification_code">புதிய சரிபார்ப்பு</string>
+    <string name="content_input_password">உங்கள் கடவுச்சொல்லை</string>
+    <string name="content_register">பதிவுசெய்</string>
+    <string name="content_confirm_password">புதிய கடவுச்சொல்லை மீண்டும் உள்ளிடவும்</string>
+    <string name="title_register">உள்நுழைக</string>
+    <string name="content_reacquire">மீண்டும் கோரிக்கை</string>
+    <string name="title_forget_password">கடவுச்சொல்லை மறக்கவும்</string>
+    <string name="hint_input_new_password">புதிய கடவுச்சொல்</string>
+    <string name="content_confirm_new_password">புதிய கடவுச்சொல்</string>
+    <string name="content_commit">சமர்ப்பிக்க</string>
+    <string name="content_not_valid_email">செல்லுபடியாகாத மின்னஞ்சல் முகவரி வடிவமைப்பு! </string>
+    <string name="content_nickname_length">உங்கள் தரவை</string>
+    <string name="content_password_length">கடவுச்சொல்லின் நீளம் 6 ~ 14 இலக்கங்கள்</string>
+    <string name="content_valid_input">கடவுச்சொல் தவறானது</string>
+    <string name="content_forget_pwd">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="content_update_app">பதிப்பு பலேட்</string>
+    <string name="content_update">புதுப்பித்தல்</string>
+    <string name="content_update_ing">புதுப்பிக்கிறது...</string>
+    <string name="content_save_picture_to">நிழற்படம் சேமிக்கப்படுகிறது</string>
+    <string name="content_nickname_not_be_null">உங்கள் தரவு காலியாக இருக்க முடியாது</string>
+    <string name="title_open_close_bluetooth">Bluetooth செயல்பாடு மூடப்பட்டது, இப்போது திறக்க நிச்சயமாக விரும்புகிறீர்களா?</string>
+    <string name="content_open">சரி</string>
+    <string name="content_no_data">இல்ல</string>
+    <string name="content_application_exception">பயன்பாட்டில் ஏதோ தவறு உள்ளது, பிழைநீக்க பதிவு சேமிக்கப்படுகிறது.!</string>
+    <string name="title_history_schedule_reminder">வரலாற்றை நினைவுபடுத்தவும்</string>
+    <string name="content_what_is_this">என்ன \' இது?</string>
+    <string name="content_bluetooth">புளூடூத்</string>
+    <string name="content_can_not_be_null">உங்களுக்கு ஞாபகப்படுத்த எதையாவது எழுதுங்கள்</string>
+    <string name="content_new_app_version">புதிய செயலி பதிப்பு</string>
+    <string name="content_update_new_app_version">உங்கள் பயன்பாடு பற்றி புதிய புதுப்பித்தல் உள்ளது, இது புதிய செயல்பாடு அல்லது பிழைநீக்கல், இப்போது புதுப்பிக்க நிச்சயமாக விரும்புகிறீர்களா?</string>
+    <string name="content_current_is_last">தற்போதைய பதிப்பு சமீபத்தியது!</string>
+    <string name="content_new_device_version"> கணினி குறிப்புகள் </string>
+    <string name="content_update_new_device_version"> புதிய ஃபார்ம்வேர் பதிப்பு கிடைக்கிறது தற்போதைய பதிப்பு எண் V%d மற்றும் இது V%d ஆக மேம்படுத்தப்படும். </string>
+    <string name="content_current_device_version">நடப்பு சாதனநிரல் பதிப்பு: V%02d</string>
+    <string name="content_last_device_version">சமீபத்திய சாதனநிரல் பதிப்பு: V%02d</string>
+    <string name="content_congratulations_successful">புதுப்பித்தல் முடிந்தது!</string>
+    <string name="content_is_last_device_version">தற்போதைய பதிப்பு சமீபத்தியது.</string>
+    <string name="content_are_you_sure">உறுதியாக தெரியுமா?</string>
+    <string name="content_want_reset">உங்கள் சாதனத்தில் உள்ள அனைத்துத் தரவையும் மீட்டெடுக்க, மீட்டெடுக்கப் போகிறோம், நீங்கள் உறுதியாக இயல்புநிலை தொழிற்சாலை பயன்முறைக்கு விரும்புகிறீர்களா?</string>
+    <string name="content_want_clear">உங்கள் விளையாட்டுத் தரவுகள் மற்றும் அமைப்பு ஆகியவற்றைக் கொண்ட, காலி செய்த பிறகு பயன்பாட்டுத் தேக்ககம் மீட்கப்படவில்லை, இப்போது தெளிவு பெற வேண்டுமா?</string>
+    <string name="content_want_unbind">உங்கள் சாதனம் வென்றது \ இல்லை தள்ளுதல் மற்றும் தொலைபேசி மேலாண்மை சேவையை பெற (உங்கள் சாதனம் ஆதரவு) பயன்பாடு இருந்து நீண்ட நீளமாக இருந்தால், இப்போது கட்டுபடுத்த வேண்டும்?</string>
+    <string name="content_stop_check">கண்டுபிடிப்பு</string>
+    <string name="content_check_complete">கண்டுபிடிப்பு முடிந்துவிட்டது</string>
+    <string name="content_checking">கண்டுபிடிப்பு நடந்து கொண்டிருக்கிறது...</string>
+    <string name="title_scan_band">ஸ்கேன் சாதனம்</string>
+    <string name="content_scanning">ஸ்கேன்...</string>
+    <string name="content_binding">பைண்டிங்...</string>
+    <string name="content_input_correct_email">மின்னஞ்சல் வடிவமைப்பு தவறானது</string>
+    <string name="content_input_correct_phone">தொலைபேசி வடிவமைப்பு சரியில்லை</string>
+    <string name="content_exit_run">நடப்பு விளையாட்டு தடம் மற்றும் தரவை சேமி மற்றும் வெளியேறு, அது வென்றபோது \ \ எந்த தரவை சேமிக்கவில்லை காலம் மிகவும் குறுகியிருந்தால், உறுதியாக விலகுமா?</string>
+    <string name="content_want_exit">விலகுவது உறுதி?</string>
+    <string name="content_save_data">தரவு சேமிக்கப்படுகிறது...</string>
+    <string name="content_nickname_illegal">பெயர் நீளம் சரியில்லை (1 ~ 16 இலக்கங்கள்)!</string>
+    <string name="content_can_not_choose_future">நீங்கள் ஒரு எதிர்காலத் தேதியை தேர்ந்தெடுக்க முடியாது.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">ஒவ்வொரு%.1fhr நினைவூட்ட (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">அட்டவணைக்கான தேதியை தேர்ந்தெடு</string>
+    <string name="content_preparing">தயாராகிக் கொண்டிருக்கிறது...</string>
+    <string name="content_prepare_timeout">கூடுதல் நேரம் தயார் செய்யுங்கள், மீண்டும் முயற்சிக்கவும்</string>
+    <string name="content_during_upgrade">புதுப்பிக்கிறது...</string>
+    <string name="content_upgrade_failed">புதுப்பித்தல் தோல்வியடைந்தது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="content_upgrade_cancel">புதுப்பித்தல் ரத்துசெய்யப்படுகிறது, மீண்டும் புதுப்பிக்க தேவையில்லை!</string>
+    <string name="content_disconnect_band">உங்கள் சாதனம் இணைக்கப்படாமல் உள்ளது!</string>
+    <string name="content_upgrade_no_plan">மேலும் சாதனநிரல் புதுப்பித்தல் இல்லை</string>
+    <string name="content_getting_information">Firmware சரிபார்க்கிறது..</string>
+    <string name="content_download_failed">Firmware பதிவிறக்குதல் தோல்வியுற்றது, தயவுசெய்து பின்னர் சரிபார்க்கவும்</string>
+    <string name="content_downloading">உறுதியானது..</string>
+    <string name="content_last_time">கடைசி:</string>
+    <string name="content_sleep_quality">தரம்:</string>
+    <string name="content_step_format">%d படி</string>
+    <string name="content_day_format">dd</string>
+    <string name="content_bad">ஏழை</string>
+    <string name="content_general">சராசரி</string>
+    <string name="content_well">நல்லது</string>
+    <string name="content_good">மிகச்சிறந்த</string>
+    <string name="content_permission_notification">[அறிவிக்கை பார் அனுமதி] உங்கள் சாதனத்திற்கான அறிவிப்பை தள்ளுகிறது</string>
+    <string name="content_authorized_to_use">முழு செயல்பாட்டுக்கான அனுமதியை அணுக பயன்பாட்டை அனுமதிக்கவும்:</string>
+    <string name="content_authorized">அனுமதி கோரிக்கை </string>
+    <string name="content_next">அடுத்த</string>
+    <string name="content_exit_login">வெளியேறு நடப்பு கணக்கு மற்றும் சாதனம் பயன்பாட்டுடன் துண்டிக்கப்படும், நிச்சயமாக தொடர வேண்டுமா?</string>
+    <string name="content_use_for_sport">[விளையாட்டு தகவல் காட்சி] செயல்பாட்டிற்கு பயன்படுத்து</string>
+    <string name="content_use_for_find_phone">[கண்டுபிடிக்க தொலைபேசி] செயல்பாடு பயன்படுத்து</string>
+    <string name="content_band_call_phone">சாதனம் ஃபோனுக்காக தேடுகிறது...</string>
+    <string name="content_find_phone">தொலைபேசி கண்டுபிடி</string>
+    <string name="content_permission_need">பயன்பாட்டைப் பற்றிய சில அனுமதிகளை நீங்கள் மறுத்தீர்கள், இது வழக்கத்துக்கு மாறான சில செயல்பாட்டிற்கு வழிவகுக்கும், தயவுசெய்து அந்த அனுமதிகளுக்கான பயன்பாட்டு அணுகலை அனுமதிக்கவும்:</string>
+    <string name="content_calendar">காலண்டர்</string>
+    <string name="content_camera">கேமரா</string>
+    <string name="content_contacts">தொடர்புகள் மெனு</string>
+    <string name="content_location">ஜிபிஎஸ்</string>
+    <string name="content_microphone">மைக்ரோஃபோன்</string>
+    <string name="content_phone">அழைப்பாளர் நிலை/எண்/IMEI</string>
+    <string name="content_sensor">சென்சார்</string>
+    <string name="content__sms">எஸ்எம்எஸ்</string>
+    <string name="content_storage">தொலைபேசி சேமிப்பு</string>
+    <string name="content_no_time">இல்லை</string>
+    <string name="content_normal">சராசரி</string>
+    <string name="content_poor">நல்லதல்ல</string>
+    <string name="content_total_number_of_steps">மொத்த படி:%02d</string>
+    <string name="content_reminder_content">குறிப்பு உள்ளடக்கம்</string>
+    <string name="content_systolic_pressure">நஆட</string>
+    <string name="content_diastolic_pressure">ஈஆட</string>
+    <string name="content_deep_sleep">தூங்கி</string>
+    <string name="content_light_sleep">அமைதியற்ற</string>
+    <string name="content_wide_awake">விழித்து</string>
+    <string name="content_total_time_consuming">Duration</string>
+    <string name="content_average_speed">சராசரி வேகம்</string>
+    <string name="content_average_time_speed">சராசரி வேகம்</string>
+    <string name="content_fastest_speed">அதிகபட்ச வேகம்</string>
+    <string name="content_loading">ஏற்றுகிறது...</string>
+    <string name="content_device_no_bind">தயவுகூர்ந்து பயன்பாட்டுடன் சாதனத்தை கட்டுங்கள்</string>
+    <string name="content_scan_device">ஸ்கேன் சாதனம்</string>
+    <string name="content_time_interval">கால இடைவெளியில்</string>
+    <string name="content_half_hour">0.5ஏ</string>
+    <string name="content_one_hour">1ம</string>
+    <string name="content_two_hour">2ம</string>
+    <string name="content_three_hour">3ம</string>
+    <string name="content_sunday">ஞ.</string>
+    <string name="content_monday">தி.</string>
+    <string name="content_tuesday">செவ்.</string>
+    <string name="content_wednesday">புத.</string>
+    <string name="content_thursday">தாu.</string>
+    <string name="content_friday">வெ.</string>
+    <string name="content_saturday">சனி.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">புதுப்பிக்க கீழே இழுக்கவும்</string>
+    <string name="content_refreshing">புத்துணர்ச்சி</string>
+    <string name="content_is_loading">ஏற்றுகிறது</string>
+    <string name="content_release_immediately_refresh">வெளியீடு உடனடியாக புதுப்பி</string>
+    <string name="content_refresh_completed">புதுப்பித்தல் நிறைவடைந்தது</string>
+    <string name="content_refresh_failed">புதுப்பித்தல் தோல்வியடைந்தது</string>
+    <string name="content_last_update"> கடைசியாக புதுப்பிக்கப்பட்டது: MM-dd HH: mm</string>
+    <string name="content_enter_email_is_correct">மின்னஞ்சல் முகவரி வடிவமைப்பு சரியானதா என்பதை உறுதிசெய்யவும்.</string>
+
+
+    <string name="unit_steps">படியில்</string>
+    <string name="content_map_type">வரைபட வகை</string>
+    <string name="content_map_type_gaode">ஆலாபனை (சீனா)</string>
+    <string name="content_map_type_google">கூகிளெப</string>
+    <string name="content_map_type_automatic_smart_select">தானியங்கு தேர்வு</string>
+
+    <string name="content_connect_failed">இணைப்பு தோல்வியுற்றது</string>
+    <string name="content_try_to_fix">சீர் செய்ய முயலுங்கள்</string>
+    <string name="content_connect_failed_fix_tips">சாதனத்துடன் இணைக்க இயலவில்லை, நீங்கள் முயற்சிக்கலாம்: \n\n1. மீண்டும் இணைக்க முயற்சிக்கவும். \n\n நி2. Bluetoothஐ அணைத்து இயக்கவும். \n\n ய். ஜிபிஎஸ் இன் இன் ஸ்விட்ச் அதிக துல்லியத்துடன் இயக்க முயற்சிக்கவும். \n\nn4. உங்கள் ஃபோனை மறுஇயக்கம் செய்.</string>
+    <string name="content_item_fix_band">%1$s [சாதனம் OTA பயன்முறை]</string>
+    <string name="content_fix_band_failed">சாதனம் OTA தோல்வியுற்றது</string>
+    <string name="content_fix_band_failed_tips">சாதனத்தில் உள்ள OTA சேவையைத் தேர்ந்தெடுப்பது தோல்வியுற்றது, சாதனம் இன்னும் 10 நிமிடங்களுக்குள் தானாகவே மீட்சி முடிக்கவில்லை என்றால் எங்களுடன் தொடர்பு கொள்ளவும்.</string>
+    <string name="content_heart_detection_tips">* சில சாதனங்கள் இந்த செயல்பாட்டை ஆதரிக்கவில்லை</string>
+    <string name="content_description">அறிவிக்கை சேவை: \n உங்கள் தொலைபேசியிலிருந்து சாதனத்திற்கு google 、 Facebook 、 ட்விட்டர் 、 கோடு 、 Linkedln 、 GooglePlus அறிவிக்கை 、 Weibo 、 Wechat of QQ-ஐ தள்ளும். </string>
+    <string name="content_input_band">தயவுகூர்ந்து உங்கள் சாதன தரவை உள்ளிடவும்</string>
+    <string name="content_or_contact_us">அல்லது எங்களை தொடர்பு மின்னஞ்சல்: wt5354@iwear88.com</string>
+    <string name="content_help">உதவி</string>
+    <string name="content_approve">ஒப்புதல்</string>
+
+      <string name="content_permission_location">[இருப்பிட அணுகல்] ஸ்மார்ட் பேண்ட் இருப்பிடத்தை அடையாளம் கண்டு அதை இணைக்க முயல்வதற்கு</string>
+    <string name="content_scan_timeout">சாதனம் காணப்படவில்லை? தயவுகூர்ந்து திறந்தவுடன் மீண்டும் முயற்சிக்கவும் [விமானப் பயன்முறை]</string>
+    <string name="content_push_warm">* செய்தி தள்ளும் அம்சம் வேலை செய்யவில்லை எனில், இங்கே கிளிக் செய்து திறக்கவும் </string>
+    <string name="content_reconnecting">சேவை அல்லது இணையம் ஒரு பேருந்து, தயவுசெய்து காத்திருக்கவும்...</string>
+    <string name="content_manual_reconnect">கருவிகளை கைமுறையாக ஒத்திசைக்க</string>
+    <string name="content_login_means">உள்நுழைதல் மற்றும் ஏற்றுக் கொள்ளுதல்</string>
+    <string name="content_terms">சேவை விதிமுறைகள்</string>
+    <string name="content_terms_title">தனியுரிமை மற்றும் சுகாதாரக் கொள்கை</string>
+    <string name="content_terms_first">* உங்களுக்கு முக்கியமானதாக இருக்கும் தகவல்களுடன் நீங்கள் எங்களை நம்புகிறீர்கள் என்பதை பாராட்டுகிறோம், எனவே பயன்பாட்டின் சில செயல்பாடுகளைப் பணிபுரிய உங்கள் அனுமதி தேவைப்படுகிறது.</string>
+   <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>இங்கே</a></font> எங்கள் சாதனங்களுக்கான தனியுரிமை நடைமுறைகளை விவரிக்கிறோம், நாங்கள் சேகரிக்கும் தரவைப் பற்றி, அதை எப்படிப் பயன்படுத்துகிறோம் என்பதை நீங்கள் கற்றுக்கொள்வீர்கள்.]]></string>
+    <string name="content_terms_third">* இந்த தயாரிப்பு ஒரு மருத்துவ சாதனம் அல்ல, மற்றும் எந்த நோய் கண்டறிய, சிகிச்சை, குணப்படுத்த அல்லது தடுக்க நோக்கம் இல்லை. துல்லியத்தை பொறுத்த வரை, சாதனங்களின் துல்லியம், மருத்துவ சாதனங்கள் அல்லது விஞ்ஞான அளவீட்டு சாதனங்களைப் பொருத்த நோக்கல்ல.</string>
+   <string name="content_verification_help"><![CDATA[சரிபார்ப்பைப் பெறவில்லை?கிளிக் செய்யவும்<font color=#04F5D1> <a href=\'%s\'>இங்கே</a> </font> உதவிக்கு]]></string>
+
+    <string name="issue_with_log_in_or_sign_in">உள்நுழைவில் அல்லது உள்நுழைவுடன் சிக்கல்</string>
+   <string name="content_troubleshooting_help"><![CDATA[கிளிக் செய்யவும்<font color=#04F5D1> <a href=\'%s\'>இங்கே சிக்கல்தீர்த்தல் பெற]]></string>
+  <string name="content_sleep_accuracy">முடிவுகள் எவ்வளவு துல்லியமானவை?</string>
+   
+    <string name="content_sleep_accuracy_1">தானியங்கி கண்டுபிடிப்பு ஸ்லீப் டிராக்கர்கள் பொதுவாக துல்லியமாக கருதப்படுகிறது, அவர்கள் பல்வேறு பயனர் பழக்கம் காரணமாக பிழைகள் உள்ளன.</string>
+    <string name="content_sleep_accuracy_2">தூக்கம் தரத்தை பின்னர் சரிபார்க்கவும் அது \' ஒரு தரவு இல்லை என்றால் நீங்கள் வெறும் 30 நிமிடங்களில் தூக்கம் முடித்த போது, தரவு பகுப்பாய்வு செய்யப்படுகிறது.</string>
+    <string name="content_accuracy_title">முடிவு துல்லியத்தன்மை பற்றி</string>
+    <string name="content_app_unsupport_tips">இந்த செயல்பாடு, தயவுசெய்து தாயத்தில் அமைக்கவும்</string>
+    <string name="content_permission_notification_enable">"[அறிவிக்கை] அனுமதி நிறுத்தப்பட்டுள்ளது, அனுமதியை அனுமதிக்கவும் இல்லையெனில் செயல்பாடு [கண்டுபிடி சாதனம்] 、 [அறிவிக்கை பட்டி] தவறான செயல்பாடாக இருக்கும்"</string>   
+    <string name="content_connect_google_fit">Google பொருத்தம் இணைப்பு</string>
+    <string name="content_unlink_google_fit">கூகிள் பொருத்தம் இணைப்பை உற்றமை</string>
+    <string name="title_associate_google_fit">அசோசியேட் கூகுள் பொருத்தம்</string>
+    <string name="content_unit_time">சாதன நேர வடிவமைப்பு</string>
+    <string name="content_upload_google_fit_now">GOOGLE பொருந்துமாறு தரவை இப்போது பதிவேற்றவும்</string>
+    <string name="content_tips_of_google_fit">இந்த தரவு Google-க்கு கிட்டத்தட்ட 00:00/04:00/8:00/12:00/16:00/20:00 ஒவ்வொரு நாளும் தானாகவே ஒத்திசைக்கப்படும்.</string>
+
+    <string name="content_answer">தயவு செய்து பதிலை உள்ளிடவும்</string>
+    <string name="content_input_email_different">இரண்டு உள்ளீடு மின்னஞ்சல் வெவ்வேறானவை</string>
+    <string name="content_resetpsw_now">கடவுச்சொல்லை மீட்கவும்</string>
+    <string name="content_new_psw">புதிய கடவுச்சொல்:</string>
+     <string name="content_question1">1</string>
+    <string name="content_question2">2</string>
+    <string name="content_input_reg_email">உங்கள் பதிவு செய்யப்பட்ட அஞ்சல்:</string>
+    <string name="content_register_question_step1">1. மின்னஞ்சல் மற்றும் கடவுச்சொல்லை நிரப்பவும்</string>
+    <string name="content_register_question_step2">2. பாதுகாப்பு பதிலைத் திணியுங்கள்</string>
+    <string name="content_retrieve_type">கடவுச்சொல் மீட்டல்:</string>
+    <string name="content_register_success">பதிவு வெற்றியடையும்!</string>
+    <string name="content_resetpsw_success">கடவுச்சொல் மாற்றம் வெற்றிகரமாக உள்ளது!</string>
+    <string name="content_resetpsw_wrong_answer">ரகசிய பாதுகாப்பு பதில் தவறானது!</string>
+    <string name="content_from_auth_code">மின்னஞ்சல் சரிபார்த்தல்</string>
+    <string name="content_from_question">பாதுகாப்பு பதில்</string>
+    <string name="question1_1">உங்கள் முதல்/நடப்பு/பிடித்த செல்லத்தின் தரவு என்ன?</string>
+    <string name="question1_2">உங்களுக்குப் பிடித்த புத்தகம் எது?</string>
+    <string name="question1_3">உங்களுக்குப் பிடித்த உணவு எது?</string>
+    <string name="question2_4">நீங்கள் வேலை செய்த முதல் நிறுவனம் எது?</string>
+    <string name="question2_5">உங்க அம்மா டேட்டா என்ன?</string>
+    <string name="question2_6">நீங்கள் எந்த நகரத்தில் பிறந்தீர்கள்?</string>
+    <string name="content_connect_strava">ஸ்ட்ராவா உடன் இணைக்கவும்</string>
+    <string name="content_unlink_strava">ஸ்ட்ராவா இருந்து இணைப்பை இல்லை</string>
+    <string name="content_tips_of_strava">ஸ்ட்ராவாவுடன் தொடர்பு கொண்ட பிறகு, நீங்கள் மோஷன் ட்ராக் ரெக்கார்ட் இன்டர்ஃபேஸ் இல் ஸ்ட்ரெய்வா செய்ய உங்கள் மோஷன் ட்ராக்கை சமர்ப்பிக்கலாம்.</string>
+    <string name="content_uploaded_to_strava">ஸ்ட்ராவா க்கு சமர்ப்பிக்கப்பட்டது</string>
+    <string name="content_upload_to_strava">ஸ்ட்ராவா க்கு பணிய வேண்டும்</string>
+    <string name="content_retry">மறுமுயற்சி</string>
+    <string name="content_err_save_sport_track_data_network_fail">இயக்க தடம் தரவை சேமிக்க முடியவில்லை, தயவுசெய்து பிணைய அமைப்புகளை சரிபார்க்கவும்</string>
+    <string name="content_donot_save">சேமிக்காதீர்கள்</string>
+    <string name="content_link">இணைப்புகள்</string>
+    <string name="content_help_and_feedback">உதவி மற்றும் பின்னூட்டங்கள்</string>
+
+
+    <string name="content_my_friends">நண்பர்கள்</string>
+    <string name="content_search_friends_hint">பயனர் ஐடி/மின்னஞ்சல்</string>
+    <string name="toast_tips_req_add_friends">உங்கள் நண்பரின் கோரிக்கை சமர்ப்பிக்கப்பட்டுள்ளது</string>
+    <string name="title_tab_msg_system">என்ன \' கள் புதிய</string>
+    <string name="title_tab_msg_add_friend">நண்பர் கோரிக்கை</string>
+    <string name="title_tab_my_friends">நண்பர்கள்</string>
+    <string name="content_add_agree_friends">உங்களை நண்பனாக சேர்க்க விரும்புகிறேன்</string>
+    <string name="content_btn_agreed">ஏற்றுக்கொள்</string>
+    <string name="content_btn_refused">மறுக்க</string>
+    <string name="content_encourage">ஊக்குவிக்கும்</string>
+    <string name="content_zan">நகர்த்து</string>
+    <string name="content_add_friends">நண்பனாக சேர்</string>
+    <string name="content_already_friends">ஏற்கப்பட்டது</string>
+    <string name="content_already_refused">மறுக்கப்பட்டது</string>
+    <string name="content_nickname">புனைப்பெயர்</string>
+    <string name="content_nickname_2">புனைப்பெயர்</string>
+    <string name="content_sign_null">இங்கே காலி</string>
+    <string name="content_sign">காட்ட எதையாவது எழுது</string>
+    <string name="content_setting_sign">கையொப்பம்</string>
+    <string name="content_remark_null">இங்கே காலி</string>
+    <string name="content_user_info">பயனீட்டாளர் விவரம்</string>
+    <string name="content_set_remark">குறிப்பு</string>
+    <string name="content_average_blood_oxygen">ேபா அவg.</string>
+    <string name="content_step_num">நடவடிக்கை</string>
+    <string name="content_sleep_data">உறக்கம்</string>
+    <string name="content_bp_bo">BP/BO</string>
+  <string name="content_invite_friends">இப்போது சேர்வதற்கு வேறு அழைப்பு</string>
+    <string name="content_save_image">திரைக்காட்சிகளுடன் சேமி</string>
+
+    <string name="content_encourage_you">உங்களை ஊக்கப்படுத்துங்கள்</string>
+    <string name="content_zan_you">உம்மைத் துதிப்பேன்</string>
+
+    <string name="content_no_friends">Didn \ உங்கள் நண்பர்களை கண்டுபிடிக்கவில்லை</string>
+    <string name="content_search_friends_input_err">தயவுசெய்து சரியான பயனர் ஐடி/மின்னஞ்சலை உள்ளிடவும்</string>
+
+    <string name="content_weather_sunny_day">சன்னி</string>
+    <string name="content_weather_cloudy">மேகமூட்டமாக</string>
+    <string name="content_weather_snow">ஸ்னோ</string>
+    <string name="content_weather_cloudy_day">மேகமூட்ட</string>
+    <string name="content_weather_rain">மழை</string>
+
+
+    <string name="content_my_ideal_weight">என் இலட்சிய தகைமை</string>
+    <string name="content_intake_calories">தினசரி காலோர்கள் உட்கொள்ளும் அமைப்பு</string>
+    <string name="content_sport_target">தினசரி படிகள் விளையாட்டு அமைப்பு</string>
+    <string name="content_intake_tips_head">அதிகபட்சம் பரிந்துரைக்கப்பட்ட உட்கொள்ளுதலை</string>
+    <string name="content_intake_tips_foot">கலோரிகள் நிறைந்த உணவு</string>
+
+  <string name="content_recorded_meal">பதிவு%d உணவு%s</string>
+    <string name="content_this_meal_to_eat">எனது கலோரி உட்கொள்ளுதலை பதிவுசெய்யவும்</string>
+    <string name="content_food_input_empty_tips">எதையாவது உள்ளீடு</string>
+    <string name="content_record_meal_to_eat">பதிவு உணவு உட்கொள்ளுதல்</string>
+    <string name="content_edit">திருத்து</string>
+    <string name="content_your_goal_is_to_subtract">உங்கள் இலக்கு இழக்கப்படுகிறது</string>
+    <string name="content_the_current_every_day_for_a_sport_target">உங்கள் தினசரி செயல்பாட்டு அளவு</string>
+    <string name="content_when_is_the_daily_consumption">தினசரி எரியும் போது</string>
+    <string name="content_daily_intake_is">தினமும் உட்கொள்ளுதல் என்பது</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">தினசரி எடை இழப்பின் மதிப்பீடு</string>
+    <string name="content_need_to_complete">வெற்றிக்கு தேவை</string>
+    <string name="content_expected_time_for_success">மதிப்பீடு நிறைவு தேதி என்பது</string>
+    <string name="content_please_adjust_the_plan">தயவு செய்து உங்கள் திட்டத்தை மாற்றுங்கள்</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">உங்கள் இலக்கு தற்போதைய எடையை விட குறைவாக இருக்க வேண்டும்</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">பொருத்தம் பெற உங்கள் திட்டத்தை மாற்றவும்</string>
+    <string name="content_recommended_daily_intake">உங்கள் உடல்நல நிலை மற்றும் இலக்கு எடை ஆகியவை பற்றி பேசுவதால், பரிந்துரைக்கப்பட்ட தினசரி கலோரி உட்கொள்ளுதல் தோராயமாக</string>
+    <string name="content_average_daily_calorie_deficit">சராசரி கலோரி பற்றாக்குறை</string>
+    <string name="content_intake_of_qualified_days">உட்கொள்ளும் நாட்களில் இலக்கு</string>
+    <string name="content_average_daily_intake_of_calories">சராசரி கலோரி உட்கொள்ளல்</string>
+    <string name="content_the_highest_intake_of_calories">தினசரி அதிகபட்சம் உட்கொள்ளுதல்</string>
+    <string name="content_not_clock_in_number_of_days">நாட்கள் என் உள்ளெடுப்பு பதிவு இல்லை</string>
+    <string name="content_click_add_meal">குறிப்பேடு உணவு உட்கொள்வதற்கு வலப்பக்கம் உள்ள படவுருவை கிளிக் செய்யவும்</string>
+    <string name="content_total_intake_about">நீங்கள் உட்கொள்ளும் தொகை </string>
+    <string name="content_calorie_consumption">கலோரி தீக்காயம்</string>
+    <string name="content_calorie_intake">கலோரி உட்கொள்ளல்</string>
+    <string name="content_target_bmi">BMI</string>
+    <string name="content_diet_help_tips">தனிப்பட்ட \' கள் பாலினம் மற்றும் வயது மீது அடிப்படை அவரது வளர்சிதை மாற்ற itemType பின்பற்ற, பின்னர் பயனர் உள்ளீடு இலக்கு எடை மற்றும் எடை-இழக்கும் இலக்கை அடையும் தேதி மதிப்பிட படிகள், தயவு செய்து, தனிப்பட்ட மற்றும் வாழ்க்கை பழக்கம் \' கள் மாறுபாடு காரணமாக விளைவாக சிதைவு வழிவகுக்கும் எப்படியோ. மருத்துவ காரணங்களுக்காக அல்ல</string>
+    <string name="content_have_the_calories_you_eat">நான் எவ்வளவு சாப்பிட்டேன்</string>
+    <string name="content_diet_start">பதிவு செய்ய அடுத்த படி இன்று சேர்க்கை</string>
+    <string name="content_food_name">உணவு பெயர்</string>
+    <string name="content_amount">அளவு</string>
+    <string name="content_unit">அலகு</string>
+    <string name="content_cur_weight">தற்போதைய எடை</string>
+    <string name="content_target_weight">இலக்கு எடை</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">சாதாரண பயனர்களுக்காக ஜிம்மில் உடற்பயிற்சியை தொடங்க உடற்பயிற்சி</string>
+    <string name="sport_encourage_prompt_1">நீங்கள் ஃபியூஜ்சன் உயரத்தை முடித்துவிட்டீர்.</string>
+    <string name="sport_encourage_prompt_2">வயது வந்தோருக்கான தினசரி படிகள் பற்றிய பரிந்துரைத்தல்</string>
+    <string name="sport_encourage_prompt_3">இந்த பச்சை கிரகத்துக்கு சுமார் 805g Co2 குறைந்துள்ளது</string>
+    <string name="sport_encourage_prompt_4">லூவ்re மற்றும் ஈஃபில் கோபுரத்திற்கு இடைப்பட்ட தொலைவு</string>
+    <string name="sport_encourage_prompt_5">விளையாட்டு மைதானத்தில் நீங்கள் 30 மடிக்கணினங்களை முடித்துவிட்டீர்கள் தோராயமாக</string>
+    <string name="sport_encourage_prompt_6">தொலைவு 1 மணிநேரத்திற்கும் அதிகமாக பைகிங் செய்யப்படுகிறது</string>
+    <string name="sleep_duration_encourage_prompt_0">உங்கள் தூக்க நேரம் மிகவும் குறுகியதே</string>
+    <string name="sleep_duration_encourage_prompt_1">நாள்பட்ட தூக்கப் பற்றாக்குறை இதய நோய்க்கு வழிவகுக்கும்</string>
+    <string name="sleep_duration_encourage_prompt_2">நல்ல தூக்கம் தான் நல்ல ஆரோக்கியத்தின் அடித்தளம்</string>
+    <string name="sleep_duration_encourage_prompt_3">மோசமான தூக்க நேரம் இல்லை</string>
+    <string name="sleep_duration_encourage_prompt_4">உங்களுக்கு ஒரு சாத்தியமான தூக்க காலம் உள்ளது </string>
+    <string name="sleep_duration_encourage_prompt_5">புத்துணர்ச்சியுடனும், விறுவிறுப்பான நாளுடனும்</string>
+    <string name="sleep_duration_encourage_prompt_6">ம்ம், நீங்கள் சாதாரண பெரியவர்கள் விட ஒரு நீண்ட தூக்க நேரம் வேண்டும்</string>
+    <string name="sleep_duration_encourage_prompt_7">ஒருவேளை அது நீங்கள் சாதனம் மற்றும் உங்கள் அணியும் வழி சரிபார்க்க வேண்டும் நேரம்</string>
+    <string name="sleep_time_encourage_prompt_0">சரியான அணிவதற்கு தயவுசெய்து உங்கள் சாதனத்தை சரிபார்க்கவும்</string>
+    <string name="sleep_time_encourage_prompt_1">ஒரு சாத்தியமான தூக்கம் நேரம்</string>
+    <string name="sleep_time_encourage_prompt_2">தூக்கத்திற்கு உகந்த நேரம்</string>
+    <string name="sleep_time_encourage_prompt_3">நியாயமான தூக்கம் நேரம் மிகவும் சிறந்த தூக்கம் தரம் முக்கியம் </string>
+    <string name="sleep_time_encourage_prompt_4">உங்கள் தூக்கம் தொடங்குவதற்கு முன்பு மென்மையான இசையை இசைக்க வேண்டும்</string>
+    <string name="sleep_time_encourage_prompt_5">0 – 1 0 \' கடிகாரம் கல்லீரல் மற்றும் சிறுநீரக detox முக்கிய காலகட்டம்</string>
+    <string name="sleep_time_encourage_prompt_6">தூங்குவதற்கு முன்பு தூக்கம், தாமதமாக எழுந்திருக்க வேண்டாம்</string>
+    <string name="sleep_time_encourage_prompt_7">நீண்ட நாட்கள் உடல் சோர்வடைதல், உடலுக்கு அதிக தீங்கு விளைவிக்கக் கூடிய காலதாமதமாக இருத்தல்.</string>
+    <string name="title_health_advisor">சுகாதார ஆலோசகர்</string>
+    <string name="content_ranking">தரவரிசை</string>
+    <string name="content_friends_ranking">உங்கள் தரவரிசை</string>
+    <string name="content_my_step_ranking">ஸ்டெப் உலக தரவரிசை</string>
+    <string name="content_my_sleep_details">தூக்க விபரங்கள்</string>
+    <string name="content_week_avg">இந்த வாரம் சராசரியாக</string>
+    <string name="content_rg_week_avg">வாராந்திர சராசரி</string>
+    <string name="content_rg_month_avg">மாதாந்த சராசரி</string>
+    <string name="content_my_sleep_duration_ranking">தூக்க காலம் உலக தரவரிசை</string>
+    <string name="content_my_sleep_time_ranking">தூங்கும் நேரம் உலக தரவரிசை</string>
+    <string name="content_range_avg_time">%s-இல் உங்கள் சராசரி நேரம்-%s</string>
+    <string name="content_more_than_user">%d%%-ஐ பயனர்களுக்கு மேல்</string>
+    <string name="content_later_than_user">பயனர்களின்%d%%-ஐ விட பிற்காலத்தில்</string>
+
+    <string name="title_change_wallpaper">வால்பேப்பர்</string>
+    <string name="content_setup_complete">அமைக்கும் முடிவு!</string>
+    <string name="enable_wallpaper_fun">வால்பேப்பர் செயல்பாடு</string>
+    <string name="enable_wallpaper_step_fun">பெடோமீட்டர் சொருகுப்பொருள்</string>
+    <string name="content_not_saved">சேமிக்கமுடியாத</string>
+    <string name="content_not_saved_tips">சேமிப்பையும் கைவிட வேண்டுமா?</string>
+    <string name="content_wallpaper_transmission">புதுப்பிக்கிறது...</string>
+    <string name="content_wallpaper_textcolor">எழுத்துரு நிறம்</string>
+
+    <string name="title_sport_mode">விளையாட்டு முறை</string>
+    <string name="sport_mode_walking">நடந்து</string>
+    <string name="sport_mode_running">இயங்கும்</string>
+    <string name="sport_mode_mountaineering">ஏறி</string>
+    <string name="sport_mode_cycling">பைகிங்</string>
+    <string name="sport_mode_table_tennis">Pingpong</string>
+    <string name="sport_mode_basketball">கூடைப்பந்து</string>
+    <string name="sport_mode_football">கால்பந்து</string>
+    <string name="sport_mode_badminton">பாட்மிண்டன்</string>
+    <string name="sport_mode_treadmill">ஜிடிரட்மில்</string>
+    <string name="sport_mode_tennis">டென்னிஸ்</string>
+    <string name="sport_mode_swimming">நீச்சல்</string>
+    <string name="unit_three_month">3 மாதத்திற்கு</string>
+    <string name="content_duration">Duration</string>
+    <string name="content_last_sport">கடைசி விளையாட்டு</string>
+    <string name="content_sport_mode_count">%d நேரங்கள்</string>
+    <string name="content_finish_distance">தூரம்</string>
+    <string name="content_finish_calorie">கலோரிகள்</string>
+	<string name="content_update_ota">1.ப்ளூடூத் இணைப்பு நிலையான உடன் பெட்டகத்திலிருந்து மேம்படுத்துவது சாதனங்கள்\n2.விலகினார் வேண்டாம் ஏபிபி சாதனத்தை மேம்படுத்த தவறினால் ஒரு கருப்பு திரை விளைவாக, வழி செய்யவும்\n3.மேம்படுத்துகிறது தேவை மேம்படுத்த 1-3 நிமிடங்கள், என்று ஏபிபி நீக்குதல் இல்லை அல்லது தொலைபேசி பதிலாக! ஏபிபி மேம்படுத்தல் ஒரு மீண்டும்</string>
+	<string name="toast_electric_low_ota_tips">உபகரணக் கொள்ளளவு குறைவாக 50%, மேம்படுத்த அனுமதி இல்லை உள்ளது!</string>
+	<string name="content_guest_login_alert">முறைமை மேம்பாடானது, பயனர் செயலில் அனுமதி மறுப்பு, அண்ட்ராய்டு எதிர்கால பதிப்பு மற்றும் பிற காரணிகள், உள்ளூர் பார்வையாளர் தனிப்பட்ட அடையாள குறியீடு மாற்றப்படலாம், "சுற்றுலா உள்நுழைவு" பயன்படுத்தும் பயனர்கள் தரவு இழப்பு நிலை இருக்கும், மின்னஞ்சல் மூலம் பயனர்கள் பதிவு செய்ய பரிந்துரைக்கப்படுகிறது.</string>
+    <string name="content_terms_mob">மூன்றாம் பகுதி கணக்கின் நுழைவு மற்றும் பதிவு செயல்பாடு புரிந்து கொள்ள, நாம் மாப்பெட்டிக் தொழில்நுட்பஇந்த பொருளின் தனிப்பட்ட கொள்கையில் விதிகளுக்கு, தயவு செய்து குறிப்பிடுங்கள்:http://www.mob.com/about/policy</string>
+    <string name="content_terms_accept">நீங்கள் எங்கள் சேவையின் விருப்பங்களை ஏற்றுக் கொள்ள வேண்டும்</string>
+</resources>

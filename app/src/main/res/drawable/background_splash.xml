@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--    <item android:drawable="@drawable/icon_page_start" />-->
+    <!--  这里最好用 小icon+背景色的方式 做启动页 这样启动更快 更少内存-->
+    <!-- 背景颜色 -->
+    <item android:drawable="@color/transparent" />
+   <!-- <item  >
+        &lt;!&ndash;    图片 &ndash;&gt;
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/icon_splash_icon" />
+    </item>-->
+</layer-list>

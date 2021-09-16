@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivAboutAppTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/icon_top_bg"
+                    app:layout_heightPercent="35%sh" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/ilAboutAppCurrentVersion"
+                        layout="@layout/item_banner_button" />
+
+                    <include
+                        android:id="@+id/ilAboutAppLastVersion"
+                        layout="@layout/item_banner_button" />
+
+                    <include
+                        android:id="@+id/ilAboutAppAutomaticSync"
+                        layout="@layout/item_device_common" />
+
+                    <include
+                        android:id="@+id/ilAboutAppDistanceUnit"
+                        layout="@layout/item_unit" />
+
+                    <include
+                        android:id="@+id/ilAboutAppTemperatureUnit"
+                        layout="@layout/item_unit" />
+
+                    <include
+                        android:id="@+id/ilAboutAppWeightUnit"
+                        layout="@layout/item_unit" />
+
+                    <include
+                        android:id="@+id/ilAboutAppTimeUnit"
+                        layout="@layout/item_unit" />
+                </LinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/tvAboutAppCheckUpdate"
+            style="@style/TextViewButton"
+            android:padding="@dimen/widget_size_10"
+            android:text="@string/content_update" />
+
+    </LinearLayout>
+
+    <com.truescend.gofit.views.StatusBarHeightView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        app:use_type="use_padding_top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height">
+
+            <ImageView
+                android:id="@+id/ivAboutAppBack"
+                android:layout_width="@dimen/title_height"
+                android:layout_height="@dimen/title_height"
+                android:layout_alignParentStart="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/widget_size_5"
+                android:tint="@color/white"
+                app:srcCompat="@mipmap/icon_arrow_left" />
+
+            <TextView
+                android:id="@+id/tvAboutAppTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/title_height"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/title_about_app"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_15" />
+
+        </RelativeLayout>
+    </com.truescend.gofit.views.StatusBarHeightView>
+
+</RelativeLayout>

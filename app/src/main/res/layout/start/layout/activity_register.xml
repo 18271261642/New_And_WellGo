@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/widget_size_30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_register_question_step1"
+                android:textSize="@dimen/text_size_18"
+                android:textStyle="bold" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:hint="@string/content_input_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/text_size_15" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etEmailAgain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+
+                android:inputType="textEmailAddress"
+                android:hint="@string/content_input_email"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etRegisterPasswords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:inputType="textPassword"
+                android:hint="@string/content_input_password"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etRegisterConfirmPasswords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:inputType="textPassword"
+                android:hint="@string/content_confirm_password"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_register_question_step2"
+                android:textSize="@dimen/text_size_18"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widget_size_10"
+                    android:text="@string/content_question1" />
+
+                <com.truescend.gofit.views.AppCompatMultiLineSpinner
+
+                    android:id="@+id/spQuestion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/question1"
+                    android:padding="@dimen/widget_size_10" />
+            </LinearLayout>
+
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:inputType="textEmailAddress"
+                android:hint="@string/content_answer"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widget_size_10"
+                    android:text="@string/content_question2" />
+
+                <com.truescend.gofit.views.AppCompatMultiLineSpinner
+                    android:id="@+id/spQuestion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/question2"
+                    android:padding="@dimen/widget_size_10" />
+            </LinearLayout>
+
+            <com.truescend.gofit.views.HintMultiLineEditText
+                android:id="@+id/etAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/widget_size_10"
+                android:inputType="textEmailAddress"
+                android:hint="@string/content_answer"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        style="@style/TextViewButton"
+        android:text="@string/content_register" />
+
+</LinearLayout>

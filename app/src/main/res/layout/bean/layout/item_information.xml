@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvInformationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_size_5"
+        tools:text="会飞的鱼"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_12"/>
+
+    <TextView
+        android:id="@+id/tvInformationContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_size_5"
+        tools:text="81Kg"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_12"/>
+
+    <TextView
+        android:id="@+id/tvInformationNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_size_5"
+        tools:text="肥胖"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_size_12"/>
+
+</LinearLayout>

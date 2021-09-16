@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./SNMapLibrary/libs/Android_Map3D_SDK_V6.9.3_20191018.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SNMapLibrary/libs/Android_Map3D_SDK_V6.9.3_20191018.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

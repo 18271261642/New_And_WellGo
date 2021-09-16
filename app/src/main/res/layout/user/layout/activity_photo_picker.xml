@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_1">
+
+        <GridView
+            android:id="@+id/gvPhotoPickerPhotos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:verticalSpacing="2dip"
+            android:horizontalSpacing="2dip"
+            android:stretchMode="columnWidth"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent" >
+
+        </GridView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlPhotoPickerBottomTabBar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:id="@+id/tvPhotoPickerFolderAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_15"
+                    android:paddingLeft="@dimen/widget_size_12"
+                    android:paddingRight="@dimen/widget_size_12"
+                    android:drawableEnd="@drawable/item_open_file"
+                    tools:text="全部图片"/>
+
+                <TextView
+                    android:id="@+id/tvPhotoPickerNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_15"
+                    android:layout_marginEnd="@dimen/widget_size_10"
+                    tools:text="1024张"/>
+
+            </RelativeLayout>
+
+            <ViewStub
+                android:id="@+id/vsPhotoPicker"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rlPhotoPickerBottomTabBar"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

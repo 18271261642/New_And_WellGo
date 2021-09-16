@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">den tegner sig allerede er registreret</string>
+	<string name="error_user_not_exists">id - kort er ikke eksisterede, tjek</string>
+	<string name="error_password_error">id - eller kodeord er forkert</string>
+	<string name="error_phone_invalid">det nummer er ugyldigt</string>
+	<string name="error_sms_too_frequently">anmodningen er alt for hyppige</string>
+	<string name="error_captcha_expired">kontrol er udløbet</string>
+	<string name="error_captcha_wrong">kontrol er udløbet</string>
+	<string name="error_captcha_failure">kontrol ikke</string>
+	<string name="error_email_registered">den tegner sig allerede er registreret</string>
+	<string name="error_captcha_req_success">anmodning om afsluttet</string>
+	<string name="network_err">internet forbindelse svigter, prøv igen senere</string>
+
+</resources>

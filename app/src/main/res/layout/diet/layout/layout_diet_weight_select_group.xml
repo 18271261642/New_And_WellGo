@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_diet_target_setting">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_cur_weight"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCurWeight"
+        app:layout_textSizePercent="3%h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        tools:text="40kg" />
+
+    <com.truescend.gofit.views.RulerView
+        android:id="@+id/rvCurWeight"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        app:rv_alphaEnable="true"
+        app:rv_centerLineColor="@color/colorRed"
+        app:rv_labelTextColor="#363636"
+        app:rv_labelTextMarginTop="5dp"
+        app:rv_labelTextSize="15sp"
+        app:rv_lineColor="#686868"
+
+        app:rv_lineSpaceWidth="8dp"
+        app:rv_lineWidth="1dp"
+        app:rv_maxValue="250"
+        app:rv_minValue="30"
+        app:rv_perValue="1"
+        app:rv_selectorValue="60" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_target_weight"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTargetWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        app:layout_textSizePercent="3%h"
+        tools:text="30kg" />
+
+    <com.truescend.gofit.views.RulerView
+        android:id="@+id/rvTargetWeight"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        app:rv_alphaEnable="true"
+        app:rv_centerLineColor="@color/colorRed"
+        app:rv_labelTextColor="#363636"
+        app:rv_labelTextMarginTop="5dp"
+        app:rv_labelTextSize="15sp"
+        app:rv_lineColor="#686868"
+
+        app:rv_lineSpaceWidth="8dp"
+        app:rv_lineWidth="1dp"
+        app:rv_maxValue="250"
+        app:rv_minValue="30"
+        app:rv_perValue="1"
+        app:rv_selectorValue="60" />
+</com.zhy.android.percent.support.PercentLinearLayout>

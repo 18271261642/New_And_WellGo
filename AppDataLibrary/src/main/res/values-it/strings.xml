@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">l\'account è stato registrato già</string>
+	<string name="error_user_not_exists">identificazione non esisteva, per favore controlla</string>
+	<string name="error_password_error">l \'id e la password sbagliata</string>
+	<string name="error_phone_invalid">il numero non è valido</string>
+	<string name="error_sms_too_frequently">la richiesta è troppo frequente</string>
+	<string name="error_captcha_expired">la verifica è scaduto</string>
+	<string name="error_captcha_wrong">la verifica è scaduto</string>
+	<string name="error_captcha_failure">verifica non riuscita</string>
+	<string name="error_email_registered">l\'account è stato registrato già</string>
+	<string name="error_captcha_req_success">richiesta completato</string>
+	<string name="network_err">la connessione ad internet non funziona, per favore riprova piu \'tardi</string>
+
+</resources>

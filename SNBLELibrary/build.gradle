@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.2'
+
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "int", "APP_ID",  rootProject.ext.android.appId
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //蓝牙底层库
+    api project(':DZBLELibrary')
+    ////APP项目总库 ,里面带工具类/数据库(框架)/网络(框架), 因为蓝牙框架需要拿到用户数据库,因为我要拿到userid和目标值等
+    implementation project(':AppDataLibrary')
+}

@@ -1,0 +1,17 @@
+WellGo
+签名文件: WellGoKey.jks
+别名Alias :fit
+签名密码: neoon123456
+签名SHA-1: 63:BC:6E:A6:9A:DA:00:89:36:BD:86:76:D0:4D:12:A4:AE:05:AA:16
+
+
+GetFitPro
+签名文件: GetFitPro.jks
+别名Alias :getfit3
+签名密码: neoon123456
+签名SHA-1: 13:3B:34:BA:9E:1F:FE:FC:22:49:66:65:AE:D1:D3:7D:C2:A5:76:39
+
+
+Showmi
+签名文件: showmi.jks
+签名密码: neoon123456

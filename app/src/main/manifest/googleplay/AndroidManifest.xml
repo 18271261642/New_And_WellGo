@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.truescend.gofit">
+
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <!--拍照-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!--写入-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--读取-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--创建和删除文件-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <!--响铃、震动、亮屏-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <!--读取wifi权限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!--访问网络-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--读取网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--读取日志-->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--8.1安装APK-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!--android 9.0上使用前台服务，需要添加权限-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!--TODO 保留的权限-->
+    <!--打电话|OV挂电话-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--读取电话状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--自动应答/android p 挂电话/接电话-->
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+
+    <!--TODO 受GooglePlay影响, 需要移除的权限-->
+    <!--读取联系人-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"  tools:node="remove"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"  tools:node="remove"/>
+    <!--读取短信-->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"  tools:node="remove"/>
+    <uses-permission android:name="android.permission.READ_SMS"  tools:node="remove"/>
+    <!--读取通话记录/android p 读取号码-->
+    <uses-permission android:name="android.permission.READ_CALL_LOG"   tools:node="remove"/>
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.truescend.gofit.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:replace="android:name,android:label">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <!--启动页-->
+        <activity
+            android:name="com.truescend.gofit.pagers.start.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--视频引导页+ 登录界面 -->
+        <activity
+            android:name="com.truescend.gofit.pagers.start.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoGuideTheme" />
+        <!--主页-->
+        <activity
+            android:name="com.truescend.gofit.pagers.main.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!--  &lt;!&ndash;通过验证码找回密码&ndash;&gt;
+          <activity
+              andrdataname=".pagers.start.resetpsw.from_authcode.ResetPswFromAuthCodeActivity"
+              android:screenOrientation="portrait" />-->
+
+        <!--通过密保找回密码-->
+        <activity
+            android:name="com.truescend.gofit.pagers.start.resetpsw.ResetPswActivity"
+            android:screenOrientation="portrait" />
+
+        <!--注册界面-->
+        <activity
+            android:name="com.truescend.gofit.pagers.start.register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <!--重置密码前的邮箱手机号校验-->
+        <activity
+            android:name="com.truescend.gofit.pagers.start.resetpsw.checker.ResetPswCheckerActivity"
+            android:screenOrientation="portrait" />
+        <!--扫描绑定界面-->
+        <activity
+            android:name="com.truescend.gofit.pagers.scan.ScanningAndBindActivity"
+            android:screenOrientation="portrait" />
+        <!--睡眠-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.sleep.SleepActivity"
+            android:screenOrientation="portrait" />
+        <!--睡眠详情-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.sleep.details.SleepDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!--运动-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.sport.SportActivity"
+            android:screenOrientation="portrait" />
+        <!--我的体检-->
+        <activity
+            android:name="com.truescend.gofit.pagers.health.HealthCheckActivity"
+            android:screenOrientation="portrait" />
+        <!--心率-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.heart.HeartActivity"
+            android:screenOrientation="portrait" />
+        <!--血压-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.pressure.BloodPressureActivity"
+            android:screenOrientation="portrait" />
+        <!--血氧-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.oxygen.BloodOxygenActivity"
+            android:screenOrientation="portrait" />
+        <!--跑步-->
+        <activity
+            android:name="com.truescend.gofit.pagers.track.run.RunningActivity"
+            android:screenOrientation="portrait" />
+        <!--跑步设置-->
+        <activity
+            android:name="com.truescend.gofit.pagers.track.setting.RunSettingActivity"
+            android:screenOrientation="portrait" />
+        <!--跑步轨迹历史记录详情查看-->
+        <activity
+            android:name="com.truescend.gofit.pagers.track.record.TrackRecordActivity"
+            android:screenOrientation="portrait" />
+        <!--设备设置-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.setting.DeviceSettingActivity"
+            android:screenOrientation="portrait" />
+        <!--手环固件升级-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.setting.update.BandUpdateActivity"
+            android:screenOrientation="portrait" />
+        <!--关于App-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.setting.about.AboutAppActivity"
+            android:screenOrientation="portrait" />
+        <!--意见反馈-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.setting.feedback.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <!--远程相机-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.camera.RemoteCameraProActivity"
+            android:screenOrientation="portrait" />
+        <!--远程相机-图片预览-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.camera.viewer.ImageViewerActivity"
+            android:screenOrientation="portrait" />
+        <!--健康提醒-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.health.HealthReminderActivity"
+            android:screenOrientation="portrait" />
+        <!--健康提醒子页面-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.health.reminder.ReminderActivity"
+            android:screenOrientation="portrait" />
+        <!--日程管理-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.schedule.ScheduleActivity"
+            android:screenOrientation="portrait" />
+        <!--添加日程提醒-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.schedule.add.AddScheduleActivity"
+            android:screenOrientation="portrait" />
+        <!--历史日程记录-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.schedule.history.HistoryScheduleActivity"
+            android:screenOrientation="portrait" />
+        <!--闹钟-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.clock.AlarmClockActivity"
+            android:screenOrientation="portrait" />
+        <!--添加闹钟-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.clock.add.AddAlarmClockActivity"
+            android:screenOrientation="portrait" />
+        <!--推送-->
+        <activity
+            android:name="com.truescend.gofit.pagers.device.push.PushActivity"
+            android:screenOrientation="portrait" />
+        <!--用户设置-->
+        <activity
+            android:name="com.truescend.gofit.pagers.user.setting.UserSettingActivity"
+            android:screenOrientation="portrait" />
+        <!--GoogleFit-->
+        <activity
+            android:name="com.truescend.gofit.pagers.user.fit.google_fit.ConnectGoogleFitActivity"
+            android:screenOrientation="portrait" />
+
+        <!--关联Strava(网页授权)-->
+        <activity
+            android:name="com.sweetzpot.stravazpot.authenticaton.ui.StravaLoginActivity"
+            android:label="@string/content_connect_strava"
+            android:screenOrientation="portrait" />
+        <!--关联Strava(管理授权情况)-->
+        <activity
+            android:name="com.truescend.gofit.pagers.user.fit.strava.ConnectStravaActivity"
+            android:label="@string/content_connect_strava"
+            android:screenOrientation="portrait" />
+        <!--朋友列表-->
+        <activity
+            android:name="com.truescend.gofit.pagers.friends.list.FriendsListActivity"
+            android:label="@string/content_my_friends"
+            android:screenOrientation="portrait" />
+        <!--添加朋友-->
+        <activity
+            android:name="com.truescend.gofit.pagers.friends.search.FriendsSearchActivity"
+            android:screenOrientation="portrait" />
+        <!--查看朋友数据-->
+        <activity
+            android:name="com.truescend.gofit.pagers.friends.data.FriendsDataActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <!--查看朋友主页-->
+        <activity
+            android:name="com.truescend.gofit.pagers.friends.info.FriendsInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <!--面对面邀请(我的二维码)-->
+        <activity
+            android:name="com.truescend.gofit.pagers.friends.invitation.MyQRCActivity"
+            android:screenOrientation="portrait" />
+
+        <!--用户饮食减肥计划目标参数设置-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.diet.setting.DietTargetSettingActivity"
+            android:screenOrientation="portrait" />
+        <!--用户饮食减肥 进餐列表-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.diet.list.DietListMealActivity"
+            android:screenOrientation="portrait" />
+        <!--用户饮食减肥 加一餐-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.diet.add.DietEditMealActivity"
+            android:screenOrientation="portrait" />
+        <!--用户饮食减肥 图表分析-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.diet.statistics.DietStatisticsActivity"
+            android:screenOrientation="portrait" />
+
+        <!--帮助&隐私政策-->
+        <activity
+            android:label="@string/content_terms"
+            android:name="com.truescend.gofit.pagers.help.HelpActivity"
+            android:screenOrientation="portrait" />
+
+        <!--排行-->
+        <activity
+            android:name="com.truescend.gofit.pagers.ranking.RankingActivity"
+            android:screenOrientation="portrait" />
+
+        <!--壁纸-->
+        <activity
+            android:label="@string/title_change_wallpaper"
+            android:name="com.truescend.gofit.pagers.device.wallpaper.WallpaperActivity"
+            android:screenOrientation="portrait" />
+
+        <!--运动模式-->
+        <activity
+            android:name="com.truescend.gofit.pagers.home.sport_mode.SportModeActivity"
+            android:screenOrientation="portrait" />
+
+        <!--关联天猫精灵-->
+        <activity
+            android:name="com.truescend.gofit.pagers.user.fit.tmall_genie.TmallGenieAuthActivity"
+            android:screenOrientation="portrait" />
+
+        <!--WIFI模块-->
+        <activity android:name=".wifi.FilesActivity"/>
+        <activity android:name=".wifi.FileViewController"/>
+        <activity android:name=".wifi.FWUpgradeActivity"/>
+        <activity android:name=".wifi.MainActivity"/>
+        <activity android:name=".wifi.MainViewController"/>
+        <activity android:name=".wifi.SettingActivity"/>
+
+        <!--测试界面-->
+        <activity
+            android:name="com.truescend.gofit.pagers.test.TestActivity"
+            android:screenOrientation="portrait" />
+
+
+        <!--蓝牙设备数据同步-->
+        <service android:name="com.truescend.gofit.service.sync.BleSyncService" />
+        <!--主服务-->
+        <service
+            android:name="com.truescend.gofit.service.MainService"
+            android:configChanges="locale" />
+        <!--消息推送监听服务-->
+        <!--   <service
+               andrdataname=".service.reminder.NotificationService"
+               android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+               <intent-filter>
+                   <action andrdataname="android.service.notification.NotificationListenerService" />
+               </intent-filter>
+           </service>-->
+
+        <service
+            android:name="com.truescend.gofit.service.reminder.SNNotificationService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <!--辅助监听服务-->
+        <service
+            android:name="com.truescend.gofit.service.reminder.SNAccessibilityService"
+            android:exported="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+
+        <!--来电提醒-->
+        <receiver android:name="com.truescend.gofit.receive.CallReminderReceive">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <!--短信提醒-->
+        <receiver
+            android:name="com.truescend.gofit.receive.SmsReminderReceive"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!--计时器-->
+        <!--        <receiver andrdataname=".receive.TimerReceiver">
+                    <intent-filter>
+                        <action andrdataname="${applicationId}.ACTION_ALARM" />
+                    </intent-filter>
+                </receiver>-->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--  <activity
+              andrdataname=".utils.PermissionActivity"
+              android:configChanges="keyboardHidden|orientation|screenSize"
+              android:launchMode="standard"
+              android:theme="@style/TranslucentTheme"
+              android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />-->
+    </application>
+
+</manifest>

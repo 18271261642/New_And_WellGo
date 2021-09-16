@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/running_translucent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivRunningTitleBack"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/widget_size_5"
+        android:src="@mipmap/icon_arrow_left"
+        android:tint="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/rlRunningTitleWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivRunningTitleBack"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivRunningTitleWeather"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:padding="@dimen/widget_size_10"
+            android:src="@mipmap/icon_weather_sunny_day" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/ivRunningTitleWeather"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvRunningTitleTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18"
+                    android:textStyle="bold"
+                    tools:text="10℃~23℃" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvRunningTitleAirQuality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_air_quality"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_10"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRunningTitleQuality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_10"
+                    android:textStyle="bold"
+                    tools:text="一般" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivRunningTitleSetting"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:layout_toStartOf="@+id/ivRunningTitleShare"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/widget_size_10"
+        android:src="@mipmap/icon_setting_white"
+        android:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/ivRunningTitleShare"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/widget_size_10"
+        android:src="@mipmap/icon_share_black"
+        android:tint="@color/white" />
+
+
+</RelativeLayout>

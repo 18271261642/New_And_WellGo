@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="@dimen/widget_size_5"
+    app:cardUseCompatPadding="true"
+    tools:showIn="@layout/activity_diet_target_setting">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCardInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.7"
+            android:textColor="#1C1C1C"
+            app:layout_textSizePercent="4%w" />
+
+        <TextView
+            android:id="@+id/tvDietHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:layout_paddingBottomPercent="6%h"
+            android:layout_centerInParent="true"
+            android:linksClickable="true"
+            android:text="@string/content_what_is_this"
+            android:textStyle="bold"
+            app:layout_textSizePercent="4%w" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--手环固件更新-->
+    <include
+        android:id="@+id/ilDeviceSettingBandUpdate"
+        layout="@layout/item_banner_button"/>
+
+    <!--关于App-->
+    <include
+        android:id="@+id/ilDeviceSettingAboutApp"
+        layout="@layout/item_banner_button"/>
+
+
+
+    <!--心率自动检测-->
+    <include
+        android:id="@+id/ilDeviceSettingHeartDetection"
+        layout="@layout/item_device_common"/>
+
+    <!--抬腕亮屏-->
+    <include
+        android:id="@+id/ilDeviceSettingLightScreen"
+        layout="@layout/item_device_common"/>
+
+    <!--防丢提醒-->
+    <include
+        android:id="@+id/ilDeviceSettingLostReminder"
+        layout="@layout/item_device_common"/>
+
+    <!--手环恢复出厂设置-->
+    <include
+        android:id="@+id/ilDeviceSettingReset"
+        layout="@layout/item_banner_button"/>
+
+    <!--清除APP缓存-->
+    <include
+        android:visibility="gone"
+        android:id="@+id/ilDeviceSettingClearCache"
+        layout="@layout/item_banner_button"/>
+
+    <!--解绑设备-->
+    <include
+        android:id="@+id/ilDeviceSettingUnblockDevice"
+        layout="@layout/item_banner_button"/>
+
+</LinearLayout>

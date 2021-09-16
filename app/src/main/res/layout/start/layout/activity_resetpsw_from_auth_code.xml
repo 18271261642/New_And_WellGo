@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/widget_size_40"
+        android:orientation="vertical" >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etResetAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widget_size_10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/content_input_email"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widget_size_10"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etResetVerificationCode"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:hint="@string/content_input_verification_code"
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btResetObtain"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/widget_size_40"
+                android:layout_gravity="center"
+                android:background="@drawable/radius_button_black_bg"
+                android:text="@string/content_obtain_verification_code"
+                android:textSize="@dimen/text_size_10"
+                android:textColor="@color/text_option_black_bg"/>
+            
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etResetFirstPasswords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widget_size_10"
+            android:inputType="textPassword"
+            android:hint="@string/content_input_password"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etResetConfirmPasswords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widget_size_10"
+            android:inputType="textPassword"
+            android:hint="@string/content_confirm_password"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvResetSignIn"
+            style="@style/TextViewButton"
+            android:text="@string/content_register" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/widget_size_20"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvResetHelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/widget_size_10"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_15" />
+
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</LinearLayout>

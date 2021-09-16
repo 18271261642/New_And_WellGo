@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rgUnitGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:showIn="@layout/layout_self_sleep_details">
+
+    <RadioButton
+        android:id="@+id/rbUnitLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rectangle_white"
+        android:button="@null"
+        android:checked="true"
+        android:gravity="center"
+        android:maxEms="10"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingTop="@dimen/widget_size_3"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:paddingBottom="@dimen/widget_size_3"
+        android:text="@string/content_rg_week_avg"
+        android:textColor="@color/text_radio_button_bg"
+        android:textSize="@dimen/text_size_14" />
+
+    <RadioButton
+        android:id="@+id/rbUnitRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rectangle_white"
+        android:button="@null"
+        android:gravity="center"
+        android:maxEms="10"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingTop="@dimen/widget_size_3"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:paddingBottom="@dimen/widget_size_3"
+        android:text="@string/content_rg_month_avg"
+        android:textColor="@color/text_radio_button_bg"
+        android:textSize="@dimen/text_size_14"
+         />
+
+</RadioGroup>

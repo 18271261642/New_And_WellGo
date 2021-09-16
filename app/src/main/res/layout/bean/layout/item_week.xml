@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_sunday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_monday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_tuesday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_wednesday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_thursday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14"
+            android:theme="@style/BlackButtonTheme"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_friday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_size_5"
+        android:paddingBottom="@dimen/widget_size_5"
+        android:paddingStart="@dimen/widget_size_10"
+        android:paddingEnd="@dimen/widget_size_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/content_saturday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbWeekSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/BlackButtonTheme"/>
+
+    </LinearLayout>
+
+</LinearLayout>

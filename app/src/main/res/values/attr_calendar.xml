@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomCalendar">
+        <!--星期文本的颜色Sun Mon Tues Wed Thur Fri Sat-->
+        <attr name="calendarWeekTextColor" format="color|reference" />
+        <!--星期文本大小-->
+        <attr name="calendarWeekTextSize" format="dimension|reference" />
+        <!--日期文本颜色 1、2、3、4、5、6、7、8、.....-->
+        <attr name="calendarDayTextColor" format="color|reference" />
+        <!--日期文本大小-->
+        <attr name="calendarDayTextSize" format="dimension|reference" />
+        <!--背景圆环颜色○-->
+        <attr name="calendarCircleColor" format="color|reference" />
+        <!--进度条颜色◎-->
+        <attr name="calendarProgressBarColor" format="color|reference" />
+        <!--星期文本与日期文本的间距-->
+        <attr name="calendarWeekSpacing" format="dimension|reference" />
+    </declare-styleable>
+</resources>

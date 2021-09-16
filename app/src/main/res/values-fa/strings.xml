@@ -1,0 +1,626 @@
+<resources>
+    <string name="app_name">WellGo</string>
+
+    <string name="loading">بارگذاری...</string>
+
+    <string name="tab_home">خانه</string>
+    <string name="tab_track">آهنگ</string>
+    <string name="tab_device">دستگاه</string>
+    <string name="tab_user">کاربر</string>
+    <string name="course">فاصله</string>
+    <string name="target_step">هدف</string>
+    <string name="big_calories">كيلوكالري</string>
+    <string name="you_health">سلامتی شما</string>
+    <string name="heart_rate">ساعت</string>
+    <string name="blood_pressure">Bp</string>
+    <string name="blood_oxygen">دلیل</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">کیفیت خواب</string>
+    <string name="check_self">سالم</string>
+    <string name="heart_record">ضربان قلب</string>
+    <string name="blood_pressure_record">فشارخون</string>
+    <string name="blood_oxygen_record">اکسیژن خون</string>
+    <string name="title_today_sleep">تجزیه و تحلیل خواب</string>
+    <string name="sleep_total_time">مدت زمان</string>
+    <string name="sleep_valid_time">زمان کارآمد</string>
+    <string name="sleep_quality_time">کیفیت</string>
+    <string name="sleep_details">جزئیات خواب</string>
+
+    <string name="sleep_deep">خواب</string>
+    <string name="sleep_light">بیقرار</string>
+    <string name="sleep_awake">بیدار</string>
+    <string name="heart_details">جزئیات HR</string>
+    <string name="blood_pressure_details">جزئیات BP</string>
+    <string name="blood_oxygen_details">بو جزئیات</string>
+    <string name="title_track_setting">تنظیم</string>
+    <string name="item_device_remote_camera">دوربین از راه دور</string>
+    <string name="item_device_search_band">پیدا کردن دستگاه</string>
+    <string name="item_device_health_reminder">بهداشت و درمان یادآوری</string>
+    <string name="item_device_schedule_reminder">تقویم</string>
+    <string name="item_device_alarm_clock">زنگ</string>
+    <string name="item_device_push">اعلان</string>
+
+    <string name="delete">حذف</string>
+
+    <string name="content_five_clock">شما می توانید 5 آلارم را تنظیم کنید.</string>
+    <string name="content_remind_sedentary">یادآوری فعالیت</string>
+    <string name="content_reminder_drink">نوشیدن یادآوری</string>
+
+    <string name="day">روز</string>
+    <string name="month">ماه</string>
+    <string name="year">سال</string>
+    <string name="step">گام</string>
+    <string name="hour">ساعت</string>
+
+
+    <string name="unit_hours">h</string>
+    <string name="unit_min">دقیقه</string>
+    <string name="unit_heart">ضربان</string>
+    <string name="unit_pressure">میلیمتر</string>
+    <string name="unit_week">هفته</string>
+    <string name="unit_day">روز</string>
+    <string name="unit_month">ماه</string>
+    <string name="unit_year">سال</string>
+
+    <string name="unit_cal">كيلوكالري</string>
+    <string name="unit_km">کیلومتر</string>
+    <string name="unit_km_h">کیلومتر/ساعت</string>
+    <string name="unit_mile">مایل</string>
+    <string name="unit_mile_h">مایل/ساعت</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">کیلوگرم</string>
+    <string name="unit_pounds">پوند</string>
+    <string name="unit_version">V %1$s</string>
+    <string name="unit_cm">سانتی متر</string>
+
+    <string name="content_standard_days">روز هدف</string>
+    <string name="content_avg_day_steps">مرحله متوسط</string>
+    <string name="content_avg_month_steps">مرحله متوسط</string>
+    <string name="content_avg_day_consume">Avg. Burn</string>
+    <string name="content_avg_month_consume">Avg. Burn</string>
+    <string name="content_total_distance">فاصله</string>
+    <string name="content_avg_day_distance">میانگین فاصله</string>
+    <string name="content_avg_month_distance">میانگین فاصله</string>
+    <string name="content_total_steps">مجموع</string>
+    <string name="content_greatest_good">روز > = خوب</string>
+    <string name="content_total_time_sleep">خواب موثر</string>
+    <string name="content_daily_time_sleep">Avg. موثر</string>
+    <string name="content_longest_single_sleep">طولانی ترین خواب</string>
+    <string name="content_proportion_of_sleep">خواب موثر</string>
+    <string name="content_quality_sleep">کیفیت</string>
+    <string name="content_average_heart">میانگین.</string>
+    <string name="content_highest_heart">حداکثر.</string>
+    <string name="content_minimum_heart">دقیقه.</string>
+    <string name="content_heart_too_high">بیش از حد بالا</string>
+    <string name="content_heart_too_low">بیش از حد کم</string>
+    <string name="content_average_pressure_diastolic">Avg. DBP</string>
+    <string name="content_average_pressure_systolic">Avg. SBP</string>
+    <string name="content_abnormal_systolic">غیر طبیعی SBP</string>
+    <string name="content_abnormal_diastolic">غیر طبیعی DBP</string>
+    <string name="content_max_value">حداکثر.</string>
+    <string name="content_avg_value">میانگین.</string>
+    <string name="content_min_value">دقیقه.</string>
+    <string name="content_no">نه</string>
+    <string name="content_yes">بله</string>
+    <string name="content_total_mileage">فاصله</string>
+    <string name="content_burn_calories">رایت</string>
+    <string name="content_total_time_consumed">مدت زمان</string>
+    <string name="content_air_quality">کیفیت هوا</string>
+    <string name="content_completed">فاصله</string>
+    <string name="content_calorie_burning">رایت</string>
+    <string name="content_per_hour">سرعت</string>
+    <string name="content_pace">سرعت</string>
+    <string name="content_time_consuming">مدت زمان</string>
+    <string name="content_keep_screen_light">نور صفحه را روشن نگه دارید</string>
+    <string name="content_shake_band_start">لرزش دستگاه هنگام اجرا شروع می شود</string>
+    <string name="content_shake_band_end">دستگاه ارتعاش هنگام اجرای پایان</string>
+    <string name="content_show_weather">نمایش آب و هوا</string>
+    <string name="content_need_open_gps">عملکرد GPS در دسترس نیست و ممکن است باعث عدم صحت مکان شود ، لطفا GPS را بر روی گوشی خود فعال کنید.</string>
+    <string name="content_open_now">فعال</string>
+    <string name="content_leave_running">ترک</string>
+    <string name="content_confirm">باشه</string>
+    <string name="content_cancel">لغو</string>
+    <string name="content_running_outside">لطفا استفاده از GPS در فضای باز برای دقت بیشتر در محل.</string>
+    <string name="content_current_power"> باتری دستگاه:</string>
+    <string name="content_mac_address">مک:</string>
+    <string name="content_shaking_band">دستگاه ارتعاشی...</string>
+    <string name="title_connected">متصل </string>
+
+    <string name="content_scanning_start">دستگاه اسکن</string>
+    <string name="toast_un_support_ble">دستگاه شما از بلوتوث پشتیبانی نمی کند.</string>
+    <string name="toast_bluetooth_is_close">بلوتوث هنوز در دسترس نیست.</string>
+    <string name="toast_band_is_disconnect">برنامه هنوز با دستگاه وصل نشده است.</string>
+
+    <string name="title_today">امروز</string>
+    <string name="title_device_setting">تنظیم</string>
+    <string name="title_about_app">واحدها و تنظیمات برنامه</string>
+    <string name="title_feedback">تماس با ما</string>
+    <string name="title_update_band">سیستم عامل دستگاه</string>
+    <string name="title_health_reminder">بهداشت و درمان یادآوری</string>
+    <string name="title_alarm">زنگ</string>
+    <string name="title_schedule_reminder">تقویم</string>
+    <string name="title_message_push">اطلاعیه ها</string>
+
+    <string name="content_band_update">به روز رسانی سیستم عامل دستگاه</string>
+    <string name="content_about_app">واحدها و تنظیمات برنامه</string>
+    <string name="content_feedback">تماس با ما</string>
+    <string name="content_reset">پیش فرض کارخانه دستگاه</string>
+    <string name="content_clean_cache">پاک کردن حافظه پنهان برنامه</string>
+    <string name="content_unblock_device">جفت شدن دستگاه لغو اتصال</string>
+    <string name="content_heart_detection">تشخیص خودکار HR</string>
+    <string name="content_light_screen">چرخش به نور در</string>
+    <string name="content_lost_reminder">ضد از دست رفته</string>
+
+    <string name="content_ota_update">روز رسانی</string>
+
+    <string name="content_app_current_version">نسخه برنامه</string>
+    <string name="content_app_last_version">آخرین نسخه برنامه</string>
+    <string name="content_unit_distance">واحد طول</string>
+    <string name="content_unit_temperature">واحد درجه حرارت</string>
+    <string name="content_unit_weight">واحد وزن</string>
+    <string name="content_app_auto_update">به روز رسانی خودکار برنامه</string>
+    <string name="content_app_auto_sync">همگام سازی خودکار داده ها</string>
+
+    <string name="content_sport_done">پایان</string>
+    <string name="content_submit">ارسال</string>
+    <string name="content_feedback_content">از نظرات شما سپاسگزاریم.</string>
+    <string name="content_exit">لغو</string>
+    <string name="content_call_reminder">تماس های دریافتی هل دادن</string>
+    <string name="content_message_reminder">یادآوری پیام کوتاه</string>
+    <string name="content_do_not_disturb">حالت خاموش</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">انتخاب حالت تکرار</string>
+    <string name="content_repeat">تکرار</string>
+    <string name="content_title_exit_account">مطمئن شوید که اکنون حساب فعلی را ترک کنید ؟</string>
+    <string name="content_last_weight">وزن بدن:</string>
+    <string name="content_last_date">تاریخ توزین:</string>
+    <string name="content_personal_best_record">بهترین روز</string>
+    <string name="content_standard_day">حداکثر هدف</string>
+    <string name="content_best_week">بهترین هفته</string>
+    <string name="content_best_month">بهترین ماه</string>
+    <string name="content_personal_setting">تنظیم</string>
+    <string name="content_exit_current_account">خروج</string>
+    <string name="content_bmi_index">Bmi:</string>
+    <string name="content_setting_nickname">نام</string>
+    <string name="content_setting_gender">جنسیت</string>
+    <string name="content_setting_birth_year">تولد</string>
+    <string name="content_setting_height">ارتفاع</string>
+    <string name="content_setting_last_weight">وزن بدن</string>
+    <string name="content_setting_bmi_index">Bmi</string>
+    <string name="content_setting_day_target">هدف گام</string>
+    <string name="content_setting_save">ذخیره</string>
+    <string name="content_setting_next">بعدی</string>
+    <string name="content_gender_female">زن</string>
+    <string name="content_gender_male">مرد</string>
+    <string name="bmi_too_light">بیش از حد نور</string>
+    <string name="bmi_normal">طبیعی</string>
+    <string name="bmi_too_heavy">کمی چربی</string>
+    <string name="bmi_obesity">چاق</string>
+    <string name="bmi_very_fat">بیش از حد چاق</string>
+    <string name="content_bmi_paragraph_1">BMI (شاخص توده بدن) یک استاندارد بین المللی برای اندازه گیری بدن چربی است یا نه, که آن هم یک مقدار مرجع در مورد سلامت. طول می کشد قد و وزن را در نظر.</string>
+    <string name="content_bmi_paragraph_2">BMI یک راه آسان برای استفاده برای پاسخ به وضعیت بدن است, بالغ بیش از حد چاق در معرض خطر بالاتر بیماری مانند cardinally و فشار خون بالا.</string>
+    <string name="content_dialog_title_bmi">درباره BMI</string>
+    <string name="title_user_setting">تنظیم</string>
+    <string name="content_training">با توجه به توصیه از WHO ، بزرگسالان نیاز به یک ورزش عادی در حدود ۴۰ دقیقه ، که کالری می سوزاند به همان اندازه راه رفتن برای ۸۰۰۰ سریع مراحل.</string>
+    <string name="content_dialog_title_moving_target">درباره هدف قدم روزانه شما</string>
+    <string name="content_history_schedule_reminder">یادآوری تاریخ</string>
+    <string name="content_save">ذخیره</string>
+
+
+
+    <string-array name="sleep">
+        <item>خواب</item>
+        <item>بیقرار</item>
+        <item>بیدار</item>
+    </string-array>
+
+
+    <!--反馈-->
+    <string name="toast_feedback_success">با تشکر از شما برای ارسال و بازخورد;)</string>
+
+
+
+    <string name="content_guest_login_in">ورود مهمان</string>
+    <string name="content_user_login_in">ورود به سایت</string>
+
+
+    <string name="dialog_waiting">بارگذاری...</string>
+
+    <string name="title_schedule_manager">تقویم</string>
+    <string name="title_edit_schedule">افزودن یادداشت</string>
+    <string name="content_time">زمان</string>
+    <string name="content_every_day">روزانه</string>
+    <string name="content_today">امروز</string>
+    <string name="content_tomorrow">فردا</string>
+    <string name="content_single">تک</string>
+    <string name="content_take_photo">گرفتن عکس</string>
+    <string name="content_choose_picture">گزینش از بین گالری</string>
+    <string name="content_unknown_number">شماره ناشناس</string>
+    <string name="content_call">تماس ورودی:</string>
+    <string name="content_this_week">هفته</string>
+    <string name="content_this_month">ماه</string>
+    <string name="content_input_email">لطفا آدرس ایمیل را وارد کنید</string>
+    <string name="content_input_verification_code">تأیید را وارد کنید</string>
+    <string name="content_obtain_verification_code">تأیید جدید</string>
+    <string name="content_input_password">رمز عبور خود</string>
+    <string name="content_register">ثبت</string>
+    <string name="content_confirm_password">رمز عبور جدید را دوباره وارد کنید</string>
+    <string name="title_register">ثبت نام در</string>
+    <string name="content_reacquire">درخواست دوباره</string>
+    <string name="title_forget_password">فراموشی رمز عبور</string>
+    <string name="hint_input_new_password">رمز عبور جدید</string>
+    <string name="content_confirm_new_password">رمز عبور جدید</string>
+    <string name="content_commit">ارسال</string>
+    <string name="content_not_valid_email">فرمت آدرس ایمیل نامعتبر است! </string>
+    <string name="content_nickname_length">داده های خود را</string>
+    <string name="content_password_length">طول رمز عبور 6 ~ 14 رقم است</string>
+    <string name="content_valid_input">کلمه عبور نادرست است</string>
+    <string name="content_forget_pwd">فراموشی رمز عبور ؟</string>
+    <string name="content_update_app">نسخهٔ کام</string>
+    <string name="content_update">روز رسانی</string>
+    <string name="content_update_ing">بهنگام درآوری...</string>
+    <string name="content_save_picture_to">عکس در ذخیره می شود</string>
+    <string name="content_nickname_not_be_null">اطلاعات شما نمی تواند خالی باشد</string>
+    <string name="title_open_close_bluetooth">تابع بلوتوث بسته شده است ، مطمئن شوید که اکنون باز شود ؟</string>
+    <string name="content_open">باشه</string>
+    <string name="content_no_data">هیچ اطلاعاتی وجود ندارد</string>
+    <string name="content_application_exception">مشکلی با برنامه وجود دارد ، ورود به سیستم برای اشکالزدایی ذخیره می شود.!</string>
+    <string name="title_history_schedule_reminder">یادآوری تاریخ</string>
+    <string name="content_what_is_this">این چیست ؟</string>
+    <string name="content_bluetooth">بلوتوث</string>
+    <string name="content_can_not_be_null">نوشتن چیزی به شما یادآوری</string>
+    <string name="content_new_app_version">نسخه جدید برنامه</string>
+    <string name="content_update_new_app_version">به روز رسانی جدید در مورد برنامه شما وجود دارد که حاوی عملکرد جدید یا اشکالزدایی است ، مطمئنا اکنون به روز رسانی کنید ؟</string>
+    <string name="content_current_is_last">نسخه فعلی آخرین است!</string>
+
+    <string name="content_new_device_version"> نکات سیستم </string>
+        
+    <string name="content_update_new_device_version"> نسخه سیستم عامل جدید موجود است که شماره نسخه فعلی V%d است و به V%d ارتقا می یابد. </string>
+
+    <string name="content_current_device_version">نسخه سیستم عامل فعلی: V%02d</string>
+    <string name="content_last_device_version">آخرین نسخه سیستم عامل: V%02d</string>
+    <string name="content_congratulations_successful">به روز رسانی تمام شده است!</string>
+    <string name="content_is_last_device_version">نسخه فعلی آخرین.</string>
+    <string name="content_are_you_sure">مطمئنی?</string>
+    <string name="content_want_reset">ما می خواهیم تمام داده های دستگاه خود را پاک کنیم و قادر به بازیابی آن نیستید ، آیا مطمئن هستید که حالت پیش فرض کارخانه ؟</string>
+    <string name="content_want_clear">حافظه پنهان برنامه پس از پاک کردن ، که شامل داده های ورزشی و تنظیمات شما ، مطمئن شوید که اکنون روشن نیست ، بازیابی نمی شود ؟</string>
+    <string name="content_want_unbind">دستگاه شما در صورت عدم اتصال و سرویس مدیریت تلفن (اگر پشتیبانی از دستگاه شما) را از برنامه طولانی تر کند ، در صورتی که ارتباط برقرار شود ، مطمئن شوید که اکنون به بند رها کردن می شود ؟</string>
+    <string name="content_stop_check">تشخیص quited</string>
+    <string name="content_check_complete">تشخیص به پایان رسید</string>
+    <string name="content_checking">تشخیص در حال انجام است...</string>
+    <string name="title_scan_band">دستگاه اسکن</string>
+    <string name="content_scanning">اسکن...</string>
+    <string name="content_binding">اتصال...</string>
+    <string name="content_input_correct_email">فرمت ایمیل صحیح نیست</string>
+    <string name="content_input_correct_phone">فرمت تلفن صحیح نیست</string>
+    <string name="content_exit_run">ذخیره و خروج از مسیر ورزشی فعلی و داده ها ، در حالی که آن را برندهŧ ذخیره هر گونه اطلاعات اگر مدت زمان بسیار کوتاه است ، مطمئن شوید که به ترک ؟</string>
+    <string name="content_want_exit">مطمئن برای ترک ؟</string>
+    <string name="content_save_data">داده ها در حال ذخیره...</string>
+    <string name="content_nickname_illegal">طول نام نامعتبر است (1 ~ 16 رقم)!</string>
+    <string name="content_can_not_choose_future">شما می توانید یک تاریخ آینده را انتخاب کنید.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time">هر%.1ffhr برای یادآوری (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">انتخاب تاریخ برای برنامه ریزی</string>
+    <string name="content_preparing">در حال آماده...</string>
+    <string name="content_prepare_timeout">آماده اضافه کاری است ، لطفا دوباره امتحان کنید</string>
+    <string name="content_during_upgrade">بهنگام درآوری...</string>
+    <string name="content_upgrade_failed">به روزرسانی انجام نشد ، لطفا دوباره امتحان کنید</string>
+    <string name="content_upgrade_cancel">به روز رسانی لغو شده است ، بدون نیاز به به روز رسانی دوباره!</string>
+    <string name="content_disconnect_band">دستگاه شما بیارتباط است!</string>
+    <string name="content_upgrade_no_plan">به روز رسانی سیستم عامل بیشتر نیست</string>
+    <string name="content_getting_information">سیستم عامل تحت بررسی است..</string>
+    <string name="content_download_failed">بارگیری سیستم عامل انجام نشد ، لطفا بعدا بررسی کنید</string>
+    <string name="content_downloading">شرکت..</string>
+    <string name="content_last_time">آخرین زمان:</string>
+    <string name="content_sleep_quality">کیفیت:</string>
+    <string name="content_step_format">%d مرحله</string>
+    <string name="content_day_format">Dd</string>
+    <string name="content_bad">فقیر</string>
+    <string name="content_general">طبیعی</string>
+    <string name="content_well">خوب</string>
+    <string name="content_good">عالی</string>
+    <string name="content_permission_notification">[مجوز نوار اطلاع رسانی] برای فشار دادن اعلان به دستگاه شما است</string>
+    <string name="content_authorized_to_use">لطفا اجازه دهید برنامه برای دسترسی به این مجوز برای عملکرد کامل:</string>
+    <string name="content_authorized">درخواست مجوز </string>
+    <string name="content_next">بعدی</string>
+    <string name="content_exit_login">خروج از حساب جاری و دستگاه به برنامه قطع خواهد شد ، مطمئنا ادامه دهید ؟</string>
+    <string name="content_use_for_sport">اعمال بر عملکرد [نمایش اطلاعات ورزشی]</string>
+    <string name="content_use_for_find_phone">درخواست برای عملکرد [find phone]</string>
+    <string name="content_band_call_phone">دستگاه در حال جستجو برای تلفن...</string>
+    <string name="content_find_phone">پیدا کردن تلفن</string>
+    <string name="content_permission_need">شما برخی از مجوزها در مورد برنامه را تکذیب کرده اید ، که منجر به برخی از عملکرد غیر طبیعی می شود ، لطفا اجازه دهید دسترسی به برنامه به آن مجوزها:</string>
+    <string name="content_calendar">تقویم</string>
+    <string name="content_camera">دوربین</string>
+    <string name="content_contacts">منوی مخاطبین</string>
+    <string name="content_location">جیپیاس</string>
+    <string name="content_microphone">میکروفون</string>
+    <string name="content_phone">وضعیت تماس گیرنده/شماره/IMEI</string>
+    <string name="content_sensor">سنسور</string>
+    <string name="content__sms">Sms</string>
+    <string name="content_storage">ذخیره سازی تلفن</string>
+    <string name="content_no_time">نه</string>
+    <string name="content_normal">طبیعی</string>
+    <string name="content_poor">خوب نیست</string>
+    <string name="content_total_number_of_steps">مرحله کل:%02d</string>
+    <string name="content_reminder_content">محتوای یادداشت</string>
+    <string name="content_systolic_pressure">SBP</string>
+    <string name="content_diastolic_pressure">DBP</string>
+    <string name="content_deep_sleep">خواب</string>
+    <string name="content_light_sleep">بیقرار</string>
+    <string name="content_wide_awake">بیدار</string>
+    <string name="content_total_time_consuming">مدت زمان</string>
+    <string name="content_average_speed">Avg. Pace</string>
+    <string name="content_average_time_speed">سرعت متوسط</string>
+    <string name="content_fastest_speed">حداکثر سرعت</string>
+    <string name="content_loading">بارگذاری...</string>
+    <string name="content_device_no_bind">لطفا دستگاه را با برنامه متصل کنید</string>
+    <string name="content_scan_device">دستگاه اسکن</string>
+    <string name="content_time_interval">فاصله زمانی</string>
+    <string name="content_half_hour">0.5 h</string>
+    <string name="content_one_hour">1h</string>
+    <string name="content_two_hour">2h</string>
+    <string name="content_three_hour">3h</string>
+    <string name="content_sunday">خورشید.</string>
+    <string name="content_monday">من.</string>
+    <string name="content_tuesday">سه شنبه.</string>
+    <string name="content_wednesday">چهارشنبه.</string>
+    <string name="content_thursday">پنج شنبه.</string>
+    <string name="content_friday">جمعه.</string>
+    <string name="content_saturday">شنبه.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">برای تازه کردن پایین بکشید</string>
+    <string name="content_refreshing">طراوت</string>
+    <string name="content_is_loading">بارگذاری</string>
+    <string name="content_release_immediately_refresh">انتشار بلافاصله تازه کردن</string>
+    <string name="content_refresh_completed">تازه نمودن تکمیل شده</string>
+    <string name="content_refresh_failed">تازه کردن ناموفق</string>
+    <string name="content_last_update">\'آخرین به روز رسانی: \'MM-dd HH:mm</string>
+    <string name="content_enter_email_is_correct">لطفا اطمینان حاصل کنید که فرمت آدرس ایمیل درست است.</string>
+
+
+    <string name="unit_steps">گام</string>
+    <string name="content_map_type">نوع نقشه</string>
+    <string name="content_map_type_gaode">AMap (China)</string>
+    <string name="content_map_type_google">فروشگاه</string>
+    <string name="content_map_type_automatic_smart_select">انتخاب خودکار</string>
+
+    <string name="content_connect_failed">اتصال انجام نشد</string>
+    <string name="content_try_to_fix">سعی کنید به رفع</string>
+    <string name="content_connect_failed_fix_tips">قادر به اتصال با دستگاه نیست ، شما می توانید سعی کنید: \n\n1. اتصال را دوباره امتحان کنید. \n \n2. بلوتوث را خاموش کرده و روشن کنید. \n \n3. سعی کنید GPS آینس swtich را به بالاترین دقت تغییر دهید. \n \n4. راه اندازی مجدد گوشی خود را</string>
+    <string name="content_item_fix_band">%1$s [حالت OTA دستگاه]</string>
+    <string name="content_fix_band_failed">دستگاه OTA انجام نشد</string>
+    <string name="content_fix_band_failed_tips">عدم موفقیت در انتخاب سرویس OTA به دستگاه ، لطفا با ما تماس بگیرید اگر دستگاه هنوز به طور خودکار در 10 دقیقه به پایان برسد.</string>
+    <string name="content_heart_detection_tips">* برخی از دستگاهها از این تابع پشتیبانی نمی کنند</string>
+    <string name="content_description">خدمات اطلاع رسانی: ñ خواهد شد QQ 、 Weibo ، Wechat ، فیس بوک ، توییتر 、 خط 、 Linkedln 、 GooglePlus اطلاع رسانی از تلفن خود را به دستگاه فشار. </string>
+    <string name="content_input_band">لطفا اطلاعات دستگاه خود را وارد کنید</string>
+    <string name="content_or_contact_us">یا با ما تماس بگیرید ایمیل: wt5354@iwear88.com</string>
+    <string name="content_help">کمک</string>
+    <string name="content_approve">تایید</string>
+
+    <string name="content_permission_location">[دسترسی به مکان] برای تلاش برای شناسایی محل باند هوشمند و اتصال آن</string>
+    <string name="content_scan_timeout">دستگاه یافت نشد ؟ لطفا بعد از باز کردن و بستن دوباره امتحان کنید [حالت هواپیما]</string>
+    <string name="content_push_warm">* اگر ویژگی فشار پیام کار نمی کند ، اینجا کلیک کنید و باز کنید </string>
+    <string name="content_reconnecting">سرویس یا اینترنت busying است ، لطفا صبر کنید...</string>
+    <string name="content_manual_reconnect">همگام سازی دستی دستگاه ها</string>
+    <string name="content_login_means">ورود و پذیرش</string>
+    <string name="content_terms">شرایط استفاده از خدمات</string>
+    <string name="content_terms_title">حریم خصوصی و سیاست سلامت</string>
+    <string name="content_terms_first">* ما قدردانی می کنیم که شما به ما اعتماد با اطلاعاتی که برای شما مهم است ، بنابراین برخی از توابع برنامه نیاز به اجازه شما برای کار.</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>اینجا</a></font> ما شیوه های حفظ حریم خصوصی را برای دستگاه های خود توصیف می کنیم ، شما در مورد اطلاعاتی که جمع آوری می کنیم ، نحوه استفاده از آن را یاد خواهید گرفت.]]></string>
+    <string name="content_terms_third">* این محصول یک دستگاه پزشکی نیست ، و در نظر گرفته شده است برای تشخیص ، درمان ، درمان ، و یا جلوگیری از هر گونه بیماری است. با توجه به دقت ، دقت دستگاه ها در نظر گرفته شده برای مطابقت با دستگاه های پزشکی و یا دستگاه های اندازه گیری علمی نیست.</string>
+    <string name="content_verification_help"><![CDATA[عدم دریافت تایید ؟کلیک کنید<font color=#04F5D1> <a href=\'%s\'>اینجا</a> </font> برای کمک]]></string>
+    <string name="issue_with_log_in_or_sign_in">مشکل با ورود به سیستم یا ورود به سیستم</string>
+    <string name="content_troubleshooting_help"><![CDATA[کلیک کنید<font color=#04F5D1> <a href=\'%s\'>اینجا برای دریافت عیب یابی]]></string>
+    <string name="content_sleep_accuracy">نتایج دقیق چگونه است ؟</string>
+    <string name="content_sleep_accuracy_1">ردیابی خودکار ردیابی خواب به طور کلی دقیق در نظر گرفته ، آنها نیز مستعد ابتلا به خطاها به دلیل عادات کاربر متفاوت است.</string>
+    <string name="content_sleep_accuracy_2">لطفا بررسی کیفیت خواب بعد از آن هیچ اطلاعات زمانی که شما فقط به پایان رسید خواب در 30 دقیقه, داده ها در حال تجزیه و تحلیل.</string>
+    <string name="content_accuracy_title">درباره دقت نتیجه</string>
+    <string name="content_app_unsupport_tips">این تابع ، لطفا تنظیم در دستبند</string>
+    <string name="content_permission_notification_enable">"[اعلان] مجوز تعطیل شده است ، لطفا اجازه دهید در غیر این صورت تابع [پیدا کردن دستگاه] 、 [نوار اطلاع رسانی] خرابی خواهد کرد"</string>
+    <string name="content_connect_google_fit">پیوند Google Fit</string>
+    <string name="content_unlink_google_fit">لغو پیوند Google Fit</string>
+    <string name="title_associate_google_fit">مرتبط با Google Fit</string>
+    <string name="content_unit_time">فرمت زمان دستگاه</string>
+    <string name="content_upload_google_fit_now">ارسال داده ها به GOOGLE FIT اکنون</string>
+    <string name="content_tips_of_google_fit">داده ها به طور خودکار در اطراف 00:00/04:00/8:00/12:00/16:00/20:00 به صورت روزانه با Google Fit همگام سازی می شوند.</string>
+
+    <string name="content_answer">لطفا پاسخ را وارد کنید</string>
+    <string name="content_input_email_different">دو ایمیل ورودی متفاوت هستند</string>
+    <string name="content_resetpsw_now">بازیابی رمز عبور</string>
+    <string name="content_new_psw">کلمه عبور جدید:</string>
+    <string name="content_question1">1:</string>
+    <string name="content_question2">2:</string>
+    <string name="content_input_reg_email">ایمیل ثبت شده شما:</string>
+    <string name="content_register_question_step1">1. ایمیل و رمز عبور را پر کنید</string>
+    <string name="content_register_question_step2">2. وارد کردن پاسخ امنیتی</string>
+    <string name="content_retrieve_type">بازیابی رمز عبور توسط:</string>
+    <string name="content_register_success">ثبت نام موفق است!</string>
+    <string name="content_resetpsw_success">اصلاح رمز عبور موفق است!</string>
+    <string name="content_resetpsw_wrong_answer">پاسخ امنیتی مخفی اشتباه است!</string>
+    <string name="content_from_auth_code">تأیید ایمیل</string>
+    <string name="content_from_question">پاسخ امنیتی</string>
+    <string name="question1_1">داده های حیوان خانگی اول/فعلی/مورد علاقه شما چه بود ؟</string>
+    <string name="question1_2">کتاب مورد علاقه شما چیست ؟</string>
+    <string name="question1_3">غذای مورد علاقه شما چیست ؟</string>
+    <string name="question2_4">اولین شرکتی که برای آن کار کردید چه بود ؟</string>
+    <string name="question2_5">اطلاعات مادر شما چیست ؟</string>
+    <string name="question2_6">شما در چه شهر متولد شده اید ؟</string>
+    <string name="content_connect_strava">لینک به Strava</string>
+    <string name="content_unlink_strava">لغو پیوند از Strava</string>
+    <string name="content_tips_of_strava">پس از پیوند Strava ، شما می توانید مسیر حرکت خود را به Strava در رابط ضبط مسیر حرکت ارسال کنید.</string>
+    <string name="content_uploaded_to_strava">ارسال شده به Strava</string>
+    <string name="content_upload_to_strava">ارسال به استراوا</string>
+    <string name="content_retry">دوباره</string>
+    <string name="content_err_save_sport_track_data_network_fail">قادر به ذخیره داده های ردیابی حرکت نیست ، لطفا تنظیمات شبکه را بررسی کنید</string>
+    <string name="content_donot_save">ذخیره نشود</string>
+    <string name="content_link">لینک</string>
+    <string name="content_help_and_feedback">کمک و بازخورد</string>
+
+
+    <string name="content_my_friends">دوستان</string>
+    <string name="content_search_friends_hint">شناسه کاربری/ایمیل</string>
+    <string name="toast_tips_req_add_friends">درخواست دوستان شما ارسال شده است</string>
+    <string name="title_tab_msg_system">آنچه جدید \'s</string>
+    <string name="title_tab_msg_add_friend">درخواست دوستان</string>
+    <string name="title_tab_my_friends">دوستان</string>
+    <string name="content_add_agree_friends">می خواهم شما را به عنوان یک دوست اضافه کنید</string>
+    <string name="content_btn_agreed">قبول</string>
+    <string name="content_btn_refused">انکار</string>
+    <string name="content_encourage">تشویق</string>
+    <string name="content_zan">راندن</string>
+    <string name="content_add_friends">افزودن به عنوان دوست</string>
+    <string name="content_already_friends">پذیرفته شده</string>
+    <string name="content_already_refused">محروم</string>
+    <string name="content_nickname">نام مستعار:</string>
+    <string name="content_nickname_2">نام مستعار</string>
+    <string name="content_sign_null">خالی در اینجا</string>
+    <string name="content_sign">نوشتن چیزی برای نشان دادن</string>
+    <string name="content_setting_sign">امضا</string>
+    <string name="content_remark_null">خالی در اینجا</string>
+    <string name="content_user_info">اطلاعات کاربر</string>
+    <string name="content_set_remark">توجه داشته باشید</string>
+    <string name="content_average_blood_oxygen">BO Avg.</string>
+    <string name="content_step_num">مراحل</string>
+    <string name="content_sleep_data">خواب</string>
+    <string name="content_bp_bo">BP/BO</string>
+    <string name="content_invite_friends">دعوت از دیگر برای پیوستن به هم اکنون</string>
+    <string name="content_save_image">ذخیره تصاویر</string>
+
+    <string name="content_encourage_you">شما را تشویق</string>
+    <string name="content_zan_you">ستایش شما</string>
+
+    <string name="content_no_friends">Didn \ ŧ پیدا کردن دوستان خود</string>
+    <string name="content_search_friends_input_err">لطفا شناسه کاربر صحیح را وارد کنید/ایمیل</string>
+
+    <string name="content_weather_sunny_day">آفتابی</string>
+    <string name="content_weather_cloudy">ابری</string>
+    <string name="content_weather_snow">برفی</string>
+    <string name="content_weather_cloudy_day">باران</string>
+    <string name="content_weather_rain">بارانی</string>
+
+
+
+    <string name="content_my_ideal_weight">تناسب اندام ایده آل من</string>
+    <string name="content_intake_calories">تنظیم روزانه مصرف کالورس</string>
+    <string name="content_sport_target">مراحل روزانه تنظیمات ورزشی</string>
+    <string name="content_intake_tips_head">حداکثر مصرف توصیه شده است</string>
+    <string name="content_intake_tips_foot">مواد غذایی با کالری</string>
+    <string name="content_recorded_meal">ورود%d غذا%s</string>
+    <string name="content_this_meal_to_eat">ورود من مصرف کالری</string>
+    <string name="content_food_input_empty_tips">ورودی چیزی</string>
+    <string name="content_record_meal_to_eat">ورود مصرف غذا</string>
+    <string name="content_edit">ویرایش</string>
+    <string name="content_your_goal_is_to_subtract">هدف شما از دست دادن</string>
+    <string name="content_the_current_every_day_for_a_sport_target">سطح فعالیت روزانه شما</string>
+    <string name="content_when_is_the_daily_consumption">هنگامی که سوختگی روزانه</string>
+    <string name="content_daily_intake_is">مصرف روزانه</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">برآورد وزن روزانه از دست دادن است</string>
+    <string name="content_need_to_complete">نیازهای موفقیت</string>
+    <string name="content_expected_time_for_success">تاریخ پایان تخمینی</string>
+    <string name="content_please_adjust_the_plan">لطفا طرح خود را تغییر دهید</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">هدف شما باید کمتر از وزن فعلی باشد</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">تغییر طرح خود را برای دریافت مناسب</string>
+    <string name="content_recommended_daily_intake">پایگاه در وضعیت سلامت شما و وزن هدف ، مصرف روزانه توصیه می شود کالری خود را حدود</string>
+    <string name="content_average_daily_calorie_deficit">میانگین کمبود کالری</string>
+    <string name="content_intake_of_qualified_days">روز تحت هدف مصرف</string>
+    <string name="content_average_daily_intake_of_calories">Avg. مصرف کالری</string>
+    <string name="content_the_highest_intake_of_calories">حداکثر مصرف روزانه</string>
+    <string name="content_not_clock_in_number_of_days">روز مصرف من ورود نیست</string>
+    <string name="content_click_add_meal">بر روی آیکون در سمت راست ضربه بزنید تا وارد شوید مصرف غذا</string>
+    <string name="content_total_intake_about">مصرف مجموع </string>
+    <string name="content_calorie_consumption">سوزاندن کالری</string>
+    <string name="content_calorie_intake">مصرف کالری</string>
+    <string name="content_target_bmi">Bmi</string>
+    <string name="content_diet_help_tips">پایه بر روی فرد جنس و سن به صدای ناهنجار خود را و یا سوخت و ساز بدن خود را itemType ، پس از آن کاربر ورودی وزن و مراحل را به برآورد تاریخ رسیدن به هدف وزن از دست دادن ، لطفا توجه داشته باشید که فرد و زندگی ممکن است تغییرات منجر به اعوجاج نتیجه نحوی. نه برای مقاصد پزشکی</string>
+    <string name="content_have_the_calories_you_eat">چه مقدار من خوردند</string>
+    <string name="content_diet_start">گام بعدی برای ورود امروز مصرف</string>
+    <string name="content_food_name">نام مواد غذایی</string>
+    <string name="content_amount">اندازه</string>
+    <string name="content_unit">واحد</string>
+    <string name="content_cur_weight">وزن فعلی</string>
+    <string name="content_target_weight">وزن هدف</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">ورزش برای شروع تمرین در ورزشگاه برای کاربر عادی</string>
+    <string name="sport_encourage_prompt_1">شما به پایان رسید ارتفاع Fujisan معادلات</string>
+    <string name="sport_encourage_prompt_2">انجام توصیه های مربوط به اهداف روزانه بزرگسالان که</string>
+    <string name="sport_encourage_prompt_3">شما در مورد کاهش می یابد 805g Co2 برای این سیاره سبز</string>
+    <string name="sport_encourage_prompt_4">فاصله بین لوور و برج ایفل</string>
+    <string name="sport_encourage_prompt_5">شما 30 laps در زمین بازی به پایان رسید حدود</string>
+    <string name="sport_encourage_prompt_6">فاصله است ترجمه را به دوچرخه سواری بیش از 1 ساعت</string>
+    <string name="sleep_duration_encourage_prompt_0">مدت زمان خواب شما خیلی کوتاه است</string>
+    <string name="sleep_duration_encourage_prompt_1">کمبود مزمن خواب منجر به بیماری های قلبی</string>
+    <string name="sleep_duration_encourage_prompt_2">خواب خوب پایه سلامتی خوب است</string>
+    <string name="sleep_duration_encourage_prompt_3">هیچ مدت خواب بد</string>
+    <string name="sleep_duration_encourage_prompt_4">شما مدت خواب دلخواهی </string>
+    <string name="sleep_duration_encourage_prompt_5">روز تازه و قوی</string>
+    <string name="sleep_duration_encourage_prompt_6">Eh, شما مدت زمان طولانی خواب نسبت به بزرگسالان عادی</string>
+    <string name="sleep_duration_encourage_prompt_7">شاید زمان آن را برای شما به بررسی دستگاه و راه پوشیدن خود را</string>
+    <string name="sleep_time_encourage_prompt_0">لطفا دستگاه خود را برای پوشیدن مناسب بررسی کنید</string>
+    <string name="sleep_time_encourage_prompt_1">زمان خواب دلخواهی</string>
+    <string name="sleep_time_encourage_prompt_2">بهترین زمان برای خواب</string>
+    <string name="sleep_time_encourage_prompt_3">زمان خواب معقول کلید کیفیت خواب بسیار عالی است </string>
+    <string name="sleep_time_encourage_prompt_4">پخش برخی از موسیقی نرم قبل از شروع خواب</string>
+    <string name="sleep_time_encourage_prompt_5">0 – 1 0 \'ساعت دوره مهم برای کبد و کلیه سم زدایی است</string>
+    <string name="sleep_time_encourage_prompt_6">خواب قبل از خواب خود را, نمی ماند تا اواخر</string>
+    <string name="sleep_time_encourage_prompt_7">طولانی مدت اقامت تا اواخر آسیب بزرگ به بدن ، منجر به خستگی فیزیکی</string>
+    <string name="title_health_advisor">مشاور سلامت</string>
+    <string name="content_ranking">رتبه بندی</string>
+    <string name="content_friends_ranking">رتبه بندی شما</string>
+    <string name="content_my_step_ranking">مرحله رتبه بندی جهانی</string>
+    <string name="content_my_sleep_details">جزئیات خواب</string>
+    <string name="content_week_avg">میانگین این هفته</string>
+    <string name="content_rg_week_avg">میانگین هفتگی</string>
+    <string name="content_rg_month_avg">میانگین ماهانه</string>
+    <string name="content_my_sleep_duration_ranking">مدت زمان خواب رتبه بندی جهانی</string>
+    <string name="content_my_sleep_time_ranking">زمان خواب رتبه بندی جهانی</string>
+    <string name="content_range_avg_time">زمان متوسط در%s-%s</string>
+    <string name="content_more_than_user">بیش از%d%% کاربران</string>
+    <string name="content_later_than_user">بعد از%d%% کاربران</string>
+
+    <string name="title_change_wallpaper">تصویر زمینه</string>
+    <string name="content_setup_complete">پایان تنظیم!</string>
+    <string name="enable_wallpaper_fun">عملکرد تصویر زمینه</string>
+    <string name="enable_wallpaper_step_fun">پلاگین گام شمار</string>
+    <string name="content_not_saved">لغو ذخیره</string>
+    <string name="content_not_saved_tips">آیا می خواهید ذخیره سازی را رها کنید و ترک کنید ؟</string>
+    <string name="content_wallpaper_transmission">بهنگام درآوری...</string>
+    <string name="content_wallpaper_textcolor">رنگ فونت</string>
+
+    <string name="title_sport_mode">حالت ورزشی</string>
+    <string name="sport_mode_walking">پیاده روی</string>
+    <string name="sport_mode_running">اجرا</string>
+    <string name="sport_mode_mountaineering">کوهنوردی</string>
+    <string name="sport_mode_cycling">دوچرخه سواری</string>
+    <string name="sport_mode_table_tennis">Pingpong</string>
+    <string name="sport_mode_basketball">بسکتبال</string>
+    <string name="sport_mode_football">فوتبال</string>
+    <string name="sport_mode_badminton">بدمینتون</string>
+    <string name="sport_mode_treadmill">تردمیل</string>
+    <string name="sport_mode_tennis">تنیس</string>
+    <string name="sport_mode_swimming">شنا</string>
+    <string name="unit_three_month">3 ماهپیش</string>
+    <string name="content_duration">مدت زمان</string>
+    <string name="content_last_sport">تاریخ و زمان آخرین ورزش</string>
+    <string name="content_sport_mode_count">%d بار</string>
+    <string name="content_finish_distance">فاصله</string>
+    <string name="content_finish_calorie">کالری</string>
+	<string name="content_update_ota">1.دستگاه نگاه داشتن ارتقا با ثبات اتصال بلوتوث\n2.آیا ترک نمی برنامه ارتقاء راه\n3.به روز رسانی نیاز دقیقه 1-3، در یک صفحه نمایش سیاه و سفید و در نتیجه در صورتی که دستگاه نتواند به روز رسانی، انجام حذف برنامه نیست و یا تعویض گوشی! برنامه را به دوباره ارتقا دهید</string>
+	<string name="toast_electric_low_ota_tips">ظرفیت تجهیزات است کمتر از 50 درصد، مجاز به ارتقا دهید!</string>
+	<string name="content_guest_login_alert">تحت تاثیر ارتقاء سیستم, کاربر انکار فعال از مجوز, اندیشه نسخه آینده و عوامل دیگر, کد هویت منحصر به فرد از بازدید کننده بومی ممکن است تغییر, کاربران که با استفاده از "ورود به سیستم توریستی" به احتمال زیاد خواهد بود وضعیت از دست دادن داده, توصیه می شود برای ثبت نام کاربران از طریق ایمیل.</string>
+    <string name="content_terms_mob">به منظور تحقق بخشیدن به حساب کاربری شخص ثالث و عملکرد جمع آوری گزارش ، ما از محصول mobsdk mobtech استفاده می کنیم. برای شرایط سیاست حفظ حریم خصوصی این محصول ، لطفا به این آدرس مراجعه کنید: http: www.mob.comaboutpolicy</string>
+    <string name="content_terms_accept">شما باید شرایط خدمات ما را بپذیرید</string>
+</resources>

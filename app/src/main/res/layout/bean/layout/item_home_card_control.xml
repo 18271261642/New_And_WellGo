@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <include
+        layout="@layout/item_home_card_view"
+        android:layout_margin="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbCardControlButton"
+        android:button="@null"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_card_control_button" />
+</RelativeLayout>

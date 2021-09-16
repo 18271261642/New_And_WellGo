@@ -1,0 +1,14 @@
+include ':wifiLibrary'
+include ':MPChartLib'
+include ':app',
+        ':JavaTestLib',
+        ':DZBLELibrary',
+        ':SNDBLibrary',
+        ':SNBLELibrary',
+        ':SNToolLibrary',
+        ':SNMapLibrary',
+        ':AppDataLibrary',
+        ':SNNetworkLibrary',
+        ':BleOTASupport',
+        ':SNLoginLibrary',
+        ':CameraLibrary'

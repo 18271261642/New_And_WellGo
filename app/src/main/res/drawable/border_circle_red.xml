@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/widget_size_50" />
+    <size
+        android:width="@dimen/widget_size_50"
+        android:height="@dimen/widget_size_50" />
+    <solid android:color="@color/colorRed" />
+</shape>

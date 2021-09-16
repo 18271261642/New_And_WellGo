@@ -1,0 +1,14 @@
+<resources>
+    <string name="error_phone_registered">Обліковий запис зареєстровано</string>
+    <string name="error_user_not_exists">Користувач не існує, будь ласка, зареєструйтеся</string>
+    <string name="error_password_error">Ім\'я користувача або помилка пароля</string>
+    <string name="error_phone_invalid">Недійсний номер мобільного телефону</string>
+    <string name="error_sms_too_frequently">Запитувати SMS занадто багато</string>
+    <string name="error_captcha_expired">код підтвердження неправильний або закінчився</string>
+    <string name="error_captcha_wrong">код підтвердження неправильний або закінчився</string>
+    <string name="error_captcha_failure">помилка коду перевірки</string>
+    <string name="error_email_registered">Обліковий запис зареєстровано</string>
+    <string name="error_captcha_req_success">запитує код успіху</string>
+    <string name="network_err">Мережеве підключення нестійке, перевірте, чи не відкрита мережа</string>
+
+</resources>

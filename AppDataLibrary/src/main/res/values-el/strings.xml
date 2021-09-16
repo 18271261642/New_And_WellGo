@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">λογαριασμό καταχωρημένο</string>
+	<string name="error_user_not_exists">Δεν υπάρχει έλεγχος ταυτότητας, σε παρακαλώ</string>
+	<string name="error_password_error">ταυτότητα ή λάθος κωδικό</string>
+	<string name="error_phone_invalid">Το τηλέφωνο είναι άκυρη</string>
+	<string name="error_sms_too_frequently">Αίτηση πολύ συχνά</string>
+	<string name="error_captcha_expired">ισχύς έληξε</string>
+	<string name="error_captcha_wrong">ισχύς έληξε</string>
+	<string name="error_captcha_failure">επικύρωση αποτύχει</string>
+	<string name="error_email_registered">λογαριασμό καταχωρημένο</string>
+	<string name="error_captcha_req_success">Το αίτημα για την ολοκλήρωση</string>
+	<string name="network_err">Σύνδεση με το Διαδίκτυο απέτυχε, παρακαλώ προσπαθήστε αργότερα</string>
+
+</resources>

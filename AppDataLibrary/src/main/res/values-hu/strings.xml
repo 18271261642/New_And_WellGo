@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">a számla már bejegyezték</string>
+	<string name="error_user_not_exists">személyi nem létezett, ellenőrizze</string>
+	<string name="error_password_error">az azonosító és jelszó van</string>
+	<string name="error_phone_invalid">a telefonszám.</string>
+	<string name="error_sms_too_frequently">a kérelem túl gyakori</string>
+	<string name="error_captcha_expired">ellenőrzési lejárt</string>
+	<string name="error_captcha_wrong">ellenőrzési lejárt</string>
+	<string name="error_captcha_failure">az ellenőrzés nem</string>
+	<string name="error_email_registered">a számla már bejegyezték</string>
+	<string name="error_captcha_req_success">kitöltött kérelem</string>
+	<string name="network_err">az internetet nem próbálja meg később.</string>
+
+</resources>

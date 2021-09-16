@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="@dimen/widget_size_5"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="@string/content_time_interval"
+        android:textSize="@dimen/text_size_15"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgTimeIntervalGroup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeIntervalHalfHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle_white"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingEnd="@dimen/widget_size_10"
+            android:paddingStart="@dimen/widget_size_10"
+            android:text="00:30"
+            android:textColor="@color/text_radio_button_bg"
+            android:textSize="@dimen/text_size_15" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeIntervalOneHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle_white"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingEnd="@dimen/widget_size_10"
+            android:paddingStart="@dimen/widget_size_10"
+            android:text="01:00"
+            android:textColor="@color/text_radio_button_bg"
+            android:textSize="@dimen/text_size_15"
+          />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeIntervalTwoHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle_white"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingEnd="@dimen/widget_size_10"
+            android:paddingStart="@dimen/widget_size_10"
+            android:text="02:00"
+            android:textColor="@color/text_radio_button_bg"
+            android:textSize="@dimen/text_size_15"
+            android:translationX="-2dp" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbTimeIntervalThreeHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle_white"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingEnd="@dimen/widget_size_10"
+            android:paddingStart="@dimen/widget_size_10"
+            android:text="03:00"
+            android:textColor="@color/text_radio_button_bg"
+            android:textSize="@dimen/text_size_15"
+            android:translationX="-3dp" />
+    </RadioGroup>
+
+</LinearLayout>

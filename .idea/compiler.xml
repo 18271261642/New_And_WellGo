@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="And_GetFitPro.app" target="1.8" />
+      <module name="And_GetFitPro.AppDataLibrary" target="1.8" />
+      <module name="And_GetFitPro.BleOTASupport" target="1.8" />
+      <module name="And_GetFitPro.CameraLibrary" target="1.8" />
+      <module name="And_GetFitPro.DZBLELibrary" target="1.8" />
+      <module name="And_GetFitPro.SNBLELibrary" target="1.8" />
+      <module name="And_GetFitPro.SNDBLibrary" target="1.8" />
+      <module name="And_GetFitPro.SNLoginLibrary" target="1.8" />
+      <module name="And_GetFitPro.SNMapLibrary" target="1.8" />
+      <module name="And_GetFitPro.SNNetworkLibrary" target="1.8" />
+      <module name="And_GetFitPro.SNToolLibrary" target="1.8" />
+      <module name="New_And_WellGo.app" target="1.8" />
+      <module name="New_And_WellGo.AppDataLibrary" target="1.8" />
+      <module name="New_And_WellGo.BleOTASupport" target="1.8" />
+      <module name="New_And_WellGo.CameraLibrary" target="1.8" />
+      <module name="New_And_WellGo.DZBLELibrary" target="1.8" />
+      <module name="New_And_WellGo.SNBLELibrary" target="1.8" />
+      <module name="New_And_WellGo.SNDBLibrary" target="1.8" />
+      <module name="New_And_WellGo.SNLoginLibrary" target="1.8" />
+      <module name="New_And_WellGo.SNMapLibrary" target="1.8" />
+      <module name="New_And_WellGo.SNNetworkLibrary" target="1.8" />
+      <module name="New_And_WellGo.SNToolLibrary" target="1.8" />
+      <module name="New_And_WellGo.wifiLibrary" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

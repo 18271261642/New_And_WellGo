@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./SNMapLibrary/libs/AMap_Location_V4.7.1_20190803.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SNMapLibrary/libs/AMap_Location_V4.7.1_20190803.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

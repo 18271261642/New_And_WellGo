@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">tili on rekisteröity jo</string>
+	<string name="error_user_not_exists">henkilökortti ei ole olemassa, tarkista</string>
+	<string name="error_password_error">id - tai salasana on väärin.</string>
+	<string name="error_phone_invalid">puhelinnumero on pätemätön</string>
+	<string name="error_sms_too_frequently">pyyntö on liian usein</string>
+	<string name="error_captcha_expired">todentaminen on päättynyt</string>
+	<string name="error_captcha_wrong">todentaminen on päättynyt</string>
+	<string name="error_captcha_failure">tarkastus ei</string>
+	<string name="error_email_registered">tili on rekisteröity jo</string>
+	<string name="error_captcha_req_success">pyyntö päätökseen.</string>
+	<string name="network_err">internet - yhteys ei toimi, yritä myöhemmin.</string>
+
+</resources>

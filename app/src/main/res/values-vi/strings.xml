@@ -1,0 +1,621 @@
+<resources>
+    <string name="app_name">WellGo</string>
+    <string name="loading">Tải...</string>
+    <string name="tab_home">Nhà</string>
+    <string name="tab_track">Theo dõi</string>
+    <string name="tab_device">Thiết bị</string>
+    <string name="tab_user">Tôi</string>
+    <string name="course">Khoảng cách</string>
+    <string name="target_step">Mục tiêu</string>
+    <string name="big_calories">Kcal</string>
+    <string name="you_health">SỨC KHỎE CỦA BẠN</string>
+    <string name="heart_rate">Hr</string>
+    <string name="blood_pressure">Bp</string>
+    <string name="blood_oxygen">Bởi vì</string>
+
+    <string name="rung">-</string>
+    <string name="sleep_record">CHẤT LƯỢNG GIẤC NGỦ</string>
+    <string name="check_self">Khỏe mạnh</string>
+    <string name="heart_record">NHỊP TIM</string>
+    <string name="blood_pressure_record">HUYẾT ÁP</string>
+    <string name="blood_oxygen_record">ÔXY TRONG MÁU</string>
+    <string name="title_today_sleep">PHÂN TÍCH GIẤC NGỦ</string>
+    <string name="sleep_total_time">Thời gian</string>
+    <string name="sleep_valid_time">Thời gian hiệu quả</string>
+    <string name="sleep_quality_time">Chất lượng</string>
+    <string name="sleep_details">CHI TIẾT VỀ GIẤC NGỦ</string>
+
+    <string name="sleep_deep">Ngủ</string>
+    <string name="sleep_light">Bồn chồn</string>
+    <string name="sleep_awake">Thức</string>
+    <string name="heart_details">CHI TIẾT NHÂN SỰ</string>
+    <string name="blood_pressure_details">BP CHI TIẾT</string>
+    <string name="blood_oxygen_details">BO CHI TIẾT</string>
+    <string name="title_track_setting">Thiết lập</string>
+    <string name="item_device_remote_camera">MÁY ẢNH TỪ XA</string>
+    <string name="item_device_search_band">TÌM THIẾT BỊ</string>
+    <string name="item_device_health_reminder">SỨC KHỎE NHẮC NHỞ</string>
+    <string name="item_device_schedule_reminder">Calendar</string>
+    <string name="item_device_alarm_clock">Báo</string>
+    <string name="item_device_push">Thông báo</string>
+
+    <string name="delete">Xóa</string>
+
+    <string name="content_five_clock">Bạn có thể thiết lập 5 báo thức.</string>
+    <string name="content_remind_sedentary">Hoạt động nhắc nhở</string>
+    <string name="content_reminder_drink">Uống nhắc nhở</string>
+
+    <string name="day">Ngày</string>
+    <string name="month">Tháng</string>
+    <string name="year">Năm</string>
+    <string name="step">Bước</string>
+    <string name="hour">Giờ</string>
+
+    <!--通用单位-->
+    <string name="unit_hours">h</string>
+    <string name="unit_min">Phút</string>
+    <string name="unit_heart">Bpm</string>
+    <string name="unit_pressure">Mmhg</string>
+    <string name="unit_week">Tuần</string>
+    <string name="unit_day">Ngày</string>
+    <string name="unit_month">Tháng</string>
+    <string name="unit_year">Năm</string>
+
+    <string name="unit_cal">Kcal</string>
+    <string name="unit_km">Km</string>
+    <string name="unit_km_h">Km/h</string>
+    <string name="unit_mile">Mile</string>
+    <string name="unit_mile_h">dặm/giờ</string>
+    <string name="unit_C">℃</string>
+    <string name="unit_F">℉</string>
+    <string name="unit_kg">Kg</string>
+    <string name="unit_pounds">Pound</string>
+    <string name="unit_version">V %1$s</string>
+    <string name="unit_cm">Cm</string>
+
+    <string name="content_standard_days">Ngày mục tiêu</string>
+    <string name="content_avg_day_steps">Trung bước</string>
+    <string name="content_avg_month_steps">Trung bước</string>
+    <string name="content_avg_day_consume">Giá trung ghi</string>
+    <string name="content_avg_month_consume">Giá trung ghi</string>
+    <string name="content_total_distance">Khoảng cách</string>
+    <string name="content_avg_day_distance">Khoảng cách trung</string>
+    <string name="content_avg_month_distance">Khoảng cách trung</string>
+    <string name="content_total_steps">Tất cả</string>
+    <string name="content_greatest_good">Các ngày > = tốt</string>
+    <string name="content_total_time_sleep">Giấc ngủ hiệu quả</string>
+    <string name="content_daily_time_sleep">Trung hiệu</string>
+    <string name="content_longest_single_sleep">Ngủ dài nhất</string>
+    <string name="content_proportion_of_sleep">Giấc ngủ hiệu quả</string>
+    <string name="content_quality_sleep">Chất lượng</string>
+    <string name="content_average_heart">Avg.</string>
+    <string name="content_highest_heart">Max.</string>
+    <string name="content_minimum_heart">Phút.</string>
+    <string name="content_heart_too_high">trên cao</string>
+    <string name="content_heart_too_low">quá thấp</string>
+    <string name="content_average_pressure_diastolic">Giá trung DBP</string>
+    <string name="content_average_pressure_systolic">Trung giá SBP</string>
+    <string name="content_abnormal_systolic">Bất thường SBP</string>
+    <string name="content_abnormal_diastolic">DBP bất thường</string>
+    <string name="content_max_value">Max.</string>
+    <string name="content_avg_value">Avg.</string>
+    <string name="content_min_value">Phút.</string>
+    <string name="content_no">Không</string>
+    <string name="content_yes">Có</string>
+    <string name="content_total_mileage">Khoảng cách</string>
+    <string name="content_burn_calories">Ghi</string>
+    <string name="content_total_time_consumed">Thời gian</string>
+    <string name="content_air_quality">Chất lượng không khí</string>
+    <string name="content_completed">Khoảng cách</string>
+    <string name="content_calorie_burning">Ghi</string>
+    <string name="content_per_hour">Tốc độ</string>
+    <string name="content_pace">Tốc độ</string>
+    <string name="content_time_consuming">Thời gian</string>
+    <string name="content_keep_screen_light">Giữ đèn Screen on</string>
+    <string name="content_shake_band_start">Thiết bị rung khi chạy bắt đầu</string>
+    <string name="content_shake_band_end">Thiết bị rung khi chạy kết thúc</string>
+    <string name="content_show_weather">Hiển thị thời tiết</string>
+    <string name="content_need_open_gps">Chức năng GPS không khả dụng và có thể gây ra sự thiếu chính xác về vị trí, hãy kích hoạt GPS trên điện thoại của bạn.</string>
+    <string name="content_open_now">Hoạt động</string>
+    <string name="content_leave_running">Bỏ</string>
+    <string name="content_confirm">Ok</string>
+    <string name="content_cancel">Hủy bỏ</string>
+    <string name="content_running_outside">Vui lòng sử dụng chức năng GPS ngoài trời để có độ chính xác cao hơn về vị trí.</string>
+    <string name="content_current_power"> Pin thiết bị:</string>
+    <string name="content_mac_address">Mac:</string>
+    <string name="content_shaking_band">Thiết bị rung...</string>
+    <string name="title_connected">Kết nối </string>
+
+    <string name="content_scanning_start">THIẾT BỊ SCAN</string>
+    <string name="toast_un_support_ble">Thiết bị của bạn không hỗ trợ Bluetooth BLE.</string>
+    <string name="toast_bluetooth_is_close">Bluetooth chưa có sẵn.</string>
+    <string name="toast_band_is_disconnect">APP chưa được kết nối với thiết bị.</string>
+
+    <string name="title_today">Nay</string>
+    <string name="title_device_setting">Thiết lập</string>
+    <string name="title_about_app">ĐƠN VỊ VÀ CÀI ĐẶT ỨNG DỤNG</string>
+    <string name="title_feedback">LIÊN HỆ VỚI CHÚNG TÔI</string>
+    <string name="title_update_band">PHẦN MỀM THIẾT BỊ</string>
+    <string name="title_health_reminder">SỨC KHỎE NHẮC NHỞ</string>
+    <string name="title_alarm">Báo</string>
+    <string name="title_schedule_reminder">Calendar</string>
+    <string name="title_message_push">Thông báo</string>
+
+    <string name="content_band_update">Cập nhật phần mềm thiết bị</string>
+    <string name="content_about_app">Đơn vị và cài đặt ứng dụng</string>
+    <string name="content_feedback">Liên hệ với chúng tôi</string>
+    <string name="content_reset">Thiết bị nhà máy mặc định</string>
+    <string name="content_clean_cache">Xóa bộ nhớ cache của ứng dụng</string>
+    <string name="content_unblock_device">Kết nối thiết bị unbind</string>
+    <string name="content_heart_detection">NHÂN sự tự động phát hiện</string>
+    <string name="content_light_screen">Xoay đến ánh sáng</string>
+    <string name="content_lost_reminder">Chống mất</string>
+
+    <string name="content_ota_update">Cập nhật</string>
+
+    <string name="content_app_current_version">Phiên bản ứng dụng</string>
+    <string name="content_app_last_version">Phiên bản ứng dụng mới nhất</string>
+    <string name="content_unit_distance">Đơn vị chiều dài</string>
+    <string name="content_unit_temperature">Đơn vị nhiệt độ</string>
+    <string name="content_unit_weight">Đơn vị trọng lượng</string>
+    <string name="content_app_auto_update">Tự động cập nhật ứng dụng</string>
+    <string name="content_app_auto_sync">Tự động đồng bộ hóa dữ liệu</string>
+
+    <string name="content_sport_done">Kết thúc</string>
+    <string name="content_submit">Gửi</string>
+    <string name="content_feedback_content">Cảm ơn phản hồi của bạn.</string>
+    <string name="content_exit">Hủy bỏ</string>
+    <string name="content_call_reminder">Cuộc gọi đến đẩy</string>
+    <string name="content_message_reminder">SMS nhắc nhở</string>
+    <string name="content_do_not_disturb">Chế độ im lặng</string>
+
+    <string name="reminder_facebook">Facebook</string>
+    <string name="reminder_weChat">Wechat</string>
+    <string name="reminder_line">Line</string>
+    <string name="reminder_weibo">Weibo</string>
+    <string name="reminder_linkin">Linkin</string>
+    <string name="reminder_qq">QQ</string>
+    <string name="reminder_google_plus">Google Plus</string>
+
+
+    <string name="content_choose_repeat_cycle">Chọn chế độ lặp lại</string>
+    <string name="content_repeat">Lặp lại</string>
+    <string name="content_title_exit_account">Chắc chắn để bỏ tài khoản hiện tại bây giờ?</string>
+    <string name="content_last_weight">Trọng lượng cơ thể:</string>
+    <string name="content_last_date">Ngày trọng lượng:</string>
+    <string name="content_personal_best_record">NGÀY TỐT NHẤT</string>
+    <string name="content_standard_day">MỤC TIÊU TỐI ĐA</string>
+    <string name="content_best_week">TUẦN TỐT NHẤT</string>
+    <string name="content_best_month">THÁNG TỐT NHẤT</string>
+    <string name="content_personal_setting">Thiết lập</string>
+    <string name="content_exit_current_account">Đăng xuất</string>
+    <string name="content_bmi_index">Bmi:</string>
+    <string name="content_setting_nickname">Tên</string>
+    <string name="content_setting_gender">Giới</string>
+    <string name="content_setting_birth_year">Sinh</string>
+    <string name="content_setting_height">Chiều cao</string>
+    <string name="content_setting_last_weight">Trọng lượng cơ thể</string>
+    <string name="content_setting_bmi_index">Bmi</string>
+    <string name="content_setting_day_target">Mục tiêu bước</string>
+    <string name="content_setting_save">Lưu</string>
+    <string name="content_setting_next">Tiếp theo</string>
+    <string name="content_gender_female">Nữ</string>
+    <string name="content_gender_male">Nam</string>
+    <string name="bmi_too_light">quá sáng</string>
+    <string name="bmi_normal">Bình thường</string>
+    <string name="bmi_too_heavy">hơi béo</string>
+    <string name="bmi_obesity">Obese</string>
+    <string name="bmi_very_fat">Over-béo phì</string>
+    <string name="content_bmi_paragraph_1">BMI (chỉ số khối cơ thể) là một tiêu chuẩn quốc tế để đo lường cơ thể là chất béo hay không, đó cũng là một giá trị tham khảo về sức khỏe. phải mất chiều cao và trọng lượng vào xem xét.</string>
+    <string name="content_bmi_paragraph_2">BMI là một cách dễ sử dụng để phản ứng với điều kiện cơ thể, người lớn hơn béo phì có nguy cơ cao hơn trong bệnh như cardinally và tăng huyết áp.</string>
+    <string name="content_dialog_title_bmi">Về BMI</string>
+    <string name="title_user_setting">Thiết lập</string>
+    <string name="content_training">Theo tư vấn từ WHO, người lớn cần một môn thể thao bình thường khoảng 40 phút, mà bỏng calo như giống như đi bộ cho 8000 nhanh bước.</string>
+    <string name="content_dialog_title_moving_target">Về mục tiêu bước hàng ngày của bạn</string>
+    <string name="content_history_schedule_reminder">LỊCH SỬ NHẮC NHỞ</string>
+    <string name="content_save">Lưu</string>
+
+
+
+    <string-array name="sleep">
+        <item>Ngủ</item>
+        <item>Bồn chồn</item>
+        <item>Thức</item>
+    </string-array>
+
+
+    <!--反馈-->
+    <string name="toast_feedback_success">Cảm ơn bạn đã gửi và phản hồi;)</string>
+
+
+    <string name="content_guest_login_in">Khách đăng nhập</string>
+    <string name="content_user_login_in">Đăng nhập</string>
+
+
+    <string name="dialog_waiting">Tải...</string>
+
+    <string name="title_schedule_manager">Calendar</string>
+    <string name="title_edit_schedule">THÊM GHI CHÚ</string>
+    <string name="content_time">Thời gian</string>
+    <string name="content_every_day">Daily</string>
+    <string name="content_today">Nay</string>
+    <string name="content_tomorrow">Mai</string>
+    <string name="content_single">Duy nhất</string>
+    <string name="content_take_photo">Chụp ảnh</string>
+    <string name="content_choose_picture">Chọn từ bộ sưu tập</string>
+    <string name="content_unknown_number">Không biết số</string>
+    <string name="content_call">Cuộc gọi đến:</string>
+    <string name="content_this_week">Tuần</string>
+    <string name="content_this_month">Tháng</string>
+    <string name="content_input_email">Vui lòng nhập địa chỉ email</string>
+    <string name="content_input_verification_code">Nhập xác minh</string>
+    <string name="content_obtain_verification_code">Xác minh mới</string>
+    <string name="content_input_password">Mật khẩu của bạn</string>
+    <string name="content_register">Đăng ký</string>
+    <string name="content_confirm_password">Nhập lại mật khẩu mới</string>
+    <string name="title_register">ĐĂNG NHẬP ME IN</string>
+    <string name="content_reacquire">Yêu cầu một lần nữa</string>
+    <string name="title_forget_password">QUÊN MẬT KHẨU</string>
+    <string name="hint_input_new_password">Mật khẩu mới</string>
+    <string name="content_confirm_new_password">Mật khẩu mới</string>
+    <string name="content_commit">Gửi</string>
+    <string name="content_not_valid_email">Định dạng địa chỉ email không hợp lệ! </string>
+    <string name="content_nickname_length">Dữ liệu của bạn</string>
+    <string name="content_password_length">Chiều dài của mật khẩu là 6 ~ 14 chữ số</string>
+    <string name="content_valid_input">Mật khẩu không đúng</string>
+    <string name="content_forget_pwd">Quên mật khẩu?</string>
+    <string name="content_update_app">Vòm miệng Phiên bản</string>
+    <string name="content_update">Cập nhật</string>
+    <string name="content_update_ing">Cập nhật...</string>
+    <string name="content_save_picture_to">Ảnh được lưu trong</string>
+    <string name="content_nickname_not_be_null">Dữ liệu của bạn không thể rỗng</string>
+    <string name="title_open_close_bluetooth">Chức năng Bluetooth được đóng, chắc chắn để mở bây giờ?</string>
+    <string name="content_open">Ok</string>
+    <string name="content_no_data">Chưa có dữ liệu</string>
+    <string name="content_application_exception">Có gì đó sai với ứng dụng, Nhật ký là tiết kiệm cho gỡ lỗi.!</string>
+    <string name="title_history_schedule_reminder">LỊCH SỬ NHẮC NHỞ</string>
+    <string name="content_what_is_this">Cái gì vậy?</string>
+    <string name="content_bluetooth">Bluetooth</string>
+    <string name="content_can_not_be_null">Viết gì đó để nhắc nhở bạn</string>
+    <string name="content_new_app_version">Phiên bản ứng dụng mới</string>
+    <string name="content_update_new_app_version">Có cập nhật mới về ứng dụng của bạn, có chứa các chức năng mới hoặc gỡ lỗi, chắc chắn để cập nhật ngay bây giờ?</string>
+    <string name="content_current_is_last">Phiên bản hiện tại là mới nhất!</string>
+    <string name="content_new_device_version">Gợi ý hệ thống </string>
+        
+    <string name="content_update_new_device_version" formatted="false">Phiên bản phần sụn mới có sẵn số phiên bản hiện tại là V%d và sẽ được nâng cấp lên V%d. </string>
+    <string name="content_current_device_version">Phiên bản firmware hiện tại: V%02d</string>
+    <string name="content_last_device_version">Phiên bản firmware mới nhất: V%02d</string>
+    <string name="content_congratulations_successful">Cập Nhật đã hoàn tất!</string>
+    <string name="content_is_last_device_version">Phiên bản hiện tại là mới nhất.</string>
+    <string name="content_are_you_sure">Bạn có chắc không?</string>
+    <string name="content_want_reset">Chúng ta sẽ xóa tất cả dữ liệu trên thiết bị của bạn và không thể khôi phục, bạn có chắc là chế độ nhà máy mặc định không?</string>
+    <string name="content_want_clear">Bộ nhớ cache của ứng dụng không thể khôi phục sau khi xóa, có chứa dữ liệu và thiết lập của bạn, chắc chắn xóa ngay bây giờ?</string>
+    <string name="content_want_unbind">Thiết bị của bạn đã thắng \' t nhận được dịch vụ đẩy và quản lý điện thoại (nếu thiết bị của bạn hỗ trợ) từ ứng dụng lâu hơn nếu kết nối unbind, chắc chắn để unbind bây giờ?</string>
+    <string name="content_stop_check">Phát hiện được quited</string>
+    <string name="content_check_complete">Phát hiện xong</string>
+    <string name="content_checking">Phát hiện đang đi...</string>
+    <string name="title_scan_band">THIẾT BỊ SCAN</string>
+    <string name="content_scanning">Quét...</string>
+    <string name="content_binding">Ràng buộc...</string>
+    <string name="content_input_correct_email">Định dạng email không chính xác</string>
+    <string name="content_input_correct_phone">Định dạng điện thoại không chính xác</string>
+    <string name="content_exit_run">Lưu và bỏ theo dõi thể thao hiện tại và dữ liệu, trong khi nó giành\' t lưu bất kỳ dữ liệu nếu thời gian quá ngắn, chắc chắn để bỏ thuốc lá?</string>
+    <string name="content_want_exit">Chắc chắn để bỏ thuốc lá?</string>
+    <string name="content_save_data">Dữ liệu đang được lưu...</string>
+    <string name="content_nickname_illegal">Tên dài không chính xác (1 ~ 16 chữ số)!</string>
+    <string name="content_can_not_choose_future">Bạn không thể chọn một ngày trong tương lai.</string>
+    <string name="content_calendar_format">yyyy-MM</string>
+    <string name="content_reminder_time" formatted="false">Mỗi%.1fhr để nhắc nhở (%02d:%02d-%02d:%02d)</string>
+    <string name="content_choose_one_day_reminder">Chọn ngày cho lịch trình</string>
+    <string name="content_preparing">Đang chuẩn bị...</string>
+    <string name="content_prepare_timeout">Chuẩn bị là làm thêm giờ, vui lòng thử lại</string>
+    <string name="content_during_upgrade">Cập nhật...</string>
+    <string name="content_upgrade_failed">Cập Nhật thất bại, vui lòng thử lại</string>
+    <string name="content_upgrade_cancel">Cập Nhật bị hủy bỏ, không cần phải cập nhật lại!</string>
+    <string name="content_disconnect_band">Thiết bị của bạn không được kết nối!</string>
+    <string name="content_upgrade_no_plan">Không có thêm Cập nhật phần mềm</string>
+    <string name="content_getting_information">Phần vững đang được kiểm tra..</string>
+    <string name="content_download_failed">Tải xuống phần mềm không thành công, vui lòng kiểm tra sau</string>
+    <string name="content_downloading">Công ty..</string>
+    <string name="content_last_time">Thời gian cuối:</string>
+    <string name="content_sleep_quality">Chất lượng:</string>
+    <string name="content_step_format">%d bước</string>
+    <string name="content_day_format">Dd</string>
+    <string name="content_bad">Nghèo</string>
+    <string name="content_general">Bình thường</string>
+    <string name="content_well">Tốt</string>
+    <string name="content_good">Tuyệt vời</string>
+    <string name="content_permission_notification">[quyền thanh thông báo] là để đẩy thông báo đến thiết bị của bạn</string>
+    <string name="content_authorized_to_use">Vui lòng cho phép ứng dụng truy cập các quyền đó cho toàn bộ chức năng:</string>
+    <string name="content_authorized">Yêu cầu quyền </string>
+    <string name="content_next">Tiếp theo</string>
+    <string name="content_exit_login">Đăng xuất tài khoản hiện tại và thiết bị sẽ được ngắt kết nối với ứng dụng, chắc chắn để tiếp tục?</string>
+    <string name="content_use_for_sport">Áp dụng cho chức năng [Hiển thị thông tin thể thao]</string>
+    <string name="content_use_for_find_phone">Áp dụng cho chức năng [tìm điện thoại]</string>
+    <string name="content_band_call_phone">Thiết bị đang tìm kiếm điện thoại...</string>
+    <string name="content_find_phone">Tìm điện thoại</string>
+    <string name="content_permission_need">Bạn đã từ chối một số quyền về ứng dụng, dẫn đến một số chức năng bất thường, vui lòng cho phép truy cập ứng dụng vào các quyền đó:</string>
+    <string name="content_calendar">Calendar</string>
+    <string name="content_camera">Camera</string>
+    <string name="content_contacts">menu liên hệ</string>
+    <string name="content_location">Gps</string>
+    <string name="content_microphone">Micro</string>
+    <string name="content_phone">Trạng thái người gọi/số/IMEI</string>
+    <string name="content_sensor">Sensor</string>
+    <string name="content__sms">Sms</string>
+    <string name="content_storage">điện thoại lưu trữ</string>
+    <string name="content_no_time">Không</string>
+    <string name="content_normal">Bình thường</string>
+    <string name="content_poor">Không tốt</string>
+    <string name="content_total_number_of_steps">Tổng số bước:%02d</string>
+    <string name="content_reminder_content">Lưu ý nội dung</string>
+    <string name="content_systolic_pressure">Sbp</string>
+    <string name="content_diastolic_pressure">DBP</string>
+    <string name="content_deep_sleep">Ngủ</string>
+    <string name="content_light_sleep">Bồn chồn</string>
+    <string name="content_wide_awake">Thức</string>
+    <string name="content_total_time_consuming">Thời gian</string>
+    <string name="content_average_speed">Trung nhịp</string>
+    <string name="content_average_time_speed">Tốc độ trung</string>
+    <string name="content_fastest_speed">Tốc độ tối đa</string>
+    <string name="content_loading">Tải...</string>
+    <string name="content_device_no_bind">Hãy ràng buộc thiết bị với ứng dụng</string>
+    <string name="content_scan_device">Quét thiết bị</string>
+    <string name="content_time_interval">Khoảng thời gian</string>
+    <string name="content_half_hour">0.5H</string>
+    <string name="content_one_hour">1H</string>
+    <string name="content_two_hour">2H</string>
+    <string name="content_three_hour">3H</string>
+    <string name="content_sunday">bảy.</string>
+    <string name="content_monday">hai.</string>
+    <string name="content_tuesday">ba.</string>
+    <string name="content_wednesday">tư.</string>
+    <string name="content_thursday">năm.</string>
+    <string name="content_friday">sáu.</string>
+    <string name="content_saturday">nhật.</string>
+    <string name="content_calendar_title">yyyy-MM</string>
+    <string name="content_pull_down_to_refresh">Kéo xuống để làm mới</string>
+    <string name="content_refreshing">Giải khát</string>
+    <string name="content_is_loading">Tải</string>
+    <string name="content_release_immediately_refresh">Phát hành ngay lập tức làm mới</string>
+    <string name="content_refresh_completed">Làm mới hoàn tất</string>
+    <string name="content_refresh_failed">Làm mới thất bại</string>
+    <string name="content_last_update">\' Cập Nhật lần cuối: \' MM-dd HH:mm</string>
+    <string name="content_enter_email_is_correct">Vui lòng đảm bảo định dạng địa chỉ email là chính xác.</string>
+
+
+    <string name="unit_steps">Bước</string>
+    <string name="content_map_type">Loại bản đồ</string>
+    <string name="content_map_type_gaode">AMap (China)</string>
+    <string name="content_map_type_google">GoogleMap</string>
+    <string name="content_map_type_automatic_smart_select">Tự động chọn</string>
+
+    <string name="content_connect_failed">Kết nối thất bại</string>
+    <string name="content_try_to_fix">Cố gắng sửa chữa</string>
+    <string name="content_connect_failed_fix_tips">Không thể kết nối với thiết bị, bạn có thể thử: \ n\n1. Hãy thử kết nối lại. \ n \ N2. tắt Bluetooth và bật. \ n \ N3. Cố gắng để bật GPS swtich đến độ chính xác cao nhất. \ n \ N4. Khởi động lại điện thoại của bạn.</string>
+    <string name="content_item_fix_band">% 1 $ s [chế độ OTA thiết bị]</string>
+    <string name="content_fix_band_failed">Thiết bị OTA thất bại</string>
+    <string name="content_fix_band_failed_tips">Không thể chọn dịch vụ OTA vào thiết bị, vui lòng liên hệ với chúng tôi nếu thiết bị vẫn không hoàn tất khôi phục tự động trong vòng 10 phút.</string>
+    <string name="content_heart_detection_tips">* Một số thiết bị không hỗ trợ chức năng này</string>
+    <string name="content_description">Dịch vụ thông báo: \N sẽ đẩy QQ 、 Weibo 、 Wechat 、 Facebook 、 Twitter 、 dòng 、 linkedln 、 GooglePlus thông báo từ điện thoại của bạn đến thiết bị. </string>
+    <string name="content_input_band">Vui lòng nhập dữ liệu thiết bị của bạn</string>
+    <string name="content_or_contact_us">Hoặc liên hệ với chúng tôi email: wt5354@iwear88.com</string>
+    <string name="content_help">Trợ giúp</string>
+    <string name="content_approve">Chấp nhận</string>
+
+    <string name="content_permission_location">[Truy cập vị trí] Để cố gắng xác định vị trí của ban nhạc thông minh và kết nối nó</string>
+    <string name="content_scan_timeout">Không tìm thấy thiết bị? Hãy thử lại sau khi mở và đóng lại [chế độ máy bay]</string>
+    <string name="content_push_warm">* Nếu tính năng Push tin nhắn không hoạt động, bấm vào đây và mở </string>
+    <string name="content_reconnecting">Dịch vụ hoặc Internet là busying, xin vui lòng chờ...</string>
+    <string name="content_manual_reconnect">Đồng bộ hoá thiết bị theo cách thủ công</string>
+    <string name="content_login_means">Đăng nhập và chấp nhận</string>
+    <string name="content_terms">Điều khoản Dịch vụ</string>
+    <string name="content_terms_title">Chính sách bảo mật và sức khỏe</string>
+    <string name="content_terms_first">* Chúng tôi đánh giá cao rằng bạn đang tin tưởng chúng tôi với các thông tin đó là quan trọng với bạn, vì vậy, một số chức năng của ứng dụng cần sự cho phép của bạn để làm việc.</string>
+    <string name="content_terms_second"><![CDATA[* <font color=#04F5D1><a href=\'%s\'>Ở đây</a></font> chúng tôi mô tả các thực tiễn bảo mật cho các thiết bị của chúng tôi, bạn sẽ tìm hiểu về dữ liệu chúng tôi thu thập, cách chúng tôi sử dụng nó.]]></string>
+    <string name="content_terms_third">* Sản phẩm này không phải là một thiết bị y tế, và không có ý định để chẩn đoán, điều trị, chữa bệnh, hoặc ngăn chặn bất kỳ bệnh. Đối với độ chính xác, độ chính xác của thiết bị không nhằm mục đích phù hợp với thiết bị y tế hoặc thiết bị đo lường khoa học.</string>
+    <string name="content_verification_help"><![CDATA[Không nhận xác minh?Nhấp vào<font color=#04F5D1> <a href=\'%s\'>Ở đây</a> </font> giúp đỡ]]></string>
+    <string name="issue_with_log_in_or_sign_in">Vấn đề với đăng nhập hoặc đăng nhập</string>
+    <string name="content_troubleshooting_help"><![CDATA[Nhấp vào<font color=#04F5D1> <a href=\'%s\'>Ở đây để khắc phục sự cố]]></string>
+    <string name="content_sleep_accuracy">Làm thế nào chính xác là kết quả?</string>
+    <string name="content_sleep_accuracy_1">Các trình theo dõi ngủ tự động phát hiện được coi là nói chung chính xác, họ cũng dễ bị lỗi vì thói quen người dùng khác nhau.</string>
+    <string name="content_sleep_accuracy_2">Vui lòng kiểm tra chất lượng giấc ngủ sau đó nếu nó không có dữ liệu khi bạn vừa hoàn thành giấc ngủ trong vòng 30 phút, dữ liệu đang được phân tích.</string>
+    <string name="content_accuracy_title">Về độ chính xác kết quả</string>
+    <string name="content_app_unsupport_tips">Chức năng này, vui lòng thiết lập trong vòng đeo tay</string>
+    <string name="content_permission_notification_enable">"[Thông báo] giấy phép đã được đóng cửa, xin vui lòng cho phép cho phép nếu không chức năng [tìm thiết bị] 、 [Notification Bar] sẽ hỏng"</string>
+    <string name="content_connect_google_fit">Liên kết Google Fit</string>
+    <string name="content_unlink_google_fit">Hủy liên kết Google Fit</string>
+    <string name="title_associate_google_fit">Liên kết Google Fit</string>
+    <string name="content_unit_time">Định dạng thời gian thiết bị</string>
+    <string name="content_upload_google_fit_now">TẢI DỮ LIỆU LÊN GOOGLE FIT NGAY BÂY GIỜ</string>
+    <string name="content_tips_of_google_fit">Dữ liệu sẽ được đồng bộ hóa với Google Fit khoảng 00:00/04:00/8:00/12:00/16:00/20:00 hàng ngày tự động.</string>
+
+    <string name="content_answer">Vui lòng nhập câu trả lời</string>
+    <string name="content_input_email_different">Hai email đầu vào là khác nhau</string>
+    <string name="content_resetpsw_now">Truy xuất mật khẩu</string>
+    <string name="content_new_psw">Mật khẩu mới:</string>
+    <string name="content_question1">1:</string>
+    <string name="content_question2">2:</string>
+    <string name="content_input_reg_email">Thư đã đăng ký của bạn:</string>
+    <string name="content_register_question_step1">1. điền vào email và mật khẩu</string>
+    <string name="content_register_question_step2">2. nhập vào câu trả lời bảo mật</string>
+    <string name="content_retrieve_type">Truy xuất mật khẩu bởi:</string>
+    <string name="content_register_success">Đăng ký thành công!</string>
+    <string name="content_resetpsw_success">Sửa đổi mật khẩu là thành công!</string>
+    <string name="content_resetpsw_wrong_answer">Câu trả lời bảo mật bí mật là sai!</string>
+    <string name="content_from_auth_code">Xác minh email</string>
+    <string name="content_from_question">Bảo mật trả lời</string>
+    <string name="question1_1">Dữ liệu của vật nuôi đầu tiên/hiện tại/yêu thích của bạn là gì?</string>
+    <string name="question1_2">Cuốn sách yêu thích của bạn là gì?</string>
+    <string name="question1_3">Món ăn ưa thích của bạn là gì?</string>
+    <string name="question2_4">Công ty đầu tiên mà bạn làm việc cho là gì?</string>
+    <string name="question2_5">Dữ liệu mẹ của bạn là gì?</string>
+    <string name="question2_6">Bạn sinh ra thành phố nào?</string>
+    <string name="content_connect_strava">Liên kết đến Strava</string>
+    <string name="content_unlink_strava">Hủy liên kết khỏi Strava</string>
+    <string name="content_tips_of_strava">Sau khi liên kết Strava, bạn có thể gửi theo dõi chuyển động của bạn để Strava trong giao diện hồ sơ theo dõi chuyển động.</string>
+    <string name="content_uploaded_to_strava">Gửi đến Strava</string>
+    <string name="content_upload_to_strava">Gửi đến Strava</string>
+    <string name="content_retry">Thử lại</string>
+    <string name="content_err_save_sport_track_data_network_fail">Không thể lưu dữ liệu theo dõi chuyển động, hãy kiểm tra cài đặt mạng</string>
+    <string name="content_donot_save">Không lưu</string>
+    <string name="content_link">Liên kết</string>
+    <string name="content_help_and_feedback">Trợ giúp và phản hồi</string>
+
+
+    <string name="content_my_friends">Bạn bè</string>
+    <string name="content_search_friends_hint">ID người dùng/email</string>
+    <string name="toast_tips_req_add_friends">Yêu cầu kết bạn của bạn đã được gửi</string>
+    <string name="title_tab_msg_system">Những gì\' s mới</string>
+    <string name="title_tab_msg_add_friend">Yêu cầu kết bạn</string>
+    <string name="title_tab_my_friends">Bạn bè</string>
+    <string name="content_add_agree_friends">muốn thêm bạn làm bạn bè</string>
+    <string name="content_btn_agreed">Chấp nhận</string>
+    <string name="content_btn_refused">Từ chối</string>
+    <string name="content_encourage">Khuyến khích</string>
+    <string name="content_zan">Di chuyển</string>
+    <string name="content_add_friends">thêm như một người bạn</string>
+    <string name="content_already_friends">Chấp nhận</string>
+    <string name="content_already_refused">Bị từ chối</string>
+    <string name="content_nickname">Biệt hiệu:</string>
+    <string name="content_nickname_2">Biệt hiệu</string>
+    <string name="content_sign_null">Trống ở đây</string>
+    <string name="content_sign">Viết gì đó để hiển thị</string>
+    <string name="content_setting_sign">Chữ ký</string>
+    <string name="content_remark_null">Trống ở đây</string>
+    <string name="content_user_info">Thông tin người dùng</string>
+    <string name="content_set_remark">Lưu ý</string>
+    <string name="content_average_blood_oxygen">BO giá trung</string>
+    <string name="content_step_num">Bước</string>
+    <string name="content_sleep_data">Ngủ</string>
+    <string name="content_bp_bo">BP/BO</string>
+    <string name="content_invite_friends">Mời khác tham gia bây giờ</string>
+    <string name="content_save_image">Lưu ảnh chụp màn hình</string>
+
+    <string name="content_encourage_you">Khuyến khích bạn</string>
+    <string name="content_zan_you">Khen ngợi bạn</string>
+
+    <string name="content_no_friends">Didn \'t tìm bạn bè của bạn</string>
+    <string name="content_search_friends_input_err">Vui lòng nhập đúng User ID/email</string>
+
+    <string name="content_weather_sunny_day">Sunny</string>
+    <string name="content_weather_cloudy">Mây</string>
+    <string name="content_weather_snow">Tuyết</string>
+    <string name="content_weather_cloudy_day">U ám</string>
+    <string name="content_weather_rain">Mưa</string>
+
+
+
+    <string name="content_my_ideal_weight">THỂ DỤC LÝ TƯỞNG CỦA TÔI</string>
+    <string name="content_intake_calories">Lượng calo hàng ngày</string>
+    <string name="content_sport_target">Mục tiêu thể thao hàng ngày</string>
+    <string name="content_intake_tips_head">Lượng khuyến cáo tối đa là</string>
+    <string name="content_intake_tips_foot">thực phẩm với calo</string>
+    <string name="content_recorded_meal" formatted="false">Đăng nhập %d bữa ăn %s</string>
+    <string name="content_this_meal_to_eat">ĐĂNG NHẬP LƯỢNG CALO CỦA TÔI</string>
+    <string name="content_food_input_empty_tips">Nhập vào một cái gì đó</string>
+    <string name="content_record_meal_to_eat">TIÊU THỤ THỰC PHẨM LOG</string>
+    <string name="content_edit">Chỉnh sửa</string>
+    <string name="content_your_goal_is_to_subtract">Mục tiêu của bạn là mất</string>
+    <string name="content_the_current_every_day_for_a_sport_target">Mức độ hoạt động hàng ngày của bạn</string>
+    <string name="content_when_is_the_daily_consumption">Khi đốt hàng ngày là</string>
+    <string name="content_daily_intake_is">Lượng hàng ngày là</string>
+    <string name="content_the_current_is_expected_to_reduce_a_day">Ước tính trọng lượng hàng ngày mất là</string>
+    <string name="content_need_to_complete">Nhu cầu thành công</string>
+    <string name="content_expected_time_for_success">Ước tính ngày kết thúc là</string>
+    <string name="content_please_adjust_the_plan">Vui lòng thay đổi gói của bạn</string>
+    <string name="content_target_weight_should_be_less_than_the_current_weight">Mục tiêu của bạn nên ít hơn so với trọng lượng hiện tại</string>
+    <string name="content_the_current_plan_is_not_suitable_for_weight_loss">Thay đổi kế hoạch của bạn để có được phù hợp</string>
+    <string name="content_recommended_daily_intake">Dựa trên tình trạng sức khỏe của bạn và trọng lượng mục tiêu, được đề nghị của bạn hàng ngày lượng calo xấp xỉ</string>
+    <string name="content_average_daily_calorie_deficit">Thâm hụt Trung calorie</string>
+    <string name="content_intake_of_qualified_days">Ngày dưới mục tiêu Intake</string>
+    <string name="content_average_daily_intake_of_calories">Lượng calo Trung</string>
+    <string name="content_the_highest_intake_of_calories">Lượng hàng ngày tối đa</string>
+    <string name="content_not_clock_in_number_of_days">Ngày không đăng nhập Intake của tôi</string>
+    <string name="content_click_add_meal">Nhấp vào biểu tượng trên vòi nước phải để đăng nhập lượng thức ăn</string>
+    <string name="content_total_intake_about">Tổng lượng </string>
+    <string name="content_calorie_consumption">Calorie đốt cháy</string>
+    <string name="content_calorie_intake">Lượng calo</string>
+    <string name="content_target_bmi">Bmi</string>
+    <string name="content_diet_help_tips">Dựa trên giới tính và độ tuổi của cá nhân để phân tán itemType trao đổi chất của mình, thì người dùng nhập vào trọng lượng mục tiêu và các bước để ước tính ngày đạt mục tiêu giảm cân, xin lưu ý rằng sự thay đổi của cá nhân và cuộc sống có thể dẫn đến sự biến dạng kết quả nào đó. không cho mục đích y tế</string>
+    <string name="content_have_the_calories_you_eat">TÔI ĂN BAO NHIÊU</string>
+    <string name="content_diet_start">Bước tiếp theo để đăng nhập hôm nay Intake</string>
+    <string name="content_food_name">Tên thực phẩm</string>
+    <string name="content_amount">Kích thước</string>
+    <string name="content_cur_weight">Trọng lượng</string>
+    <string name="content_unit">Đơn vị</string>
+    <string name="content_target_weight">Trọng lượng mục tiêu</string>
+
+
+
+
+    <string name="sport_encourage_prompt_0">Tập thể dục để bắt đầu tập luyện trong phòng tập thể dục cho người sử dụng bình thường</string>
+    <string name="sport_encourage_prompt_1">Bạn đã hoàn thành chiều cao của Fujisan tương đương</string>
+    <string name="sport_encourage_prompt_2">Việc recommdation mục tiêu bước hàng ngày dành cho người lớn từ WHO</string>
+    <string name="sport_encourage_prompt_3">Bạn đã giảm khoảng 805g CO2 cho hành tinh xanh này</string>
+    <string name="sport_encourage_prompt_4">Khoảng cách giữa Louvre và tháp Eiffel</string>
+    <string name="sport_encourage_prompt_5">Bạn đã hoàn thành 30 vòng trên sân chơi khoảng</string>
+    <string name="sport_encourage_prompt_6">Khoảng cách được dịch thành đi xe đạp hơn 1 giờ</string>
+    <string name="sleep_duration_encourage_prompt_0">Thời gian ngủ của bạn quá ngắn</string>
+    <string name="sleep_duration_encourage_prompt_1">Thâm hụt giấc ngủ mãn tính dẫn đến bệnh tim</string>
+    <string name="sleep_duration_encourage_prompt_2">Giấc ngủ tốt là cơ sở của sức khỏe tốt</string>
+    <string name="sleep_duration_encourage_prompt_3">Không có thời gian ngủ xấu</string>
+    <string name="sleep_duration_encourage_prompt_4">Bạn có một giấc ngủ thời gian đáng thèm muốn </string>
+    <string name="sleep_duration_encourage_prompt_5">Một ngày tươi và mạnh mẽ</string>
+    <string name="sleep_duration_encourage_prompt_6">Eh, bạn có một thời gian ngủ quá lâu hơn người lớn bình thường</string>
+    <string name="sleep_duration_encourage_prompt_7">Có lẽ nó \'s thời gian để bạn có thể kiểm tra các thiết bị và cách mặc của bạn</string>
+    <string name="sleep_time_encourage_prompt_0">Vui lòng kiểm tra thiết bị của bạn để mặc thích hợp</string>
+    <string name="sleep_time_encourage_prompt_1">Một giấc ngủ thời gian đáng thèm muốn</string>
+    <string name="sleep_time_encourage_prompt_2">Thời gian tốt nhất cho giấc ngủ</string>
+    <string name="sleep_time_encourage_prompt_3">Thời gian ngủ hợp lý là chìa khóa của giấc ngủ chất lượng tuyệt vời </string>
+    <string name="sleep_time_encourage_prompt_4">Chơi một số nhạc mềm trước khi giấc ngủ của bạn bắt đầu</string>
+    <string name="sleep_time_encourage_prompt_5">0 – 1 0 \'đồng hồ là giai đoạn quan trọng cho gan và thận cai nghiện</string>
+    <string name="sleep_time_encourage_prompt_6">Ngủ sớm hơn cho giấc ngủ của bạn, không ở lại lên muộn</string>
+    <string name="sleep_time_encourage_prompt_7">Dài hạn ở lại cuối tuyệt vời gây hại cho cơ thể, dẫn đến mệt mỏi thể chất</string>
+    <string name="title_health_advisor">CỐ VẤN SỨC KHỎE</string>
+    <string name="content_ranking">Xếp hạng</string>
+    <string name="content_friends_ranking">Xếp hạng của bạn</string>
+    <string name="content_my_step_ranking">Bước xếp hạng thế giới</string>
+    <string name="content_my_sleep_details">Chi tiết về giấc ngủ</string>
+    <string name="content_week_avg">Trung bình trong tuần này</string>
+    <string name="content_rg_week_avg">Trung bình hàng tuần</string>
+    <string name="content_rg_month_avg">Trung bình hàng tháng</string>
+    <string name="content_my_sleep_duration_ranking">Thời gian ngủ xếp hạng thế giới</string>
+    <string name="content_my_sleep_time_ranking">Xếp hạng thời gian ngủ thế giới</string>
+    <string name="content_range_avg_time" formatted="false">Thời gian trung bình của bạn trong %s-%s</string>
+    <string name="content_more_than_user">Hơn %d%% người dùng</string>
+    <string name="content_later_than_user">Sau đó %d%% người dùng</string>
+
+    <string name="title_change_wallpaper">Wallpaper</string>
+    <string name="content_setup_complete">Thiết lập kết thúc!</string>
+    <string name="enable_wallpaper_fun">Chức năng wallpaper</string>
+    <string name="enable_wallpaper_step_fun">Pedometer plugin</string>
+    <string name="content_not_saved">Bỏ lưu</string>
+    <string name="content_not_saved_tips">Bạn có muốn bỏ lưu trữ và bỏ thuốc lá không?</string>
+    <string name="content_wallpaper_transmission">Cập nhật...</string>
+    <string name="content_wallpaper_textcolor">Màu phông</string>
+
+    <string name="title_sport_mode">CHẾ ĐỘ THỂ THAO</string>
+    <string name="sport_mode_walking">Đi bộ</string>
+    <string name="sport_mode_running">Chạy</string>
+    <string name="sport_mode_mountaineering">Leo núi</string>
+    <string name="sport_mode_cycling">Xe đạp</string>
+    <string name="sport_mode_table_tennis">Pingpong</string>
+    <string name="sport_mode_basketball">Bóng rổ</string>
+    <string name="sport_mode_football">Bóng đá</string>
+    <string name="sport_mode_badminton">Badminton</string>
+    <string name="sport_mode_treadmill">Treadmill</string>
+    <string name="sport_mode_tennis">Tennis</string>
+    <string name="sport_mode_swimming">Hồ</string>
+    <string name="unit_three_month">3 THÁNG TUỔI</string>
+    <string name="content_duration">Thời gian</string>
+    <string name="content_last_sport">Thể thao cuối cùng</string>
+    <string name="content_sport_mode_count">%d lần</string>
+    <string name="content_finish_distance">Khoảng cách</string>
+    <string name="content_finish_calorie">Calo</string>
+	<string name="content_update_ota">1.thiết bị nâng cấp với kết nối Giữ ổn định Bluetooth\n2.Đừng bỏ APP nâng cấp cách\n3.Nâng cấp cần 1-3 phút, dẫn đến một màn hình màu đen nếu thiết bị không nâng cấp, không gỡ bỏ cài đặt các ứng dụng hoặc thay thế điện thoại! APP vào việc nâng cấp một lần nữa</string>
+	<string name="toast_electric_low_ota_tips">công suất thiết bị được ít hơn 50%, không được phép để nâng cấp!</string>
+	<string name="content_guest_login_alert">Bị ảnh hưởng bởi nâng cấp hệ thống, người sử dụng từ chối hoạt động của quyền, phiên bản Android trong tương lai và các yếu tố khác, mã nhận dạng duy nhất của người truy cập bản địa có thể được thay đổi, người sử dụng "du lịch đăng nhập" có khả năng sẽ là tình trạng mất dữ liệu, nó được khuyến khích để đăng ký người dùng qua email</string>
+    <string name="content_terms_accept">Bạn nên chấp nhận Điều khoản dịch vụ của chúng tôi</string>
+    <string name="content_terms_mob">Để thực hiện chức năng đăng nhập tài khoản và s ưu tập bản khai thác của người thứ ba, chúng tôi sử dụng sản phẩm tập kích của tên Cướp.Những điều khoản về luật riêng tư của sản phẩm này, xem như:http://www.Mob.com/about/policy</string>
+</resources>

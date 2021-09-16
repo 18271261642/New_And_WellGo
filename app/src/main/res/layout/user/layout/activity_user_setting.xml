@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civUserSettingHeadPortrait"
+        android:layout_width="@dimen/widget_size_100"
+        android:layout_height="@dimen/widget_size_100"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/widget_size_10"
+        android:src="@mipmap/img_test_picture"
+        app:civ_border_color="@color/grey"
+        app:civ_border_width="@dimen/widget_size_2" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="@dimen/widget_size_5"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvUserSettingNickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    tools:text="测试文字"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_14"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/etUserSettingNickname"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widget_size_10"
+                    android:gravity="end"
+                    android:hint="@string/content_nickname_length"
+                    android:lines="1"
+                    android:inputType="text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_14"
+                    android:textColor="@color/black"
+                    android:background="@null" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    android:background="@mipmap/icon_arrow_right" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="@dimen/widget_size_5"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tvUserSettingSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    tools:text="测试文字"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_14"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/etUserSettingSign"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widget_size_10"
+                    android:gravity="end"
+                    android:hint="@string/content_sign"
+                    android:lines="1"
+                    android:maxLength="32"
+                    android:inputType="text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_14"
+                    android:textColor="@color/black"
+                    android:background="@null" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    android:background="@mipmap/icon_arrow_right" />
+
+            </LinearLayout>
+            <include
+                android:id="@+id/ilUserSettingGender"
+                layout="@layout/item_banner_button" />
+
+            <include
+                android:id="@+id/ilUserSettingBirthYear"
+                layout="@layout/item_banner_button" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/widget_size_5"
+                android:layout_marginBottom="@dimen/widget_size_5"
+                android:layout_marginTop="@dimen/widget_size_5"
+                android:background="@color/white_1" />
+
+            <include
+                android:id="@+id/ilUserSettingHeight"
+                layout="@layout/item_banner_button" />
+
+            <include
+                android:id="@+id/ilUserSettingLastWeight"
+                layout="@layout/item_banner_button" />
+
+            <include
+                android:id="@+id/ilUserSettingBMIIndex"
+                layout="@layout/item_bmi" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/widget_size_5"
+                android:layout_marginBottom="@dimen/widget_size_5"
+                android:layout_marginTop="@dimen/widget_size_5"
+                android:background="@color/white_1" />
+
+            <include
+                android:id="@+id/ilUserSettingTarget"
+                layout="@layout/item_banner_button" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/tvUserSettingSave"
+        style="@style/TextViewButton"
+        android:text="@string/content_setting_save"
+        android:textSize="@dimen/text_size_14" />
+
+</LinearLayout>

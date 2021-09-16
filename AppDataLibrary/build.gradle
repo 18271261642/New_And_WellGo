@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.2'
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "int", "APP_ID",  rootProject.ext.android.appId
+        buildConfigField "String", "APP_UPDATE_APPNAME", "\""+rootProject.ext.android.updateAppName+"\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    //数据库框架
+    api project(':SNDBLibrary')
+    //工具类
+    api project(':SNToolLibrary')
+    //retrofit2 网络请求框架
+    api project(':SNNetworkLibrary')
+
+
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">V3.0.4.1</string>
+   <!-- <string name="app_name">GoPlus Cam</string>-->
+    //Common
+    <string name="OK">OK</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Abort">Abort</string>
+    <string name="Record">Record</string>
+    <string name="Capture">Capture</string>
+    <string name="File">File</string>
+    <string name="Play">Play</string>
+    <string name="Download">Download</string>
+    <string name="Info">Info</string>
+    <string name="Delete">Delete</string>
+    <string name="failed">failed</string>
+    <string name="Failed">Failed</string>
+    <string name="Connected">Connected</string>
+    <string name="Connecting">Connecting</string>
+    <string name="Buffering">Buffering</string>
+    <string name="Failed_to_connect">Failed to connect</string>
+    <string name="Time">Time</string>
+    <string name="Size">Size</string>
+    <string name="Mode">Mode</string>
+    <string name="Done">Done</string>
+    <string name="Save">Save</string>
+    <string name="Select_file">Select file</string>
+
+    //MainActivity
+    <string name="Please_connect_message">Please connect to an authorized Wifi sport Cam device or retry to restart the sport Cam first.</string>
+
+    //MainViewController
+    <string name="Reset_VLC">Reset VLC</string>
+    <string name="Record_resolution_unknown">Record resolution unknown</string>
+    <string name="Capture_resolution_unknown">Capture resolution unknown</string>
+    <string name="Setting">Setting</string>
+    <string name="Set_Wifi_sport_Cam_Time">Set Wifi sport Cam Time</string>
+    <string name="Save_Log">Save Log</string>
+    <string name="Disable">Disable</string>
+    <string name="Enable">Enable</string>
+
+    //SettingActivity
+    <string name="Getting_menu">Getting menu ...</string>
+    <string name="Unknown">Unknown</string>
+    <string name="Are_you_sure_to_do">Are you sure to do</string>
+    <string name="FWUpgrade">FWUpgrade</string>
+
+    //FilesActivity
+    <string name="Downloading">Downloading ... </string>
+    <string name="Download_wait">The download flow is not completed, please wait!!</string>
+    <string name="Copy_file">Copy file, please wait.</string>
+    <string name="Get_Thumbnail_Failed">Get Thumbnail Failed!</string>
+    <string name="No_Storage">No Storage!</string>
+    <string name="No_File">No File!</string>
+    <string name="Delete_Phone_File">Delete phone file</string>
+    <string name="Delete_SD_File">Delete Wifi sport Cam file</string>
+
+    //FileViewController
+    <string name="Error_with_hardware_acceleration">Error with hardware acceleration</string>
+
+    //FWUpgradeActivity
+    <string name="Upgrade_Firmware">Upgrade Firmware</string>
+    <string name="Upgrade_Firmware_successfully">Upgrade Firmware successfully</string>
+    <string name="Upgrade_Firmware_failed">Upgrade Firmware failed</string>
+    <string name="Error_Code">Error Code = </string>
+    <string name="Please_reboot">Please reboot the Wifi sport Cam and APP.</string>
+    <string name="UnValid_File_Path">UnValid File Path</string>
+    <string name="Upgrade_Firmware_File_Path">Are you sure to select %s to upgrade firmware?</string>
+    <string name="incorrect_firmware_file">File %s is incorrect firmware file</string>
+    <string name="Load_File_Fail">Load File Fail</string>
+    <string name="No_suitable_File_Manager">No suitable File Manager was found.</string>
+    <string name="Select_file_to_upgrade">Select file to upgrade device FW</string>
+
+</resources>

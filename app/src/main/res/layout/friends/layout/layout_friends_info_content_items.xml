@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.truescend.gofit.views.AutoFitGridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/widget_size_30"
+        android:layout_marginTop="@dimen/widget_size_30"
+        app:columnCount="2"
+        app:horizontalSpace="1dp"
+        app:verticalSpace="@dimen/widget_size_30">
+
+        <include
+            android:id="@+id/ilUserBestRecord"
+            layout="@layout/item_user_file" />
+
+        <include
+            android:id="@+id/ilUserStandardDay"
+            layout="@layout/item_user_file" />
+
+        <include
+            android:id="@+id/ilUserBestWeek"
+            layout="@layout/item_user_file" />
+
+        <include
+            android:id="@+id/ilUserBestMonth"
+            layout="@layout/item_user_file" />
+
+    </com.truescend.gofit.views.AutoFitGridLayout>
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_5"
+        android:background="@drawable/shadow_bottom" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_2"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@drawable/shadow_top" />
+
+
+    <com.truescend.gofit.pagers.friends.data.item.SportDataPickerItem
+        android:id="@+id/sportPickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_5"
+        android:background="@drawable/shadow_bottom" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_2"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@drawable/shadow_top" />
+
+    <com.truescend.gofit.pagers.friends.data.item.SleepDataPickerItem
+        android:id="@+id/sleepPickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_5"
+        android:background="@drawable/shadow_bottom" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_2"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@drawable/shadow_top" />
+
+
+    <com.truescend.gofit.pagers.friends.data.item.HeartRateDataItem
+        android:id="@+id/mHeartRateDataItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_5"
+        android:background="@drawable/shadow_bottom" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_2"
+        android:layout_marginTop="@dimen/widget_size_10"
+        android:background="@drawable/shadow_top" />
+
+    <com.truescend.gofit.pagers.friends.data.item.BloodPressureBloodOxygenDataItem
+        android:id="@+id/mBloodPressureBloodOxygenDataItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--加点阴影-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_5"
+        android:layout_marginBottom="@dimen/widget_size_10"
+        android:background="@drawable/shadow_bottom" />
+</LinearLayout>

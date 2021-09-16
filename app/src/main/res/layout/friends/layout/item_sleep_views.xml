@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="vertical">
+    <!--顶部的睡眠图标和右边的颜色指示器-->
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_friends_sleep"
+            app:layout_heightPercent="13.5%w"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginTopPercent="4%w"
+            app:layout_widthPercent="13.5%w" />
+
+        <!--睡眠图标相关指示器-->
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="2%w"
+            app:layout_marginTopPercent="4%w">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_sleep_data"
+                android:textStyle="bold"
+                app:layout_textSizePercent="4%sw" />
+
+            <TextView
+
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                app:layout_textSizePercent="2.5%sw" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <!--右侧颜色指示器-->
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            app:layout_marginRightPercent="4%w"
+            app:layout_marginTopPercent="5%w">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#6D3397"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_deep_sleep"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="10%sw">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#8373CB"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_light_sleep"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="10%sw">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B7BAE5"
+                    app:layout_heightPercent="4%sw"
+                    app:layout_widthPercent="4%sw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_wide_awake"
+                    app:layout_marginTopPercent="2%sw"
+                    app:layout_textSizePercent="2%sw" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <!--睡眠数据滚动布局-->
+    <com.truescend.gofit.views.QuickViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false" />
+
+    <com.truescend.gofit.views.HorizontalPicker
+        android:id="@+id/mHorizontalPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#22000000"
+        android:fillViewport="true"
+        android:orientation="horizontal"
+     >
+
+    </com.truescend.gofit.views.HorizontalPicker>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_marginPercent="4%w">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_sleep_time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_valid_time"
+            app:layout_textSizePercent="3%sw" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:id="@+id/tvSleepValidTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            app:layout_textSizePercent="3%sw" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_sleep_quality" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_quality_time"
+            app:layout_textSizePercent="3%sw" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:id="@+id/tvSleepQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_no_time"
+            android:gravity="center"
+            app:layout_textSizePercent="3%sw" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

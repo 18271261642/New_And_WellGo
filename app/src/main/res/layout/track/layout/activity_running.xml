@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/mMapContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/mMapControl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.truescend.gofit.views.StatusBarHeightView
+            android:id="@+id/mStatusBarHeightView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/running_translucent" />
+
+        <include
+            android:id="@+id/ilRunningTitle"
+            layout="@layout/item_running_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:layout_below="@+id/mStatusBarHeightView" />
+
+        <LinearLayout
+            android:id="@+id/llRunningGPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ilRunningTitle"
+            android:layout_margin="@dimen/widget_size_10"
+            android:background="@drawable/item_gps_weak_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/widget_size_5"
+            android:paddingEnd="@dimen/widget_size_15"
+            android:paddingStart="@dimen/widget_size_15"
+            android:paddingTop="@dimen/widget_size_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPS"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14" />
+
+            <ImageView
+                android:id="@+id/ivRunningGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/widget_size_12"
+                android:src="@mipmap/icon_gps_1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivRunningCurLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:layout_marginStart="@dimen/widget_size_30"
+            android:src="@mipmap/icon_positioning" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/crbRunningReadyCountdown"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+
+            <com.truescend.gofit.views.CircleRippleButton
+                android:id="@+id/crbRunningReady"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/widget_size_50"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:crb_backgroundColor="@color/black"
+                app:crb_src="@mipmap/icon_track_ready" />
+
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/ilRunningBottom"
+            layout="@layout/item_running_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

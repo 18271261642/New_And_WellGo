@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AppDataLibrary" />
+            <option value="$PROJECT_DIR$/BleOTASupport" />
+            <option value="$PROJECT_DIR$/CameraLibrary" />
+            <option value="$PROJECT_DIR$/DZBLELibrary" />
+            <option value="$PROJECT_DIR$/JavaTestLib" />
+            <option value="$PROJECT_DIR$/MPChartLib" />
+            <option value="$PROJECT_DIR$/SNBLELibrary" />
+            <option value="$PROJECT_DIR$/SNDBLibrary" />
+            <option value="$PROJECT_DIR$/SNLoginLibrary" />
+            <option value="$PROJECT_DIR$/SNMapLibrary" />
+            <option value="$PROJECT_DIR$/SNNetworkLibrary" />
+            <option value="$PROJECT_DIR$/SNToolLibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/wifiLibrary" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

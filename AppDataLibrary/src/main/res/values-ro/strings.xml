@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="error_phone_registered">contul a fost înregistrată deja</string>
+	<string name="error_user_not_exists">id - ul este nu ar fi existat, verifică te rog</string>
+	<string name="error_password_error">id - ul sau parolă este gresit</string>
+	<string name="error_phone_invalid">numărul de telefon este invalid.</string>
+	<string name="error_sms_too_frequently">cererea este prea frecvent</string>
+	<string name="error_captcha_expired">verificarea este expirat.</string>
+	<string name="error_captcha_wrong">verificarea este expirat.</string>
+	<string name="error_captcha_failure">verificare a esuat</string>
+	<string name="error_email_registered">contul a fost înregistrată deja</string>
+	<string name="error_captcha_req_success">cerere completat</string>
+	<string name="network_err">conexiune la internet eşuează, încercaţi mai târziu</string>
+
+</resources>

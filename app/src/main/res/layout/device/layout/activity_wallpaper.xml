@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/itemScreenSwitch"
+        layout="@layout/item_wallpaper_setting" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/llWallpaperLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.truescend.gofit.views.WallpaperPreviewView
+                android:id="@+id/wpv"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center" />
+
+            <include
+                android:id="@+id/itemStepSwitch"
+                layout="@layout/item_wallpaper_setting" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="@dimen/widget_size_20">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icon_wallpaper_text_color" />
+
+                <TextView
+                    android:id="@+id/tvWallpaperTextColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/widget_size_20"
+                    android:text="@string/content_wallpaper_textcolor"
+                    android:textSize="@dimen/text_size_15" />
+
+                <com.truescend.gofit.views.ColorPickerView
+                    android:id="@+id/cpvColorPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/widget_size_30"
+                    android:layout_marginStart="@dimen/widget_size_10"
+                    android:layout_marginEnd="@dimen/widget_size_10" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:padding="@dimen/widget_size_20">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:src="@mipmap/icon_wallpaper_text_size" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvWallpaperTextSize"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="@dimen/widget_size_20"-->
+
+            <!--android:textSize="@dimen/text_size_15" />-->
+
+            <!--<android.support.v7.widget.AppCompatSeekBar-->
+            <!--android:id="@+id/sbWallpaperTextSize"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:max="5"-->
+            <!--android:paddingEnd="@dimen/widget_size_10"-->
+            <!--android:paddingStart="@dimen/widget_size_10"-->
+            <!--android:progress="2" />-->
+
+            <!--</LinearLayout>-->
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvWallpaperTakePhoto"
+                style="@style/TextViewButton"
+                android:text="@string/content_take_photo" />
+
+            <TextView
+                android:id="@+id/tvWallpaperChoosePhoto"
+                style="@style/TextViewButton"
+                android:text="@string/content_choose_picture" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
