@@ -1,5 +1,6 @@
 package com.truescend.gofit.wifi;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -31,6 +32,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.TextView;
+
+import androidx.core.app.ActivityCompat;
 
 import com.truescend.gofit.R;
 
@@ -72,15 +75,34 @@ public class SettingActivity extends PreferenceActivity {
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
 		m_GPXMLParse = new GPXMLParse();
 		m_handler = new Handler();
+
+
+		ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE},0x00);
+
+
+
 		
 		CamWrapper.getComWrapperInstance().GPCamSendSetMode(CamWrapper.GPDEVICEMODE_Menu);
-		m_strFilePath = String.format(Environment
-				.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+//		m_strFilePath = String.format(Environment
+//				.getExternalStorageDirectory().getPath() + "/Download/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
 
-		if (true == CamWrapper.bIsDefault) {
+
+		m_strFilePath = String.format(getExternalFilesDir(null) + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+
+
+		String tmpPath = getExternalFilesDir(null).getPath();
+
+		Log.e(TAG,"---11-m_strFilePath="+m_strFilePath+" "+tmpPath);
+
+
+		if (CamWrapper.bIsDefault) {
 			setTitle(getString(R.string.app_name) + "*");
-			m_strFilePath = String.format(Environment
-					.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName);
+//			m_strFilePath = String.format(Environment
+//					.getExternalStorageDirectory().getPath() + "/Download/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName);
+
+			m_strFilePath = String.format(getExternalFilesDir(null).getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName);
+
+			Log.e(TAG,"--22--m_strFilePath="+m_strFilePath);
 		}
 		if (ParseXMLThread == null) {
 			if (m_Dialog == null) {

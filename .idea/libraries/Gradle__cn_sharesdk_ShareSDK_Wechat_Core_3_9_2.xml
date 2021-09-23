@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: cn.sharesdk:ShareSDK-Wechat-Core:3.9.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat-Core/3.9.2/cf7e11ac117c342724024fe7deb0988c4bc0e311/ShareSDK-Wechat-Core-3.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat-Core/3.9.2/cf7e11ac117c342724024fe7deb0988c4bc0e311/ShareSDK-Wechat-Core-3.9.2.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat-Core/3.9.2/cf7e11ac117c342724024fe7deb0988c4bc0e311/ShareSDK-Wechat-Core-3.9.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

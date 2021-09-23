@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: no.nordicsemi.android.support.v18:scanner:1.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../androidSdk/gradle-4.1/caches/transforms-1/files-1.1/scanner-1.0.0.aar/9f30258cc8bb28f351ba3081452284a2/res" />
+      <root url="file://$PROJECT_DIR$/../../androidSdk/gradle-4.1/caches/transforms-1/files-1.1/scanner-1.0.0.aar/9f30258cc8bb28f351ba3081452284a2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanner-1.0.0.aar/e78f6e395bc4b83ac2f109e9cd89bcb0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanner-1.0.0.aar/e78f6e395bc4b83ac2f109e9cd89bcb0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanner-1.0.0.aar/e78f6e395bc4b83ac2f109e9cd89bcb0/jars/classes.jar!/" />
@@ -9,22 +9,27 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanner-1.0.0.aar/c9acd876b2244e13eac3610cb8700c22/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanner-1.0.0.aar/c9acd876b2244e13eac3610cb8700c22/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../BOZLUNPROJECT/CRPBleSdkSample/caches/transforms-2/files-2.1/f6592ea71f9f63f1a354a81edd559043/scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/f6592ea71f9f63f1a354a81edd559043/scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/a546ad69e57f454ad7bd4f73d4621cc7/jetified-scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/7a75fb131616a104392051f133ece7ef/jetified-scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/c124f55275af2a53da74109ef01bf248/jetified-scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/cdb4ed29c4630f5c4fab809670cb9863/jetified-scanner-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/f6592ea71f9f63f1a354a81edd559043/scanner-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/a546ad69e57f454ad7bd4f73d4621cc7/jetified-scanner-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/7a75fb131616a104392051f133ece7ef/jetified-scanner-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/c124f55275af2a53da74109ef01bf248/jetified-scanner-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/cdb4ed29c4630f5c4fab809670cb9863/jetified-scanner-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/7b4ce6d40428b2e697e96bb20b096eb1/jetified-scanner-1.0.0/jars/classes.jar!/" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/dffacd3735b84d08c31100cfbe556107/jetified-scanner-1.0.0/res" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/dffacd3735b84d08c31100cfbe556107/jetified-scanner-1.0.0/AndroidManifest.xml" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/dffacd3735b84d08c31100cfbe556107/jetified-scanner-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/fe1b03a6430af7ad629a89f36fb71e02ed37f96e/scanner-1.0.0-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/fe1b03a6430af7ad629a89f36fb71e02ed37f96e/scanner-1.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/fe1b03a6430af7ad629a89f36fb71e02ed37f96e/scanner-1.0.0-javadoc.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/fe1b03a6430af7ad629a89f36fb71e02ed37f96e/scanner-1.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/f56819e74f4eeffdcfddd55234282f7f2ebcd6d9/scanner-1.0.0-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/f56819e74f4eeffdcfddd55234282f7f2ebcd6d9/scanner-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/f56819e74f4eeffdcfddd55234282f7f2ebcd6d9/scanner-1.0.0-sources.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android.support.v18/scanner/1.0.0/f56819e74f4eeffdcfddd55234282f7f2ebcd6d9/scanner-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -7,17 +7,22 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.1.1.aar/7b0557622ad465556ee8c1c3a82fa5e6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.1.1.aar/7b0557622ad465556ee8c1c3a82fa5e6/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.1.1.aar/7b0557622ad465556ee8c1c3a82fa5e6/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/60c1daf61ad79528de39500aca60aaf3/jetified-percent-support-extends-1.1.1/AndroidManifest.xml" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/b4942e4bebe944a85be485b494c2fbb9/jetified-percent-support-extends-1.1.1/AndroidManifest.xml" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/b4942e4bebe944a85be485b494c2fbb9/jetified-percent-support-extends-1.1.1/res" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/b4942e4bebe944a85be485b494c2fbb9/jetified-percent-support-extends-1.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d0c9bbe5e2c215efabff87b3e87a5b24b9f94cc6/percent-support-extends-1.1.1-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d0c9bbe5e2c215efabff87b3e87a5b24b9f94cc6/percent-support-extends-1.1.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d0c9bbe5e2c215efabff87b3e87a5b24b9f94cc6/percent-support-extends-1.1.1-javadoc.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d0c9bbe5e2c215efabff87b3e87a5b24b9f94cc6/percent-support-extends-1.1.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d3fab85ca95748b17b74fa5d87b95e3456143552/percent-support-extends-1.1.1-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d3fab85ca95748b17b74fa5d87b95e3456143552/percent-support-extends-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d3fab85ca95748b17b74fa5d87b95e3456143552/percent-support-extends-1.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.zhy/percent-support-extends/1.1.1/d3fab85ca95748b17b74fa5d87b95e3456143552/percent-support-extends-1.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

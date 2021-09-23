@@ -7,17 +7,22 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dfu-1.6.1.aar/c5758631686bc79d20c188a4f75a4292/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dfu-1.6.1.aar/c5758631686bc79d20c188a4f75a4292/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dfu-1.6.1.aar/c5758631686bc79d20c188a4f75a4292/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/47b8dccffef1ddae6165a65aa1d29d23/jetified-dfu-1.6.1/res" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/1af4feae6a60ca29503bc4dfcc276d75/jetified-dfu-1.6.1/res" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/1af4feae6a60ca29503bc4dfcc276d75/jetified-dfu-1.6.1/AndroidManifest.xml" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/1af4feae6a60ca29503bc4dfcc276d75/jetified-dfu-1.6.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/6af99b240d5f2bd15002aa662750f0230ff92f2c/dfu-1.6.1-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/6af99b240d5f2bd15002aa662750f0230ff92f2c/dfu-1.6.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/6af99b240d5f2bd15002aa662750f0230ff92f2c/dfu-1.6.1-javadoc.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/6af99b240d5f2bd15002aa662750f0230ff92f2c/dfu-1.6.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/40959cfba165a81ac25c4b9a70d57b1a4c625adc/dfu-1.6.1-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/40959cfba165a81ac25c4b9a70d57b1a4c625adc/dfu-1.6.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/40959cfba165a81ac25c4b9a70d57b1a4c625adc/dfu-1.6.1-sources.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/no.nordicsemi.android/dfu/1.6.1/40959cfba165a81ac25c4b9a70d57b1a4c625adc/dfu-1.6.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

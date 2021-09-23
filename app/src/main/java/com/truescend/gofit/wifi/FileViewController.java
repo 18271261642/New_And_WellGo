@@ -24,7 +24,9 @@ import com.truescend.gofit.R;
 import generalplus.com.GPCamLib.CamWrapper;
 import com.generalplus.ffmpegLib.ffmpegWrapper;
 
-
+/**
+ * 播放视频页面
+ */
 public class FileViewController extends Activity implements SurfaceHolder.Callback {
 
     private static String TAG = "FileViewController";
@@ -88,7 +90,7 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
     }
 
     private void setupControls() {
-        getActionBar().hide();
+       // getActionBar().hide();
 
         vlcContainer.setVisibility(View.VISIBLE);
 

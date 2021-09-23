@@ -7,17 +7,22 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.2.aar/79ab906723368b3112386542c3ad285c/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.2.aar/79ab906723368b3112386542c3ad285c/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.2.aar/79ab906723368b3112386542c3ad285c/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/res" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/jars/classes.jar!/" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/AndroidManifest.xml" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/29b82ad9eebf5816b2ad38650424f7e2/jetified-debug-db-1.0.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/96f2b2f1af51a603956f9bb31542bb6bc8dc5144/debug-db-1.0.2-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/96f2b2f1af51a603956f9bb31542bb6bc8dc5144/debug-db-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/96f2b2f1af51a603956f9bb31542bb6bc8dc5144/debug-db-1.0.2-javadoc.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/96f2b2f1af51a603956f9bb31542bb6bc8dc5144/debug-db-1.0.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/45e70199189c9bf2fe538a8de8216cbb51092037/debug-db-1.0.2-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/45e70199189c9bf2fe538a8de8216cbb51092037/debug-db-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/45e70199189c9bf2fe538a8de8216cbb51092037/debug-db-1.0.2-sources.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/debug-db/1.0.2/45e70199189c9bf2fe538a8de8216cbb51092037/debug-db-1.0.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

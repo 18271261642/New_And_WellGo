@@ -163,7 +163,7 @@ public class SplashActivity extends Activity {
                     WAIT_TIME = 0;//调试模式更快点
                 }
                 //启动页停留一会儿
-                Thread.sleep(WAIT_TIME);
+               // Thread.sleep(WAIT_TIME);
 
 
                 if (IF.isEmpty(UserStorage.getAccessToken()) || UserStorage.getUserId() == -1 || UserStorage.isFirst()) {

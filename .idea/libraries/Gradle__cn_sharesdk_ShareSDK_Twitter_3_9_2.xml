@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: cn.sharesdk:ShareSDK-Twitter:3.9.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Twitter/3.9.2/611f2ff18746bb095b13e41265f188a89f0fba57/ShareSDK-Twitter-3.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Twitter/3.9.2/611f2ff18746bb095b13e41265f188a89f0fba57/ShareSDK-Twitter-3.9.2.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Twitter/3.9.2/611f2ff18746bb095b13e41265f188a89f0fba57/ShareSDK-Twitter-3.9.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

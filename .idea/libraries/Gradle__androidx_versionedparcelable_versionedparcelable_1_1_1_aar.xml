@@ -1,17 +1,21 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/826ccc4f0d853339fde339ce9804e8a4/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/9d22872fa434e5f371b6806bb2864625/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/63831733c8a935e844d676e641d9a48c/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/29ad26ffe1e78d445a41b579c50bbe36/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/826ccc4f0d853339fde339ce9804e8a4/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/9d22872fa434e5f371b6806bb2864625/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/63831733c8a935e844d676e641d9a48c/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/29ad26ffe1e78d445a41b579c50bbe36/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/res" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/1a4c7cc8abe2c9cb55ed297bb6275090/versionedparcelable-1.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
