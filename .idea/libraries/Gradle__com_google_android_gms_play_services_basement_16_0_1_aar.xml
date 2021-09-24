@@ -7,9 +7,12 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/247bc61765030a5ce78342d5a3bdd7f6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/247bc61765030a5ce78342d5a3bdd7f6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/247bc61765030a5ce78342d5a3bdd7f6/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/res" />
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/176698d12ca6aa8b9b11cb0da400b6d7/jetified-play-services-basement-16.0.1/jars/classes.jar!/" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/37a4f034bd9dfa0c8f08b790eb8d5b0a/jetified-play-services-basement-16.0.1/res" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/37a4f034bd9dfa0c8f08b790eb8d5b0a/jetified-play-services-basement-16.0.1/jars/classes.jar!/" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/37a4f034bd9dfa0c8f08b790eb8d5b0a/jetified-play-services-basement-16.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

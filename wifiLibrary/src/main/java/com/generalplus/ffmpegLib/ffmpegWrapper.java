@@ -12,60 +12,64 @@ public class ffmpegWrapper implements GLSurfaceView.Renderer {
 
     private final static String TAG = "ffmpegWrapper";
     private static ffmpegWrapper m_Instance;
-    private static Handler	m_NowViewHandler;
+    private static Handler m_NowViewHandler;
 
     public final static String LOW_LOADING_TRANSCODE_OPTIONS = "qmin=15;qmax=35;b=400000;g=15;bf=0;refs=2;weightp=simple;level=2.2;" +
-                                                               "x264-params=lookahead-threads=3:subme=4:chroma_qp_offset=0";
+            "x264-params=lookahead-threads=3:subme=4:chroma_qp_offset=0";
 
-    public final static int FFMPEG_STATUS_PLAYING			            = 0x00;
-    public final static int FFMPEG_STATUS_STOPPED			            = 0x01;
-    public final static int FFMPEG_STATUS_SAVESNAPSHOTCOMPLETE			= 0x02;
-    public final static int FFMPEG_STATUS_SAVEVIDEOCOMPLETE			    = 0x03;
-    public final static int FFMPEG_STATUS_BUFFERING			            = 0x04;
+    public final static int FFMPEG_STATUS_PLAYING = 0x00;
+    public final static int FFMPEG_STATUS_STOPPED = 0x01;
+    public final static int FFMPEG_STATUS_SAVESNAPSHOTCOMPLETE = 0x02;
+    public final static int FFMPEG_STATUS_SAVEVIDEOCOMPLETE = 0x03;
+    public final static int FFMPEG_STATUS_BUFFERING = 0x04;
 
-    public final static int EXTRACTOR_OK                            = 0;
-    public final static int EXTRACTOR_BUSY                          = 1;
-    public final static int EXTRACTOR_READFILEFAILED                = 2;
-    public final static int EXTRACTOR_DECODEFAILED                  = 3;
-    public final static int EXTRACTOR_NOSUCHFRAME                   = 4;
+    public final static int EXTRACTOR_OK = 0;
+    public final static int EXTRACTOR_BUSY = 1;
+    public final static int EXTRACTOR_READFILEFAILED = 2;
+    public final static int EXTRACTOR_DECODEFAILED = 3;
+    public final static int EXTRACTOR_NOSUCHFRAME = 4;
 
-    public final static int CODEC_ID_NONE                          = 0;
-    public final static int CODEC_ID_MJPEG                         = 8;
-    public final static int CODEC_ID_H264                          = 28;
+    public final static int CODEC_ID_NONE = 0;
+    public final static int CODEC_ID_MJPEG = 8;
+    public final static int CODEC_ID_H264 = 28;
 
-    public enum eFFMPEG_ERRCODE
-    {
-        FFMPEGPLAYER_NOERROR,				    //0
-        FFMPEGPLAYER_INITMEDIAFAILED,	        //1
-        FFMPEGPLAYER_MEDIAISPLAYING,	        //2
-        FFMPEGPLAYER_CREATESAVESTREAMFAILED,	//3
+    public enum eFFMPEG_ERRCODE {
+        FFMPEGPLAYER_NOERROR,                    //0
+        FFMPEGPLAYER_INITMEDIAFAILED,            //1
+        FFMPEGPLAYER_MEDIAISPLAYING,            //2
+        FFMPEGPLAYER_CREATESAVESTREAMFAILED,    //3
         FFMPEGPLAYER_SAVESNAPSHOTFAILED,        //4
-        FFMPEGPLAYER_SAVEVIDEOFAILED,	        //5
+        FFMPEGPLAYER_SAVEVIDEOFAILED,            //5
 
-    };
+    }
 
-    public enum ePlayerStatus
-    {
+    ;
+
+    public enum ePlayerStatus {
         E_PlayerStatus_Stoped,
         E_PlayerStatus_Playing,
         E_PlayerStatus_Stoping,
 
-    };
+    }
 
-    public enum eDisplayScale
-    {
+    ;
+
+    public enum eDisplayScale {
         E_DisplayScale_Fit,
         E_DisplayScale_Fill,
         E_DisplayScale_Stretch,
 
-    };
+    }
 
-    public enum eEncodeContainer
-    {
-        E_EncodeContainer_MP4 ,
-        E_EncodeContainer_AVI ,
+    ;
 
-    };
+    public enum eEncodeContainer {
+        E_EncodeContainer_MP4,
+        E_EncodeContainer_AVI,
+
+    }
+
+    ;
 
     //----------------------------------------------------------------------
     static {
@@ -80,13 +84,11 @@ public class ffmpegWrapper implements GLSurfaceView.Renderer {
         }
     }
 
-    public ffmpegWrapper()
-    {
+    public ffmpegWrapper() {
         m_Instance = this;
     }
 
-    public static ffmpegWrapper getInstance()
-    {
+    public static ffmpegWrapper getInstance() {
         return m_Instance;
     }
 
@@ -111,32 +113,27 @@ public class ffmpegWrapper implements GLSurfaceView.Renderer {
 
     /**
      * \brief
-     * 	Set The player status change notification handler.
-     *
+     * Set The player status change notification handler.
+     * <p>
      * \param[in] ViewHandler
-     *	The handler.
-     *
+     * The handler.
      */
-    public void SetViewHandler(Handler ViewHandler)
-    {
+    public void SetViewHandler(Handler ViewHandler) {
         m_NowViewHandler = ViewHandler;
     }
 
 
     /**
      * \brief
-     * 	Set The player status change notification.
-     *
+     * Set The player status change notification.
+     * <p>
      * \param[in] i32Status
-     *	The status. FFMPEG_STATUS_PLAYING => Player is playing , FFMPEG_STATUS_STOPPED => Player is stop play.
-     *              FFMPEG_STATUS_SAVESNAPSHOTCOMPLETE is saving snapshot complete  , FFMPEG_STATUS_SAVEVIDEOCOMPLETE is ssaving video complete .
-     *
+     * The status. FFMPEG_STATUS_PLAYING => Player is playing , FFMPEG_STATUS_STOPPED => Player is stop play.
+     * FFMPEG_STATUS_SAVESNAPSHOTCOMPLETE is saving snapshot complete  , FFMPEG_STATUS_SAVEVIDEOCOMPLETE is ssaving video complete .
      */
-    void StatusChange(int i32Status)
-    {
+    void StatusChange(int i32Status) {
 
-        if(m_NowViewHandler != null)
-        {
+        if (m_NowViewHandler != null) {
             Message msg = new Message();
             msg.what = i32Status;
             m_NowViewHandler.sendMessage(msg);
@@ -146,395 +143,391 @@ public class ffmpegWrapper implements GLSurfaceView.Renderer {
 
     /**
      * \brief
-     * 	Set the streaming path and play the streaming.
-     *
+     * Set the streaming path and play the streaming.
+     * <p>
      * \param[in] pFileName
-     *	The streaming path.
+     * The streaming path.
      * \param[in] pOptions
-     *	The option for streaming.The option string format is "option1=argument1;option2=argument2;...".
-     *  Ex: RTSP streaming over TCP "rtsp_transport=tcp".
-     *
+     * The option for streaming.The option string format is "option1=argument1;option2=argument2;...".
+     * Ex: RTSP streaming over TCP "rtsp_transport=tcp".
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
-    public static native int naInitAndPlay(String pFileName,String pOptions);
+    public static native int naInitAndPlay(String pFileName, String pOptions);
 
     /**
      * \brief
-     * 	Get the resolution of streaming .
-     *
+     * Get the resolution of streaming .
+     * <p>
      * \return
-     *	The resolution array.
+     * The resolution array.
      */
     public static native int[] naGetVideoRes();
 
     /**
      * \brief
-     * 	Set the surface width and height.
-     *
+     * Set the surface width and height.
+     * <p>
      * \param[in] pWidth
-     *	The Surface width.
+     * The Surface width.
      * \param[in] pHeight
-     *	The Surface height.
-     *
+     * The Surface height.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetup(int pWidth, int pHeight);
 
     /**
      * \brief
-     * 	Play the streaming.
-     *
+     * Play the streaming.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
-     *
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naPlay();
 
     /**
      * \brief
-     * 	Stop the streaming.
-     *
+     * Stop the streaming.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
-     *
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naStop();
 
     /**
      * \brief
-     * 	Pause the streaming.
-     *
+     * Pause the streaming.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
-     *
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naPause();
 
     /**
      * \brief
-     * 	Resume the streaming.
-     *
+     * Resume the streaming.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
-     *
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naResume();
 
     /**
      * \brief
-     * 	Seek the streaming to postion.
-     *
+     * Seek the streaming to postion.
+     * <p>
      * \details
-     *  Only for playing local file.
-     *
+     * Only for playing local file.
+     * <p>
      * \param[in] position
-     *	The file position (microsecond).
-     *
+     * The file position (microsecond).
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSeek(long lPos);
 
     /**
      * \brief
-     * 	Set the streaming is from network or not.
-     *
+     * Set the streaming is from network or not.
+     * <p>
      * \details
-     *  Enable streaming mode will playing the streaming in low lantency.
-     *
+     * Enable streaming mode will playing the streaming in low lantency.
+     * <p>
      * \param[in] bEnable
-     *	Enable/Disable streaming mode.
-     *
+     * Enable/Disable streaming mode.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetStreaming(boolean bEnable);
 
 
     /**
      * \brief
-     * 	Set encoding the stream by using local timestamp which is the time shows on the screen.
-     *
+     * Set encoding the stream by using local timestamp which is the time shows on the screen.
+     * <p>
      * \details
-     *  Enable this will ignoring timestamp from the stream and MJPEG streaming will increase file size.
-     *
+     * Enable this will ignoring timestamp from the stream and MJPEG streaming will increase file size.
+     * <p>
      * \param[in] bEnable
-     *	Enable/Disable encoding the stream by using local timestamp. Default is disable.
-     *
+     * Enable/Disable encoding the stream by using local timestamp. Default is disable.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetEncodeByLocalTime(boolean bEnable);
 
 
     /**
      * \brief
-     *  Set display debug message on screen. (Mjpeg only).
-     *
+     * Set display debug message on screen. (Mjpeg only).
+     * <p>
      * \param[in] bEnable
-     *  Enable/Disable display debug message on screen.
+     * Enable/Disable display debug message on screen.
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetDebugMessage(boolean bRepeat);
 
 
     /**
      * \brief
-     * 	Set play the streaming repeatedly.
-     *
+     * Set play the streaming repeatedly.
+     * <p>
      * \details
-     *  Only for playing local file.
-     *
+     * Only for playing local file.
+     * <p>
      * \param[in] bRepeat
-     *	Enable/Disable repeat.
-     *
+     * Enable/Disable repeat.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetRepeat(boolean bRepeat);
 
 
     /**
      * \brief
-     *     Enable force to transcode during saving stream.
-     *
+     * Enable force to transcode during saving stream.
+     * <p>
      * \details
-     *  Saving streaming to file directly now by default. Enable this option
-     *  will do transcode frames to H264 before saving to file.
-     *  This option is only for mjpeg streaming.
-     *  Android is using x264 library(software) to transcode streaming,and iOS is using videotoobox(hardware).
-     *
+     * Saving streaming to file directly now by default. Enable this option
+     * will do transcode frames to H264 before saving to file.
+     * This option is only for mjpeg streaming.
+     * Android is using x264 library(software) to transcode streaming,and iOS is using videotoobox(hardware).
+     * <p>
      * \param[in] bEnable
-     *    Enable/Disable transcode.
+     * Enable/Disable transcode.
      */
 
     public static native int naSetForceToTranscode(boolean bEnable);
 
     /**
      * \brief
-     * 	Get the streaming duration.
-     *
+     * Get the streaming duration.
+     * <p>
      * \details
-     *  Only for playing local file.
-     *
+     * Only for playing local file.
+     * <p>
      * \return
-     *	The streaming duration (microsecond).
+     * The streaming duration (microsecond).
      */
     public static native long naGetDuration();
 
     /**
      * \brief
-     * 	Get the current streaming position.
-     *
+     * Get the current streaming position.
+     * <p>
      * \details
-     *  Only for playing local file.
-     *
+     * Only for playing local file.
+     * <p>
      * \return
-     *	The file position (microsecond).
+     * The file position (microsecond).
      */
     public static native long naGetPosition();
 
     /**
      * \brief
-     * 	Init the player.
-     *
+     * Init the player.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naInitDrawFrame();
 
     /**
      * \brief
-     * 	Draw current video frame.
-     *
+     * Draw current video frame.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naDrawFrame();
 
     /**
      * \brief
-     * 	The the player status.
-     *
+     * The the player status.
+     * <p>
      * \return
-     *	Return ePlayerStatus.
+     * Return ePlayerStatus.
      */
     public static native int naStatus();
 
     /**
      * \brief
-     * 	Get the received packet size.
-     *
+     * Get the received packet size.
+     * <p>
      * \return
-     *	Return the packet size.
+     * Return the packet size.
      */
     public static native long naGetRevSizeCnt();
 
     /**
      * \brief
-     * 	Get the frames count.
-     *
+     * Get the frames count.
+     * <p>
      * \return
-     *	Return the frames count.
+     * Return the frames count.
      */
     public static native long naGetFrameCnt();
 
 
     /**
      * \brief
-     *  Get the current streaming codec ID.
-     *
+     * Get the current streaming codec ID.
+     * <p>
      * \return
-     *  The codec ID.
+     * The codec ID.
      */
     public static native int naGetStreamCodecID();
 
     /**
      * \brief
-     * 	Save the streaming snapshot to file.
-     *
+     * Save the streaming snapshot to file.
+     * <p>
      * \param[in] pFileName
-     *	The file path.
-     *
+     * The file path.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSaveSnapshot(String pFileName);
 
     /**
      * \brief
-     * 	Save the streaming to file.
-     *
+     * Save the streaming to file.
+     * <p>
      * \details
-     *  The file path will automatically appends the correct file extension for the stream.
-     *  Ex: H264 streaming => appends .mp4 , MJPEG streaming => appends .avi
-     *
+     * The file path will automatically appends the correct file extension for the stream.
+     * Ex: H264 streaming => appends .mp4 , MJPEG streaming => appends .avi
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSaveVideo(String pFileName);
 
     /**
      * \brief
-     * 	Stop save streaming.
-     *
+     * Stop save streaming.
+     * <p>
      * \return
-     *	The file extension is .mp4 return E_EncodeContainer_MP4 , The file extension is .avi return E_EncodeContainer_AVI.
+     * The file extension is .mp4 return E_EncodeContainer_MP4 , The file extension is .avi return E_EncodeContainer_AVI.
      */
     public static native int naStopSaveVideo();
 
 
     /**
      * \brief
-     *     Extract frame from video file and save the frame to file.
-     *
+     * Extract frame from video file and save the frame to file.
+     * <p>
      * \param[in] VideoPath
-     *    The video path.
+     * The video path.
      * \param[in] SavePath
-     *    The save path.
+     * The save path.
      * \param[in] frameIdx
-     *    The frame index.
-     *
+     * The frame index.
+     * <p>
      * \return
-     *    The extract result.
-     *    EXTRACTOR_OK = Extract frame Extract successfully.
-     *    EXTRACTOR_BUSY = Extractor is busy.
-     *    EXTRACTOR_READFILEFAILED = Failed to read video file.
-     *    EXTRACTOR_DECODEFAILED = Failed to decode frame.
-     *    EXTRACTOR_NOSUCHFRAME = No such "frameIdx" in video file.
+     * The extract result.
+     * EXTRACTOR_OK = Extract frame Extract successfully.
+     * EXTRACTOR_BUSY = Extractor is busy.
+     * EXTRACTOR_READFILEFAILED = Failed to read video file.
+     * EXTRACTOR_DECODEFAILED = Failed to decode frame.
+     * EXTRACTOR_NOSUCHFRAME = No such "frameIdx" in video file.
      */
-    public static native int naExtractFrame(String VideoPath,String SavePath,long frameIdx);
+    public static native int naExtractFrame(String VideoPath, String SavePath, long frameIdx);
 
 
     /**
      * \brief
-     * 	Set the option for encode streaming.(Deprecated. No longer do transcode video, saving streaming to file directly now.)
-     *
+     * Set the option for encode streaming.(Deprecated. No longer do transcode video, saving streaming to file directly now.)
+     * <p>
      * \details
-     *  The option string format is "option1=argument1;option2=argument2;...".
-     *
+     * The option string format is "option1=argument1;option2=argument2;...".
+     * <p>
      * \param[in] pOption
-     *	The options.
-     *
+     * The options.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetTransCodeOptions(String pOption);
 
     /**
      * \brief
-     * 	Set the option for decode streaming.
-     *
+     * Set the option for decode streaming.
+     * <p>
      * \details
-     *  The option string format is "option1=argument1;option2=argument2;...".
-     *  Ex: Decoding H264 with low lantency "flags=low_delay".
-     *
+     * The option string format is "option1=argument1;option2=argument2;...".
+     * Ex: Decoding H264 with low lantency "flags=low_delay".
+     * <p>
      * \param[in] pOption
-     *	The options.
-     *
+     * The options.
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetDecodeOptions(String pOption);
 
     /**
      * \brief
-     * 	Set the display scale mode.
-     *
+     * Set the display scale mode.
+     * <p>
      * \param[in] i32Mode
-     *	The display scale mode.
-     *  DISPLAY_SCALE_FIT = Fit the screen
-     *  DISPLAY_SCALE_FILL = Fill the screen
-     *  DISPLAY_SCALE_STRETCH = Stretch the screen
-     *
+     * The display scale mode.
+     * DISPLAY_SCALE_FIT = Fit the screen
+     * DISPLAY_SCALE_FILL = Fill the screen
+     * DISPLAY_SCALE_STRETCH = Stretch the screen
+     * <p>
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetScaleMode(int i32Mode);
 
     /**
      * \brief
-     *     Set the format for coverting decode frame.
-     *
+     * Set the format for coverting decode frame.
+     * <p>
      * \param[in] i32format
-     *    The format ID which been defined in FFDecodeFrame class.
-     *    Assign -1 to disable conversion.
+     * The format ID which been defined in FFDecodeFrame class.
+     * Assign -1 to disable conversion.
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetCovertDecodeFrameFormat(int i32Mode);
 
 
     /**
      * \brief
-     *     Set the buffering time when display queue is emtpy during streaming.
-     *
+     * Set the buffering time when display queue is emtpy during streaming.
+     * <p>
      * \param[in] bufferTime
-     *    The buffering time in millisecond. Value must be greater than 0
+     * The buffering time in millisecond. Value must be greater than 0
      */
     public static native int naSetBufferingTime(long bufferTime);
 
 
     /**
      * \brief
-     * 	Get the decoded frame.
-     *
+     * Get the decoded frame.
+     * <p>
      * \return
-     *	Return the decoded frame.
+     * Return the decoded frame.
      */
     public static native ffDecodeFrame naGetDecodeFrame();
 
     /**
      * \brief
-     *     Set the display zoom in ratio
-     *
+     * Set the display zoom in ratio
+     * <p>
      * \param[in] fRatio
-     *    The display scale ratio. Value must be greater than 0
+     * The display scale ratio. Value must be greater than 0
      * \return
-     *	Return 0 if this function succeeded. Otherwise, other value returned.
+     * Return 0 if this function succeeded. Otherwise, other value returned.
      */
     public static native int naSetZoomInRatio(float fRatio);
 }

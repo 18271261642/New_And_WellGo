@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:MPChartLib:unspecified">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../androidSdk/gradle-4.1/caches/transforms-1/files-1.1/MPChartLib-release.aar/f63b6cb9842296934cc7368870d8a706/res" />
+      <root url="file://$PROJECT_DIR$/../../androidSdk/gradle-4.1/caches/transforms-1/files-1.1/MPChartLib-release.aar/f63b6cb9842296934cc7368870d8a706/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MPChartLib-release.aar/f63b6cb9842296934cc7368870d8a706/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MPChartLib-release.aar/f63b6cb9842296934cc7368870d8a706/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MPChartLib-release.aar/f63b6cb9842296934cc7368870d8a706/res" />
@@ -10,9 +10,10 @@
       <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/3336fc2df1602efb6ab20eb1f828f58f/jetified-MPChartLib-release/res" />
       <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/b2b46d931cafecef270be0972925725a/jetified-MPChartLib-release/res" />
       <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/3529f77a590d1e5520856b0d96d07fa9/jetified-MPChartLib-release/res" />
-      <root url="jar://$PROJECT_DIR$/MPChartLib/build/.transforms/6a7cff1250934cca8419473b63fbdeee/jetified-MPChartLib-release/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/6a7cff1250934cca8419473b63fbdeee/jetified-MPChartLib-release/res" />
-      <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/6a7cff1250934cca8419473b63fbdeee/jetified-MPChartLib-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/f3923d1a48ab1f1312512d340045218e/jetified-MPChartLib-release/res" />
+      <root url="file://$PROJECT_DIR$/MPChartLib/build/.transforms/f3923d1a48ab1f1312512d340045218e/jetified-MPChartLib-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/MPChartLib/build/.transforms/f3923d1a48ab1f1312512d340045218e/jetified-MPChartLib-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -73,6 +73,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_wifi_main);
 
 
+        Log.e(TAG,"------ext="+getExternalFilesDir(null).getPath()+"\n"+getFilesDir().getPath());
+
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         //getActionBar().setDisplayShowHomeEnabled(false);
         mContext = MainActivity.this;
@@ -82,7 +85,7 @@ public class MainActivity extends Activity {
 
             if (writePermission != PackageManager.PERMISSION_GRANTED) {
                 // We don't have permission so prompt the user
-                String[] perms = {"android.permission.WRITE_EXTERNAL_STORAGE",Manifest.permission.READ_EXTERNAL_STORAGE};
+                String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE};
 
                 int permsRequestCode = 200;
 
@@ -220,11 +223,19 @@ public class MainActivity extends Activity {
     }
 
     private void crateDirectory() {
-        strSaveDirectory = Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName;
+
+
+
+
+        //strSaveDirectory = Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName;
+        strSaveDirectory = getExternalFilesDir(null).getPath()+"/"+ CamWrapper.CamDefaulFolderName;
+
         File SaveFileDirectory = new File(strSaveDirectory);
         SaveFileDirectory.mkdirs();
 
         File CameraFileDirectory = new File(Environment.getExternalStorageDirectory().getPath() + CamWrapper.SaveFileToDevicePath);
+
+
         if (!CameraFileDirectory.exists())
             CameraFileDirectory.mkdirs();
     }

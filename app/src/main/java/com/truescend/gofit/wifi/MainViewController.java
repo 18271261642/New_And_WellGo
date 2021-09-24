@@ -41,7 +41,9 @@ import generalplus.com.GPCamLib.CamWrapper;
 import generalplus.com.GPCamLib.GPXMLParse;
 import com.generalplus.ffmpegLib.ffmpegWrapper;
 
-
+/**
+ * 在线视频播放页面
+ */
 public class MainViewController extends Activity implements SurfaceHolder.Callback {
 
     private static String TAG = "MainViewController";
@@ -127,7 +129,16 @@ public class MainViewController extends Activity implements SurfaceHolder.Callba
     }
 
     private boolean ReadDefaultMenu() {
-        String strXMLFilePath = String.format(Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+       // String strXMLFilePath = String.format(Environment.getExternalStorageDirectory().getPath() + "/Download/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+
+
+        String strXMLFilePath = this.getExternalFilesDir(null).getPath()+"/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName;
+
+        String tmpPath = this.getExternalFilesDir(null).getPath();
+
+        Log.e(TAG,"-----strXMLFilePath="+strXMLFilePath+" "+tmpPath);
+
+
         if (m_GPXMLParse == null)
             m_GPXMLParse = new GPXMLParse();
 
@@ -144,14 +155,20 @@ public class MainViewController extends Activity implements SurfaceHolder.Callba
         }
 
         copyDefaultXml();
-        ReadXml(String.format(Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName));
+       // ReadXml(String.format(Environment.getExternalStorageDirectory().getPath() + "/Download/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName));
+
+        ReadXml(String.format(getExternalFilesDir(null).getPath()+"/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.DefaultParameterFileName));
+
         return false;
     }
 
     private void copyDefaultXml() {
         CamWrapper.bIsDefault = true;
-        File file = new File(Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/", CamWrapper.DefaultParameterFileName);
-        if (false == file.exists()) {
+        //File file = new File(Environment.getExternalStorageDirectory().getPath() + "/Download/" + CamWrapper.CamDefaulFolderName + "/", CamWrapper.DefaultParameterFileName);
+
+        File file = new File(getExternalFilesDir(null).getPath() + "/" + CamWrapper.CamDefaulFolderName + "/", CamWrapper.DefaultParameterFileName);
+
+        if (!file.exists()) {
             AssetManager assetManager = getAssets();
             InputStream fIn = null;
             try {
@@ -1074,7 +1091,10 @@ public class MainViewController extends Activity implements SurfaceHolder.Callba
             return;
         }
         if (m_xmlGategory == null || m_xmlGategory.size() == 0) {
-            String strXMLFilePath = String.format(Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+           // String strXMLFilePath = String.format(Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+
+            String strXMLFilePath = String.format(getExternalFilesDir(null).getPath() + "/" + CamWrapper.CamDefaulFolderName + "/" + CamWrapper.ParameterFileName);
+
             ArrayList<GPXMLParse.GPXMLCategory> xmlTempGategory = m_GPXMLParse
                     .GetGPXMLInfo(strXMLFilePath);
             if (m_xmlGategory == null)

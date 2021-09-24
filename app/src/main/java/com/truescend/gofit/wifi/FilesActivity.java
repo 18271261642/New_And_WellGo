@@ -41,7 +41,9 @@ import java.util.HashMap;
 
 import generalplus.com.GPCamLib.CamWrapper;
 
-
+/**
+ * 文件列表
+ */
 public class FilesActivity extends Activity {
 
 
@@ -173,7 +175,7 @@ public class FilesActivity extends Activity {
                 // TODO Auto-generated method stub
                 _firstVisibleItem = firstVisibleItem;
 
-                Log.d("tag", "onScroll = " + firstVisibleItem);
+                Log.e("tag", "onScroll = " + firstVisibleItem);
             }
         });
         m_Gridview.setOnItemClickListener(new OnItemClickListener() {

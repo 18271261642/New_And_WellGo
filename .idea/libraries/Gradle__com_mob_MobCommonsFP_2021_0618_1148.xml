@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.mob:MobCommonsFP:2021.0618.1148">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.mob/MobCommonsFP/2021.0618.1148/ac672b47427b924db38aae9b3bb37d9fa6961f6e/MobCommonsFP-2021.0618.1148.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.mob/MobCommonsFP/2021.0618.1148/ac672b47427b924db38aae9b3bb37d9fa6961f6e/MobCommonsFP-2021.0618.1148.jar!/" />
+      <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.mob/MobCommonsFP/2021.0618.1148/ac672b47427b924db38aae9b3bb37d9fa6961f6e/MobCommonsFP-2021.0618.1148.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

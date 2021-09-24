@@ -1,5 +1,6 @@
 package generalplus.com.GPCamLib;
 
+import android.os.Build;
 import android.os.Environment;
 
 import java.io.File;
@@ -22,9 +23,15 @@ public class GPINIReader {
 	public GPINIReader() {
 		m_Instance = this;
 		configuration = new Properties();
-		configurationFile = Environment.getExternalStorageDirectory().getPath()
-				+ "/" + CamWrapper.CamDefaulFolderName + "/"
+
+
+//		configurationFile = Environment.getExternalStorageDirectory().getPath()
+//				+ "/Download/" + CamWrapper.CamDefaulFolderName + "/"
+//				+ CamWrapper.ConfigFileName;
+
+		configurationFile = "/storage/emulated/0/Android/data/com.truescend.gofit/files/"+ CamWrapper.CamDefaulFolderName + "/"
 				+ CamWrapper.ConfigFileName;
+
 
 		File f = new File(configurationFile);
 		if (!f.exists() && !f.isDirectory()) {
