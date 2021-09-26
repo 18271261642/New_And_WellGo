@@ -7,14 +7,19 @@
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/jars/classes.jar!/" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/AndroidManifest.xml" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/res" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/d8d8545af13c0b8e0bcded4be2e7b0a1/jetified-butterknife-10.2.3/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/d194e4482f40005acec8f2d5e31f66d5ea7779da/butterknife-10.2.3-javadoc.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/d194e4482f40005acec8f2d5e31f66d5ea7779da/butterknife-10.2.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/d194e4482f40005acec8f2d5e31f66d5ea7779da/butterknife-10.2.3-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/7f5efb6675e4f09b97482d8c677ab0bc68d532d/butterknife-10.2.3-sources.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/7f5efb6675e4f09b97482d8c677ab0bc68d532d/butterknife-10.2.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.3/7f5efb6675e4f09b97482d8c677ab0bc68d532d/butterknife-10.2.3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -13,16 +13,21 @@
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/jars/classes.jar!/" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/res" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/729844dff0971e695e3f282fc5961547/jetified-free_reflection-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/912f4be6148f60b5c2cfbd8d0aa80fe2049994ac/free_reflection-1.2.0-javadoc.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/912f4be6148f60b5c2cfbd8d0aa80fe2049994ac/free_reflection-1.2.0-javadoc.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/912f4be6148f60b5c2cfbd8d0aa80fe2049994ac/free_reflection-1.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/912f4be6148f60b5c2cfbd8d0aa80fe2049994ac/free_reflection-1.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/cab4055804d1627f1db0e78db31002053d5e10a3/free_reflection-1.2.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/cab4055804d1627f1db0e78db31002053d5e10a3/free_reflection-1.2.0-sources.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/cab4055804d1627f1db0e78db31002053d5e10a3/free_reflection-1.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/me.weishu/free_reflection/1.2.0/cab4055804d1627f1db0e78db31002053d5e10a3/free_reflection-1.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

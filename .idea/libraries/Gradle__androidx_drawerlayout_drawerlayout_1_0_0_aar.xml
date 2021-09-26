@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/annotations.zip!/" />
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/5dc88bdc0dc85988724bcb86cb3fc577/drawerlayout-1.0.0/res" />
@@ -15,11 +16,15 @@
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/AndroidManifest.xml" />
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/56041c16e02ac880389576221a33fc00/drawerlayout-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

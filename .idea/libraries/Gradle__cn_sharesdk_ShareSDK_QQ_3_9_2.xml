@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-QQ/3.9.2/2b9ddad9f3a88bf0c8b178c66dd604023cdac4d7/ShareSDK-QQ-3.9.2.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-QQ/3.9.2/2b9ddad9f3a88bf0c8b178c66dd604023cdac4d7/ShareSDK-QQ-3.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-QQ/3.9.2/2b9ddad9f3a88bf0c8b178c66dd604023cdac4d7/ShareSDK-QQ-3.9.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
