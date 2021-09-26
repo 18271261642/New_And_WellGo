@@ -1,6 +1,7 @@
 package com.truescend.gofit.wifi;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -29,6 +30,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.j256.ormlite.stmt.query.In;
 import com.truescend.gofit.R;
 
 import java.io.BufferedReader;
@@ -63,6 +65,7 @@ public class MainActivity extends Activity {
 
     private ImageView wifiTitleBackImg;
 
+    @SuppressLint("MissingPermission")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -109,6 +112,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+//                startActivity(new Intent(MainActivity.this,SettingActivity.class));
                 if (m_connectGPWifiDeviceThread == null) {
                     if (m_Dialog == null) {
                         m_Dialog = new ProgressDialog(mContext);
@@ -225,8 +229,6 @@ public class MainActivity extends Activity {
     private void crateDirectory() {
 
 
-
-
         //strSaveDirectory = Environment.getExternalStorageDirectory().getPath() + "/" + CamWrapper.CamDefaulFolderName;
         strSaveDirectory = getExternalFilesDir(null).getPath()+"/"+ CamWrapper.CamDefaulFolderName;
 
@@ -253,7 +255,7 @@ public class MainActivity extends Activity {
                 boolean writeAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
                 if (false == writeAccepted) {
                     if (shouldAskPermission()) {
-                        String[] perms = {"android.permission.WRITE_EXTERNAL_STORAGE"};
+                        String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE};
 
                         ActivityCompat.requestPermissions(this, perms, permsRequestCode);
                     }
@@ -308,6 +310,7 @@ public class MainActivity extends Activity {
             try {
                 exit = process.waitFor();
             } catch (InterruptedException ignore) {
+                ignore.printStackTrace();
                 return;
             }
         }

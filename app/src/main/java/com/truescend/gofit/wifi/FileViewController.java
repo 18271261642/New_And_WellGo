@@ -24,6 +24,8 @@ import com.truescend.gofit.R;
 import generalplus.com.GPCamLib.CamWrapper;
 import com.generalplus.ffmpegLib.ffmpegWrapper;
 
+import java.util.Arrays;
+
 /**
  * 播放视频页面
  */
@@ -158,6 +160,7 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
         }).start();
     }
 
+    //读取图片流
     private void playPictureStreaming() {
         new Thread(new Runnable() {
             @Override
@@ -272,6 +275,10 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
         _urlToStream = b.getString(CamWrapper.GPFILECALLBACKTYPE_FILEURL, null);
         _FileFlag = b.getInt(CamWrapper.GPFILECALLBACKTYPE_FILEFLAG, 0);
         _FileIndex = b.getInt(CamWrapper.GPFILECALLBACKTYPE_FILEINDEX, 0);
+
+
+        Log.e(TAG,"---_urlToStream="+_urlToStream+"\n"+_FileFlag+"\n"+_FileIndex);
+
         setupControls();
         initStreaming();
 
@@ -281,7 +288,7 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
             CamWrapper.getComWrapperInstance().SetViewHandler(m_FromWrapperHandler, CamWrapper.GPVIEW_STREAMING);
 
             ffmpegWrapper.getInstance().naSetStreaming(true);
-            ffmpegWrapper.getInstance().naSetBufferingTime(2000);
+            ffmpegWrapper.getInstance().naSetBufferingTime(3 * 1000);
 
             if (_FileFlag == CamWrapper.GPFILEFLAG_JPGSTREAMING) {
                 playPictureStreaming();
@@ -329,12 +336,18 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
                     }
                 }
             } else if (msg.what == ffmpegWrapper.FFMPEG_STATUS_BUFFERING) {
-                if (m_Dialog == null) {
-                    m_Dialog = new ProgressDialog(mContext);
-                    m_Dialog.setCanceledOnTouchOutside(false);
-                    m_Dialog.setMessage(getResources().getString(R.string.Buffering));
+                try {
+                    if (m_Dialog == null) {
+                        m_Dialog = new ProgressDialog(mContext);
+                        m_Dialog.setCanceledOnTouchOutside(false);
+                        m_Dialog.setMessage(getResources().getString(R.string.Buffering));
+                    }
+                    if(m_Dialog != null && m_Dialog.isShowing())
+                        m_Dialog.show();
+                }catch (Exception e){
+                    e.printStackTrace();
                 }
-                m_Dialog.show();
+
 
             }
         }
@@ -410,6 +423,8 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
         int i32DataSize = StatusBundle.getInt(CamWrapper.GPCALLBACKSTATUSTYPE_DATASIZE);
         byte[] pbyData = StatusBundle.getByteArray(CamWrapper.GPCALLBACKSTATUSTYPE_DATA);
         //Log.e(TAG, "i32CMDIndex = " + i32CmdIndex + ", i32Type = " + i32CmdType + ", i32Mode = " + i32Mode + ", i32CMDID = " + i32CmdID + ", i32DataSize = " + i32DataSize);
+
+        Log.e(TAG,"-----pbyData="+ Arrays.toString(pbyData));
 
         if (i32CmdType == CamWrapper.GP_SOCK_TYPE_ACK) {
             switch (i32Mode) {

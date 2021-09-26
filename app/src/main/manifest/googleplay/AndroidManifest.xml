@@ -311,6 +311,8 @@
         <activity android:name=".wifi.MainViewController"/>
         <activity android:name=".wifi.SettingActivity"/>
 
+        <activity android:name=".wifi.TestWifiActivity"/>
+
         <!--测试界面-->
         <activity
             android:name="com.truescend.gofit.pagers.test.TestActivity"

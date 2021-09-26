@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.view.View;
 
+import com.sn.utils.SNToast;
 import com.truescend.gofit.R;
 import com.truescend.gofit.pagers.base.BaseFragment;
 import com.truescend.gofit.pagers.base.BasePresenter;
@@ -60,7 +61,8 @@ public class WifiFragment extends BaseFragment<WifiPresenterIml,IWifiContract.IV
 
             @Override
             public void onDenied() {
-
+                SNToast.init(getActivity());
+                SNToast.toast("请打开存储权限!");
             }
         });
     }

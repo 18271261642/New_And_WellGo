@@ -11,11 +11,15 @@
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/jars/classes.jar!/" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/9233af7ff41cce819d11a2bcc62a5eb4/jetified-annotation-experimental-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.0.0/2408f6cb8f31ffabdd88e1365f82914c251e44dc/annotation-experimental-1.0.0-sources.jar!/" />
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.0.0/2408f6cb8f31ffabdd88e1365f82914c251e44dc/annotation-experimental-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.0.0/2408f6cb8f31ffabdd88e1365f82914c251e44dc/annotation-experimental-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
