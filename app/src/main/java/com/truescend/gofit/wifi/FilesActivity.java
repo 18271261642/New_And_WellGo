@@ -37,6 +37,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 import generalplus.com.GPCamLib.CamWrapper;
@@ -141,6 +142,8 @@ public class FilesActivity extends Activity {
 
         strDevicePICLocation = Environment.getExternalStorageDirectory()
                 .getPath() + CamWrapper.SaveFileToDevicePath;
+
+        Log.e(TAG,"---------strDevicePICLocation="+strDevicePICLocation);
 
         if (m_handler == null)
             m_handler = new Handler();
@@ -869,6 +872,9 @@ public class FilesActivity extends Activity {
         int i32DataSize = StatusBundle.getInt(CamWrapper.GPCALLBACKSTATUSTYPE_DATASIZE);
         byte[] pbyData = StatusBundle.getByteArray(CamWrapper.GPCALLBACKSTATUSTYPE_DATA);
         //Log.e(TAG, "i32CMDIndex = " + i32CmdIndex + ", i32Type = " + i32CmdType + ", i32Mode = " + i32Mode + ", i32CMDID = " + i32CmdID + ", i32DataSize = " + i32DataSize);
+
+        Log.e(TAG,"------pbData="+ Arrays.toString(pbyData));
+
 
         if (i32CmdType == CamWrapper.GP_SOCK_TYPE_ACK) {
             switch (i32Mode) {

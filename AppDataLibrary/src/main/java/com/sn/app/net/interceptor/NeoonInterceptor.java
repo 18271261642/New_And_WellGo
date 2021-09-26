@@ -225,7 +225,7 @@ public class NeoonInterceptor implements Interceptor {
         try {
             response = chain.proceed(request);
         } catch (Throwable e) {
-            throw new IOException(e);
+            e.printStackTrace();
         }
         return response;
 //        Response responseLatest;

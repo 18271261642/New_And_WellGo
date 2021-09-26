@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/New_And_WellGo.iml" filepath="$PROJECT_DIR$/.idea/modules/New_And_WellGo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/New_And_WellGo.iml" filepath="$PROJECT_DIR$/.idea/New_And_WellGo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppDataLibrary/New_And_WellGo.AppDataLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/AppDataLibrary/New_And_WellGo.AppDataLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BleOTASupport/New_And_WellGo.BleOTASupport.iml" filepath="$PROJECT_DIR$/.idea/modules/BleOTASupport/New_And_WellGo.BleOTASupport.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CameraLibrary/New_And_WellGo.CameraLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/CameraLibrary/New_And_WellGo.CameraLibrary.iml" />

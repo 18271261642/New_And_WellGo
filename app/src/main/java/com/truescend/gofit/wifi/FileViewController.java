@@ -149,6 +149,9 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
                 ffmpegWrapper.getInstance().naStop();
                 CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
                 CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
+
+                Log.e(TAG,"------在线播放流="+urlToStream);
+
                 ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "timeout=-1;stimeout=-1");
 
     	    	/*if(PlayVLCThread == null)
@@ -174,6 +177,7 @@ public class FileViewController extends Activity implements SurfaceHolder.Callba
                 ffmpegWrapper.getInstance().naStop();
                 CamWrapper.getComWrapperInstance().GPCamClearCommandQueue();
                 CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
+                Log.e(TAG,"-------图片流="+urlToStream);
                 ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "");
     	    	/*if(PlayVLCThread == null)
     	        {
