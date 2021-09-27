@@ -2,6 +2,7 @@
   <library name="Gradle: cn.sharesdk:ShareSDK-Wechat:3.9.3">
     <CLASSES>
       <root url="jar://D:/Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat/3.9.3/b31451413a6b453eb825073ad6ad65cbea119072/ShareSDK-Wechat-3.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat/3.9.3/b31451413a6b453eb825073ad6ad65cbea119072/ShareSDK-Wechat-3.9.3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

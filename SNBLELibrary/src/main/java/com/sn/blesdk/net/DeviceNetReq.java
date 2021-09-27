@@ -44,8 +44,8 @@ public class DeviceNetReq {
                 .writeTimeout(30, TimeUnit.SECONDS)
                 .readTimeout(30, TimeUnit.SECONDS)
                 .cache(provideOkHttpCache(context))
-                .addInterceptor(new NeoonInterceptor())
-                .addNetworkInterceptor(new NeoonInterceptor())
+               // .addInterceptor(new NeoonInterceptor())
+//                .addNetworkInterceptor(new NeoonInterceptor())
                 .build();
     }
 

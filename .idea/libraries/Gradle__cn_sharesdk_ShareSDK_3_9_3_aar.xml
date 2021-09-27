@@ -5,6 +5,10 @@
       <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/jars/libs/ShareSDK-3.9.3.jar!/" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/res" />
       <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/res" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/jars/libs/ShareSDK-3.9.3.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/5d816a46b20dd875d4da5e2b835346cf/jetified-ShareSDK-3.9.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

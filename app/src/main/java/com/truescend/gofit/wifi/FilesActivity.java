@@ -28,6 +28,7 @@ import android.widget.ImageView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import com.j256.ormlite.stmt.query.In;
 import com.truescend.gofit.R;
 
 import java.io.File;
@@ -287,6 +288,14 @@ public class FilesActivity extends Activity {
                                             startActivity(toVlcPlayer);
                                         }
                                     } else {
+                                        if(dir.exists()){  //本地视频
+                                            Intent intent = new Intent(FilesActivity.this,LocalWifiPlayerActivity.class);
+                                            Bundle bundle = new Bundle();
+                                            bundle.putString("local_video",strStreamFilePath);
+                                            intent.putExtras(bundle);
+                                            startActivity(intent);
+                                            return;
+                                        }
                                         Intent toVlcPlayer = new Intent(FilesActivity.this, FileViewController.class);
                                         Bundle b = new Bundle();
                                         b.putString(CamWrapper.GPFILECALLBACKTYPE_FILEURL, strStreamFilePath);

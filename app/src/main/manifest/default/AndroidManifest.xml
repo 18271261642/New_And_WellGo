@@ -325,6 +325,7 @@
 
         <activity android:name=".wifi.TestWifiActivity"/>
 
+        <activity android:name=".wifi.LocalWifiPlayerActivity"/>
         <!--测试界面-->
         <activity
             android:name="com.truescend.gofit.pagers.test.TestActivity"
