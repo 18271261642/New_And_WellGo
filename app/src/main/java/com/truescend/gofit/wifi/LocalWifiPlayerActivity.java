@@ -49,7 +49,7 @@ public class LocalWifiPlayerActivity extends AppCompatActivity implements Screen
             Toast.makeText(this,"视频为空!",Toast.LENGTH_SHORT).show();
             return;
         }
-        mJzvdStd.setUp(videoUrl, "",JzvdStd.NORMAL_ORIENTATION,JZMediaIjk.class);
+        mJzvdStd.setUp(videoUrl, "");
     }
 
     private void initViews() {
