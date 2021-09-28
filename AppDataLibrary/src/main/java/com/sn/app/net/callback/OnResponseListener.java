@@ -87,11 +87,11 @@ public abstract class OnResponseListener<T> extends OnBaseResponseListener<T> {
                     message = AppSDK.getContext().getString(resId);
                 }
                 onFailure(ret, message);
-                if (ret == ERROR_NOT_LOGIN) {
-                    UserStorage.setAccessToken(null);
-                    //发送退出登录 广播
-                    SNEventBus.sendEvent(EVENT_ERROR_NOT_LOGIN);
-                }
+//                if (ret == ERROR_NOT_LOGIN) {
+//                    UserStorage.setAccessToken(null);
+//                    //发送退出登录 广播
+//                    SNEventBus.sendEvent(EVENT_ERROR_NOT_LOGIN);
+//                }
             } else {
 
                 try {

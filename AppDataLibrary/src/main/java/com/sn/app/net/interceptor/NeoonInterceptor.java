@@ -39,57 +39,62 @@ public class NeoonInterceptor implements Interceptor {
 
     @Override
     public Response intercept(@NonNull Chain chain) throws IOException {
-        Request request = chain.request();
-        if (!NetUtils.isConnected(AppSDK.getContext())) {
-            //没网强制从缓存读取(必须得写，不然断网状态下，退出应用，或者等待一分钟后，就获取不到缓存）
-            request = request.newBuilder()
-                    .cacheControl(CacheControl.FORCE_CACHE)
-                    .build();
-        } else {
-            Request.Builder requestBuilder = request.newBuilder();
+        try {
+            Request request = chain.request();
+            if (!NetUtils.isConnected(AppSDK.getContext())) {
+                //没网强制从缓存读取(必须得写，不然断网状态下，退出应用，或者等待一分钟后，就获取不到缓存）
+                request = request.newBuilder()
+                        .cacheControl(CacheControl.FORCE_CACHE)
+                        .build();
+            } else {
+                Request.Builder requestBuilder = request.newBuilder();
 
-            Map<String, String> mGetParamsMap = new HashMap<>();
-            Map<String, String> mPostParamsMap = new HashMap<>();
-
-
-            Headers headers = request.headers();
+                Map<String, String> mGetParamsMap = new HashMap<>();
+                Map<String, String> mPostParamsMap = new HashMap<>();
 
 
-            Headers.Builder newBuilder = request.headers().newBuilder();
+                Headers headers = request.headers();
 
-            int size = headers.size();
-            for (int i = 0; i < size; i++) {
-                String name = headers.name(i);
-                if (name.startsWith("@") && name.length() > 1) {
-                    newBuilder.removeAll(name);
-                    String key = name.substring(1, name.length());
-                    addParams(request, requestBuilder, mGetParamsMap, mPostParamsMap, key, headers.value(i));
+
+                Headers.Builder newBuilder = request.headers().newBuilder();
+
+                int size = headers.size();
+                for (int i = 0; i < size; i++) {
+                    String name = headers.name(i);
+                    if (name.startsWith("@") && name.length() > 1) {
+                        newBuilder.removeAll(name);
+                        String key = name.substring(1, name.length());
+                        addParams(request, requestBuilder, mGetParamsMap, mPostParamsMap, key, headers.value(i));
+                    }
                 }
-            }
 
 
-            //重定义头 删除临时头参数
-            requestBuilder.headers(newBuilder.build());
-            try {
-                if (TextUtils.isEmpty(version)) {
-                    Context context = AppSDK.getContext();
-                    PackageManager pm = context.getPackageManager();
-                    PackageInfo packageInfo = pm.getPackageInfo(context.getPackageName(), PackageManager.GET_ACTIVITIES);
-                    version = String.format("%s/%s", pm.getApplicationLabel(packageInfo.applicationInfo), packageInfo.versionName);
+                //重定义头 删除临时头参数
+                requestBuilder.headers(newBuilder.build());
+                try {
+                    if (TextUtils.isEmpty(version)) {
+                        Context context = AppSDK.getContext();
+                        PackageManager pm = context.getPackageManager();
+                        PackageInfo packageInfo = pm.getPackageInfo(context.getPackageName(), PackageManager.GET_ACTIVITIES);
+                        version = String.format("%s/%s", pm.getApplicationLabel(packageInfo.applicationInfo), packageInfo.versionName);
+                    }
+                    requestBuilder.removeHeader("User-Agent");
+                    requestBuilder.addHeader("User-Agent", version);
+                } catch (Throwable ignored) {
+                    ignored.printStackTrace();
                 }
-                requestBuilder.removeHeader("User-Agent");
-                requestBuilder.addHeader("User-Agent", version);
-            } catch (Throwable ignored) {
-            }
 
-            //注入URL(GET或其他)参数
-            request = injectUrlParamsRequest(request, requestBuilder, mGetParamsMap);
-            //注入POST参数
-            request = injectPostParamsRequest(request, requestBuilder, mPostParamsMap);
+                //注入URL(GET或其他)参数
+                request = injectUrlParamsRequest(request, requestBuilder, mGetParamsMap);
+                //注入POST参数
+                request = injectPostParamsRequest(request, requestBuilder, mPostParamsMap);
+            }
+            return proceedCache(chain, request);
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
         }
 
-
-            return proceedCache(chain, request);
     }
 
     private void addParams(Request request, Request.Builder requestBuilder, Map<String, String> mGetParamsMap, Map<String, String> mPostParamsMap, String key, String value) {
@@ -223,8 +228,8 @@ public class NeoonInterceptor implements Interceptor {
     private Response proceedCache(Chain chain, Request request) throws IOException {
         Response response = null;
         try {
-            response = chain.proceed(request);
-        } catch (Throwable e) {
+            response = chain == null || request == null ? null : chain.proceed(request);
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return response;

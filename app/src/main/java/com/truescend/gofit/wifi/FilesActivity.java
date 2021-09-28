@@ -254,30 +254,35 @@ public class FilesActivity extends Activity {
                                     bSaveImageItem = true;
 
                                     if (map.get(MAPKEY_FileName).toString().contains(".jpg")) {
-                                        if (!strStreamFilePath.isEmpty()) {
-                                            ImageView iv = new ImageView(m_Context);
-                                            try {
-                                                iv.setImageBitmap(
-                                                        decodeSampledBitmapFromResource(strStreamFilePath, 720, 480));
-                                                //iv.setImageURI(Uri.parse(strStreamFilePath));
-                                            } catch (Exception e) {
-                                                // TODO Auto-generated catch block
-                                                e.printStackTrace();
-                                            } catch (OutOfMemoryError e) {
-                                                e.printStackTrace();
-                                            }
+                                        if (!strStreamFilePath.isEmpty()) {   //本地图片
 
-                                            Builder ShowImgAlertDialog = new Builder(m_Context);
-                                            ShowImgAlertDialog.setView(iv);
-                                            ShowImgAlertDialog.setNegativeButton(getResources().getString(R.string.Cancel),
-                                                    new DialogInterface.OnClickListener() {
-                                                        @Override
-                                                        public void onClick(DialogInterface dialog, int which) {
-                                                            bIsStopUpdateThumbnail = false;
+                                            Intent pictureIntent = new Intent(FilesActivity.this,LocalPictureActivity.class);
+                                            pictureIntent.putExtra("local_picture",strStreamFilePath);
+                                            startActivity(pictureIntent);
 
-                                                        }
-                                                    });
-                                            ShowImgAlertDialog.show();
+//                                            ImageView iv = new ImageView(m_Context);
+//                                            try {
+//                                                iv.setImageBitmap(
+//                                                        decodeSampledBitmapFromResource(strStreamFilePath, 720, 480));
+//                                                //iv.setImageURI(Uri.parse(strStreamFilePath));
+//                                            } catch (Exception e) {
+//                                                // TODO Auto-generated catch block
+//                                                e.printStackTrace();
+//                                            } catch (OutOfMemoryError e) {
+//                                                e.printStackTrace();
+//                                            }
+//
+//                                            Builder ShowImgAlertDialog = new Builder(m_Context);
+//                                            ShowImgAlertDialog.setView(iv);
+//                                            ShowImgAlertDialog.setNegativeButton(getResources().getString(R.string.Cancel),
+//                                                    new DialogInterface.OnClickListener() {
+//                                                        @Override
+//                                                        public void onClick(DialogInterface dialog, int which) {
+//                                                            bIsStopUpdateThumbnail = false;
+//
+//                                                        }
+//                                                    });
+//                                            ShowImgAlertDialog.show();
                                         } else {
                                             Intent toVlcPlayer = new Intent(FilesActivity.this, FileViewController.class);
                                             Bundle b = new Bundle();

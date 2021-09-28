@@ -40,6 +40,7 @@ public abstract class SNBLEService extends Service
 			context.startService(intent);
 		} catch (Exception ignored)
 		{
+			ignored.printStackTrace();
 		}
 	}
 
@@ -216,7 +217,7 @@ public abstract class SNBLEService extends Service
 	/**
 	 * 通知数据回调监听
 	 */
-	private NotifyReceiverListener notifyReceiverListener = new NotifyReceiverListener()
+	private final NotifyReceiverListener notifyReceiverListener = new NotifyReceiverListener()
 	{
 		@Override
 		public void onReceive(byte[] buffer)

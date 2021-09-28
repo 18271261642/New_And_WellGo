@@ -60,6 +60,7 @@ public class DeviceManagerFragment extends BaseFragment<DeviceManagerPresenterIm
                 "Wifi设备"  };
         if(list == null)
             list = new ArrayList<>();
+        list.clear();
         list.add(new DeviceFragment());
         list.add(WifiFragment.getInstance());
         deviceManagerContainer.setAdapter(new FragmentPagerAdapter(getParentFragmentManager()) {

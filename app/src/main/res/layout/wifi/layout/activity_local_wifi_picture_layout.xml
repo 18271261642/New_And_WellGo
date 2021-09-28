@@ -3,15 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/running_translucent"
     android:layout_height="match_parent">
 
     <include layout="@layout/item_title_layout"/>
 
 
-    <com.shuyu.gsyvideoplayer.video.StandardGSYVideoPlayer
-       android:id="@+id/videoPlayer"
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/wifiPhotoView"
         android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>

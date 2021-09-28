@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shuyu:gsyVideoPlayer-ex_so:8.1.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/6275c2e6256707b92e7dc27098c37d9f/jetified-gsyVideoPlayer-ex_so-8.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/6275c2e6256707b92e7dc27098c37d9f/jetified-gsyVideoPlayer-ex_so-8.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/6275c2e6256707b92e7dc27098c37d9f/jetified-gsyVideoPlayer-ex_so-8.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.shuyu/gsyVideoPlayer-ex_so/8.1.2/fdb06b67d997ff56248e0e659e44a80e76ef8f06/gsyVideoPlayer-ex_so-8.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/modules-2/files-2.1/com.shuyu/gsyVideoPlayer-ex_so/8.1.2/6eb545505f6eb2beab4d5fd57d92be859d0d28c7/gsyVideoPlayer-ex_so-8.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,4 +1,3 @@
-include ':jzvideolibrary'
 include ':wifiLibrary'
 include ':MPChartLib'
 include ':app',

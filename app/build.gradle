@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
-        minSdkVersion 18
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
@@ -196,7 +196,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(path: ':MPChartLib')
     implementation project(path: ':wifiLibrary')
-    implementation project(path: ':jzvideolibrary')
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -300,4 +299,11 @@ dependencies {
     implementation 'jp.wasabeef:recyclerview-animators:2.3.0'
     //谷歌CameraX https://github.com/google/cameraview
     implementation project(':CameraLibrary')
+
+    //视频播放框架
+    implementation 'com.shuyu:gsyVideoPlayer-java:8.1.2'
+    implementation 'com.shuyu:gsyVideoPlayer-ex_so:8.1.2'
+//    implementatcon 'com.shuyu:GSYVideoPlayer-exo2:8.1.2'
+    //PhotoView
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 }
