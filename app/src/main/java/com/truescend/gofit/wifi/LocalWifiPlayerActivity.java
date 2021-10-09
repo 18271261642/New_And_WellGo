@@ -12,12 +12,15 @@ import android.widget.Toast;
 import com.shuyu.gsyvideoplayer.GSYBaseActivityDetail;
 import com.shuyu.gsyvideoplayer.GSYVideoManager;
 import com.shuyu.gsyvideoplayer.builder.GSYVideoOptionBuilder;
+import com.shuyu.gsyvideoplayer.player.PlayerFactory;
+import com.shuyu.gsyvideoplayer.player.SystemPlayerManager;
 import com.shuyu.gsyvideoplayer.video.StandardGSYVideoPlayer;
 import com.truescend.gofit.R;
 import java.io.File;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import tv.danmaku.ijk.media.exo2.Exo2PlayerManager;
 
 
 /**
@@ -49,7 +52,9 @@ public class LocalWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYVi
         Bundle bundle = getIntent().getExtras();
         if(bundle == null)
             return;
-        videoUrl = bundle.getString("local_video");
+       // videoUrl = bundle.getString("local_video");//
+        String tmpPaht2 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/DCIM/Camera/MOVI0015.avi";
+        this.videoUrl = tmpPaht2;
         Log.e(TAG,"---videoUrl="+videoUrl);
         if(videoUrl == null){
             Toast.makeText(this,"视频为空!",Toast.LENGTH_SHORT).show();
@@ -59,8 +64,7 @@ public class LocalWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYVi
 
         Log.e(TAG,"---filePath="+file.getName()+"\n"+file.getAbsolutePath());
         String tmpPaht = Environment.getExternalStorageDirectory().getAbsolutePath()+"/DCIM/Camera/"+file.getName();
-        String tmpPaht2 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/DCIM/Camera/"+file.getName()+".avi";
-        Log.e(TAG,"-----tmpPaht="+tmpPaht+" "+tmpPaht2);
+
        // videoPlayer.setUp(videoUrl,true,"title");
 
         initVideoBuilderMode();
@@ -70,6 +74,9 @@ public class LocalWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYVi
         videoPlayer = findViewById(R.id.videoPlayer);
         wifiTitleBackImg = findViewById(R.id.wifiTitleBackImg);
         itemTitleTv = findViewById(R.id.itemTitleTv);
+
+        GSYVideoManager.instance().setNeedMute(false);
+        PlayerFactory.setPlayManager(SystemPlayerManager.class);
 
         itemTitleTv.setText("视频播放");
         wifiTitleBackImg.setOnClickListener(new View.OnClickListener() {
@@ -115,7 +122,7 @@ public class LocalWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYVi
         return new GSYVideoOptionBuilder()
                 .setUrl(videoUrl)
                 .setCacheWithPlay(true)
-                .setVideoTitle("title")
+                .setVideoTitle("")
                 .setIsTouchWiget(true)
                 //.setAutoFullWithSize(true)
                 .setRotateViewAuto(false)

@@ -121,6 +121,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
 }
 
 
@@ -301,9 +307,21 @@ dependencies {
     implementation project(':CameraLibrary')
 
     //视频播放框架
-    implementation 'com.shuyu:gsyVideoPlayer-java:8.1.2'
-    implementation 'com.shuyu:gsyVideoPlayer-ex_so:8.1.2'
+//    implementation 'com.shuyu:gsyVideoPlayer-java:8.1.2'
+//    implementation 'com.shuyu:gsyVideoPlayer-ex_so:8.1.2'
 //    implementatcon 'com.shuyu:GSYVideoPlayer-exo2:8.1.2'
+
+
+    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-java:v8.1.6-jitpack'
+
+    //是否需要ExoPlayer模式
+    implementation 'com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-exo2:v8.1.6-jitpack'
+
+    //更多ijk的编码支持
+    //implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-ex_so:v8.1.6-jitpack'
+
+
+
     //PhotoView
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 }

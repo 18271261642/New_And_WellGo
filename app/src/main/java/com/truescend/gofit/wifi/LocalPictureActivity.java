@@ -68,6 +68,7 @@ public class LocalPictureActivity extends AppCompatActivity {
             }
         });
         wifiPhotoView = findViewById(R.id.wifiPhotoView);
+
         PermissionUtils.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, new PermissionUtils.OnPermissionGrantedListener() {
             @Override
             public void onGranted() {

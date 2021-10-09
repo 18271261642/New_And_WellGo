@@ -5,7 +5,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
+import android.util.Log;
 
+import com.google.gson.Gson;
 import com.sn.app.AppSDK;
 import com.sn.app.net.AppUrl;
 import com.sn.app.storage.UserStorage;
@@ -40,6 +42,8 @@ public class NeoonInterceptor implements Interceptor {
     @Override
     public Response intercept(@NonNull Chain chain) throws IOException {
         try {
+            if(chain == null)
+                return null;
             Request request = chain.request();
             if (!NetUtils.isConnected(AppSDK.getContext())) {
                 //没网强制从缓存读取(必须得写，不然断网状态下，退出应用，或者等待一分钟后，就获取不到缓存）
@@ -54,7 +58,6 @@ public class NeoonInterceptor implements Interceptor {
 
 
                 Headers headers = request.headers();
-
 
                 Headers.Builder newBuilder = request.headers().newBuilder();
 
@@ -89,7 +92,7 @@ public class NeoonInterceptor implements Interceptor {
                 //注入POST参数
                 request = injectPostParamsRequest(request, requestBuilder, mPostParamsMap);
             }
-            return proceedCache(chain, request);
+            return proceedCache(chain, request) ;
         }catch (Exception e){
             e.printStackTrace();
             return null;
@@ -232,6 +235,7 @@ public class NeoonInterceptor implements Interceptor {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        //Log.e("TAG","-response="+new Gson().toJson(response));
         return response;
 //        Response responseLatest;
 //        if (NetUtils.isConnected(AppSDK.getContext())) {
