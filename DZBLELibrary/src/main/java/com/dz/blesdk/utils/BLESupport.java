@@ -105,7 +105,7 @@ public class BLESupport {
                     }
                 }
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

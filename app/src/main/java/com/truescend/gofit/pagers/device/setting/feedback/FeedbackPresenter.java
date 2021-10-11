@@ -91,33 +91,33 @@ public class FeedbackPresenter extends BasePresenter<IFeedbackContract.IView> im
 
 
         view.onShowLoading(true);
-        AppNetReq.getApi().feedback(builder).enqueue(new OnResponseListener<String>() {
-            @Override
-            public void onResponse(String body) throws Throwable {
-                //反馈成功后上传日志
-                LogRecorder.uploadLog(context, UserStorage.getUserId(), 0/*今天的日志*/, new LogRecorder.OnLogcatUploadStatusListener() {
-                    @Override
-                    public void onSuccess() {
-                        view.onShowLoading(false);
-                        //上传成功
-                        view.onSendFeedbackMessageSuccess();
-                    }
-
-                    @Override
-                    public void onFailed() {
-                        view.onShowLoading(false);
-                        //上传失败 也让成功,不要让用户知道我在上传日志
-                        view.onSendFeedbackMessageSuccess();
-                    }
-                });
-            }
-
-            @Override
-            public void onFailure(int ret, String msg) {
-                view.onSendFeedbackMessageError(msg);
-                view.onShowLoading(false);
-            }
-        });
+//        AppNetReq.getApi().feedback(builder).enqueue(new OnResponseListener<String>() {
+//            @Override
+//            public void onResponse(String body) throws Throwable {
+//                //反馈成功后上传日志
+//                LogRecorder.uploadLog(context, UserStorage.getUserId(), 0/*今天的日志*/, new LogRecorder.OnLogcatUploadStatusListener() {
+//                    @Override
+//                    public void onSuccess() {
+//                        view.onShowLoading(false);
+//                        //上传成功
+//                        view.onSendFeedbackMessageSuccess();
+//                    }
+//
+//                    @Override
+//                    public void onFailed() {
+//                        view.onShowLoading(false);
+//                        //上传失败 也让成功,不要让用户知道我在上传日志
+//                        view.onSendFeedbackMessageSuccess();
+//                    }
+//                });
+//            }
+//
+//            @Override
+//            public void onFailure(int ret, String msg) {
+//                view.onSendFeedbackMessageError(msg);
+//                view.onShowLoading(false);
+//            }
+//        });
 
 
     }

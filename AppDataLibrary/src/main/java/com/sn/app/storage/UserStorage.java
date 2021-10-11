@@ -29,6 +29,16 @@ public class UserStorage extends SNStorage {
     private static final String HOME_ITEM_CLOSE = "home_item_close";
     private static final String LAST_DEVICE_SYNC_TIME = "last_device_sync_time";
 
+    private static final String TMP_USER_ID = "tmp_user_id";
+
+    public static void setTmpUserId(int userId){
+        setValue(TMP_USER_ID,userId);
+    }
+
+    public static int getTmpUserId(){
+        return getValue(TMP_USER_ID,0);
+    }
+
     /**
      * 上次同步时间
      * @param currentTimeMillis

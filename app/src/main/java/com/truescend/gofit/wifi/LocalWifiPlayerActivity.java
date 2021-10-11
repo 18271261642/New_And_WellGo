@@ -54,7 +54,7 @@ public class LocalWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYVi
         Bundle bundle = getIntent().getExtras();
         if(bundle == null)
             return;
-       // videoUrl = bundle.getString("local_video");//
+        videoUrl = bundle.getString("local_video");//
 //        String tmpPaht2 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/DCIM/Camera/MOVI0015.avi";
 //        this.videoUrl = tmpPaht2;
         Log.e(TAG,"---videoUrl="+videoUrl);

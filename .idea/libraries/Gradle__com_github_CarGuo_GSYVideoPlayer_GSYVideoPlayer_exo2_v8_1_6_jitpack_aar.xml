@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-exo2:v8.1.6-jitpack@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/res" />
-      <root url="file://$PROJECT_DIR$/../../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/AndroidManifest.xml" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/AndroidManifest.xml" />
+      <root url="file://D:/Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/res" />
+      <root url="jar://D:/Android/.gradle/caches/transforms-2/files-2.1/ee442521e7a47a6f2ad2ca51e81b19b6/jetified-GSYVideoPlayer-exo2-v8.1.6-jitpack/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

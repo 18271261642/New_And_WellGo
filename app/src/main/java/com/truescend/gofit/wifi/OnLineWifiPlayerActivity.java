@@ -7,12 +7,16 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.generalplus.ffmpegLib.ffmpegWrapper;
 import com.shuyu.gsyvideoplayer.GSYBaseActivityDetail;
 import com.shuyu.gsyvideoplayer.GSYVideoManager;
 import com.shuyu.gsyvideoplayer.builder.GSYVideoOptionBuilder;
 import com.shuyu.gsyvideoplayer.listener.GSYStateUiListener;
+import com.shuyu.gsyvideoplayer.listener.GSYVideoProgressListener;
 import com.shuyu.gsyvideoplayer.video.StandardGSYVideoPlayer;
 import com.truescend.gofit.R;
 
@@ -37,11 +41,16 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
     private int _FileFlag;
     private int _FileIndex;
 
+    private int _i32CommandIndex = 0;
+
     private static boolean _bRunVLC = false;
     private static boolean _bIsPause = false;
 
     private long mLastClickTime;
 
+    private ImageView imgView;
+    private ImageView wifiTitleBackImg;
+    private TextView itemTitleTv;
 
     private final Handler m_FromWrapperHandler = new Handler(Looper.getMainLooper()) {
         @Override
@@ -72,6 +81,19 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
 
     private void initViews() {
         videoPlayer = findViewById(R.id.onLineVideoPlayer);
+        imgView = findViewById(R.id.imgView);
+        itemTitleTv = findViewById(R.id.itemTitleTv);
+        itemTitleTv.setText("视频播放");
+
+        wifiTitleBackImg = findViewById(R.id.wifiTitleBackImg);
+        wifiTitleBackImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CamWrapper.getComWrapperInstance().GPCamSendStopPlayback();
+                finish();
+            }
+        });
+
         initVideoBuilderMode();
 
     }
@@ -114,13 +136,14 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
                 //.setUrl(videoUrl)
                 .setCacheWithPlay(true)
                 .setVideoTitle("")
-                .setIsTouchWiget(true)
+                .setIsTouchWiget(false)
                 //.setAutoFullWithSize(true)
                 .setRotateViewAuto(false)
                 .setLockLand(false)
                 .setShowFullAnimation(false)//打开动画
                 .setNeedLockFull(true)
                 .setGSYStateUiListener(gsyStateUiListener)
+                .setGSYVideoProgressListener(gsyVideoProgressListener)
                 .setSeekRatio(1);
     }
 
@@ -216,58 +239,113 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
 
     //读取视频流
     private void playVideoStreaming() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String urlToStream = "";
-                if (MainViewController.m_bRtsp) {
-                    urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
-                } else {
-                    urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
-                }
-               // ffmpegWrapper.getInstance().naStop();
-                CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
-                CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
 
-                Log.e(TAG,"------在线播放流="+urlToStream);
+        String urlToStream = "";
+        if (MainViewController.m_bRtsp) {
+            urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
+        } else {
+            urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
+        }
+        // ffmpegWrapper.getInstance().naStop();
+        CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
+        CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
 
-               // ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "timeout=-1;stimeout=-1");
+        Log.e(TAG,"------在线播放流="+urlToStream);
 
-    	    	/*if(PlayVLCThread == null)
-    	        {
-    	        	PlayVLCThread = new Thread(new PlayVLCRunnable());
-    	    		PlayVLCThread.start();
-    	        }*/
-            }
-        }).start();
+        videoPlayer.setUp(urlToStream,false,"");
+        videoPlayer.startPlayLogic();
+
+
+
+
+
+
+//
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                String urlToStream = "";
+//                if (MainViewController.m_bRtsp) {
+//                    urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
+//                } else {
+//                    urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
+//                }
+//               // ffmpegWrapper.getInstance().naStop();
+//                CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
+//                CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
+//
+//                Log.e(TAG,"------在线播放流="+urlToStream);
+//
+//                videoPlayer.setUp(urlToStream,false,"");
+//                videoPlayer.startPlayLogic();
+//
+//               // ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "timeout=-1;stimeout=-1");
+//
+//    	    	/*if(PlayVLCThread == null)
+//    	        {
+//    	        	PlayVLCThread = new Thread(new PlayVLCRunnable());
+//    	    		PlayVLCThread.start();
+//    	        }*/
+//            }
+//        }).start();
     }
 
 
     //读取图片流
     private void playPictureStreaming() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String urlToStream = "";
-                if (MainViewController.m_bRtsp) {
-                    urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
-                } else {
-                    urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
-                }
-               // ffmpegWrapper.getInstance().naStop();
-                CamWrapper.getComWrapperInstance().GPCamClearCommandQueue();
-                CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
-                Log.e(TAG,"-------图片流="+urlToStream);
-               // ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "");
+
+        String urlToStream = "";
+        if (MainViewController.m_bRtsp) {
+            urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
+        } else {
+            urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
+        }
+        // ffmpegWrapper.getInstance().naStop();
+        CamWrapper.getComWrapperInstance().GPCamClearCommandQueue();
+        CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
+        Log.e(TAG,"-------图片流="+urlToStream);
+        Glide.with(OnLineWifiPlayerActivity.this)
+                .load(urlToStream)
+                .into(imgView);
+
+        videoPlayer.setUp(urlToStream,false,"");
+        // ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "");
     	    	/*if(PlayVLCThread == null)
     	        {
     	        	PlayVLCThread = new Thread(new PlayVLCRunnable());
     	    		PlayVLCThread.start();
     	        }*/
-                for (int i = 0; i < 4; i++)
-                    CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
-            }
-        }).start();
+        for (int i = 0; i < 4; i++)
+            CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
+
+
+
+
+
+
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                String urlToStream = "";
+//                if (MainViewController.m_bRtsp) {
+//                    urlToStream = String.format(CamWrapper.RTSP_STREAMING_URL, CamWrapper.COMMAND_URL);
+//                } else {
+//                    urlToStream = String.format(CamWrapper.STREAMING_URL, CamWrapper.COMMAND_URL);
+//                }
+//               // ffmpegWrapper.getInstance().naStop();
+//                CamWrapper.getComWrapperInstance().GPCamClearCommandQueue();
+//                CamWrapper.getComWrapperInstance().GPCamSendRestartStreaming();
+//                Log.e(TAG,"-------图片流="+urlToStream);
+//               // ffmpegWrapper.getInstance().naInitAndPlay(urlToStream, "");
+//    	    	/*if(PlayVLCThread == null)
+//    	        {
+//    	        	PlayVLCThread = new Thread(new PlayVLCRunnable());
+//    	    		PlayVLCThread.start();
+//    	        }*/
+//                for (int i = 0; i < 4; i++)
+//                    CamWrapper.getComWrapperInstance().GPCamSendStartPlayback(_FileIndex);
+//            }
+//        }).start();
     }
 
 
@@ -304,6 +382,13 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
                     break;
                 case CamWrapper.GPSOCK_MODE_Playback:
                     Log.e(TAG, "GPSOCK_MODE_Playback ... ");
+                    switch (i32CmdID){
+                        case CamWrapper.GPSOCK_Playback_CMD_GetNameList:
+                        case CamWrapper.GPSOCK_Playback_CMD_GetThumbnail:
+                        case CamWrapper.GPSOCK_Playback_CMD_GetRawData:
+                            _i32CommandIndex = i32CmdIndex;
+                            break;
+                    }
                     break;
                 case CamWrapper.GPSOCK_MODE_Menu:
                     Log.e(TAG, "GPSOCK_MODE_Menu ... ");
@@ -381,6 +466,34 @@ public class OnLineWifiPlayerActivity extends GSYBaseActivityDetail<StandardGSYV
         @Override
         public void onStateChanged(int state) {  //5暂停，2播放
             Log.e(TAG,"-----state="+state);
+//            if(state == 3){
+//                if(videoPlayer != null)
+//                    videoPlayer.onVideoPause();
+//                //CamWrapper.getComWrapperInstance().GPCamSendPausePlayback();
+//            }if(state == 2){
+//                playVideoStreaming();
+//            }
+
+            if(state == 5){
+                CamWrapper.getComWrapperInstance().GPCamSendPausePlayback();
+            }
+
+            if(state == 3){ //播放完了
+                CamWrapper.getComWrapperInstance().GPCamSendPausePlayback();
+                videoPlayer.onVideoReset();
+                GSYVideoManager.instance().stop();
+            }
+
+//            if(state == 2){
+//                playVideoStreaming();
+//            }
+        }
+    };
+
+    private final GSYVideoProgressListener gsyVideoProgressListener = new GSYVideoProgressListener() {
+        @Override
+        public void onProgress(int progress, int secProgress, int currentPosition, int duration) {
+            Log.e(TAG,"-----progress="+progress+"\n"+secProgress+"\n"+currentPosition+"\n"+duration);
         }
     };
 }

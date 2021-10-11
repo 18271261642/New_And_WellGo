@@ -24,18 +24,18 @@ public class SNLog {
 //        isDebug = true;
 //    }
 
-    private static Method method_printToDisk;
+    //private static Method method_printToDisk;
 
-    static {
-        try {
-            //别说了 我也很绝望,you can you up
-            Class<?> clazz = Class.forName("com.truescend.well.utils.LogRecorder");
-            method_printToDisk = clazz.getDeclaredMethod("printToDisk", String.class);
-            method_printToDisk.setAccessible(true);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    static {
+//        try {
+//            //别说了 我也很绝望,you can you up
+//            Class<?> clazz = Class.forName("com.truescend.well.utils.LogRecorder");
+//            method_printToDisk = clazz.getDeclaredMethod("printToDisk", String.class);
+//            method_printToDisk.setAccessible(true);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     private SNLog() {
 
@@ -85,7 +85,7 @@ public class SNLog {
             Log.e(className, log);
 //            }
         }
-        printToDisk(className+":"+log);
+       // printToDisk(className+":"+log);
     }
 
     public static void e(String message) {
@@ -100,7 +100,7 @@ public class SNLog {
             Log.e(className, log);
 //        }
         }
-        printToDisk(className+":"+log);
+       // printToDisk(className+":"+log);
     }
 
 
@@ -115,7 +115,7 @@ public class SNLog {
             Log.i(className, log);
 //            }
         }
-        printToDisk(className+":"+log);
+        //printToDisk(className+":"+log);
     }
 
     public static void i(String message) {
@@ -128,17 +128,17 @@ public class SNLog {
             Log.i(className, log);
 //            }
         }
-        printToDisk(className+":"+log);
+       // printToDisk(className+":"+log);
     }
 
-    private static void printToDisk(String log) {
-        if (method_printToDisk != null) {
-            try {
-                method_printToDisk.invoke(null, log);
-            } catch (Exception ignored) {
-            }
-        }
-    }
+//    private static void printToDisk(String log) {
+//        if (method_printToDisk != null) {
+//            try {
+//                method_printToDisk.invoke(null, log);
+//            } catch (Exception ignored) {
+//            }
+//        }
+//    }
 
 //    public static void jsonLog(String json) {
 //        if (!isDebuggable())

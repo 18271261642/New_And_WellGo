@@ -39,6 +39,8 @@ public class AppUserUtil {
         return false;
     }
 
+
+
     /**
      * 取得当前User数据
      *
@@ -54,7 +56,8 @@ public class AppUserUtil {
             }
         }
         if (bean == null) {
-            throw new NullPointerException("空UserBean 错误!你在没有用户之前事先调用了getUser(), 因为此时还没有用户,(如果你更改了表结构,请修改数据库版本号)");
+            bean = setTmpUser();
+           // throw new NullPointerException("空UserBean 错误!你在没有用户之前事先调用了getUser(), 因为此时还没有用户,(如果你更改了表结构,请修改数据库版本号)");
         }
         // 如果UserBean 在其他地方做了表数据修改,则刷新UserBean
         try {
@@ -307,5 +310,60 @@ public class AppUserUtil {
         void success();
 
         void failed(String msg);
+    }
+
+    /**
+     * id : 17941
+     * country_code :
+     * phone :
+     * email : dn0520@163.com
+     * nickname :
+     * address :
+     * sign :
+     * birthday : 0000-00-00
+     * job :
+     * height : 0.0
+     * weight : 0.0
+     * gender : 0
+     * portrait :
+     * wallpaper :
+     * target_sleep : 0
+     * target_step : 0
+     * max_step : 0
+     * max_reach_times : 2
+     * max_reach_date : 1519862400
+     * create_time : 2018-02-28 07:45:53
+     * phone_uuid :
+     * last_device : null
+     * last_weight_time : 0000-00-00
+     */
+
+    private static UserBean setTmpUser(){
+        UserBean ub = new UserBean();
+        ub.setUser_id(UserStorage.getTmpUserId());
+        ub.setEmail("dn0520@163.com");
+        ub.setNickname("User");
+        ub.setAddress("");
+        ub.setSign("");
+        ub.setBirthday("0000-00-00");
+        ub.setJob("");
+        ub.setHeight(175f);
+        ub.setWeight(60f);
+        ub.setGender(0);
+        ub.setPortrait("");
+        ub.setWallpaper("");
+        ub.setTarget_sleep(0);
+        ub.setTarget_step(0);
+        ub.setMax_step(0);
+        ub.setMax_reach_times(1519862400);
+        ub.setMax_reach_date(1519862400);
+        ub.setWeight_measure_date("");
+        ub.setUnique_id("11");
+        ub.setTarget_calory(0f);
+        ub.setTarget_weight(60f);
+        ub.setFirst_meal_date("0000-00-00");
+        ub.setTotal_meal_day(0);
+        ub.setSport_days(0);
+        return ub;
     }
 }

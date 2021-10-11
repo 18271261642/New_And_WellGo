@@ -125,6 +125,8 @@ public class LoginPresenterImpl extends BasePresenter<ILoginContract.IView> impl
                     //是否新用户
                     isNewUser = data.isFirst();
                     UserStorage.setIsFirst(isNewUser);
+
+                    UserStorage.setTmpUserId(data.getId());
                     //加载用户信息
                     requestLoadUserMessage();
 

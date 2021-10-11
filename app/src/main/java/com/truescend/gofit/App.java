@@ -317,9 +317,9 @@ public class App extends Application implements LoginStatusHelper.LoginStatusLis
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {//9.0
-            Reflection.unseal(base);
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {//9.0
+//            Reflection.unseal(base);
+//        }
         MultiDex.install(this);
     }
 

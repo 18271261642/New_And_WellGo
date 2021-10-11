@@ -37,13 +37,14 @@ import okio.Buffer;
  */
 public class NeoonInterceptor implements Interceptor {
 
+    private static final String TAG = "NeoonInterceptor";
+
     private String version;
 
     @Override
     public Response intercept(@NonNull Chain chain) throws IOException {
         try {
-            if(chain == null)
-                return null;
+            Log.e(TAG,"-----china="+(chain == null) +"\n"+(chain.request() == null)+"\n"+NetUtils.isConnected(AppSDK.getContext()));
             Request request = chain.request();
             if (!NetUtils.isConnected(AppSDK.getContext())) {
                 //没网强制从缓存读取(必须得写，不然断网状态下，退出应用，或者等待一分钟后，就获取不到缓存）
@@ -91,9 +92,11 @@ public class NeoonInterceptor implements Interceptor {
                 request = injectUrlParamsRequest(request, requestBuilder, mGetParamsMap);
                 //注入POST参数
                 request = injectPostParamsRequest(request, requestBuilder, mPostParamsMap);
+                Log.e(TAG,"----request="+(request == null));
             }
-            return proceedCache(chain, request) ;
-        }catch (Exception e){
+            return chain.proceed(request) ;
+//            return proceedCache(chain, request) ;
+        }catch (NullPointerException e){
             e.printStackTrace();
             return null;
         }
@@ -229,22 +232,23 @@ public class NeoonInterceptor implements Interceptor {
     }
 
     private Response proceedCache(Chain chain, Request request) throws IOException {
-        Response response = null;
-        try {
-            response = chain == null || request == null ? null : chain.proceed(request);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        //Log.e("TAG","-response="+new Gson().toJson(response));
+        Response response =  chain.proceed(request);
         return response;
-//        Response responseLatest;
+//        try {
+//            response = chain == null || request == null ? null : chain.proceed(request);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+        //Log.e("TAG","-response="+new Gson().toJson(response));
+//        return response;
+//        Response responseLatest = null;
 //        if (NetUtils.isConnected(AppSDK.getContext())) {
-////            int maxAge = 30; //有网失效10s
-////            responseLatest = response.newBuilder()
-////                    .removeHeader("Pragma")
-////                    .removeHeader("Cache-Control")
-////                    .header("Cache-Control", "public, max-age=" + maxAge)
-////                    .build();
+//            int maxAge = 30; //有网失效10s
+//            responseLatest = response.newBuilder()
+//                    .removeHeader("Pragma")
+//                    .removeHeader("Cache-Control")
+//                    .header("Cache-Control", "public, max-age=" + maxAge)
+//                    .build();
 //        } else {
 //            int maxStale = 60 * 60 * 6; // 没网失效6小时
 //            responseLatest = response.newBuilder()
