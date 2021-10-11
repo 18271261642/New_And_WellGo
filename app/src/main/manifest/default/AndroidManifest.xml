@@ -92,11 +92,11 @@
             android:name="com.truescend.gofit.pagers.start.splash.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <!--视频引导页+ 登录界面 -->
         <activity
@@ -329,11 +329,11 @@
         <activity android:name=".wifi.LocalWifiPlayerActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <!--本地图片显示-->
         <activity android:name=".wifi.LocalPictureActivity"/>
@@ -341,7 +341,11 @@
         <activity
             android:name="com.truescend.gofit.pagers.test.TestActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".wifi.OnLineWifiPlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:screenOrientation="portrait">
 
+        </activity>
 
         <!--蓝牙设备数据同步-->
         <service android:name="com.truescend.gofit.service.sync.BleSyncService" />
