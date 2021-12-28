@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:state_pressed="true" android:drawable="@drawable/item_comm_main_press_shap"/>
+
+    <item android:state_pressed="false" android:drawable="@drawable/item_comm_main_normal_shap"/>
+
+    <item android:drawable="@drawable/item_comm_main_normal_shap"/>
+
+</selector>

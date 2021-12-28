@@ -52,8 +52,8 @@ public class FragmentFactory {
                 fragment = new TrackFragment();
                 break;
             case DEVICE:
-               // fragment = new DeviceFragment();
-                fragment = DeviceManagerFragment.getInstance();
+                fragment = new DeviceFragment();
+//                fragment = DeviceManagerFragment.getInstance();
                 break;
             case SETTING:
                 fragment = new UserFragment();

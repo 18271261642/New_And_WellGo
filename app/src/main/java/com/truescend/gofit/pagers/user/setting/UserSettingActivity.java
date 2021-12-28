@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
@@ -392,6 +393,21 @@ public class UserSettingActivity extends BaseActivity<UserSettingPresenterImpl, 
 
             }
         });
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            PermissionUtils.requestPermissions(this, new String[]{Manifest.permission.MANAGE_EXTERNAL_STORAGE}, new PermissionUtils.OnPermissionGrantedListener() {
+                @Override
+                public void onGranted() {
+
+                }
+
+                @Override
+                public void onDenied() {
+
+                }
+            });
+        }
     }
 
     @Override

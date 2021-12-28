@@ -1,9 +1,11 @@
 package com.truescend.gofit.pagers.track;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -19,10 +21,13 @@ import com.truescend.gofit.utils.UIRefresh;
 import com.truescend.gofit.views.BannerView;
 import com.truescend.gofit.views.CircleRippleButton;
 import com.truescend.gofit.views.EmptyRecyclerView;
+import com.truescend.gofit.views.LocalPermissDescView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import butterknife.BindView;
 import butterknife.OnClick;
 
@@ -43,6 +48,8 @@ public class TrackFragment extends BaseFragment<TrackPresenterImpl, ITrackContra
     ImageView ivDeviceSetting;
 
     private PathMapAdapter mPathMapAdapter;
+
+    private LocalPermissDescView localPermissDescView;
 
     @Override
     public TrackPresenterImpl initPresenter() {
@@ -125,7 +132,11 @@ public class TrackFragment extends BaseFragment<TrackPresenterImpl, ITrackContra
                     dialog.show();
                     return;
                 }
-                PageJumpUtil.startRunningActivity(this, type);
+
+
+                showLocalRequestDesc(type);
+
+
                 break;
             case R.id.ivDeviceSetting:
                 PageJumpUtil.startRunSettingActivity(getActivity());
@@ -134,6 +145,33 @@ public class TrackFragment extends BaseFragment<TrackPresenterImpl, ITrackContra
 
 
     }
+
+
+    private void showLocalRequestDesc(MapType.TYPE type){
+        if(localPermissDescView == null)
+            localPermissDescView = new LocalPermissDescView(getActivity());
+        localPermissDescView.show();
+        localPermissDescView.setLocalPermissionListener(new LocalPermissDescView.LocalPermissionListener() {
+            @Override
+            public void allowPermiss() {
+                localPermissDescView.dismiss();
+                boolean isLocal = ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED;
+                if(isLocal){
+                    PageJumpUtil.startRunningActivity(TrackFragment.this, type);
+                }else{
+                    ActivityCompat.requestPermissions(getActivity(),new String[]{Manifest.permission.ACCESS_FINE_LOCATION},0x00);
+                }
+
+
+            }
+        });
+    }
+
+
+
+
+
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

@@ -1,6 +1,27 @@
 <resources>
     <string name="app_name">WellGo</string>
 
+    <string name="string_permiss_title">WellGo permissions instructions</string>
+    <string name="string_permiss_desc">To ensure the normal use of the APP, please enable the following permissions</string>
+    <string name="string_permiss_ble">Use the Bluetooth function</string>
+    <string name="string_permiss_ble_desc">Need to use the phone\'s Bluetooth function to connect to the Bluetooth watch</string>
+    <string name="string_permiss_gps">Use Location</string>
+    <string name="string_permiss_gps_desc">Map running track record and search Bluetooth watch need to turn on the phone GPS switch</string>
+    <string name="string_permiss_local">Location permission usage</string>
+    <string name="string_permiss_local_desc">Get high-precision position information for running</string>
+    <string name="string_permiss_camera">Camera permission use</string>
+    <string name="string_permiss_camera_desc">Use the camera to take a picture as an avatar</string>
+    <string name="string_permiss_file">File read and write permission usage</string>
+    <string name="string_permiss_file_desc">The camera takes a picture and saves, select a picture from the album as the avatar</string>
+    <string name="string_permiss_phone">Use of phone permissions</string>
+    <string name="string_permiss_phone_desc">Message reminder function, incoming call reminds the watch to check the current incoming call status</string>
+    <string name="string_permiss_contact">Use of permissions for contacts and address book</string>
+    <string name="string_permiss_contact_desc">When a call comes in, the watch can display the name and phone number</string>
+
+    <string name="string_local_permiss_title">Location permission instructions</string>
+    <string name="string_local_permiss_txt1">To view the track record of the sports map, please allow WellGo to use your location</string>
+    <string name="string_local_permiss_txt2">After WellGo starts running, it will record your trajectory in the map according to your trajectory. For running and biking, you will get a more accurate location record after opening the position.</string>
+    <string name="string_local_permiss_txt3">Unhallowed locations may not be able to obtain accurate motion track records!</string>
 
     <string name="loading">การโหลด</string>
 

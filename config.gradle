@@ -2,11 +2,11 @@
 ext {
     android = [
             applicationId      : "com.truescend.gofit",
-            versionCode        : 1519,
-            versionName        : "1.5.19",
+            versionCode        : 1523,
+            versionName        : "1.5.20.4",
             updateAppName      : "wellgo",
             appId              : "2",
-            isGooglePlayVersion: false
+            isGooglePlayVersion: true
     ]
     supports = [
             isSupportStrava : true,

@@ -1,7 +1,27 @@
 <resources>
         
     <string name="app_name">WellGo</string>
-  
+
+    <string name="string_permiss_title">WellGo權限使用說明</string>
+    <string name="string_permiss_desc">為保證APP的正常使用,請開啟以下權限</string>
+    <string name="string_permiss_ble">使用藍牙功能</string>
+    <string name="string_permiss_ble_desc">需要使用手機藍牙功能連接藍牙手錶</string>
+    <string name="string_permiss_gps">使用GPS功能</string>
+    <string name="string_permiss_gps_desc">地圖跑步軌跡記錄和搜索藍牙手錶需要打開手機GPS開關</string>
+    <string name="string_permiss_local">位置權限使用</string>
+    <string name="string_permiss_local_desc">跑步運動獲取高精度位置信息</string>
+    <string name="string_permiss_camera">相機權限使用</string>
+    <string name="string_permiss_camera_desc">使用相機拍攝圖片作為頭像</string>
+    <string name="string_permiss_file">文件讀寫權限使用</string>
+    <string name="string_permiss_file_desc">相機拍照保存從相冊選擇圖片作為頭像</string>
+    <string name="string_permiss_phone">電話權限的使用</string>
+    <string name="string_permiss_phone_desc">消息提醒功能來電提醒手錶查看當前來電狀態</string>
+    <string name="string_permiss_contact">聯繫人、通訊錄權限的使用</string>
+    <string name="string_permiss_contact_desc">來電時，手錶可以顯示姓名和手機號</string>
+    <string name="string_local_permiss_title">位置權限使用說明</string>
+    <string name="string_local_permiss_txt1">查看運動地圖軌跡記錄，請允許WellGo使用您的位置</string>
+    <string name="string_local_permiss_txt2">WellGo開啟跑步運動後根據您的運動軌跡在地圖中記錄運動軌跡，跑步和騎自行車，開啟位置後您將獲取更加精準的位置記錄。</string>
+    <string name="string_local_permiss_txt3">未允許位置可能無法獲取精確的運動軌跡記錄!</string>
 
         
     <string name="loading">請稍後…</string>
