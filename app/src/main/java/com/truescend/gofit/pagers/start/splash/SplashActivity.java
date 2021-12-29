@@ -16,6 +16,7 @@ import com.bumptech.glide.RequestBuilder;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
+import com.j256.ormlite.stmt.query.In;
 import com.sn.app.BuildConfig;
 import com.sn.app.net.AppNetReq;
 import com.sn.app.net.callback.OnResponseListener;
@@ -31,6 +32,7 @@ import com.truescend.gofit.R;
 import com.truescend.gofit.utils.Constant;
 import com.truescend.gofit.utils.PageJumpUtil;
 import com.truescend.gofit.utils.PermissionUtils;
+import com.truescend.gofit.views.ShowLocalPermissActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,7 +74,11 @@ public class SplashActivity extends Activity {
                     ivWindowBackground.setImageDrawable(resource);
                     //把透明的背景设置回来
                     ivWindowBackground.setBackgroundColor(getResources().getColor(R.color.black));
-                    next1();
+
+                    Intent intent = new Intent(SplashActivity.this, ShowLocalPermissActivity.class);
+                    startActivityForResult(intent,0x00);
+
+                   // next1();
                 }
             }
 
@@ -91,7 +97,9 @@ public class SplashActivity extends Activity {
                             public void onResourceReady(Drawable resource, Transition<? super Drawable> transition) {
                                 if (!isFinishing()) {
                                     ivWindowBackground.setImageDrawable(resource);
-                                    next1();
+                                    //next1();
+                                    Intent intent = new Intent(SplashActivity.this, ShowLocalPermissActivity.class);
+                                    startActivityForResult(intent,0x00);
                                 }
                             }
                         });
@@ -112,7 +120,20 @@ public class SplashActivity extends Activity {
     }
 
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == 0x00 ){
+            next1();
+        }
+    }
+
+
+
+
+
     private void next1() {
+
         List<String> permissions = new ArrayList<>();
         permissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
         permissions.add(Manifest.permission.ACCESS_COARSE_LOCATION);

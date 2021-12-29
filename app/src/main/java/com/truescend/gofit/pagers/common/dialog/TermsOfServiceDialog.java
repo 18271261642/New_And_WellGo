@@ -21,6 +21,7 @@ public class TermsOfServiceDialog {
 
     public static BaseDialog create(final Context context) {
         int width = Math.round(context.getResources().getDisplayMetrics().widthPixels * 0.9f);
+        int height  = Math.round(context.getResources().getDisplayMetrics().heightPixels * 0.7f);
         dialog = new BaseDialog.Builder(context)
                 .setContentView(R.layout.dialog_terms_of_service)
                 .setCanceledOnTouchOutside(false)
@@ -31,6 +32,7 @@ public class TermsOfServiceDialog {
                     }
                 })
                 .setWidth(width)
+                .setHeight(height)
                 .create();
         TextView tvTermsFirst = dialog.findViewById(R.id.tvTermsFirst);
         TextView tvTermsSecond = dialog.findViewById(R.id.tvTermsSecond);
